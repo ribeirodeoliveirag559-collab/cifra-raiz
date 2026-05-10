@@ -1,0 +1,242 @@
+// ─── Cifras ───────────────────────────────────────────────────────────────────
+
+export type Cifra = {
+  id: string;
+  titulo: string;
+  artista: string;
+  tom: string;
+  ritmo: string;
+  dificuldade: "iniciante" | "intermediario" | "avancado";
+  tags: string[];
+  cifra: string;
+  tocadasSemana?: number;
+  videoUrl?: string;
+};
+
+export const CIFRAS: Cifra[] = [
+  {
+    id: "pingo-de-mel",
+    titulo: "Pingo de Mel",
+    artista: "Chitãozinho & Xororó",
+    tom: "G",
+    ritmo: "Guarânia",
+    dificuldade: "iniciante",
+    tocadasSemana: 312,
+    tags: ["modão", "raiz", "clássico"],
+    cifra: `Introdução: G  D  Em  C  G  D  G
+
+[G]Ê, ê, ê, ê, [D]ê, ê, ê
+[Em]Ê, ê, ê, ê, [C]ê, [D]ê, ê
+[G]Ê, ê, ê, ê, [D]ê, ê, ê
+[Em]Ê, ê, ê, [Am]ê, [D]ê, [G]ê
+
+[G]Quando eu te pe-[D]go pela mão
+[Em]E te olho nos [C]olhos com carinho e a-[G]mor
+Sinto que o meu [D]coração
+[Em]Fica cheio de [Am]alegria e can-[D]ção
+
+Refrão:
+[G]Você é meu pin-[D]go de mel
+[Em]Adoça minha [C]vida, meu bem
+[G]Sem você eu não [D]sei
+[Em]Como vi-[Am]ver, meu a-[D]mor, meu [G]amor`,
+  },
+  {
+    id: "fio-de-cabelo",
+    titulo: "Fio de Cabelo",
+    artista: "Chitãozinho & Xororó",
+    tom: "D",
+    ritmo: "Balada Sertaneja",
+    dificuldade: "iniciante",
+    tocadasSemana: 287,
+    tags: ["modão", "romântico", "clássico"],
+    cifra: `Introdução: D  A  Bm  G  D  A  D
+
+[D]Não existe no mun-[A]do
+Coisa mais triste [Bm]e profunda
+Do que olhar nos [G]olhos de quem
+Se a-[D]ma
+E ver o indi-[A]ferente
+Passar sem [D]nada
+
+[D]Quanta sau-[A]dade
+Que essa can-[Bm]ção me traz
+A lembrança do teu [G]rosto
+Que não sai da mi-[D]nha cabeça [A]ja-[D]mais
+
+Refrão:
+[G]Dei de tudo a vo-[D]cê
+Fiz tudo que [A]pude pra te a-[Bm]gradar
+Mas você foi em-[G]bora
+E esse [D]fio de ca-[A]belo
+Me fez cho-[D]rar`,
+  },
+  {
+    id: "meu-velho-pai",
+    titulo: "Meu Velho Pai",
+    artista: "Tião Carreiro & Pardinho",
+    tom: "C",
+    ritmo: "Toada",
+    dificuldade: "iniciante",
+    tocadasSemana: 198,
+    tags: ["raiz", "modão", "toada"],
+    cifra: `Introdução: C  G  Am  F  C  G  C
+
+[C]Meu velho pai
+Que a vida intei-[G]ra trabalhou
+Na terra que o su-[Am]or sagrou
+Com as mãos ca-[F]losas de la-[C]vor
+
+[G]Hoje eu venho a-[C]qui
+Pra lhe dizer do [G]meu amor
+Que o seu sacri-[Am]fício
+Não foi em [F]vão, meu se-[C]nhor`,
+  },
+  {
+    id: "evidencias",
+    titulo: "Evidências",
+    artista: "Chitãozinho & Xororó",
+    tom: "A",
+    ritmo: "Balada Sertaneja",
+    dificuldade: "intermediario",
+    tocadasSemana: 401,
+    tags: ["clássico", "romântico", "sertanejo"],
+    cifra: `Introdução: A  E  F#m  D  A  E  A
+
+[A]Eu sei que você [E]pensa que eu
+Não sei que você [F#m]está
+Me enganando a-[D]qui
+Mas eu pre-[A]firo não saber [E]mais
+
+[A]Fica mais fácil [E]assim
+Me fazer de en-[F#m]ganado
+E deixar a [D]vida me le-[A]var...
+
+Refrão:
+[D]Que e-[A]vidências
+Eu não quero [E]mais
+Que a evidência [A]que
+Você me a-[D]ma, me a-[A]ma e me [E]ama de-[A]mais`,
+  },
+  {
+    id: "saudade-de-minha-terra",
+    titulo: "Saudade de Minha Terra",
+    artista: "Goiá & Carreirinho",
+    tom: "G",
+    ritmo: "Guarânia",
+    dificuldade: "iniciante",
+    tocadasSemana: 156,
+    tags: ["raiz", "modão", "guarânia"],
+    cifra: `Introdução: G  C  G  D  G
+
+[G]Quero ver o sol se-[C]car
+O or-[G]valho matutino [D]
+Nas flores do cam-[G]po
+Na ver-[C]dura do ca-[G]minho [D] [G]
+
+[G]Saudade de minha [C]terra
+É o que [G]eu sinto a-[D]qui
+Longe do meu pago-[G]dão
+Que eu dei-[C]xei pro-[G]li [D] [G]`,
+  },
+  {
+    id: "telefone-mudo",
+    titulo: "Telefone Mudo",
+    artista: "Leandro & Leonardo",
+    tom: "E",
+    ritmo: "Balada Sertaneja",
+    dificuldade: "intermediario",
+    tocadasSemana: 234,
+    tags: ["romântico", "sertanejo universitário"],
+    cifra: `Introdução: E  B  C#m  A  E  B  E
+
+[E]Você não liga mais pra [B]mim
+Nem manda mais um re-[C#m]cado
+O tele-[A]fone mudou ou você
+Mudou de en-[E]dereço [B]
+
+[E]Será que você es-[B]queceu
+Tudo que nós vi-[C#m]vemos
+O tele-[A]fone tá mu-[E]do
+Tanto quanto eu [B] [E]`,
+  },
+  // FIM_CIFRAS
+];
+
+// ─── Módulos e Aulas ─────────────────────────────────────────────────────────
+
+export type Aula = {
+  id: string;
+  numero: number;
+  titulo: string;
+  duracao: string;
+  descricao: string;
+};
+
+export type Modulo = {
+  id: string;
+  numero: number;
+  titulo: string;
+  descricao: string;
+  nivel: "Iniciante" | "Intermediário" | "Avançado";
+  duracao: string;
+  aulas: Aula[];
+};
+
+export const MODULOS: Modulo[] = [
+  {
+    id: "primeiros-passos",
+    numero: 1,
+    titulo: "Primeiros Passos",
+    descricao: "Aprenda a segurar o violão, postura correta, seus primeiros acordes e como afinar o instrumento.",
+    nivel: "Iniciante",
+    duracao: "2h30min",
+    aulas: [
+      { id: "pp-01", numero: 1, titulo: "Como segurar o violão", duracao: "—", descricao: "Postura correta sentado e em pé. Evite os erros mais comuns de iniciantes." },
+      { id: "pp-02", numero: 2, titulo: "Conhecendo as partes do violão", duracao: "—", descricao: "Braço, corpo, cravelhas, cavalete, boca e cordas — aprenda o nome de cada parte." },
+      { id: "pp-03", numero: 3, titulo: "Como afinar o violão", duracao: "—", descricao: "Afinação por ouvido e com afinador. Use o afinador da plataforma para praticar." },
+      { id: "pp-04", numero: 4, titulo: "Seu primeiro acorde: Lá menor (Am)", duracao: "—", descricao: "O acorde mais simples pra começar. Aprenda a posição dos dedos e como tirar som limpo." },
+      { id: "pp-05", numero: 5, titulo: "Sua primeira batida sertaneja", duracao: "—", descricao: "A batida básica de balada sertaneja — simples e muito usada nos modões." },
+    ],
+  },
+  {
+    id: "pestana",
+    numero: 2,
+    titulo: "Pestana",
+    descricao: "Domine a técnica da pestana e abra um novo mundo de acordes no violão.",
+    nivel: "Intermediário",
+    duracao: "2h00min",
+    aulas: [
+      { id: "pe-01", numero: 1, titulo: "O que é a pestana e por que é difícil", duracao: "—", descricao: "Entenda a mecânica da pestana, como posicionar o dedo indicador e treinar sem se machucar." },
+      { id: "pe-02", numero: 2, titulo: "Fortalecimento do dedo indicador", duracao: "—", descricao: "Exercícios progressivos para desenvolver a força necessária para a pestana limpa." },
+      { id: "pe-03", numero: 3, titulo: "Acorde F com pestana", duracao: "—", descricao: "O desafio mais comum dos iniciantes, resolvido passo a passo com dicas práticas." },
+      { id: "pe-04", numero: 4, titulo: "Acorde Bm com pestana", duracao: "—", descricao: "Pestana na 2ª casa — muito usado em músicas em Ré maior. Pratique a troca suave." },
+      { id: "pe-05", numero: 5, titulo: "Aplicando a pestana em músicas reais", duracao: "—", descricao: "Coloque em prática tudo que aprendeu tocando músicas sertanejas que usam pestana." },
+    ],
+  },
+  {
+    id: "finalize-com-mestria",
+    numero: 3,
+    titulo: "Finalize com Mestria",
+    descricao: "Eleve seu nível com técnicas avançadas, solos, dedilhados e performance completa.",
+    nivel: "Avançado",
+    duracao: "3h00min",
+    aulas: [
+      { id: "fm-01", numero: 1, titulo: "Dedilhado avançado no sertanejo", duracao: "—", descricao: "Padrões de dedilhado usados nos grandes modões e músicas de viola caipira." },
+      { id: "fm-02", numero: 2, titulo: "Introduções icônicas do sertanejo", duracao: "—", descricao: "Aprenda as introduções mais famosas do sertanejo raiz nota por nota." },
+      { id: "fm-03", numero: 3, titulo: "Técnicas de solo: ligado e vibrato", duracao: "—", descricao: "Hammer-on, pull-off e vibrato para dar expressividade ao seu toque." },
+      { id: "fm-04", numero: 4, titulo: "Cantar e tocar ao mesmo tempo", duracao: "—", descricao: "Método definitivo para dividir atenção entre mão e voz sem perder o ritmo." },
+      { id: "fm-05", numero: 5, titulo: "Performance: monte seu repertório", duracao: "—", descricao: "Como estruturar um repertório completo para churrasco, roda de viola e palco." },
+    ],
+  },
+];
+
+// ─── Progresso mock do usuário ────────────────────────────────────────────────
+// Em produção, isso vem do banco de dados por usuário
+
+export type ProgressoModulo = {
+  moduloId: string;
+  aulasAssistidas: string[]; // IDs das aulas
+};
+
+export const PROGRESSO_MOCK: ProgressoModulo[] = [];

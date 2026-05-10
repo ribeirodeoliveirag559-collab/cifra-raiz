@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scraper
+scripts/scraper/node_modules/
+scripts/scraper/output/
+src/lib/dados.ts.bak
