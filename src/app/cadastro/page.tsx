@@ -2,20 +2,47 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useAuth } from "@/context/AuthContext";
+import { createClient } from "@/lib/supabase";
 import { IconGuitar } from "@/components/Icons";
 
 export default function CadastroPage() {
-  const { login } = useAuth();
   const router = useRouter();
+  const supabase = createClient();
   const [form, setForm] = useState({ nome: "", email: "", senha: "" });
+  const [erro, setErro] = useState("");
   const [enviado, setEnviado] = useState(false);
+  const [carregando, setCarregando] = useState(false);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    login({ nome: form.nome, email: form.email });
+    setErro("");
+    setCarregando(true);
+
+    const { error } = await supabase.auth.signUp({
+      email: form.email,
+      password: form.senha,
+      options: {
+        data: { nome: form.nome },
+      },
+    });
+
+    if (error) {
+      setErro(error.message === "User already registered"
+        ? "Este e-mail já está cadastrado."
+        : "Erro ao criar conta. Tente novamente.");
+      setCarregando(false);
+      return;
+    }
+
     setEnviado(true);
-    setTimeout(() => router.push("/"), 2000);
+    setTimeout(() => router.push("/login"), 3000);
+  }
+
+  async function handleGoogle() {
+    await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}/` },
+    });
   }
 
   return (
@@ -30,18 +57,23 @@ export default function CadastroPage() {
 
         {enviado ? (
           <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
-            <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3"><IconGuitar size={26} className="text-green-600" /></div>
+            <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
+              <IconGuitar size={26} className="text-green-600" />
+            </div>
             <h2 className="font-display text-xl font-bold text-[#4A2810] mb-2">
-              Bem-vindo ao Cifra Raiz!
+              Conta criada com sucesso!
             </h2>
-            <p className="text-[#7A5C44] text-sm mb-4">
-              Conta criada com sucesso. Redirecionando...
+            <p className="text-[#7A5C44] text-sm mb-1">
+              Verifique seu e-mail para confirmar o cadastro.
             </p>
-            <div className="w-8 h-8 border-2 border-[#D4900A] border-t-transparent rounded-full animate-spin mx-auto" />
+            <p className="text-[#B5865A] text-xs">Redirecionando para o login...</p>
           </div>
         ) : (
           <div className="bg-white rounded-2xl shadow-sm border border-[#F0EAE0] p-8">
-            <button className="w-full flex items-center justify-center gap-3 border border-[#E0D8CE] rounded-xl py-3 px-4 text-[#4A2810] font-medium hover:bg-[#F0EAE0] transition-colors mb-6">
+            <button
+              onClick={handleGoogle}
+              className="w-full flex items-center justify-center gap-3 border border-[#E0D8CE] rounded-xl py-3 px-4 text-[#4A2810] font-medium hover:bg-[#F0EAE0] transition-colors mb-6"
+            >
               <GoogleIcon />
               Entrar com Google
             </button>
@@ -53,53 +85,44 @@ export default function CadastroPage() {
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
+              {erro && (
+                <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                  {erro}
+                </p>
+              )}
               <div>
                 <label className="block text-sm font-medium text-[#4A2810] mb-1">Nome completo</label>
-                <input
-                  type="text"
-                  required
-                  value={form.nome}
+                <input type="text" required value={form.nome}
                   onChange={(e) => setForm({ ...form, nome: e.target.value })}
                   placeholder="Seu nome"
-                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] focus:ring-1 focus:ring-[#D4900A] bg-[#FAF7F2]"
+                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] bg-[#FAF7F2]"
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-[#4A2810] mb-1">E-mail</label>
-                <input
-                  type="email"
-                  required
-                  value={form.email}
+                <input type="email" required value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   placeholder="voce@email.com"
-                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] focus:ring-1 focus:ring-[#D4900A] bg-[#FAF7F2]"
+                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] bg-[#FAF7F2]"
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-[#4A2810] mb-1">Senha</label>
-                <input
-                  type="password"
-                  required
-                  minLength={6}
-                  value={form.senha}
+                <input type="password" required minLength={6} value={form.senha}
                   onChange={(e) => setForm({ ...form, senha: e.target.value })}
                   placeholder="Mínimo 6 caracteres"
-                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] focus:ring-1 focus:ring-[#D4900A] bg-[#FAF7F2]"
+                  className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] bg-[#FAF7F2]"
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full bg-[#D4900A] text-white py-3 rounded-full font-bold text-base hover:bg-[#A36C05] transition-colors mt-2"
+              <button type="submit" disabled={carregando}
+                className="w-full bg-[#D4900A] text-white py-3 rounded-full font-bold text-base hover:bg-[#A36C05] transition-colors mt-2 disabled:opacity-60 flex items-center justify-center gap-2"
               >
-                Criar conta
+                {carregando ? (
+                  <><span className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" /> Criando...</>
+                ) : "Criar conta"}
               </button>
             </form>
-
-            <p className="text-xs text-[#B5865A] text-center mt-4">
-              Ao criar conta você concorda com os{" "}
-              <Link href="#" className="text-[#D4900A] hover:underline">Termos de Uso</Link>
-            </p>
           </div>
         )}
 

@@ -2,25 +2,40 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useAuth } from "@/context/AuthContext";
+import { createClient } from "@/lib/supabase";
 
 export default function LoginPage() {
-  const { login } = useAuth();
   const router = useRouter();
+  const supabase = createClient();
   const [form, setForm] = useState({ email: "", senha: "" });
   const [erro, setErro] = useState("");
+  const [carregando, setCarregando] = useState(false);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!form.email || !form.senha) {
-      setErro("Preencha email e senha.");
+    setErro("");
+    setCarregando(true);
+
+    const { error } = await supabase.auth.signInWithPassword({
+      email: form.email,
+      password: form.senha,
+    });
+
+    if (error) {
+      setErro("E-mail ou senha incorretos.");
+      setCarregando(false);
       return;
     }
-    // Mock: qualquer email/senha válidos entram
-    const nome = form.email.split("@")[0].replace(/[._]/g, " ");
-    const nomeFmt = nome.charAt(0).toUpperCase() + nome.slice(1);
-    login({ nome: nomeFmt, email: form.email });
+
     router.push("/");
+    router.refresh();
+  }
+
+  async function handleGoogle() {
+    await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}/` },
+    });
   }
 
   return (
@@ -34,7 +49,10 @@ export default function LoginPage() {
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-[#F0EAE0] p-8">
-          <button className="w-full flex items-center justify-center gap-3 border border-[#E0D8CE] rounded-xl py-3 px-4 text-[#4A2810] font-medium hover:bg-[#F0EAE0] transition-colors mb-6">
+          <button
+            onClick={handleGoogle}
+            className="w-full flex items-center justify-center gap-3 border border-[#E0D8CE] rounded-xl py-3 px-4 text-[#4A2810] font-medium hover:bg-[#F0EAE0] transition-colors mb-6"
+          >
             <GoogleIcon />
             Entrar com Google
           </button>
@@ -77,16 +95,14 @@ export default function LoginPage() {
               />
             </div>
 
-            <div className="flex items-center gap-2">
-              <input type="checkbox" id="lembrar" defaultChecked className="accent-[#D4900A]" />
-              <label htmlFor="lembrar" className="text-sm text-[#7A5C44]">Manter conectado</label>
-            </div>
-
             <button
               type="submit"
-              className="w-full bg-[#4A2810] text-[#FAF7F2] py-3 rounded-full font-bold text-base hover:bg-[#7A4520] transition-colors mt-2"
+              disabled={carregando}
+              className="w-full bg-[#4A2810] text-[#FAF7F2] py-3 rounded-full font-bold text-base hover:bg-[#7A4520] transition-colors mt-2 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
-              Entrar
+              {carregando ? (
+                <><span className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" /> Entrando...</>
+              ) : "Entrar"}
             </button>
           </form>
         </div>
