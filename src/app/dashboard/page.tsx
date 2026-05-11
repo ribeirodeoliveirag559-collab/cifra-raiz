@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CIFRAS, MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
@@ -8,6 +10,7 @@ import {
 } from "@/components/Icons";
 
 export default function DashboardPage() {
+  const [mostrarEmBreve, setMostrarEmBreve] = useState(false);
   const topCifras = [...CIFRAS]
     .sort((a, b) => (b.tocadasSemana ?? 0) - (a.tocadasSemana ?? 0))
     .slice(0, 5);
@@ -76,78 +79,103 @@ export default function DashboardPage() {
             {/* Coluna principal */}
             <div className="lg:col-span-2 space-y-6">
 
-              {emAndamento.length > 0 && (
-                <section>
-                  <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Continuar aprendendo</h2>
-                  <div className="space-y-3">
-                    {emAndamento.map((m) => (
-                      <Link key={m.id} href={`/cursos/${m.id}`}
-                        className="block bg-white rounded-2xl border border-[#F0EAE0] p-5 hover:border-[#D4900A] hover:shadow-md transition-all group">
-                        <div className="flex items-start justify-between mb-3">
-                          <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-full bg-[#4A2810] text-[#D4900A] flex items-center justify-center font-bold font-display text-base shrink-0">
+              {/* Wrapper com overlay Em Breve nos módulos */}
+              <div
+                className="relative rounded-2xl cursor-pointer"
+                onClick={() => setMostrarEmBreve(true)}
+              >
+                {emAndamento.length > 0 && (
+                  <section className="mb-6">
+                    <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Continuar aprendendo</h2>
+                    <div className="space-y-3">
+                      {emAndamento.map((m) => (
+                        <div key={m.id}
+                          className="block bg-white rounded-2xl border border-[#F0EAE0] p-5">
+                          <div className="flex items-start justify-between mb-3">
+                            <div className="flex items-center gap-3">
+                              <div className="w-10 h-10 rounded-full bg-[#4A2810] text-[#D4900A] flex items-center justify-center font-bold font-display text-base shrink-0">
+                                {m.numero}
+                              </div>
+                              <div>
+                                <p className="font-bold text-[#4A2810]">{m.titulo}</p>
+                                <p className="text-xs text-[#B5865A]">{m.nivel} · {m.aulas.length} aulas</p>
+                              </div>
+                            </div>
+                            <span className="text-sm font-bold text-[#D4900A] shrink-0">{m.pct}%</span>
+                          </div>
+                          <div className="h-2 bg-[#F0EAE0] rounded-full overflow-hidden">
+                            <div className="h-full bg-[#D4900A] rounded-full transition-all" style={{ width: `${m.pct}%` }} />
+                          </div>
+                          <p className="text-xs text-[#B5865A] mt-2">{m.assistidas} de {m.aulas.length} aulas assistidas</p>
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                )}
+
+                {naoIniciados.length > 0 && (
+                  <section className="mb-6">
+                    <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Próximos módulos</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {naoIniciados.slice(0, 4).map((m) => (
+                        <div key={m.id}
+                          className="bg-white rounded-xl border border-[#F0EAE0] p-4">
+                          <div className="flex items-center gap-3 mb-2">
+                            <div className="w-8 h-8 rounded-full bg-[#F0EAE0] text-[#7A5C44] flex items-center justify-center text-sm font-bold font-display shrink-0">
                               {m.numero}
                             </div>
-                            <div>
-                              <p className="font-bold text-[#4A2810] group-hover:text-[#D4900A] transition-colors">{m.titulo}</p>
-                              <p className="text-xs text-[#B5865A]">{m.nivel} · {m.aulas.length} aulas</p>
-                            </div>
+                            <p className="font-semibold text-[#4A2810] text-sm">{m.titulo}</p>
                           </div>
-                          <span className="text-sm font-bold text-[#D4900A] shrink-0">{m.pct}%</span>
-                        </div>
-                        <div className="h-2 bg-[#F0EAE0] rounded-full overflow-hidden">
-                          <div className="h-full bg-[#D4900A] rounded-full transition-all" style={{ width: `${m.pct}%` }} />
-                        </div>
-                        <p className="text-xs text-[#B5865A] mt-2">{m.assistidas} de {m.aulas.length} aulas assistidas</p>
-                      </Link>
-                    ))}
-                  </div>
-                </section>
-              )}
-
-              {naoIniciados.length > 0 && (
-                <section>
-                  <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Próximos módulos</h2>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {naoIniciados.slice(0, 4).map((m) => (
-                      <Link key={m.id} href={`/cursos/${m.id}`}
-                        className="bg-white rounded-xl border border-[#F0EAE0] p-4 hover:border-[#D4900A] hover:shadow-sm transition-all group">
-                        <div className="flex items-center gap-3 mb-2">
-                          <div className="w-8 h-8 rounded-full bg-[#F0EAE0] text-[#7A5C44] flex items-center justify-center text-sm font-bold font-display shrink-0">
-                            {m.numero}
+                          <div className="flex items-center justify-between">
+                            <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
+                              m.nivel === "Iniciante" ? "bg-green-100 text-green-700" :
+                              m.nivel === "Intermediário" ? "bg-yellow-100 text-yellow-700" : "bg-red-100 text-red-700"
+                            }`}>{m.nivel}</span>
+                            <span className="text-xs text-[#B5865A]">{m.aulas.length} aulas</span>
                           </div>
-                          <p className="font-semibold text-[#4A2810] text-sm group-hover:text-[#D4900A] transition-colors">{m.titulo}</p>
                         </div>
-                        <div className="flex items-center justify-between">
-                          <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
-                            m.nivel === "Iniciante" ? "bg-green-100 text-green-700" :
-                            m.nivel === "Intermediário" ? "bg-yellow-100 text-yellow-700" : "bg-red-100 text-red-700"
-                          }`}>{m.nivel}</span>
-                          <span className="text-xs text-[#B5865A]">{m.aulas.length} aulas</span>
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </section>
-              )}
+                      ))}
+                    </div>
+                  </section>
+                )}
 
-              {concluidos.length > 0 && (
-                <section>
-                  <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Concluídos</h2>
-                  <div className="space-y-2">
-                    {concluidos.map((m) => (
-                      <Link key={m.id} href={`/cursos/${m.id}`}
-                        className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl px-4 py-3 hover:shadow-sm transition-all">
-                        <div className="w-7 h-7 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0">
-                          <IconCheck size={14} />
+                {concluidos.length > 0 && (
+                  <section>
+                    <h2 className="font-display text-xl font-bold text-[#4A2810] mb-4">Concluídos</h2>
+                    <div className="space-y-2">
+                      {concluidos.map((m) => (
+                        <div key={m.id}
+                          className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl px-4 py-3">
+                          <div className="w-7 h-7 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0">
+                            <IconCheck size={14} />
+                          </div>
+                          <span className="font-medium text-green-800 text-sm">{m.titulo}</span>
+                          <span className="ml-auto text-xs text-green-600">{m.aulas.length} aulas</span>
                         </div>
-                        <span className="font-medium text-green-800 text-sm">{m.titulo}</span>
-                        <span className="ml-auto text-xs text-green-600">{m.aulas.length} aulas</span>
-                      </Link>
-                    ))}
+                      ))}
+                    </div>
+                  </section>
+                )}
+
+                {/* Overlay Em Breve */}
+                {mostrarEmBreve && (
+                  <div
+                    className="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-2xl cursor-pointer"
+                    style={{ background: "rgba(0,0,0,0.65)" }}
+                    onClick={(e) => { e.stopPropagation(); setMostrarEmBreve(false); }}
+                  >
+                    <div className="animate-respirar flex flex-col items-center gap-4 select-none">
+                      <span className="text-5xl font-display font-bold text-white drop-shadow-lg tracking-wide">
+                        Em Breve!
+                      </span>
+                      <span className="text-[#D4900A] text-sm font-semibold tracking-widest uppercase">
+                        Videoaulas em produção
+                      </span>
+                    </div>
+                    <p className="absolute bottom-6 text-white/40 text-xs">toque para fechar</p>
                   </div>
-                </section>
-              )}
+                )}
+              </div>
             </div>
 
             {/* Sidebar */}
