@@ -1,10 +1,13 @@
-import Link from "next/link";
+"use client";
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
 import { IconVideo, IconTimer, IconCheck } from "@/components/Icons";
 
 export default function CursosPage() {
+  const [mostrarEmBreve, setMostrarEmBreve] = useState(false);
+
   const modulosComProgresso = MODULOS.map((modulo) => {
     const progresso = PROGRESSO_MOCK.find((p) => p.moduloId === modulo.id);
     const assistidas = progresso?.aulasAssistidas.length ?? 0;
@@ -17,6 +20,7 @@ export default function CursosPage() {
     <>
       <Header />
       <main className="flex-1 bg-[#FAF7F2]">
+        {/* Banner */}
         <div className="bg-[#4A2810] text-[#FAF7F2] py-10 px-4">
           <div className="max-w-5xl mx-auto">
             <h1 className="font-display text-3xl font-bold mb-2">
@@ -28,101 +32,109 @@ export default function CursosPage() {
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto px-4 py-10">
+        {/* Grid de módulos — bloqueado com overlay ao clicar */}
+        <div
+          className="relative max-w-5xl mx-auto px-4 py-10"
+          onClick={() => setMostrarEmBreve(true)}
+        >
+          {/* Overlay Em Breve */}
+          {mostrarEmBreve && (
+            <div
+              className="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-2xl cursor-pointer"
+              style={{ background: "rgba(0,0,0,0.65)" }}
+              onClick={(e) => { e.stopPropagation(); setMostrarEmBreve(false); }}
+            >
+              <div className="animate-respirar flex flex-col items-center gap-4 select-none">
+                <span className="text-5xl font-display font-bold text-white drop-shadow-lg tracking-wide">
+                  Em Breve!
+                </span>
+                <span className="text-[#D4900A] text-sm font-semibold tracking-widest uppercase">
+                  Videoaulas em produção
+                </span>
+              </div>
+              <p className="absolute bottom-6 text-white/40 text-xs">toque para fechar</p>
+            </div>
+          )}
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {modulosComProgresso.map((modulo, idx) => {
-              return (
-                <Link
-                  key={modulo.id}
-                  href={`/cursos/${modulo.id}`}
-                  className={`relative block bg-white rounded-2xl border-2 p-6 transition-all ${
-                    modulo.pct === 100
-                      ? "border-green-400 hover:shadow-md"
-                      : modulo.pct > 0
-                      ? "border-[#D4900A] hover:shadow-md"
-                      : "border-[#F0EAE0] hover:border-[#B5865A] hover:shadow-sm"
-                  }`}
-                >
-                  {/* Badge status */}
-                  {modulo.pct === 100 && (
-                    <span className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                      Concluído
-                    </span>
-                  )}
-                  {modulo.pct > 0 && modulo.pct < 100 && (
-                    <span className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                      Em andamento
-                    </span>
-                  )}
+            {modulosComProgresso.map((modulo) => (
+              <div
+                key={modulo.id}
+                className={`relative bg-white rounded-2xl border-2 p-6 transition-all cursor-pointer select-none ${
+                  modulo.pct === 100
+                    ? "border-green-400"
+                    : modulo.pct > 0
+                    ? "border-[#D4900A]"
+                    : "border-[#F0EAE0]"
+                }`}
+              >
+                {/* Badge status */}
+                {modulo.pct === 100 && (
+                  <span className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                    Concluído
+                  </span>
+                )}
+                {modulo.pct > 0 && modulo.pct < 100 && (
+                  <span className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                    Em andamento
+                  </span>
+                )}
 
-                  {/* Número do módulo */}
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold font-display text-xl shrink-0 ${
-                      modulo.pct === 100 ? "bg-green-500 text-white" :
-                      modulo.pct > 0    ? "bg-[#4A2810] text-[#D4900A]" :
-                                          "bg-[#F0EAE0] text-[#7A5C44]"
+                {/* Número do módulo */}
+                <div className="flex items-start gap-4 mb-4">
+                  <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold font-display text-xl shrink-0 ${
+                    modulo.pct === 100 ? "bg-green-500 text-white" :
+                    modulo.pct > 0    ? "bg-[#4A2810] text-[#D4900A]" :
+                                        "bg-[#F0EAE0] text-[#7A5C44]"
+                  }`}>
+                    {modulo.pct === 100 ? <IconCheck size={18} /> : modulo.numero}
+                  </div>
+                  <div>
+                    <h2 className="font-display text-lg font-bold text-[#4A2810]">
+                      {modulo.titulo}
+                    </h2>
+                    <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
+                      modulo.nivel === "Iniciante"     ? "bg-green-100 text-green-700"   :
+                      modulo.nivel === "Intermediário" ? "bg-yellow-100 text-yellow-700" : "bg-red-100 text-red-700"
                     }`}>
-                      {modulo.pct === 100 ? <IconCheck size={18} /> : modulo.numero}
-                    </div>
-                    <div>
-                      <h2 className="font-display text-lg font-bold text-[#4A2810]">
-                        {modulo.titulo}
-                      </h2>
-                      <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
-                        modulo.nivel === "Iniciante"     ? "bg-green-100 text-green-700"   :
-                        modulo.nivel === "Intermediário" ? "bg-yellow-100 text-yellow-700" : "bg-red-100 text-red-700"
-                      }`}>
-                        {modulo.nivel}
+                      {modulo.nivel}
+                    </span>
+                  </div>
+                </div>
+
+                <p className="text-[#7A5C44] text-sm mb-4 leading-relaxed">
+                  {modulo.descricao}
+                </p>
+
+                <div className="flex items-center gap-4 text-xs text-[#B5865A] mb-4">
+                  <span className="flex items-center gap-1"><IconVideo size={13} /> {modulo.aulas.length} aulas</span>
+                  <span className="flex items-center gap-1"><IconTimer size={13} /> {modulo.duracao}</span>
+                </div>
+
+                {modulo.pct > 0 && (
+                  <div>
+                    <div className="flex justify-between text-xs mb-1">
+                      <span className="text-[#7A5C44]">{modulo.assistidas}/{modulo.aulas.length} aulas</span>
+                      <span className={`font-bold ${modulo.pct === 100 ? "text-green-600" : "text-[#D4900A]"}`}>
+                        {modulo.pct}%
                       </span>
+                    </div>
+                    <div className="h-2 bg-[#F0EAE0] rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full transition-all ${modulo.pct === 100 ? "bg-green-500" : "bg-[#D4900A]"}`}
+                        style={{ width: `${modulo.pct}%` }}
+                      />
                     </div>
                   </div>
+                )}
 
-                  <p className="text-[#7A5C44] text-sm mb-4 leading-relaxed">
-                    {modulo.descricao}
-                  </p>
-
-                  <div className="flex items-center gap-4 text-xs text-[#B5865A] mb-4">
-                    <span className="flex items-center gap-1"><IconVideo size={13} /> {modulo.aulas.length} aulas</span>
-                    <span className="flex items-center gap-1"><IconTimer size={13} /> {modulo.duracao}</span>
+                {modulo.pct === 0 && (
+                  <div className="mt-2">
+                    <span className="text-sm font-semibold text-[#4A2810]">Começar módulo →</span>
                   </div>
-
-                  {/* Barra de progresso */}
-                  {modulo.pct > 0 && (
-                    <div>
-                      <div className="flex justify-between text-xs mb-1">
-                        <span className="text-[#7A5C44]">
-                          {modulo.assistidas}/{modulo.aulas.length} aulas
-                        </span>
-                        <span className={`font-bold ${modulo.pct === 100 ? "text-green-600" : "text-[#D4900A]"}`}>
-                          {modulo.pct}%
-                        </span>
-                      </div>
-                      <div className="h-2 bg-[#F0EAE0] rounded-full overflow-hidden">
-                        <div
-                          className={`h-full rounded-full transition-all ${modulo.pct === 100 ? "bg-green-500" : "bg-[#D4900A]"}`}
-                          style={{ width: `${modulo.pct}%` }}
-                        />
-                      </div>
-                    </div>
-                  )}
-
-                  {modulo.pct === 0 && (
-                    <div className="mt-2">
-                      <span className="text-sm font-semibold text-[#4A2810]">
-                        Começar módulo →
-                      </span>
-                    </div>
-                  )}
-                  {modulo.pct > 0 && modulo.pct < 100 && (
-                    <div className="mt-3">
-                      <span className="text-sm font-semibold text-[#D4900A]">
-                        Continuar →
-                      </span>
-                    </div>
-                  )}
-                </Link>
-              );
-            })}
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </main>
