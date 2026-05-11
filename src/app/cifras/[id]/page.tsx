@@ -195,12 +195,46 @@ export default function CifraPage() {
 
         <div className="max-w-4xl mx-auto px-4 py-8">
           {/* Cabeçalho */}
-          <div className="mb-6">
-            <h1 className="font-display text-3xl font-bold text-[#4A2810]">{cifra.titulo}</h1>
-            <p className="text-[#7A5C44] mt-1 text-lg">{cifra.artista}</p>
+          <div className="mb-6 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5">
+            <div className="flex-1">
+              <h1 className="font-display text-3xl font-bold text-[#4A2810]">{cifra.titulo}</h1>
+              <p className="text-[#7A5C44] mt-1 text-lg">{cifra.artista}</p>
+              {/* Padrão de palhetada */}
+              <PalhetadaRitmo ritmo={cifra.ritmo} />
+            </div>
 
-            {/* Padrão de palhetada */}
-            <PalhetadaRitmo ritmo={cifra.ritmo} />
+            {/* Card YouTube — crédito ao artista original */}
+            <a
+              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(cifra.artista + " " + cifra.titulo + " oficial")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shrink-0 w-full sm:w-52 bg-white border-2 border-[#E0D8CE] rounded-2xl overflow-hidden hover:border-red-500 hover:shadow-lg transition-all"
+            >
+              {/* Área da miniatura */}
+              <div className="relative bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d] h-28 flex items-center justify-center">
+                {/* Thumbnail do YouTube via imagem do canal */}
+                <div className="absolute inset-0 opacity-20 bg-[url('https://www.youtube.com/img/desktop/yt_1200.png')] bg-center bg-cover" />
+                {/* Ícone de play no estilo YouTube */}
+                <div className="relative z-10 w-14 h-14 bg-red-600 rounded-2xl flex items-center justify-center group-hover:bg-red-500 group-hover:scale-110 transition-all shadow-lg">
+                  <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7 ml-1">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+              {/* Info */}
+              <div className="p-3">
+                <div className="flex items-center gap-1.5 mb-1">
+                  <svg viewBox="0 0 90 20" className="h-3 fill-red-600">
+                    <path d="M27.9727 3.12324C27.6435 1.89498 26.6768 0.928192 25.4485 0.598976C23.2219 4.99491e-07 14.285 0 14.285 0C14.285 0 5.34807 4.99491e-07 3.12148 0.598976C1.89323 0.928192 0.926436 1.89498 0.597221 3.12324C-2.24288e-07 5.34983 0 10 0 10C0 10 -2.24288e-07 14.6502 0.597221 16.8768C0.926436 18.105 1.89323 19.0718 3.12148 19.401C5.34807 20 14.285 20 14.285 20C14.285 20 23.2219 20 25.4485 19.401C26.6768 19.0718 27.6435 18.105 27.9727 16.8768C28.5699 14.6502 28.5699 10 28.5699 10C28.5699 10 28.5699 5.34983 27.9727 3.12324Z"/>
+                    <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white"/>
+                  </svg>
+                  <span className="text-xs font-bold text-[#4A2810]">YouTube</span>
+                </div>
+                <p className="text-xs font-semibold text-[#4A2810] leading-tight line-clamp-1">{cifra.titulo}</p>
+                <p className="text-xs text-[#B5865A] line-clamp-1">{cifra.artista}</p>
+                <p className="text-[10px] text-red-500 font-semibold mt-1.5 group-hover:underline">▶ Assistir original</p>
+              </div>
+            </a>
           </div>
 
           {/* Controles */}
