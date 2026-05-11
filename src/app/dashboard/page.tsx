@@ -10,8 +10,10 @@ import {
   IconFilm, IconBook, IconCheckCircle, IconGuitar,
   IconFire, IconTrophy, IconTarget, IconMusic, IconChat, IconCheck,
 } from "@/components/Icons";
+import { useAuth } from "@/context/AuthContext";
 
 export default function DashboardPage() {
+  const { user } = useAuth();
   const [topCifras, setTopCifras] = useState<Cifra[]>([]);
 
   useEffect(() => {
@@ -34,10 +36,10 @@ export default function DashboardPage() {
   const totalAulas      = modulosComProgresso.reduce((s, m) => s + m.aulas.length, 0);
 
   const stats = [
-    { label: "Aulas assistidas",      valor: `${totalAssistidas}/${totalAulas}`, Icon: IconFilm,         cor: "text-[#D4900A]",  bg: "bg-[#FDF6E8]" },
-    { label: "Módulos em andamento",  valor: emAndamento.length,                 Icon: IconBook,         cor: "text-blue-500",   bg: "bg-blue-50"   },
-    { label: "Módulos concluídos",    valor: concluidos.length,                  Icon: IconCheckCircle,  cor: "text-green-500",  bg: "bg-green-50"  },
-    { label: "Cifras salvas",         valor: "12",                               Icon: IconGuitar,       cor: "text-[#D4900A]",  bg: "bg-[#FDF6E8]" },
+    { label: "Aulas assistidas",      valor: `${totalAssistidas}/${totalAulas}`, Icon: IconFilm,         cor: "text-[#D4900A]",  bg: "bg-[#FDF6E8]", emBreve: true  },
+    { label: "Módulos em andamento",  valor: emAndamento.length,                 Icon: IconBook,         cor: "text-blue-500",   bg: "bg-blue-50",   emBreve: true  },
+    { label: "Módulos concluídos",    valor: concluidos.length,                  Icon: IconCheckCircle,  cor: "text-green-500",  bg: "bg-green-50",  emBreve: true  },
+    { label: "Cifras salvas",         valor: "12",                               Icon: IconGuitar,       cor: "text-[#D4900A]",  bg: "bg-[#FDF6E8]", emBreve: false },
   ];
 
   const atalhos = [
@@ -56,7 +58,7 @@ export default function DashboardPage() {
         <div className="bg-[#4A2810] text-[#FAF7F2] py-8 px-4">
           <div className="max-w-6xl mx-auto">
             <p className="text-[#B5865A] text-sm mb-1">Bem-vindo de volta,</p>
-            <h1 className="font-display text-2xl font-bold">Zé das Couves</h1>
+            <h1 className="font-display text-2xl font-bold">{user?.nome ?? "Músico"}</h1>
           </div>
         </div>
 
@@ -65,7 +67,7 @@ export default function DashboardPage() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             {stats.map((s) => (
-              <div key={s.label} className="bg-white rounded-xl p-4 border border-[#F0EAE0] flex items-center gap-3">
+              <div key={s.label} className="relative bg-white rounded-xl p-4 border border-[#F0EAE0] flex items-center gap-3 overflow-hidden">
                 <div className={`w-10 h-10 rounded-full ${s.bg} flex items-center justify-center shrink-0`}>
                   <s.Icon size={18} className={s.cor} />
                 </div>
@@ -73,6 +75,15 @@ export default function DashboardPage() {
                   <div className={`font-bold text-lg ${s.cor}`}>{s.valor}</div>
                   <div className="text-xs text-[#B5865A] leading-tight">{s.label}</div>
                 </div>
+                {s.emBreve && (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center rounded-xl select-none"
+                    style={{ background: "rgba(0,0,0,0.62)" }}>
+                    <div className="animate-respirar flex flex-col items-center gap-1">
+                      <span className="text-base font-display font-bold text-white drop-shadow-lg">Em Breve!</span>
+                      <span className="text-[#D4900A] text-[10px] font-semibold tracking-wider uppercase">Em produção</span>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
