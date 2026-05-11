@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { CIFRAS } from "@/lib/dados";
+import type { Cifra } from "@/lib/dados";
+import { getAllCifras } from "@/lib/cifras-service";
 import { getRecentes, tempoRelativo, type CifraRecente } from "@/lib/historico";
 import { getPlaylists, type Playlist } from "@/lib/playlists";
 import { IconGuitar, IconPlaylist, IconClock, IconNote } from "@/components/Icons";
@@ -13,15 +14,21 @@ export default function CifrasPage() {
   const [mostrarTodas, setMostrarTodas] = useState(false);
   const [recentes, setRecentes] = useState<CifraRecente[]>([]);
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
+  const [cifras, setCifras] = useState<Cifra[]>([]);
+  const [carregando, setCarregando] = useState(true);
 
   useEffect(() => {
     setRecentes(getRecentes());
     setPlaylists(getPlaylists());
+    getAllCifras().then((data) => {
+      setCifras(data);
+      setCarregando(false);
+    });
   }, []);
 
   const buscando = busca.trim() !== "" || mostrarTodas;
 
-  const cifrasFiltradas = CIFRAS.filter((c) =>
+  const cifrasFiltradas = cifras.filter((c) =>
     c.titulo.toLowerCase().includes(busca.toLowerCase()) ||
     c.artista.toLowerCase().includes(busca.toLowerCase())
   );
@@ -57,13 +64,22 @@ export default function CifrasPage() {
           {/* ── MODO BUSCA ── */}
           {buscando && (
             <section>
-              <p className="text-sm text-[#B5865A] mb-4">
-                {cifrasFiltradas.length} resultado{cifrasFiltradas.length !== 1 ? "s" : ""} encontrado{cifrasFiltradas.length !== 1 ? "s" : ""}
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {cifrasFiltradas.map((c) => <CardCifra key={c.id} cifra={c} />)}
-              </div>
-              {cifrasFiltradas.length === 0 && (
+              {carregando ? (
+                <div className="flex items-center justify-center py-20 gap-3 text-[#B5865A]">
+                  <span className="w-5 h-5 border-2 border-[#D4900A]/30 border-t-[#D4900A] rounded-full animate-spin" />
+                  Carregando cifras...
+                </div>
+              ) : (
+                <>
+                  <p className="text-sm text-[#B5865A] mb-4">
+                    {cifrasFiltradas.length} resultado{cifrasFiltradas.length !== 1 ? "s" : ""} encontrado{cifrasFiltradas.length !== 1 ? "s" : ""}
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {cifrasFiltradas.map((c) => <CardCifra key={c.id} cifra={c} />)}
+                  </div>
+                </>
+              )}
+              {!carregando && cifrasFiltradas.length === 0 && (
                 <div className="text-center py-16">
                   <div className="w-14 h-14 rounded-full bg-[#F0EAE0] flex items-center justify-center mx-auto mb-3"><IconGuitar size={24} className="text-[#B5865A]" /></div>
                   <p className="text-[#7A5C44]">Nenhuma cifra encontrada.</p>
@@ -222,7 +238,7 @@ export default function CifrasPage() {
                 <div>
                   <p className="font-display font-bold text-[#FAF7F2] text-lg">Explorar biblioteca</p>
                   <p className="text-[#B5865A] text-sm mt-0.5">
-                    {CIFRAS.length} cifras de sertanejo, modão e raiz
+                    {cifras.length > 0 ? cifras.length : "..."} cifras de sertanejo, modão e raiz
                   </p>
                 </div>
                 <button
@@ -241,7 +257,7 @@ export default function CifrasPage() {
   );
 }
 
-function CardCifra({ cifra: c }: { cifra: (typeof CIFRAS)[0] }) {
+function CardCifra({ cifra: c }: { cifra: Cifra }) {
   return (
     <Link
       href={`/cifras/${c.id}`}

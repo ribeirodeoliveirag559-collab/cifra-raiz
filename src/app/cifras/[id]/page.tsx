@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { CIFRAS } from "@/lib/dados";
+import type { Cifra } from "@/lib/dados";
+import { getCifraById } from "@/lib/cifras-service";
 import { transporCifra, TONS } from "@/lib/transposicao";
 import { PADROES_RITMO } from "@/lib/ritmos";
 import { salvarRecente } from "@/lib/historico";
@@ -73,7 +74,8 @@ function parseLinha(raw: string): Linha {
 
 export default function CifraPage() {
   const { id } = useParams<{ id: string }>();
-  const cifra = CIFRAS.find((c) => c.id === id);
+  const [cifra, setCifra] = useState<Cifra | null>(null);
+  const [carregando, setCarregando] = useState(true);
 
   const [tomIdx, setTomIdx] = useState(0);
   const [rolando, setRolando] = useState(false);
@@ -91,6 +93,16 @@ export default function CifraPage() {
   const [adicionado, setAdicionado] = useState<string | null>(null);
   const conteudoRef = useRef<HTMLDivElement>(null);
   const intervaloRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // Busca a cifra no Supabase pelo id
+  useEffect(() => {
+    if (!id) return;
+    setCarregando(true);
+    getCifraById(id).then((data) => {
+      setCifra(data);
+      setCarregando(false);
+    });
+  }, [id]);
 
   const tomOriginalIdx = cifra ? TONS.indexOf(cifra.tom) : 0;
   const semitons = (tomIdx - tomOriginalIdx + 12) % 12;
@@ -132,6 +144,21 @@ export default function CifraPage() {
     }
     return () => { if (intervaloRef.current) clearInterval(intervaloRef.current); };
   }, [rolando, velocidade]);
+
+  if (carregando) {
+    return (
+      <>
+        <Header />
+        <main className="flex-1 flex items-center justify-center bg-[#FAF7F2] py-20">
+          <div className="flex flex-col items-center gap-4 text-[#B5865A]">
+            <span className="w-8 h-8 border-2 border-[#D4900A]/30 border-t-[#D4900A] rounded-full animate-spin" />
+            <p className="text-sm">Carregando cifra...</p>
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
 
   if (!cifra) {
     return (

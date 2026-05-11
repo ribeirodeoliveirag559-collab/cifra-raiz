@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { CIFRAS, MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
+import { MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
+import type { Cifra } from "@/lib/dados";
+import { getTopCifras } from "@/lib/cifras-service";
 import {
   IconFilm, IconBook, IconCheckCircle, IconGuitar,
   IconFire, IconTrophy, IconTarget, IconMusic, IconChat, IconCheck,
@@ -11,9 +13,11 @@ import {
 
 export default function DashboardPage() {
   const [mostrarEmBreve, setMostrarEmBreve] = useState(false);
-  const topCifras = [...CIFRAS]
-    .sort((a, b) => (b.tocadasSemana ?? 0) - (a.tocadasSemana ?? 0))
-    .slice(0, 5);
+  const [topCifras, setTopCifras] = useState<Cifra[]>([]);
+
+  useEffect(() => {
+    getTopCifras(5).then(setTopCifras);
+  }, []);
 
   const modulosComProgresso = MODULOS.map((modulo) => {
     const progresso = PROGRESSO_MOCK.find((p) => p.moduloId === modulo.id);
