@@ -13484,6 +13484,12357 @@ Eu deixei chorando a me abençoar
 
 [Final] [E]  [A]  [D/A]  [E]  [A]`,
   },
+    {
+    id:            "almir-sater-tocando-em-frente",
+    titulo:        "Tocando Em Frente",
+    artista:       "Almir Sater",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 1694,
+    cifra: `[Tab - Intro]
+
+E|------------------------------------------|
+B|------------------------------------------|
+G|---0---0---0------------------------------|
+D|-----0---2--------------------------------|
+A|-3----------------------------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+Parte 1 de 3
+E|-0-1-3-7--7---------7---------------------|
+B|-1-3-5-8----8-----8---8-------------------|
+G|--------------7-7-------7-----------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-----5----------5-------------------------|
+B|---6---6------6---6-----------------------|
+G|-5-------5--5-------5---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0-0--------------------------------|
+B|---1---1-1--------------------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0-0--1-1/3-3-3-3-----3---------3-----|
+B|---1---1--3-3/5-5-5-5---3---3-----3---3---|
+G|-0--------------------4-------5-5-------5-|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[G]                                [F9]
+   Ando devagar porque já tive pressa
+
+E levo esse sorriso
+            [C]
+Porque já chorei demais
+[G]
+   Hoje me sinto mais forte
+                 [F9]
+Mais feliz quem sabe
+
+Eu só levo a certeza
+              [C]
+De que muito pouco eu sei
+    [G]
+Ou nada sei
+
+[Refrão]
+
+Parte 1 de 3
+E|-----1---------1---------1---------1------|
+B|---1---1-----3---3-----1---1-----3---3----|
+G|-2-------2-2-------2-2-------2-2-------2--|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0--0-0-1-1-1/3-3-0-----------------|
+B|---1---1--1-1-3-3-3/5-5-------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0----------0-------------------------|
+B|---1---1------1---1-----------------------|
+G|-0-------0--0-------0---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[F9]               [Dm]             [F9]
+    Conhecer as manhas e as manhãs
+             [Dm]             [C]
+O sabor das massas e das maçãs
+[F9]                [Dm]               [F9]
+    É preciso o amor pra poder pulsar
+           [Dm]               [F9]
+É preciso paz pra poder sorrir
+              [C]
+É preciso a chuva para florir
+
+[Segunda Parte]
+
+Parte 1 de 3
+E|-0-1-3-7--7---------7---------------------|
+B|-1-3-5-8----8-----8---8-------------------|
+G|--------------7-7-------7-----------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-----5----------5-------------------------|
+B|---6---6------6---6-----------------------|
+G|-5-------5--5-------5---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0-0--------------------------------|
+B|---1---1-1--------------------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0-0--1-1/3-3-3-3-----3---------3-----|
+B|---1---1--3-3/5-5-5-5---3---3-----3---3---|
+G|-0--------------------4-------5-5-------5-|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+ [G]
+Penso que cumprir a vida
+             [F9]
+Seja simplesmente
+
+Compreender a marcha
+                  [C]
+E ir tocando em frente
+ [G]
+Como um velho boiadeiro
+             [F9]
+Levando a boiada
+
+Eu vou tocando os dias
+               [C]
+Pela longa estrada eu vou
+       [G]
+De estrada eu sou
+
+[Refrão]
+
+Parte 1 de 3
+E|-----1---------1---------1---------1------|
+B|---1---1-----3---3-----1---1-----3---3----|
+G|-2-------2-2-------2-2-------2-2-------2--|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0--0-0-1-1-1/3-3-0-----------------|
+B|---1---1--1-1-3-3-3/5-5-------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0----------0-------------------------|
+B|---1---1------1---1-----------------------|
+G|-0-------0--0-------0---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[F9]               [Dm]             [F9]
+    Conhecer as manhas e as manhãs
+             [Dm]             [C]
+O sabor das massas e das maçãs
+[F9]                [Dm]               [F9]
+    É preciso o amor pra poder pulsar
+           [Dm]               [F9]
+É preciso paz pra poder sorrir
+              [C]
+É preciso a chuva para florir
+
+[Terceira Parte]
+
+Parte 1 de 3
+E|-0-1-3-7--7---------7---------------------|
+B|-1-3-5-8----8-----8---8-------------------|
+G|--------------7-7-------7-----------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-----5----------5-------------------------|
+B|---6---6------6---6-----------------------|
+G|-5-------5--5-------5---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0-0--------------------------------|
+B|---1---1-1--------------------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0-0--1-1/3-3-3-3-----3---------3-----|
+B|---1---1--3-3/5-5-5-5---3---3-----3---3---|
+G|-0--------------------4-------5-5-------5-|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+ [G]
+Todo mundo ama um dia
+             [F9]
+Todo mundo chora
+
+Um dia a gente chega
+                [C]
+No outro vai embora
+[G]                                  [F9]
+   Cada um de nós compõe a sua história
+
+E cada ser em si
+                  [C]
+Carrega o dom de ser capaz
+    [G]
+De ser feliz
+
+[Refrão]
+
+Parte 1 de 3
+E|-----1---------1---------1---------1------|
+B|---1---1-----3---3-----1---1-----3---3----|
+G|-2-------2-2-------2-2-------2-2-------2--|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0--0-0-1-1-1/3-3-0-----------------|
+B|---1---1--1-1-3-3-3/5-5-------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0----------0-------------------------|
+B|---1---1------1---1-----------------------|
+G|-0-------0--0-------0---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[F9]               [Dm]             [F9]
+    Conhecer as manhas e as manhãs
+             [Dm]             [C]
+O sabor das massas e das maçãs
+[F9]                [Dm]               [F9]
+    É preciso o amor pra poder pulsar
+           [Dm]               [F9]
+É preciso paz pra poder sorrir
+              [C]
+É preciso a chuva para florir
+
+Parte 1 de 3
+E|-0-1-3-7--7---------7---------------------|
+B|-1-3-5-8----8-----8---8-------------------|
+G|--------------7-7-------7-----------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-----5----------5-------------------------|
+B|---6---6------6---6-----------------------|
+G|-5-------5--5-------5---------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 3
+E|-----0-0-0--------------------------------|
+B|---1---1-1--------------------------------|
+G|-0----------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+E|-----0-0--1-1/3-3-3-3-----3---------3-----|
+B|---1---1--3-3/5-5-5-5---3---3-----3---3---|
+G|-0--------------------4-------5-5-------5-|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[G]                                [F9]
+   Ando devagar porque já tive pressa
+
+E levo esse sorriso
+            [C]
+Porque já chorei demais
+[G]
+   Hoje me sinto mais forte
+                 [F9]
+Mais feliz quem sabe
+
+Eu só levo a certeza
+              [C]
+De que muito pouco eu sei
+    [G]
+Ou nada sei
+
+[Passagem Final]
+
+                [G]
+E|--------------3---------------------------|
+B|--------------3---------------------------|
+G|---0---0---0--0---------------------------|
+D|--------------0---------------------------|
+A|-3---2---0----2---------------------------|
+E|--------------3---------------------------|`,
+  },
+  {
+    id:            "almir-sater-chalana",
+    titulo:        "Chalana",
+    artista:       "Almir Sater",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3343,
+    cifra: `[Tab - Intro]
+
+E|-9-/10~---9~-----5~\-------------------------------|
+B|-10/12~--10~-----7~\-------------------------------|
+G|---------------------------------------------------|
+D|--------------0------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Primeira Parte]
+
+[D]
+  Lá vai uma chalana
+     [A7(13)]   [D]
+Bem longe se vai
+
+Navegando no remanso
+             [A7]
+Do rio Paraguai
+
+[Refrão]
+
+[G]
+Oh! Chalana sem querer
+ [D]
+Tu aumentas minha dor
+ [A7]
+Nessas águas tão serenas
+                  [D]
+Vai levando meu amor
+
+[G]
+Oh! Chalana sem querer
+ [D]
+Tu aumentas minha dor
+ [A7(13)]
+Nessas águas tão serenas
+                  [D]
+Vai levando meu amor
+
+[Segunda Parte]
+
+E assim ela se foi
+                    [A7(13)]
+Nem de mim se despediu
+  [G]
+A   chalana vai sumindo
+    [A7]          [D]
+Na curva lá do rio
+
+E se ela vai magoada
+                      [A7]
+Eu bem sei que tem razão
+
+Fui ingrato
+                         [D]
+Eu feri o seu meigo coração
+
+[Refrão]
+
+[G]
+Oh! Chalana sem querer
+ [D]
+Tu aumentas minha dor
+ [A7(13)]
+Nessas águas tão serenas
+                  [D]
+Vai levando meu amor
+
+[G]
+Oh! Chalana sem querer
+ [D]
+Tu aumentas minha dor
+ [A7]
+Nessas águas tão serenas
+                  [D]
+Vai levando meu amor
+
+[Tab - Primeira Parte]
+
+Parte 1 de 2
+E|-2-2--0-2-3-3/5-5~--5-5/9-~--5-3--32~-------------|
+B|-3-3--2-3-5-5/7-7~--7-7/10~--7-5--53~-------------|
+G|---------------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 2 de 2
+E|-2-0-2-0--2-3-3/5-5~--5--53--32--2--0-----5~-----|
+B|-3-3-3-3--3-5-5/7-7~--7--75--53--3--2------------|
+G|-----------------------------------------6~--------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Tab - Refrão]
+
+Parte 1 de 2
+E|-5/7-7-7-7-7--5-7---5-5-5--3-2-3-3/5---------------|
+B|-7/8-8-8-8-8--7-8---7-7-7--5-3-5-5/7---------------|
+G|---------------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 2 de 2
+E|-0-0-0-0--3/5--9---7-75--5~--3-32--2~------------|
+B|-2-2-2-2--5/7--10--8-87--7~--5-53--3~------------|
+G|---------------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|`,
+  },
+  {
+    id:            "almir-sater-um-violeiro-toca",
+    titulo:        "Um Violeiro Toca",
+    artista:       "Almir Sater",
+    tom:           "G",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4314,
+    cifra: `Intro: [G]  [D]  [C]  [D9(11)]
+E|-7-7---7---7-7/10-10-10----------------------------|
+B|-8-8---8---8-8/12-12-12----------------------------|
+G|---0-0---0---0-------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+E|-5-5---5---5-5/8---8--8----------------------------|
+B|-7-7---7---7-7/10--10-10---------------------------|
+G|---7-7---7---7-------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+E|-3-3---3---3-3/5---5---5--7------------------------|
+B|-5-5---5---5-5/7---7---7--8------------------------|
+G|---5-5---5---5/7-7---7-0--0------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[G]                      [G5(7M)]    [G5(6)]
+ Quando uma estrela cai, no escurão da noite,
+[C]
+ e um violeiro toca suas mágoas.
+[D9(11)]
+ Então os olhos dos bichos, vão ficando iluminados
+[C]                                          [D9(11)]  [C] [C5(9)]
+Rebrilham neles estrelas de um sertão enluarado
+[G]            [G5(7M)]            [G5(6)]
+Quando o amor termina, perdido numa esquina,
+[C]
+e um violeiro toca sua sina.
+[D9(11)]
+Então os olhos dos bichos, vão ficando entristecidos
+[C]                                            [D9(11)]  [C]  [C5(9)]
+Rebrilham neles lembranças dos amores esquecidos.
+[G]                   [G5(7M)]      [G5(6)]
+Quando um amor começa, nossa alegria chama,
+[C]
+e um violeiro toca em nossa cama.
+[D9(11)]
+Então os olhos dos bichos, são os olhos de quem ama
+[C]                                             [D9(11)] [C]  [C5(9)]
+Pois a natureza é isso, sem medo nem dó sem drama
+Violão 1:
+    [G]           [G5(7M)]
+E|--3-----3-----2-------2-------------------|
+B|--3-----3-----3-------3-------------------|
+G|----0------0-----0-------0----------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|--3---3-------3-----3---------------------|
+
+    [G5(7M)]     [G6]
+E|--2-----2----0------0---------------------|
+B|--3-----3----3------3---------------------|
+G|----0-----0-----0------0------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|--3---3------3----3-----------------------|
+
+   [C]
+E|------------------------------------------|
+B|--------1--1--1--1--1--1--1---------------|
+G|------0-0--0--0--0--0--0--0---------------|
+D|----2---2--2--2--2--2--2--2---------------|
+A|--3-----3--3--3--3--3--3--3---------------|
+E|------------------------------------------|
+          ↑ ↓  ↑  ↓  ↓  ↑  ↑
+    [C]
+E|------------------------------------------|
+B|------1---------1-------------------------|
+G|--0---0-0---0---0-0-----------------------|
+D|--2-----2---2-----------------------------|
+A|--3-3-----3---3---------------------------|
+E|------------------------------------------|
+
+    [D9(11)]
+E|--------0--0--0--0--0--0--0---------------|
+B|--------3--3--3--3--3--3--3---------------|
+G|------0-0--0--0--0--0--0--0---------------|
+D|----4---4--4--4--4--4--4--4---------------|
+A|--5-----5--5--5--5--5--5--5---------------|
+E|------------------------------------------|
+          ↑ ↓  ↑  ↓  ↓  ↑  ↑
+
+    [D9(11)]
+E|------------------------------------------|
+B|------3---------3-------------------------|
+G|--0---0-0---0---0-0-----------------------|
+D|--4-----4---4-----------------------------|
+A|--5-5-----5---5---------------------------|
+E|------------------------------------------|
+
+   [C]  [D9(11)]  [C]
+E|-0--0-------0--------------|
+B|-1--3-------1--------------|
+G|-0--0-------0--------------|
+D|-2--4-------2--------------|
+A|-3--5-------3--------------|
+E|---------------------------|
+
+Variação:
+    [C5(9)]
+E|--0--2--3--2--3---------------------------|
+B|--3--3--3--3--3---------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|--3--3--3-----3---------------------------|
+E|------------------------------------------|
+
+Violão 2:
+   [G]          [G5(7M)]   [G]          [G6]
+E|----------------2-------------------0-----|
+B|-------3----------3--------3----------3---|
+G|-----0---0---------------0---0------------|
+D|---0-------------------0------------------|
+A|------------------------------------------|
+E|-3----------3-3------3----------3-3-------|
+
+   [C9]
+E|-------3-----------3-3-3-3--3--3-3-3--3-3-|
+B|---------3-----3---3-3-3-3--3--3-3-3--3-3-|
+G|-----0-----------0-0-0-0-0--0--0-0-0--0-0-|
+D|---2---------------2-2-2-2--2--2-2-2--2-2-|
+A|-3---------3-3-----3-3-3-3--3--3-3-3--3-3-|
+E|------------------------------------------|
+                     ↓ ↓ ↑ ↑  ↓  ↓ ↑ ↓  ↑ ↑
+   [D9(11)]
+E|---------------0---0-0-0-0--0--0-0-0--0-0-|
+B|-------3---------3-3-3-3-3--3--3-3-3--3-3-|
+G|-----0---0---------0-0-0-0--0--0-0-0--0-0-|
+D|---4---------------4-4-4-4--4--4-4-4--4-4-|
+A|-5---------5-5-----5-5-5-5--5--5-5-5--5-5-|
+E|------------------------------------------|
+                     ↓ ↓ ↑ ↑  ↓  ↓ ↑ ↓  ↑ ↑
+
+    [C9]  [D9(11)] [C9]
+E|--3---0------3----------------------------|
+B|--3---3------3----------------------------|
+G|--0---0------0----------------------------|
+D|--2---4------2----------------------------|
+A|--3---5------3----------------------------|
+E|------------------------------------------|
+
+Variação:
+    [C9]
+E|--0--2--3--2--0---------------------------|
+B|--3--3--3--3--3---------------------------|
+G|--0--0--0--0--0---------------------------|
+D|--0-----------0---------------------------|
+A|--3--3--3--3--3---------------------------|
+E|------------------------------------------|
+
+Refrão:
+[G]               [G5(7M)]         [C7+]          [D]
+Tudo é sertão, tudo é paixão, se o violeiro toca
+[Am7]            [C]               [G]
+A viola, o violeiro e o amor se tocam
+Variação:
+E|--------------------2--x--2--x--2---------|
+B|--------------------3--x--3--x--3---------|
+G|--0--0--------------2--x--2--x--2---------|
+D|-----------------0--0--x--0--x--0---------|
+A|-/3--2--0---------------------------------|
+E|-----------3--2---------------------------|
+
+Violão 2:
+E|------------------------------------------|
+B|-4/5-3------------------------------------|
+G|-------5-4----7~--------------------------|
+D|------------7-----------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-7/8--7-5-3-2-3/5-------------------------|
+B|-8/10-8-7-5-3-5/7-------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+(Intro)
+
+[G]                   [G5(7M)]      [G5(6)]
+Quando um amor começa, nossa alegria chama,
+[C]
+e um violeiro toca em nossa cama.
+[D9(11)]
+Então os olhos dos bichos, são os olhos de quem ama
+[C]                                             [D9(11)] [C]  [C5(9)]
+Pois a natureza é isso, sem medo nem dó sem drama
+
+(Refrão)`,
+  },
+  {
+    id:            "almir-sater-trem-do-pantanal",
+    titulo:        "Trem do Pantanal",
+    artista:       "Almir Sater",
+    tom:           "E",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2391,
+    cifra: `[Intro]  [E]  [G#7]  [C#m]  [E]  [A]
+         [E]  [G#7]  [C#m]  [C]  [F#m]  [B7]  [E]
+
+    [E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+[C#m]                [E]                [A]
+As estrelas do cruzeiro fazem um sinal
+     [E]                    [G#7]
+De que este é o melhor caminho
+         [C#m]    [C]
+Pra quem é como eu
+         [F#m]          [B7]  [E]
+Mais um fugitivo da guer-ra
+    [E]
+Enquanto este velho trem
+       [G#7]
+Atravessa o pantanal
+   [C#m]
+O povo lá em casa
+   [E]                       [A]
+Espera que eu mande um postal
+   [E]                [G#7]       [C#m]   [C]
+Dizendo que eu estou muito bem vivo
+        [F#m]              [B7]  [E]
+Rumo a Santa Cruz de La Sierra
+
+[E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+ [C#m]              [E]               [A]
+Só meu coração está batendo desigual
+           [E]          [G#7]   [C#m]     [C]
+Ele agora sabe que o medo viaja também
+       [F#m]                 [B7]  [E]  [C]
+Sobre todos os trilhos da ter-ra
+
+[Solo]  [E]  [G#7]  [C#m]  [E]  [A]
+        [E]  [G#7]  [C#m]  [C]  [F#m]  [B7]  [E]
+
+[E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+ [C#m]              [E]               [A]
+Só meu coração está batendo desigual
+           [E]          [G#7]   [C#m]     [C]
+Ele agora sabe que o medo viaja também
+       [F#m]                 [B7]  [E]  [C]
+Sobre todos os trilhos da ter-ra
+        [F#m]              [B7]  [E]  [C]
+Rumo a Santa Cruz de La Sierra
+       [F#m]                 [B7]  [E]
+Sobre todos os trilhos da ter-ra`,
+  },
+  {
+    id:            "almir-sater-cabecinha-no-ombro",
+    titulo:        "Cabecinha No Ombro",
+    artista:       "Almir Sater",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4535,
+    cifra: `[Intro]  [D]  [A7]  [D]  [D7]  [G]
+         [D]  [A7]  [G]  [D]  [A7]
+
+[Primeira Parte]
+
+   [D]               [A7]
+Encosta a sua cabecinha
+                 [D]   [D7]
+No meu ombro e chora
+   [G]
+E conta logo suas mágoas
+            [D]
+Todas para mim
+       [A7]
+Quem chora no meu ombro
+    [G]                  [D]
+Eu juro que não vai embora
+               [A7]
+Que não vai embora
+               [D]
+Que não vai embora
+       [A7]
+Quem chora no meu ombro
+    [G]                  [D]
+Eu juro que não vai embora
+               [A7]
+Que não vai embora
+                 [D]  [D7]
+Porque gosta de mim
+
+[Segunda Parte]
+
+  [G]                     [D]
+Amor, eu quero o seu carinho
+     [A7]                [D]    [D7]
+Porquê, eu vivo tão sozinho
+     [G]
+Não sei se a saudade fica
+                 [D]
+Ou se ela vai embora
+              [A7]
+Se ela vai embora
+              [D]   [D7]
+Se ela vai embora
+     [G]
+Não sei se a saudade fica
+                 [D]
+Ou se ela vai embora
+              [A7]
+Se ela vai embora
+              [D]
+Se ela vai embora
+
+( [D]  [A7]  [D]  [D7]  [G] )
+( [D]  [A7]  [G]  [D]  [A7] )
+
+[Primeira Parte]
+
+   [D]               [A7]
+Encosta a sua cabecinha
+                 [D]   [D7]
+No meu ombro e chora
+   [G]
+E conta logo suas mágoas
+            [D]
+Todas para mim
+       [A7]
+Quem chora no meu ombro
+    [G]                  [D]
+Eu juro que não vai embora
+               [A7]
+Que não vai embora
+               [D]
+Que não vai embora
+       [A7]
+Quem chora no meu ombro
+    [G]                  [D]
+Eu juro que não vai embora
+                 [A7]
+No meu ombro e chora
+                 [D]
+Porque gosta de mim`,
+  },
+  {
+    id:            "almir-sater-no-rastro-da-lua-cheia",
+    titulo:        "No Rastro da Lua Cheia",
+    artista:       "Almir Sater",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 721,
+    cifra: `[C]         [C4]    [C]
+No quintal lá de casa
+    [F]
+Passava um pequeno rio
+
+Que descia lá da serra
+                  [C]
+Ligeiro escorregadio
+  [C]          [C4]   [C]
+A água era cristalina
+     [F]
+Que dava pra ver o chão
+
+Ia cortando a floresta
+                  [C]
+Na direção do sertão
+     [Dm]       [Em]    [F]
+Lembrança ainda me resta
+     [C]
+Guardada no coração
+
+   [C]         [C4]    [C]
+E tudo era azul celeste
+    [F]
+Brasileiro cor de anil
+
+Nem bem começava o ano
+                   [C]
+Já era final de Abril
+   [C]        [C4]  [C]
+O vento pastore-ando
+   [F]
+Aquelas nuvens no céu
+
+Fazia o mundo girar
+                     [C]
+Veloz como um carrossel
+   [Dm]     [Em]    [F]
+E levantava a poeira
+   [C]
+E me arrancava o chapéu
+
+[F]                         [Dm]
+Ah o tempo faz, tempo desfaz
+[C]       [G]  [G#°]  [Am]
+E vai além  sempre
+
+   [C]        [C4]    [C]
+A vida vem lá de longe
+   [F]
+É como se fosse um rio
+
+Pra rio pequeno canoa
+                     [C]
+Pros grandes rios navios
+   [C]         [C4]     [C]
+E bem lá no fim de tudo
+   [F]
+Começo de outro lugar
+
+Será como Deus quiser
+                   [C]
+Como o destino mandar
+    [Dm]        [Em]   [F]
+No rastro da lua cheia
+     [C]
+Se chega em qualquer lugar
+
+( [C]  [C4]  [C]  [F]  [C] )
+( [C]  [C4]  [C]  [F]  [C] )
+( [Dm]  [Em]  [F]  [C] )
+
+[F]                         [Dm]
+Ah o tempo faz, tempo desfaz
+[C]       [G]  [G#°]    [Am]
+E vai além  sempre
+
+   [C]        [C4]    [C]
+A vida vem lá de longe
+   [F]
+É como se fosse um rio
+
+Pra rio pequeno canoa
+                     [C]
+Pros grandes rios navios
+   [C]         [C4]     [C]
+E bem lá no fim de tudo
+   [F]
+Começo de outro lugar
+
+Será como Deus quiser
+                   [C]
+Como o destino mandar
+    [Dm]        [Em]   [F]
+No rastro da lua cheia
+     [C]
+Se chega em qualquer lugar`,
+  },
+  {
+    id:            "almir-sater-comitiva-esperanca",
+    titulo:        "Comitiva Esperança",
+    artista:       "Almir Sater",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 5075,
+    cifra: `[Intro] [D]
+
+E|---------------------------------------------|
+B|-3---3--2--2-2-0-2-2--3---3-2--2-2-0-2-2--3--|
+G|---------------------------------------------|
+D|---0----0--------2------0---0--------0-------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+E|---------------------------------------------|
+B|---3--2-2--3-2-0-----------------------------|
+G|------------------2--2-4-2-0-----------------|
+D|-0----0----0------0----------4-4-4--2--0-0-0-|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+        [D]
+Nossa viagem não é ligeira
+              [D]     [G]     [D]
+Ninguém tem pressa de chegar
+
+A nossa estrada, é boiadeira
+         [D]       [G]      [D]
+Não interessa onde vai dar
+[G]           [D]
+Onde a Comitiva Esperança
+  [G]         [D]
+Chega já começa a festança
+     [D]      [G]   [D]
+Através do Rio Negro
+      [A7]            [D]
+Nhecolândia e Paiaguás
+        [D]       [G]    [D]
+Vai descendo o Piqueri
+          [A7]             [D]
+O São Lourenço e o Paraguai
+
+( [D] )
+
+          [D]
+Tá de passagem, abre a porteira
+          [D]       [G]     [D]
+Conforme for pra pernoitar
+
+Se a gente é boa, hospitaleira
+       [D]    [G]     [D]
+A Comitiva vai tocar
+        [G]
+Moda ligeira, que é uma doideira
+                  [C]      [G]
+Assanha o povo e faz dançar
+          [A7]
+Oh moda lenta que faz sonhar
+[G]           [D]
+Onde a Comitiva Esperança
+  [G]         [D]
+Chega já começa a festança
+     [D]      [G]   [D]
+Através do Rio Negro
+      [A7]            [D]
+Nhecolândia e Paiaguás
+        [D]       [G]    [D]
+Vai descendo o Piqueri
+          [A7]             [D]
+O São Lourenço e o Paraguai
+[E]                          [A]
+É, tempo bom que tava por lá
+[G]                       [D]  [E]
+  Nem vontade de regressar
+                        [A]
+Só vortemo eu vô confessar
+                             [A]
+É que as águas chegaram em Janeiro
+                        [A]
+Deslocamos um barco ligeiro
+                [D]
+Fomos pra Corumbá`,
+  },
+  {
+    id:            "almir-sater-assim-os-dias-passarao-part-renato-teixeira",
+    titulo:        "Assim Os Dias Passarão (Part. Renato Teixeira)",
+    artista:       "Almir Sater",
+    tom:           "E",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3890,
+    cifra: `[Tab - Intro]
+
+E|-------2-0--------------------------------|
+B|-----0------0h32-0-----------------------|
+G|-2/4----------------2/4-------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+( [Bm]  [E7]  [Bm]  [E7] )
+
+[Primeira Parte]
+
+[Bm]                        [E7]  [E7(4)]  [E7]
+   Dezembro vai, janeiro vem
+[Bm]                               [E]  [E7(4)]  [E7]
+   O tempo passa veloz como um trem
+[G]                                  [D]
+  No rádio a noticia, um amigo se foi
+[A]                                    [Bm]  [Bm11]
+  Atrás dos mistérios que sempre buscou
+[G]
+  Mais uma pra estrada
+                 [D2]
+Mais um fim de show
+[A]
+  Ao som das guitarras
+                [Bm]
+Do bom rock n' roll
+
+( [E7]  [Bm]  [E7]  [E7(4)]  [E7] )
+
+[Segunda Parte]
+
+[Bm]                      [E7]  [E7(4)]  [E7]
+   O tempo trás suas lições
+[Bm]                           [E7]  [E7(4)]  [E7]
+   E as grava em nossos corações
+[G]                                 [D]
+  Contando a história assim como foi
+[A]
+  Mostrando os caminhos
+                [Bm]  [A/C#]  [D]  [D/F#]
+Que irão nos levar
+[G]                                   [D]
+  Como se fosse o rio correndo pro mar
+[A]                                   [Bm]
+  Como se fossem pedras no rio a rolar
+
+( [G]  [E7]  [A] )
+( [Bm]  [E7]  [Bm]  [E] )
+( [G]  [D]  [A]  [A7] )
+( [Bm]  [A/C#]  [D]  [D/F#] )
+( [G]  [D]  [A]  [Bm] )
+( [G]  [E7]  [A] )
+
+[Terceira Parte]
+
+[Bm]                     [E7]  [E7(4)]  [E7]
+   Assim os dias passarão
+[Bm]                     [E7]  [E7(4)]  [E7]
+   Virão as novas gerações
+[G]                                 [D]
+  Outras perguntas, prováveis canções
+[A]                                        [Bm]
+  Outro mundo, outra gente, outras dimensões
+
+( [A/C#]  [D]  [D/F#] )
+
+[G]                                [D]
+  E na hora marcada, em algum lugar
+[A]                                  [Bm]
+  Uma estrela virá pra lhe acompanhar
+
+[Final] [G]  [E]  [A]  [Bm]
+
+[Tab - Final]
+
+E|------------------------------------------|
+B|-7-5-7-5-7-3-0--7-5-7-5-7-3-0-------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-7-5-7-5-8-3-0--7-5-7-5-8-3-0-------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-7-5-7-5-9-5-0--7-5-7-5-9-5-0-------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-5-7-9--10-9-7-5/7------------------------|
+B|------------------------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|`,
+  },
+  {
+    id:            "almir-sater-a-saudade-e-uma-estrada-longa",
+    titulo:        "A Saudade É Uma Estrada Longa",
+    artista:       "Almir Sater",
+    tom:           "A",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2113,
+    cifra: `[A]
+A saudade é uma estrada longa
+                           [E]
+Que começa e não tem mais fim
+      [D]
+Suas léguas dão volta ao mundo
+ [E]      [D]               [A]
+Mas não voltam por onde vim
+
+[A]
+A saudade é uma estrada a longa
+                           [E]
+Que começa e não tem mais fim
+      [D]
+Cada dia tem mais distâncias
+[E]   [D]             [A]
+Afastando você de mim
+
+ [D]
+Tantas foram as vezes
+
+Que nos enganamos
+
+Outras vezes nos desencontramos
+              [A]
+Sem nem perceber
+ [E]                             [D]
+Mesmo sem razão eu quero lhe dizer
+
+Sem intenção
+                [A]
+Ver tudo se perder
+     [E]     [D]
+Dói tanto, tanto
+
+[A]
+A saudade é uma estrada longa
+                   [E]
+Nao é boa e nao é ruim
+       [D]
+Vou seguindo sempre adiante
+[E]
+Nunca volto sou mesmo assim
+[A]
+A saudade é uma estrada longa
+                          [E]
+Que hoje passa dentro de mim
+      [D]
+Me armei só de esperanças
+ [E]   [D]               [A]
+Mas usei balas de festim
+
+ [D]
+Tantas foram as vezes
+
+Que nos enganamos
+
+Outras vezes nos desencontramos
+              [A]
+Sem nem perceber
+ [E]                             [D]
+Mesmo sem razão eu quero lhe dizer
+
+Sem intenção
+                [A]
+Ver tudo se perder
+     [E]     [D]
+Dói tanto, tanto
+
+( [A]  [E]  [D]  [E]  [D]  [A] )
+( [A]  [E]  [D]  [E]  [D]  [A] )
+
+ [D]
+Tantas foram as vezes
+
+Que nos enganamos
+
+Outras vezes nos desencontramos
+              [A]
+Sem nem perceber
+ [E]                             [D]
+Mesmo sem razão eu quero lhe dizer
+
+Sem intenção
+                [A]
+Ver tudo se perder
+ [E]                             [D]
+Mesmo sem razão eu quero lhe dizer
+
+Sem intenção
+                [A]
+Ver tudo se perder
+     [E]     [D]
+Dói tanto, tanto
+[A]
+A saudade é uma estrada longa`,
+  },
+  {
+    id:            "almir-sater-mes-de-maio",
+    titulo:        "Mês de Maio",
+    artista:       "Almir Sater",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3381,
+    cifra: `[Intro] [A]  [D/F#]  [A]  [D/F#]
+        [A]  [D/F#]  [E/G#]  [D]
+
+[A]                  [D/F#]             [A]              [D/F#]
+Azul do céu brilhou     e o mês de maio, enfim chegou
+                [A]              [D/F#]
+Olhos vão se abrir, pra tanta cor
+           [E/G#]       [D/F#]            [D/F#]
+É mês de maio, a vida tem seu resplendor
+
+[A]                [D/F#]       [A]              [D/F#]
+A luz do sol entrou   pela janela, me convidou
+              [A]              [D/F#]
+Pra tarde tão bela, e sem calor
+        [E/G#]              [D/F#]         [D/F#]
+É mês de maio, saio e vou ver o sol se pôr
+
+   [D/F#]  [A]         [D/F#] [A]
+Horizon..te, de aquare..la
+        [D/F#]    [A]     [D/F#]   [E/G#]   [E]
+Que ninguém    já.....mais   pin...tou
+   [D/F#]  [A]         [D/F#] [A]
+E um enxame, de estrelas
+          [D/F#]   [E/G#]   [D/F#]   [E/G#]   [A]
+Diz que o di.....a       ter....mi   nou
+
+[A]               [D/F#]            [A]            [D/F#]
+Noite nem se firmou   e a lua cheia, já clareou
+               [A]           [D/F#]
+Sombras podem vir, façam favor
+        [E/G#]          [D/F#]         [D/F#]
+É mês de maio, é tempo de ser sonhador
+
+[A]                 [D/F#]            [A]                [D/F#]
+Quem não se enamorou,   no mês de maio, bem que tentou
+              [A]          [D/F#]
+E quem não tiver, ainda amor
+        [E/G#]            [D/F#]           [D/F#]
+Dos solitários, o mês de maio é o protetor
+
+    [D/F#]  [A]          [D/F#]  [A]
+Boa te...rra, velha esfe...ra
+        [D/F#]    [A]     [D/F#]   [E/G#]   [E]
+Que nos lê......va    aon.....de   for
+      [D/F#]  [A]            [D/F#] [A]
+Pro futu....ro, quem nos de...ra
+       [D/F#]   [E/G#]   [D/F#]   [E/G#]   [A]
+Que te de.....ssem   mais    va...lor
+
+[A]               [D/F#]            [A]            [D/F#]
+Noite nem se firmou   e a lua cheia, já clareou
+               [A]           [D/F#]
+Sombras podem ir, façam favor
+        [E/G#]          [D/F#]         [D/F#]
+É mês de maio, é tempo de ser sonhador
+
+   [D/F#]  [A]         [D/F#] [A]
+Horizon..te, de aquare..la
+        [D/F#]    [A]     [D/F#]   [E/G#]   [E]
+Que ninguém    já.....mais   pin...tou
+   [D/F#]  [A]         [D/F#] [A]
+E um enxame, de estrelas
+          [D/F#]   [E/G#]   [D/F#]   [E/G#]   [A]
+Diz que o di.....a       ter....mi   nou
+
+    [D/F#]  [A]          [D/F#]  [A]
+Boa te...rra, velha esfe...ra
+        [D/F#]    [A]     [D/F#]   [E/G#]   [E]
+Que nos lê......va    aon.....de   for
+      [D/F#]  [A]            [D/F#] [A]
+Pro futu....ro, quem nos de...ra
+       [D/F#]   [E/G#]   [D/F#]   [E/G#]   [A]
+Que te de.....ssem   mais    va...lor`,
+  },
+  {
+    id:            "almir-sater-peao",
+    titulo:        "Peão",
+    artista:       "Almir Sater",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3410,
+    cifra: `[Intro] [C]
+
+ [G]
+Diga você me conhece
+               [F]
+Eu já fui boiadeiro
+
+Conheço essas trilhas
+              [C]
+Quilômetros, milhas
+        [G]     [C]
+Que vem e que vão
+        [G]     [C]
+Pelo alto sertão
+        [G]      [C]
+Que agora se chama
+          [F]     [C]
+Não mais de sertão
+           [F]     [C]
+Mas de terra vendida
+     [G]   [C]
+Civilização
+
+ [G]
+Ventos que arrombam janelas
+               [F]
+E arrancam porteiras
+                                 [C]
+Espora de prata riscando as fronteiras
+       [G]     [C]
+Selei meu cavalo
+     [G]     [C]
+Matula no fardo
+      [G]    [C]
+Andando ligeiro
+      [F]        [C]
+Um abraço apertado
+       [F]       [C]
+Um suspiro dobrado
+     [G]        [C]
+Não tem mais sertão
+
+[F]
+Os caminhos mudam com o tempo
+ [G]
+Só o tempo muda um coração
+ [F]
+Segue seu destino boiadeiro
+                          [C]
+Que a boiada foi no caminhão
+
+[F]
+A fogueira, a noite
+ [G]
+Redes no galpão
+[F]
+O paiero, a moda
+
+O mate, a proza
+
+A saga, a sina
+
+O causo e onça
+          [C]
+Tem mais não
+
+[G]  [F]  [C]
+Oh  peão
+
+( [C]  [G/B]  [F/A] )
+
+[G]
+Tempos e vidas cumpridas
+                [F]
+Pó, poeira, estrada
+Estórias contidas
+             [C]
+Nas encruzilhadas
+       [G]      [C]
+Em noites perdidas
+      [G]     [C]
+No meio do mundo
+        [G]   [C]
+Mundão cabeludo
+      [F]         [C]
+Onde tudo é floresta
+      [F]        [C]
+E campinas silvestres
+    [G]        [C]
+Mundão caba não
+
+ [G]
+Sabe, que prum bom viajante
+           [F]
+Nada é distante
+
+Prum bom companheiro
+              [C]
+Não conta dinheiro
+       [G]    [C]
+Existe uma vida
+       [G]    [C]
+Uma vida vivida
+      [G]       [C]
+Sentida e sofrida
+    [F]         [C]
+De vez por inteiro
+  [F]          [C]          [G]        [C]
+E esse é o preço de eu ser brasileiro
+
+[F]
+Os caminhos mudam com o tempo
+ [G]
+Só o tempo muda um coração
+ [F]
+Segue seu destino boiadeiro
+                          [C]
+Que a boiada foi no caminhão
+
+[F]
+A fogueira, a noite
+ [G]
+Redes no galpão
+[F]
+O paiero, a moda
+
+O mate, a proza
+
+A saga, a sina
+
+O causo e onça
+          [C]
+Tem mais não
+
+[G]  [F]  [C]
+Oh  peão
+
+[Final] [C]  [G]  [C]  [G]  [F]  [C]`,
+  },
+  {
+    id:            "almir-sater-jeito-de-mato",
+    titulo:        "Jeito de Mato",
+    artista:       "Almir Sater",
+    tom:           "E",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3956,
+    cifra: `[Intro]  [G] [Em7] [C9] [Am7]
+         [G] [Em7] [C9] [Am7] [D4]
+
+[Solo]
+
+E|-5-5-4p2--------------2-----------------|
+B|--------5-3p2-5-5/7----5-3p2---2-3h5-3--|
+G|------------------------------4---------|
+D|----------------------------------------|
+A|----------------------------------------|
+E|----------------------------------------|
+
+E|-2-------------------2------------------|
+B|---5-3p2---2-3p2---------3---3-3p2-2----|
+G|---------4-------4-----4---4------------|
+D|----------------------------------------|
+A|----------------------------------------|
+E|----------------------------------------|
+
+ [G]
+De onde é que vem
+      [Em7]
+Esses olhos tão tristes?
+ [G]                  [Em7]
+Vem da campina onde o sol se deita
+      [C]                 [Em/B]
+Do regalo de terra que teu dorso ajeita
+   [Am7]                [C]
+E dorme serena, no sereno e sonha
+
+ [G]
+De onde é que salta
+      [Em7]
+Essa voz tão risonha?
+     [G]                  [Em7]
+Da chuva que teima, mas o céu rejeita
+    [C]                 [Em/B]
+No mato, do medo, da perda tristonha
+       [Am7]              [C]
+Mas, que o sol resgata, arde deleita
+
+           [G]
+Há uma estrada de pedra
+                [D4/F#]
+Que passa na fazenda
+                      [Em7]
+É teu destino, é tua senda
+                        [C]
+De onde nascem tuas canções
+          [G]
+As tempestades do tempo
+                   [D4/F#]
+Que marcam tua história
+                      [Em7]
+Fogo que queima na memória
+                 [C]
+E acende os corações
+
+ [Am7]                                [C]
+Sim, dos teus pés na terra nascem flores
+                           [Em7]
+A tua voz macia aplaca as dores
+                           [D4/F#]
+E espalha cores vivas pelo ar
+
+ [Am7]                          [C]
+Sim, dos teus olhos saem cachoeiras
+                          [Em7]
+Sete Lagoas, mel e brincadeiras
+                              [D4]  [Am7]  [C]
+Espumas, ondas, águas do teu mar
+
+( [G]  [Em7]  [C9]  [Am7] )
+( [G]  [Em7]  [C9]  [Am7] )
+
+           [G]
+Há uma estrada de pedra
+                [D4/F#]
+Que passa na fazenda
+                      [Em7]
+É teu destino, é tua senda
+                        [C]
+De onde nascem tuas canções
+          [G]
+As tempestades do tempo
+                   [D4/F#]
+Que marcam tua história
+                      [Em7]
+Fogo que queima na memória
+                 [C]
+E acende os corações
+
+ [Am7]                                [C]
+Sim, dos teus pés na terra nascem flores
+                           [Em7]
+A tua voz macia aplaca as dores
+                           [D4/F#]
+E espalha cores vivas pelo ar
+
+ [Am7]                          [C]
+Sim, dos teus olhos saem cachoeiras
+                          [Em7]
+Sete Lagoas, mel e brincadeiras
+                              [D4]  [Am7]  [C]
+Espumas, ondas, águas do teu mar
+
+( [G]  [Em7]  [C9]  [Am7] )
+
+ [G]
+De onde é que vem
+      [Em7]
+Esses olhos tão tristes?
+ [C]                  [Am7]
+Vem da campina onde o sol se deita
+   [G]                      [Em7]
+De onde é que salta essa voz tão risonha
+ [C]                  [Am7]
+Dorme serena, no sereno e sonha
+
+( [G]  [Em7]  [C9] )
+
+ [Am7]            [G]
+Dorme serena e sonha`,
+  },
+  {
+    id:            "almir-sater-amanheceu-peguei-a-viola",
+    titulo:        "Amanheceu, Peguei a Viola",
+    artista:       "Almir Sater",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 3319,
+    cifra: `[D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+
+          [D]                [D7]                     [G]
+Sou cantador e tudo nesse mundo, vale pra que eu cante e possa praticar
+        [G#°]                    [D]
+A minha arte sapateia as cordas
+             [E]                    [A]
+E esse povo gosta de me ouvir cantar
+
+       [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+
+         [D]                    [D7]                  [G]
+Ao meio-dia eu tava em Mato Grosso, do sul ou do norte, não sei explicar
+          [G#°]                      [D]
+Só sei dizer que foi de tardezinha
+               [E]                   [A]
+Eu já tava cantando em Belém do Pará
+
+       [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+
+           [D]                   [D7]                    [G]
+Em Porto Alegre um tal de coronel, pediu que eu musicasse um verso que ele fez
+           [G#°]                    [D]
+Para uma china, que pela poesia
+              [E]                   [A]
+Nem lá em Pequim se vê tanta altivez
+
+       [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+
+          [D]                   [D7]                [G]
+Parei em minas pra trocar as cordas, e segui direto para o Ceará
+        [G#°]                        [D]
+E no caminho fui pensando, é lindo
+                 [E]                [A]
+Essa grande aventura de poder cantar
+
+       [D]          [G]   [D]          [G]    [D]          [G]  [D]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]          [G]    [D]          [G]  [D]  [E]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+       [E]          [A]   [E]          [A]    [E]          [A]  [E]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+
+          [E]                   [E7]                 [A]
+Chegou a noite e me pegou cantando, num bailão, no norte lá do Paraná
+          [A#°]                          [E]
+Daí pra frente ninguém mais se espanta
+                 [F#]                   [B]
+E o resto da noitada eu não posso contar
+
+       [E]            [A]       [E]
+Anoiteceu, e eu voltei pra casa
+        [A]      [E]                  [A6]    [E]
+Que o dia foi longo e o sol quer descansar
+       [E]          [A]   [E]          [A]    [E]          [A]  [E]
+Amanheceu, peguei a viola botei na sacola e fui viajar
+  [A]    [E]          [A]   [E]          [A]    [E]          [A]  [E]
+Amanheceu, peguei a viola botei na sacola e fui viajar`,
+  },
+  {
+    id:            "almir-sater-tristeza-do-jeca",
+    titulo:        "Tristeza do Jeca",
+    artista:       "Almir Sater",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2691,
+    cifra: `[Intro] [F]  [G/F]  [Em7]  [Am7]  [Dm7]  [G7]  [C]  [G7]
+
+[C]      [F]             [C]           [G7]         [C]
+Nestes versos tão singelos minha bela, meu amor
+ [C]     [F]          [C]           [G7]             [C]   [C7]
+Pra você quero contar o meu sofrer e a minha dor
+[F]                 [C]
+Eu sou como o sabiá
+         [A7]            [Dm7]          [G7]               [C]   [G/B] [Am7]
+Quando canta é só tristeza desde o galho onde ele está
+[G7]                                [C]       [G/B] [Am7]
+Nesta viola eu canto e gemo de verdade
+[G7]                           [C]
+Cada toada representa uma saudade
+
+[Solo] [F]  [G/F]  [Em7]  [A7]
+       [Dm7]  [G7]  [C]  [G7])
+
+[C]     [F]          [C]            [G7]           [C]
+Eu nasci naquela serra num ranchinho beira chão
+[C]     [F]          [C]           [G7]         [C]   [C7]
+Tudo cheio de buraco onde a lua faz clarão
+[F]                   [C]
+Quando chega a madrugada
+      [A7]        [Dm7]         [G7]         [C]       [G/B] [Am7]
+Lá no mato a passarada principia um barulhão
+[G7]                                [C]      [G/B] [Am7]
+Nesta viola eu canto e gemo de verdade
+[G7]                           [C]
+Cada toada representa uma saudade
+
+[Solo] [F]  [G/F]  [Em7]  [A7]
+       [Dm7]  [G7]  [C]  [G7]
+
+[C]        [F]          [C]           [G7]            [C]
+Vou guardar minha viola já não posso mais cantar
+       [F]           [C]            [G7]         [C]     [C7]
+Pois o jeca quando canta tem vontade de chorar
+[F]                   [C]
+E o choro que vai caindo
+    [A7]          [Dm7]            [G7]            [C]      [G/B] [Am7]
+Devagar vai se sumindo, como as águas vão pro mar
+[G7]                                [C]    [G/B] [Am7]
+Nesta viola eu canto e gemo de verdade
+[G7]                           [C]
+Cada toada representa uma saudade`,
+  },
+  {
+    id:            "almir-sater-boiada",
+    titulo:        "Boiada",
+    artista:       "Almir Sater",
+    tom:           "E",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2571,
+    cifra: `[Intro]  [B]
+
+[B]
+Ele foi levando boi, um dia ele se foi no rastro da boiada
+[E]
+A poeira é como o tempo, um véu, uma bandeira, tropa viajada
+ [B]
+Foram indo lentamente, calmos e serenos, lenta caminhada
+[E]
+E sumiram lá na curva, na curva da vida, na curva da estrada
+[F#7]
+E depois dali pra frente, não se tem notícias, não se sabe nada
+
+ [B]                [A]
+Nada que dissesse algo
+              [E]                   [B/F#]
+De boi, de boiada, de peão de estrada
+             [D]                      [A]
+Disse um viajante, história mal contada
+                  [C]                      [E/B]   [D]
+Ninguém viu, nem rastro, nem homem, nem nada
+
+[B]
+Isso foi há muito tempo, tempo em que a tropa ainda viajava
+ [E]
+Com seus fardos e pelegos no rangeu do arreio ao romper da aurora
+ [B]
+Tempos de estrelas cadentes, fogueiras ardentes, ao som da viola
+ [E]
+Dias e meses fluindo, destino seguindo, e a gente indo embora
+[F#7]
+Isso tudo aconteceu e o fato que se deu, faz parte da história
+
+  [B]                 [A]                 [E]
+E até hoje em dia quando junta a peãozada
+              [B/F#]              [D]
+Coisas assombradas, verdades juradas
+               [A/C#]             [C]
+Dizem que sumiram, que não existiram
+              [E/B]
+Ninguém sabe nada
+
+[B]
+Ele foi levando boi, um dia ele se foi no rastro da boiada
+[E]
+A poeira é como o tempo, um véu, uma bandeira, tropa viajada
+ [B]
+Foram indo lentamente, calmos e serenos, lenta caminhada
+ [E]
+Dias e meses seguindo, destino fluindo, e a gente indo embora
+[F#7]
+Isso tudo aconteceu e o fato que se deu, faz parte da história
+  [B]                 [A]                 [E]
+E até hoje em dia quando junta a peãozada
+              [B/F#]              [D]
+Coisas assombradas, verdades juradas
+               [A/C#]             [C]
+Dizem que sumiram, que não existiram
+              [E/B]
+Ninguém sabe nada`,
+  },
+  {
+    id:            "gino-e-geno-as-aguas-do-sao-francisco",
+    titulo:        "As Águas do São Francisco",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 5044,
+    cifra: `[Intro] [E]  [A]  [E]  [B7]  [E]  [E7]
+        [A]  [E]  [B7]  [E]  [B7]
+
+[Tab - Solo Intro]
+
+Parte 1 de 5
+E|------------------------------------------|
+B|------------5-7-5-4------------5-5p4------|
+G|-----------6--------6-4------4-------6----|
+D|---4-6-7--7----------------6--------------|
+A|-7-----------------------7----------------|
+E|------------------------------------------|
+
+Parte 2 de 5
+E|------------------------------------------|
+B|------------------------------------------|
+G|-6p4--------------------------------------|
+D|-----7p6---6-7p6---6--7p6-----------------|
+A|---------9-------9--------9p7-6-----0-----|
+E|--------------------------------9p7---4---|
+
+Parte 3 de 5
+E|------------------------------------------|
+B|---------------------5-7-5-4h5p4----------|
+G|--------------------6------------6-4------|
+D|--------------6-7--5----------------------|
+A|---7-6-5--7h9-----------------------------|
+E|-7----------------------------------------|
+
+Parte 4 de 5
+E|-4h5-6-7--4-7-4-7--5-4--------------------|
+B|-----------------------7-5-4-5-4---4------|
+G|---------------------------------6---6-4--|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 5 de 5
+E|------------------------------------------|
+B|------------------------------------------|
+G|------------------------------------------|
+D|-7-6-7-6-4--------------------------------|
+A|-----------7------------------------------|
+E|--------------5-5-5-5-5-------------------|
+
+[Primeira Parte]
+
+   [E]                               [B7]          [E]    [E7]
+As águas do São Francisco estavam por cima da ponte
+[A]                                    [E7]          [A]
+  Este é o grande motivo que eu não pude atravessar
+[B7]                                               [E]
+   Mas isto eu achei foi bom, fui obrigado a voltar
+
+[Pré-Refrão]
+
+     [A]                                     [B7]
+Pra casa do meu amor e passei a noite por lá
+    [E]  [B7]               [E]
+Fiquei    a noite inteirinha
+                          [B7]             [E]     [E7]
+Ao lado da moreninha esperando as águas baixar
+
+[Refrão]
+
+[A]                                             [E]
+  Enquanto as águas baixava, eu tomava café quente
+                   [B7]                         [E]
+Muitos beijos e abraços, aumentava o amor da gente
+  [A]                                             [E]
+E eu pedindo ao São Pedro, que aumentasse a enchente
+     [B7]                [E]
+São Pedro eu estou gostando
+                                    [B7]          [E]
+As águas pode ir aumentando e meu amor fica contente
+
+[Solo] [A]  [E]  [B7]  [E]  [E7]
+       [A]  [E]  [B7]  [E]  [E7]
+
+[Refrão]
+
+[A]                                             [E]
+  Enquanto as águas baixava, eu tomava café quente
+                   [B7]                         [E]
+Muitos beijos e abraços, aumentava o amor da gente
+  [A]                                             [E]
+E eu pedindo ao São Pedro, que aumentasse a enchente
+     [B7]                [E]
+São Pedro eu estou gostando
+                                    [B7]          [E]
+As águas pode ir aumentando e meu amor fica contente
+
+[Primeira Parte]
+
+   [E]                               [B7]          [E]    [E7]
+As águas do São Francisco estavam por cima da ponte
+[A]                                    [E7]          [A]
+  Este é o grande motivo que eu não pude atravessar
+[B7]                                               [E]
+   Mas isto eu achei foi bom, fui obrigado a voltar
+     [A]                                     [B7]
+Pra casa do meu amor e passei a noite por lá
+    [E]  [B7]               [E]
+Fiquei    a noite inteirinha
+                          [B7]             [E]     [E7]
+Ao lado da moreninha esperando as águas baixar
+
+[Solo] [A]  [E]  [B7]  [E]`,
+  },
+  {
+    id:            "gino-e-geno-pescaria",
+    titulo:        "Pescaria",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 5023,
+    cifra: `[E]                                       [B7]
+Rebojo de água suja é lugar de peixe juntar
+     [A]                          [B7]         [E]
+Eu armo o anzol de galha pra pegar um marruá
+                                        [B7]
+Meu rancho fica na beira de cá escuto bater
+   [A]              [E]                 [B7]         [E]
+Daqui da porta do rancho eu vejo a galha tremer
+
+                                           [B7]
+Pescador que é pescador pisa mansinho no barranco
+    [A]            [B7]                  [E]
+Chega devagar na ceva pra evitar o espanto
+                                              [B7]
+Tira a branca da capanga toma um gole pra esperar
+  [A]                 [E]             [B7]     [E]
+Linha balançou não mexe, deixa o bicho mamar
+
+                                            [B7]
+A linha tem que ser grossa, a isca é minhocuçu
+     [A]              [B7]                      [E]
+O braço tem que ser forte pra emborcar o bambu
+                                        [B7]
+Anzol bem encastoado Chumbada que faz tibungo
+    [A]               [E]           [B7]               [E]
+Dá vinte braças de linha que o bicho pega é no fundo
+
+                                            [B7]
+Não gosto de samburá eu só uso infiera de imbira
+      [A]                                [B7]         [E]
+Deixo um metro dentro d'água que assim o peixe respira
+                                          [B7]
+Pra espantar pernilongo acendo um pito de palha
+  [A]              [E]               [B7]      [E]
+Fico namorando a lua enquanto a isca trabalha
+
+                                               [B7]
+O rio bom é o que a gente não sabe o peixe que tem
+     [A]                           [B7]               [E]
+Bota a isca e manda longe só pra ver o que é que vem
+                                     [B7]
+Pescaria é paciência não pegar é natural
+  [A]                 [E]           [B7]              [E]
+Beliscou mas não fisgou é o pescador que pesca mal`,
+  },
+  {
+    id:            "gino-e-geno-acidente-de-amor",
+    titulo:        "Acidente de Amor",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3900,
+    cifra: `(intro) [E] [B] [E] [B]
+
+[E]                   [B7]                                        [E]
+Ela chegou correndo demais imprudente bateu e arrebentou meu Peito
+                          [B7]                                      [E]
+Acidente de amor machuca demais, furou o lado esquerdo amasso o Direito.
+                     [B7]                                 [E]
+Ela chegou correndo demais ela não conseguiu evitar a pancada
+                           [B7]                              [E]
+Acidente de amor machuca demais, mais ela também saiu Machucada.
+            [A]          [E]     [A]       [E]       [A]
+Ela veio guiando a paixão a 200 por hora quando se
+   [E]
+perdeu
+[A]
+E pegou meu coração de frente e nesse acidente a vitima sou eu
+[B7]                                        [A]            [E]
+E agora nesse sofrimento meu ferimento não sara e não cura
+                       [B7]                                     [E]
+E o pior é que ela se evadiu e por esse brasil meu amor lhe Procura
+
+(refrão)
+
+No acidente eu perdi o sentido e acordei ferido doendo de amor
+Preocupado comigo e com ela disseram que ela também se machuco
+E agora não sei onde está aquela que está me fazendo sofrer
+Mesmo assim eu to aqui me abrindo ferido sentindo meu peito
+Doer
+
+(refrão)
+
+Na intenção de encontrar a malvada um retrato falado eu mandei fazer
+Não me lembro de muitos detalhes mais de uma coisa eu não posso esquecer
+Apesar da violência do choque ainda sinto o toque o perfume no ar
+E no meu coração infeliz pra sempre a cicatriz desse amor vai ficar
+
+(refrão)
+
+Na intenção de encontrar a malvada um retrato falado eu mandei fazer
+Não me lembro de muitos detalhes mais de uma coisa eu não posso esquecer
+Apesar da violência do choque ainda sinto o toque o perfume no ar
+E no meu coração infeliz pra sempre a cicatriz desse amor vai ficar
+
+(refrão)
+
+Na intenção de encontrar a malvada um retrato falado eu mandei fazer
+Não me lembro de muitos detalhes mais de uma coisa eu não posso esquecer
+Apesar da violência do choque ainda sinto o toque o perfume no ar
+E no meu coração infeliz pra sempre a cicatriz desse amor vai ficar`,
+  },
+  {
+    id:            "gino-e-geno-o-cavaco-vuou",
+    titulo:        "O Cavaco Vuou",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 2648,
+    cifra: `[E]           [B7]           [A]             [E]
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+[E]           [B7]           [A]             [E]
+O machado cortou, cortou, cortou, cortou
+             [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+  [B7]                    [E]
+Madeira gemeu, cavaco vuou
+  [B7]                    [E]
+A madeira gemeu e o cavaco vuou
+
+ [E]           [B7]           [A]             [E]
+Botei a saudade no brete, fiz tudo do jeito que faz peão duro
+                            [B7]           [A]             [E]
+Quando veio abrindo a porteira, já comi poeira no primeiro pulo
+    [F#]
+Coloquei o arreio na paixão, com a rédea na mão, eu cheguei a
+[B7]
+Chibata
+                           [E]            [B7]
+Mas no amor não existe peão, no pulo da paixão, quase que ela me
+[E]
+Mata
+
+[E]           [B7]           [A]             [E]
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+  [B7]                    [E]
+Madeira gemeu, cavaco vuou
+  [B7]                    [E]
+A madeira gemeu e o cavaco vuou
+
+ [E]           [B7]           [A]             [E]
+Convidei um amigo pra ir em uma pescaria lá no Pantanal
+                          [B7]           [A]             [E]
+De tanto medo da mulher, o coitado até ficou passando mal
+    [F#]                                                        [B7]
+Preocupado com ele, eu pensei em uma solução pra evitar o perigo
+                       [E]            [B7]                     [E]
+O amigo eu deixei em casa e levei a mulher para pescar comigo
+
+[E]           [B7]           [A]             [E]
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+ [B7]                    [E]
+Madeira gemeu, cavaco vuou
+  [B7]                    [E]
+A madeira gemeu e o cavaco vuou
+
+ [E]           [B7]           [A]             [E]
+Eu vendi um canário que canta e um que não canta eu vendi muito bem
+                              [B7]           [A]             [E]
+O que canta eu vendi por cinquenta e o que não canta eu vendi por cem
+      [F#]
+Perguntaram qual a diferença, por que o que não canta teve mais
+[B7]
+Valor?
+                           [E]            [B7]
+O que canta pega a moda pronta, mas o que não canta é o compositor
+
+[E]           [B7]           [A]             [E]
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+O machado cortou, cortou, cortou, cortou
+            [B7]           [A]             [E]
+O suor escorreu, a madeira gemeu e o cavaco vuou
+
+  [B7]                    [E]
+Madeira gemeu, cavaco vuou
+ [B7]                    [E]
+A madeira gemeu e o cavaco vuou
+  [B7]                    [E]
+Madeira gemeu, cavaco vuou
+  [B7]                    [E]
+A madeira gemeu e o cavaco vuou`,
+  },
+  {
+    id:            "gino-e-geno-gaviao",
+    titulo:        "Gavião",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3772,
+    cifra: `[Intro] [E]  [B7]
+
+[E]               [B7]               [A]                [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+[E]               [B7]               [A]                [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+
+                    [B7]                        [E]
+O gavião, que voa baixo ta querendo matar a fome
+                    [B7]                        [E]
+O gavião, que voa baixo ta querendo matar a fome
+      [E7]           [A]                     [B7]                   [E]
+Na verdade todo gavião quando pousa no chao é um pinto que some
+      [E7]           [A]                     [B7]                   [E]
+Na verdade todo gavião quando pousa no chao é um pinto que some
+
+[E]               [B7]              [A]                  [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+[E]               [B7]              [A]                  [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+
+                           [B7]                        [E]
+Gaviao rei,  vai atras da caça, cacara so fica na sobra
+                            [B7]                        [E]
+Gaviao rei,  vai atras da caça, cacara so fica na sobra
+      [E7]          [A]                     [B7]                   [E]
+Quando vc ve pena voando é gavião brigando por causa de cobra
+      [E7]          [A]                     [B7]                   [E]
+Quando vc ve pena voando é gavião brigando por causa de cobra
+
+[E]               [B7]              [A]                  [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+[E]               [B7]              [A]                  [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+
+                            [B7]                        [E]
+Gaviao gosta de cobra grande, mas tambem pega pinto pequeno
+                            [B7]                        [E]
+Gaviao gosta de cobra grande, mas tambem pega pinto pequeno
+     [E7]               [A]                     [B7]                   [E]
+Pra matar gavião tem instinto é de cobra e de pinto que ele ta vivendo
+     [E7]               [A]                     [B7]                   [E]
+Pra matar gavião tem instinto é de cobra e de pinto que ele ta vivendo
+
+[E]               [B7]               [A]                 [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+[E]               [B7]               [A]                 [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+
+( [E]  [B7] )
+
+                            [B7]                        [E]
+Gaviao gosta de cobra grande, mas tambem pega pinto pequeno
+                            [B7]                        [E]
+Gaviao gosta de cobra grande, mas tambem pega pinto pequeno
+      [E7]              [A]                     [B7]                   [E]
+Pra matar gavião tem instinto é de cobra e de pinto que ele ta vivendo
+      [E7]              [A]                     [B7]                   [E]
+Pra matar gavião tem instinto é de cobra e de pinto que ele ta vivendo
+
+[E]               [B7]               [A]                 [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+[E]               [B7]               [A]                 [E]
+Ele diz que é gavião que é gostosao e se acha bonito
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico
+                         [B7]                               [E]
+Gaviao que so dorme no pau, gavião so vive com pinto do bico`,
+  },
+  {
+    id:            "gino-e-geno-nois-enverga-mais-nao-quebra",
+    titulo:        "Nois Enverga Mais Não Quebra",
+    artista:       "Gino e Geno",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 4959,
+    cifra: `[Refrão]
+
+ [C]                      [G]                             [C]
+Nóis enverga mas não quebra, nóis chacoalha e não derrama
+                      [G]                          [C]
+Nóis balança mas não cai, nóis é brabo e bom de cama
+                      [G]                    [C]
+De bobo nóis não tem nada, só a cara de coitado
+         [C7]         [F]          [G]            [C]       [G] [C]
+Nóis se finge de leitão, pra poder mamar deitado
+
+                                       [G]
+Osso duro de roer, somos nóis aqui do mato
+                                      [C]
+Tomando cachaça pura, comendo ovo de pato
+                   [C7]                       [F]
+Capinando a nossa roça, contando boi na envernada
+                      [C]              [G]            [C]
+Nóis não tem dor de cabeça, não se encomoda com nada
+
+ [C]
+De noite a nóis vai pra festa
+              [G]
+E arrepia no bailão
+                                          [C]
+Mulher bonita e gostosa, nóis ganha de montão
+                    [C7]                      [F]
+Onde tem moda de viola e catira nóis ta no meio
+                     [C]             [G]              [C]
+Nóis não liga pra dinheiro, nóis já ta com saco cheio`,
+  },
+  {
+    id:            "gino-e-geno-arrependida",
+    titulo:        "Arrependida",
+    artista:       "Gino e Geno",
+    tom:           "G",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 4116,
+    cifra: `[Intro] [G]  [Am]  [D7]  [G]  [Em]  [D7]  [G]
+
+[G]                                 [D]
+Eu não sou culpado se hoje você chora
+                             [G]
+Foi você mesma que me abandonou
+                             [D]
+Implorei tanto pra não ir embora
+           [C]                [G]
+As minhas súplicas não escutou
+                               [D]
+Hoje você chora triste arrependida
+                              [G]
+Para meus braços você quer voltar
+             [G7]                    [C]
+Você foi maldosa e arruinou minha vida
+         [D]                  [G]     [G] [Am] [D7] [Em] [D7] [G]
+Me compreendas não vou perdoar
+
+ [G]                            [D]
+Na sua ausência eu chorei de dor
+                           [G]
+Não suportei, fui a sua procura
+                             [D]
+Encontrei você com um novo amor
+         [C]               [G]
+Trocava beijos e fazia juras
+                           [D]
+Naquela noite fiquei embriagado
+                     [G]   [D7]
+Amanheci bebendo no bar
+                       [C]
+Estava triste e desesperado
+            [D]              [G]   [G] [Am] [D7] [G] [Em] [D7] [G]
+Chamei seu nome comecei chorar
+
+  [G]                            [D]
+O seu retrato que eu tinha guardado
+                                [G]
+Pra não recordá-la eu já joguei fora
+                             [D]
+Existe outra que vive ao meu lado
+             [C]                      [G]
+Que me faz carinho depois que foi embora
+                                 [D]
+Segue o seu caminho vai viver na lama
+                       [G]   [G7]
+Por piedade esqueça de mim
+                           [C]
+Por sua culpa todos me difamam
+            [D]                  [G]
+O meu nome rola num abismo sem fim
+       [D]                         [G]
+Segue mulher vai viver de mão em mão
+        [D]                [G]          [G7]
+Pois o remorço pouco a pouco lhe consome
+          [C]                   [G]
+Sinto uma dor dentro do meu coração
+          [D]    [C]                              [G]
+Tenho vergonha... por você usar... o meu sobrenome
+
+[Final] [G]  [Am]  [D7]  [G]  [Em]  [D7]  [G]`,
+  },
+  {
+    id:            "gino-e-geno-morena-bonita",
+    titulo:        "Morena Bonita",
+    artista:       "Gino e Geno",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3902,
+    cifra: `Morena bonita vem me consolar
+                             [G]
+Sem você morena eu não vou ficar
+Não demoro dias eu vou te buscar
+                                [C]
+Eu vim pra este mundo para te adorar
+
+                             [G]
+Se você me ama não me faz assim
+                            [C]
+Venha cá meu bem me fazer carinho
+               [C7]               [F]
+Não deixa eu sofrer tenha dó de mim
+  [G]      [C]
+Ai ai
+
+As suas palavras são tão carinhosa
+                          [G]
+Essa sua pele parece uma rosa
+Venha cá meu bem, morena luxosa
+                            [C]
+Minha flor querida é tão amorosa
+
+                            [G]
+Me faça carinho oh minha querida
+                                     [C]
+Dentro dos seus braços não encontro saída
+            [C7]                [F]
+Só você morena é toda minha vida
+[G]        [C]
+Ai ai
+
+Esses seus cabelos é minha paixão
+                             [G]
+Te faço um pedido não corte ele não
+Se você cortar é uma perdição
+                         [C]
+Morena bonita do meu coração
+
+                        [G]
+Este nosso amor é uma pureza
+                          [C]
+Você ao meu lado é uma beleza
+                 [C7]           [F]
+E nós dois se amando é a maior riqueza
+[G]    [C]
+Ai ai`,
+  },
+  {
+    id:            "gino-e-geno-jeito-caipira",
+    titulo:        "Jeito Caipira",
+    artista:       "Gino e Geno",
+    tom:           "E",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3060,
+    cifra: `[Intro] [E]  [A]  [B7]  [E]  [B7]  [A]  [B7]  [E]
+
+E|-4-4-4-4-5-5/7-7--4-4-4-5-5/7-7--7/12-12-12-12-11---12-12-12-12-11--9--9--9-12-12-12-11-11-7-7-7-5-4-|
+B|-5-5-5-5-7-7/9-9--5-5-5-7-7/9-9--9/14-14-14-14-12---14-14-14-14-12-10-10-10-14-14-14-12-12-9-9-9-7-5-|
+G|----------------------------------------------------------------------------------------------------|
+D|----------------------------------------------------------------------------------------------------|
+A|----------------------------------------------------------------------------------------------------|
+E|----------------------------------------------------------------------------------------------------|
+
+E|-4/--9--9--9-5-5-4-4--5/7-5/7-|
+B|-5/-10-10-10-7-7-5-5--7/9-7/9-|
+G|------------------------------|
+D|------------------------------|
+A|------------------------------|
+E|------------------------------|
+
+            [E]                                         [B7]
+Mulher pra me ganhar ela tem que gostar do meu jeito caipira
+                                                        [E]
+Não mexer na muringa onde eu guardo minha pinga com sucupira
+                                    [E7]                   [A]
+Quando eu chegar do mato catar carrapato em meu corpo cansado
+              [E]                      [B7]                [E]     [F#]
+Não fazer enjoeiro quando sentir o cheiro de bosta de gado
+                                                           [B7]     [A]
+Eu quero uma mulher que ainda reze com fé um Pai Nosso perfeito
+                [E]                        [B7]                 [E]
+Eu não sou primitivo, é que eu acho que vivo melhor desse jeito
+
+   [E]                                                    [B7]
+Eu quero uma mulher que ainda coe um café num coador de pano
+                                                          [E]
+Que vergonha não tenha de um fogão à lenha e o teto esfumaçando
+                             [E7]                    [A]
+Não precisa saber de tudo fazer duas coisas não abro
+               [E]              [B7]                    [E]      [F#]
+De noite o prazer e de dia fazer um franguim com quiabo
+                                                          [B7]      [A]
+Eu quero uma mulher que ainda reze com fé um Pai Nosso perfeito
+                [E]                        [B7]                 [E]
+Eu não sou primitivo, é que eu acho que vivo melhor desse jeito
+
+ [E]                                                           [B7]
+Você pode pensar que eu não vou me casar, que essa coisa não vira
+                                                               [E]
+Que eu não vou encontrar uma mulher pra aceitar o meu jeito caipira
+                                         [E7]               [A]
+Quer saber o que eu acho se não for nos braços de uma mulher
+              [E]                 [B7]              [E]     [F#]
+Uma coisa consola, o braço da viola, viola me quer
+                                                           [B7]      [A]
+Eu quero uma mulher que ainda reze com fé um Pai Nosso perfeito
+                [E]                        [B7]                 [E]      [A]
+Eu não sou primitivo, é que eu acho que vivo melhor desse jeito
+                [E]                        [B7]                 [E]
+Eu não sou primitivo, é que eu acho que vivo melhor desse jeito
+
+E|-5/-9--9-5-5-7-7-4-4-5-5-2-2-4-4-4-|
+B|-7/10-10-7-7-9-9-5-5-7-7-4-4-5-5-5-|
+G|---------------------------------4-|
+D|---------------------------------6-|
+A|---------------------------------7-|
+E|-----------------------------------|`,
+  },
+  {
+    id:            "gino-e-geno-estrela-de-ouro",
+    titulo:        "Estrela de Ouro",
+    artista:       "Gino e Geno",
+    tom:           "G",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 2858,
+    cifra: `Intro: [D]  [G]  [D]  [D7]  [G]
+       [D]  [G]  [D]  [D7]  [G]  [D]  [C]  [D]
+
+    [G]                [D]                 [G]
+Meu Deus, onde esta agora a mulher que amo?
+                                [D]   [D7]
+Será que esta sozinha ou acompanhada?
+    [C]                                 [G]
+Só sei que aqui distante eu estou morrendo
+                      [D]                 [G]        [D] [C] [D]
+Morrendo de saudades dela num mundo de lágrimas
+    [G]                  [D]                 [G]
+Meu Deus, mande que o vento encontre com ela
+                                          [D]   [D7]
+Pra dar minhas tristes notícias com seu açoite
+   [C]                                 [G]
+Dizer que por não estar abraçado por ela
+                          [D]               [G]     [G] [D]
+Eu choro meu pranto escondido no colo da noite
+
+Refrão:
+ [C]   [D]                      [G]
+Meu Deeeeeeus, eu morro por ela
+              [D]  [D7]             [G]    [G] [D]
+E a ausência dela provoca meu choro
+[C]   [D]                          [G]
+Ela ééééééééé a luz que me ilumina
+                [D]  [D7]                [G]     [D] [D7] [G]   [D] [G]
+Deusa da minha sina, minha estrela de ouro`,
+  },
+  {
+    id:            "gusttavo-lima-na-hora-de-amar",
+    titulo:        "Na Hora de Amar",
+    artista:       "Gusttavo Lima",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4750,
+    cifra: `[Intro] [Em9]  [C9(11+)]  [D9(11)]
+        [Em9]  [C9(11+)]  [D9(11)]
+
+[Tab - Solo Intro]
+
+E|-----------x-----------x------------x----------------|
+B|----7-8--7-x----5-5--7-x---7h8-7----x----------------|
+G|-/9-7-7--7-x-x--5-5--7-x-x-7h9-7--9-x-x--7/9--7------|
+D|-/9--------x-----------x----------9-x----7/9--7------|
+A|-----------x-----------x------------x----------------|
+E|-----------x-----------x------------x----------------|
+
+[Dedilhado - Intro]
+
+Parte 1 De 2
+   [Em9]                [C9(11+)]
+E|---------x------------------x------------------------|
+B|---------x----------------3-x------------------------|
+G|-------0-x--------------0---x------------------------|
+D|-----4---x--x---4-----4-----x--x---4-----------------|
+A|---2-----x----2-----3-------x----3-------------------|
+E|-0-------x------------------x------------------------|
+
+Parte 2 De 2
+   [D9(11)]
+E|---------x----------------0-x------------------------|
+B|-------3-x------------------x------------------------|
+G|-----0---x--------------0---x------------------------|
+D|---4-----x--x---4-----4-----x------------------------|
+A|-5-------x----5-----5-------x-0----------------------|
+E|---------x------------------x---3-2------------------|
+
+Parte 1 De 2
+   [Em9]                [C9(11+)]
+E|---------x------------------x------------------------|
+B|---------x----------------3-x------------------------|
+G|-------0-x--------------0---x------------------------|
+D|-----4---x--x---4-----4-----x--x---4-----------------|
+A|---2-----x----2-----3-------x----3-------------------|
+E|-0-------x------------------x------------------------|
+
+Parte 2 De 2 - Variação
+  [D9(11)]
+E|---------x----------------0--------------------------|
+B|-------3-x-------------------------------------------|
+G|-----0---x--------------0----------------------------|
+D|---4-----x--x---4-----4------------------------------|
+A|-5-------x----5-----5--------------------------------|
+E|---------x-------------------------------------------|
+
+[Primeira Parte]
+
+       [Em]           [Am7]      [D2]
+Teu olhar sempre está muito longe
+         [Em]          [Am7]      [D2]
+Em um lugar que se chama solidão
+            [Em]    [C]            [D2]
+Chego a pensar, que você se esconde
+             [A2]
+Da minha paixão
+
+[Segunda Parte]
+
+[Dedilhado - Segunda Parte]
+
+Parte 1 De 2
+   [Em]                 [C]
+E|---------x------------------x------------------------|
+B|---------x----------------3-x------------------------|
+G|-------0-x--------------0---x------------------------|
+D|-----4---x--x---4-----4-----x--x---4-----------------|
+A|---2-----x----2-----3-------x----3-------------------|
+E|-0-------x------------------x------------------------|
+
+Parte 2 De 2
+   [D]
+E|---------x----------------0-x------------------------|
+B|-------3-x------------------x------------------------|
+G|-----0---x--------------0---x------------------------|
+D|---4-----x--x---4-----4-----x------------------------|
+A|-5-------x----5-----5-------x-0----------------------|
+E|---------x------------------x---3-2------------------|
+
+Parte 2 De 2 - Variação
+   [D]
+E|---------x------------------x------------------------|
+B|-------3-x----------------3-x------------------------|
+G|-----0---x--------------0---x------------------------|
+D|---4-----x--x---4-----4-----x------------------------|
+A|-5-------x----5-----5-------5\-----------------------|
+E|---------x-------------------------------------------|
+
+           [Em9]       [C9(11+)]  [D9(11)]
+Sempre a voar, pensamento distante
+            [Em9]  [C9(11+)]        [D9(11)]
+E eu me pergunto o que foi que fiz?
+           [Em9]     [C9(11+)]       [D9(11)]
+Mas são palavras que ninguém responde
+             [A2]  [Am7]
+Te vejo infeliz
+
+[Refrão]
+
+             [D2]           [A2]
+Você deve estar com medo de contar
+          [Bm]              [G]
+Que seu amor, por mim acabou
+           [Em]  [Em/F#]  [G]       [A2]
+Sempre fingiu,       nada sentiu
+             [Bm]  [Bm/A]
+Na hora de amar
+
+[Terceira Parte]
+
+           [Em]         [C]
+Eu vejo o Sol se afastando
+        [D2]
+Do horizonte
+         [Em]       [C]            [D2]
+Igual você que se escondeu de mim
+             [Em]
+Não sei porque
+     [C]                [D2]
+Um amor que era tão grande
+               [A2]  [Am7]
+Foi ficando assim
+
+[Refrão]
+
+[Tab - Frase 1]
+
+                 [Em]
+E|-0-------------0--0--0--0--0-------------------------|
+B|---3-0---------0--0--0--0--0-------------------------|
+G|-------2-0-2---0--0--0--0--0-------------------------|
+D|---------------2--2--2--2--2-------------------------|
+A|---------------2--2--2--2--2-------------------------|
+E|---------------0--0--0--0--0-------------------------|
+                 ↓  ↓  ↓   ↓  ↑
+
+[Tab - Frase 2]
+
+E|---------2------5/7-7--------------------------------|
+B|-----3-5---3/5---------------------------------------|
+G|-2/4-------------------------------------------------|
+D|-----------------------------------------------------|
+A|-----------------------------------------------------|
+E|-----------------------------------------------------|
+
+             [D2]           [A2]
+Você deve estar com medo de contar
+          [Bm]              [G]
+Que seu amor, por mim acabou
+           [Em]  [Em/F#]  [G]       [A2]
+Sempre fingiu,       nada sentiu
+             [D2]
+Na hora de amar
+          [A2]
+Tem medo de contar
+          [Bm]              [G]
+Que seu amor, por mim acabou
+           Frase 1      [A2]
+Sempre fingiu, nada sentiu
+             [Bm] (Frase 2)  [Bm/A]
+Na hora de amar
+
+[Quarta Parte]
+
+[Em]          [G]            [D2]      [C]
+   A gente sente quando tudo acabou
+[Em]             [G]           [D2]
+   Quando o encanto da paixão sumiu
+[Em]          [G]            [D2]    [A2]
+   Um sentimento que só meu coração
+       [C]  [A2]
+Descobriu
+
+[Refrão Final]
+
+[Tab - Frase 3]
+
+                 [Cm]
+E|---------------3--3--3--3--3-------------------------|
+B|---------------4--4--4--4--4-------------------------|
+G|-5-3-----------5--5--5--5--5-------------------------|
+D|-----5-3-1-3---5--5--5--5--5-------------------------|
+A|---------------3--3--3--3--3-------------------------|
+E|-----------------------------------------------------|
+                 ↓  ↓   ↓  ↓  ↑
+
+   [Bb2]       [Eb2]          [Bb2]
+Você deve estar com medo de contar
+          [Cm]              [Ab]
+Que seu amor, por mim acabou
+           [Fm]  [G]  [Ab]      [Bb2]
+Sempre fingiu,   nada sentiu
+             [Eb2]
+Na hora de amar
+          [Bb2]
+Tem medo de contar
+         (Frase 3)        [Ab]
+Que seu amor, por mim acabou
+           [Fm]   [Ab]      [Bb2]
+Sempre fingiu, nada sentiu
+             [Cm]
+Na hora de amar
+
+[Tab - Final]
+
+   [Cm]
+E|------------------3----------------------------------|
+B|----3--4-------3-------------------------------------|
+G|-5--5--5----5--5-------------------------------------|
+D|-5----------5----------------------------------------|
+A|-3---------------------------------------------------|
+E|------------4----------------------------------------|`,
+  },
+  {
+    id:            "gusttavo-lima-inventor-dos-amores",
+    titulo:        "Inventor Dos Amores",
+    artista:       "Gusttavo Lima",
+    tom:           "F",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 335,
+    cifra: `[Intro] [Gm]  [Bb5(9)]  [F]  [C5(9)]
+
+[Tab - Intro]
+
+Parte 1 de 2
+   [Gm]                  [Bb5(9)]
+E|-------5-6-------5-6----------8-10-----------------|
+B|-8-8-8-----8-8-8-----11-11-11----------------------|
+G|---------------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 2 de 3
+                       [F]                    [C5(9)]
+E|-------10-10-10-8--6-6/8---6/8--8--8--6-5-----8----|
+B|-10/11-11-11-11-10-8-8/10--8/10-10-10-8-6----------|
+G|------------------------------------------7/9------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 3 de 3
+E|-----6p5-------------------------------------------|
+B|---------8-6-6/8~----------------------------------|
+G|-5/7-----------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Primeira Parte]
+
+[Gm]
+   Eu já não sei mais
+
+O que faço com meu coração
+[Bb5(9)]
+       Eu não tenho mais
+
+O controle da situação
+[F]
+  Todo caminho que eu sigo
+                [C5(9)]
+Me leva a você
+
+[Gm]
+   E quanto mais tento fugir
+
+Eu me aproximo mais
+[Bb5(9)]
+       Não tem mais jeito
+
+Já se foi razão ficou pra trás
+[F]
+  Eu já não sigo meus instintos
+            [C5(9)]
+Medo de sofrer
+
+[Pré-Refrão]
+
+[Gm]
+   E se eu me entregar
+          [F/A]   [Bb5(9)]
+Será que vai rolar?
+
+Sou um doente apaixonado
+             [F]  [C5(9)]
+E ela tem razão
+[Gm]
+   Se for pra ser assim
+           [F/A]    [Bb5(9)]
+Eu vou cuidar de mim
+
+Eu penso em desistir
+               [C5(9)]
+E ela diz que não
+
+[Refrão]
+
+[F]
+  Meu coração apaixonado
+
+Atormentado em dores
+[C5(9)]
+      Procura entre os outros
+        [Bb5(9)]   [F]
+O inventor dos amores
+[Gm]                     [Dm]
+   Espero que essa paixão
+                [C5(9)]  [Bb5(9)]  [C5(9)]
+Nunca me deixe mal
+
+[F]
+  Eu quero te amar
+
+E também quero ser amado
+[C5(9)]
+      Desejo ser o seu amor
+   [Bb5(9)]       [F]
+E não o seu escravo
+[Gm]                     [Dm]
+   Espero que essa paixão
+                   [C5(9)]
+Não tenha ponto final
+       [Bb5(9)]      [C5(9)]            [F]
+Se não        adeus     tchau tchau
+
+[Solo] [Gm]  [Bb5(9)]  [F]  [C5(9)]
+
+[Tab - Solo]
+
+Parte 1 de 2
+   [Gm]                  [Bb5(9)]
+E|------5-6-------5-6----------8-10------------------|
+B|-8-8-------8-8-------11-11-------------------------|
+G|---------------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 2 de 3
+                       [F]                    [C5(9)]
+E|----------10-10-8--6-6/8---6/8--8--8--6-5-----8----|
+B|-10-10/11-11-11-10-8-8/10--8/10-10-10-8-6----------|
+G|------------------------------------------7/9------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+Parte 3 de 3
+E|-----6p5-------------------------------------------|
+B|---------8-6-6/8~----------------------------------|
+G|-5/7-----------------------------------------------|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Pré-Refrão]
+
+[Gm]
+   E se eu me entregar
+          [F/A]   [Bb5(9)]
+Será que vai rolar?
+
+Sou um doente apaixonado
+             [F]  [C5(9)]
+E ela tem razão
+[Gm]
+   Se for pra ser assim
+           [F/A]    [Bb5(9)]
+Eu vou cuidar de mim
+
+Eu penso em desistir
+               [C5(9)]
+E ela diz que não
+
+[Refrão]
+
+[F]
+  Meu coração apaixonado
+
+Atormentado em dores
+[C5(9)]
+      Procura entre os outros
+        [Bb5(9)]   [F]
+O inventor dos amores
+[Gm]                     [Dm]
+   Espero que essa paixão
+                [C5(9)]  [Bb5(9)]  [C5(9)]
+Nunca me deixe mal
+
+[F]
+  Eu quero te amar
+
+E também quero ser amado
+[C5(9)]
+      Desejo ser o seu amor
+   [Bb5(9)]       [F]
+E não o seu escravo
+[Gm]                     [Dm]
+   Espero que essa paixão
+                   [C5(9)]
+Não tenha ponto final
+
+[F]
+  Meu coração apaixonado
+
+Atormentado em dores
+[C5(9)]
+      Procura entre os outros
+        [Bb5(9)]   [F]
+O inventor dos amores
+[Gm]                     [Dm]
+   Espero que essa paixão
+                [C5(9)]  [Bb5(9)]  [C5(9)]
+Nunca me deixe mal
+
+[F]
+  Eu quero te amar
+
+E também quero ser amado
+[C5(9)]
+      Desejo ser o seu amor
+   [Bb5(9)]       [F]
+E não o seu escravo
+[Gm]                     [Dm]
+   Espero que essa paixão
+                   [C5(9)]
+Não tenha ponto final
+       [Bb5(9)]      [C5(9)]            [F]
+Se não        adeus     tchau tchau
+
+[Final] [Bb5(9)]  [C5(9)]  [F]`,
+  },
+  {
+    id:            "gusttavo-lima-retrovisor",
+    titulo:        "Retrovisor",
+    artista:       "Gusttavo Lima",
+    tom:           "B",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2358,
+    cifra: `E|---------------------------------------------|
+B|---------------------------------------------|
+G|--10-9-10-9-10---9h10p9---10-9-9h-10---------|
+D|-------------------------8-------------------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+E|----10--10-----8h10p8------------------------|
+B|--11--11----10-------------------------------|
+G|---------------------------------------------|
+D|---------------------------------------------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+E|--13-13/15-13---17-17/18-17------------------|
+B|---------------------------------------------|
+G|--14-14/15-14---17-17/19-17------------------|
+D|---------------------------------------------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+[D]                   [G]
+Só tem louça pra lavar
+
+Quem tem comida no prato
+           [D]
+Só paga IPVA quem já conquistou um carro
+
+[Pré-Refrão]
+
+                         [Bm]
+Só passa a noite ouvindo choro
+                          [F#m]
+Quem teve a benção de um filho
+                   [G]
+Só tem que acordar cedo
+                                 [A4]      [A]
+Quem tem um emprego cê já pensou nisso?
+                         [G]     [A]
+Começa a ver o copo meio cheio
+                [D]
+E não meio vazio
+
+[Refrão]
+
+                [G]                    [Em7]
+Olha pro retrovisor tudo que cê já passou
+                     [D]
+Lembra quando cê ajoelhou pra pedir
+
+Pelas coisas que hoje você reclamou
+                [G]                    [Em7]
+Olha pro retrovisor e começa a dar valor
+                    [D]
+Tem tanta gente com menos que
+                              [A]
+Tá agradecendo só porque acordou
+              [G]     [D]
+Olha pro retrovisor
+
+( [Bm]  [D] )
+
+[Pré-Refrão]
+
+                         [Bm]
+Só passa a noite ouvindo choro
+                          [F#m]
+Quem teve a benção de um filho
+                   [G]
+Só tem que acordar cedo
+                                 [A4]      [A]
+Quem tem um emprego cê já pensou nisso?
+                         [G]     [A]
+Começa a ver o copo meio cheio
+                [D]
+E não meio vazio
+
+[Refrão]
+
+                [G]                    [Em7]
+Olha pro retrovisor tudo que cê já passou
+                     [D]
+Lembra quando cê ajoelhou pra pedir
+                      [D]
+Pelas coisas que hoje você reclamou
+                [G]                    [Em7]
+Olha pro retrovisor e começa a dar valor
+                    [D]
+Tem tanta gente com menos que
+                              [A]
+Tá agradecendo só porque acordou
+              [G]
+Olha pro retrovisor
+
+Tudo que cê já passou
+
+( [Em]  [D] )
+
+                  [D]
+Pelas coisas que hoje você reclamou
+              [G]     [Em]
+Olha pro retrovisor
+                    [D]
+Tem tanta gente com menos que
+                              [A]
+Tá agradecendo só porque acordou
+              [G]
+Olha pro retrovisor
+
+E|-----10-----8h10p8--------------------------|
+B|--11-----10---------------------------------|
+G|--------------------------------------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|`,
+  },
+  {
+    id:            "gusttavo-lima-termina-comigo-antes",
+    titulo:        "Termina Comigo Antes",
+    artista:       "Gusttavo Lima",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 635,
+    cifra: `[Intro] [Em]  [C9]  [G]  [D/F#]
+
+[Tab - Intro]
+
+Parte 1 de 2
+   [Em7]               [C9]
+E|------x------x----------x-------x------------|
+B|----0-x-0--0-x--------3-x-3--3--x------------|
+G|----0-x-0--0-x--------0-x-0--0--x------------|
+D|----2-x-2--2-x-x------2-x-2--2--x-x----------|
+A|------x------x-----3----x-3-----x------------|
+E|-0----x-0----x----------x-------x------------|
+
+Parte 2 de 2
+   [G]                 [D/F#]
+E|------x------x-----x-------------------------|
+B|----3-x-3--3-x-----3-------------------------|
+G|----0-x-0--0-x-----2-------------------------|
+D|----0-x-0--0-x-x---0-------------------------|
+A|------x------x-----x-------------------------|
+E|-3----x-3----x-----2-------------------------|
+                     ↓
+[Tab - Solo Intro]
+
+E|---------------------------------------------|
+B|-3/5~--3/5~--3/5-3~--------------------------|
+G|---------------------2/4-2-------------------|
+D|--------------------------------4/54-42-2--|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+[Primeira Parte]
+
+[Tab - Primeira Parte]
+
+Parte 1 de 2
+   [Em7]               [C9]
+E|------x------x----------x-------x------------|
+B|----0-x-0--0-x--------3-x-3--3--x------------|
+G|----0-x-0--0-x--------0-x-0--0--x------------|
+D|----2-x-2--2-x-x------2-x-2--2--x-x----------|
+A|------x------x-----3----x-3-----x------------|
+E|-0----x-0----x----------x-------x------------|
+
+Parte 2 de 2
+   [G]                [D/F#]
+E|------x------x---------x------x--------------|
+B|----3-x-3--3-x-------3-x-3--3-x--------------|
+G|----0-x-0--0-x-------2-x-2--2-x--------------|
+D|----0-x-0--0-x-x-----0-x-0--0-x-x------------|
+A|------x------x---------x------x--------------|
+E|-3----x-3----x-----2---x-2----x--------------|
+
+[Em]      [C9]        [G]
+   Quem ama dá valor
+   [D/F#]         [Em]
+E pensa no que faz
+  [C9]            [G]
+Quando existe amor
+   [D/F#]         [Em]
+O coração não trai
+
+[Pré-Refrão]
+
+[Tab - Pré-Refrão]
+
+Parte 1 de 3
+   [Em7]               [C9]
+E|------x------x----------x-------x------------|
+B|----0-x-0--0-x--------3-x-3--3--x------------|
+G|----0-x-0--0-x--------0-x-0--0--x------------|
+D|----2-x-2--2-x-x------2-x-2--2--x-x----------|
+A|------x------x-----3----x-3-----x------------|
+E|-0----x-0----x----------x-------x------------|
+
+Parte 2 de 3
+   [G]                [D/F#]
+E|------x------x---------x------x--------------|
+B|----3-x-3--3-x-------3-x-3--3-x--------------|
+G|----0-x-0--0-x-------2-x-2--2-x--------------|
+D|----0-x-0--0-x-x-----0-x-0--0-x-x------------|
+A|------x------x---------x------x--------------|
+E|-3----x-3----x-----2---x-2----x--------------|
+
+Parte 3 de 3
+   [G]                [C]    [D4]     [G]
+E|------x------x-------------------------------|
+B|----3-x-3--3-x----0h1--1/3----8--------------|
+G|----0-x-0--0-x----0----0-0----0--------------|
+D|----0-x-0--0-x----0h2--2/4----9--------------|
+A|------x------x----3----3/5----10-------------|
+E|-3----x-3----x-------------------------------|
+
+       [C9]                [G]
+Tô sentindo você tão distante
+        [D/F#]              [Em]
+Se arrumando demais pra sair
+      [C9]             [G]
+Cada dia tá mais elegante
+       [D/F#]                [G]  [C]  [D4]  [G]
+Tô sentindo que não é pra mim
+
+[Refrão]
+
+[Tab - Refrão]
+
+Parte 1 de 7
+   [C/D]  [G]                [D/F#]
+E|-0---------x------x---------x------x---------|
+B|-1-------3-x-3--3-x-------3-x-3--3-x---------|
+G|-0-------0-x-0--0-x-------2-x-2--2-x---------|
+D|-0-------0-x-0--0-x-x-----0-x-0--0-x-x-------|
+A|-----------x------x---------x------x---------|
+E|------3----x-3----x-----2---x-2----x---------|
+
+Parte 2 de 7
+   [Em7]               [C9]
+E|------x------x----------x-------x------------|
+B|----0-x-0--0-x--------3-x-3--3--x------------|
+G|----0-x-0--0-x--------0-x-0--0--x------------|
+D|----2-x-2--2-x-x------2-x-2--2--x-x----------|
+A|------x------x-----3----x-3-----x------------|
+E|-0----x-0----x----------x-------x------------|
+
+Parte 3 de 7
+   [G]                [D/F#]
+E|------x------x---------x------x--------------|
+B|----3-x-3--3-x-------3-x-3--3-x--------------|
+G|----0-x-0--0-x-------2-x-2--2-x--------------|
+D|----0-x-0--0-x-x-----0-x-0--0-x-x------------|
+A|------x------x---------x------x--------------|
+E|-3----x-3----x-----2---x-2----x--------------|
+
+Parte 4 de 7
+   [Em]  [D/F#]  [G]  [G/B]  [C9]
+E|-----------------------x------x--------------|
+B|-0----3----0---3----5--x-5--5-x--------------|
+G|-0----2----0---0----0--x-0--0-x--------------|
+D|-2----0----0---0----0--x-0--0-x-x------------|
+A|---------------2----3--x-3----x--------------|
+E|-0----2----3-----------x------x--------------|
+
+Parte 5 de 7
+   [G]                [D/F#]
+E|------x------x---------x------x--------------|
+B|----3-x-3--3-x-------3-x-3--3-x--------------|
+G|----0-x-0--0-x-------2-x-2--2-x--------------|
+D|----0-x-0--0-x-x-----0-x-0--0-x-x------------|
+A|------x------x---------x------x--------------|
+E|-3----x-3----x-----2---x-2----x--------------|
+
+Parte 6 de 7
+   [Em7]               [C9]
+E|------x------x----------x-------x------------|
+B|----0-x-0--0-x--------3-x-3--3--x------------|
+G|----0-x-0--0-x--------0-x-0--0--x------------|
+D|----2-x-2--2-x-x------2-x-2--2--x-x----------|
+A|------x------x-----3----x-3-----x------------|
+E|-0----x-0----x----------x-------x------------|
+
+Parte 7 de 7
+      H.N .
+   [G]             [D/F#]
+E|---------------------------------------------|
+B|-0-------------3-----------------------------|
+G|-0--7----------2-----------------------------|
+D|-0------7------0-----------------------------|
+A|---------------------------------------------|
+E|-3-------------2-----------------------------|
+
+
+[G]                 [C/D]
+  Se resolver trocar
+                  [G]
+O amor por um instante
+    [D/F#]
+Termina comigo antes
+[Em]                [C9]           [G]
+  Se pra você eu sou insignificante
+    [D/F#]
+Termina comigo antes
+
+[Em]     [D/F#]  [G]      [G/B]  [C9]
+   Se resol_ver trocar
+                  [G]
+O amor por um instante
+    [D/F#]
+Termina comigo antes
+[Em]                [C9]           [G]
+  Se pra você eu sou insignificante
+    [D/F#]       [Em7]   [C9]  [G]  [D/F#]
+Termina comigo antes
+
+[Tab - Solo]
+
+E|---------------------------------------------|
+B|-3/5~--3/5~--3/5-3~-/7-7~--7/87-7/12-12~----|
+G|---------------------------------------------|
+D|---------------------------------------------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+
+[Pré-Refrão]
+
+[Em7]        [C9]                [G]
+    Tô sentindo você tão distante
+        [D/F#]              [Em7]
+Se arrumando demais pra sair
+      [C9]             [G]
+Cada dia tá mais elegante
+       [D/F#]                [G]  [C9]  [D4]
+Tô sentindo que não é pra mim
+
+[Refrão Final]
+
+[G]               [C9]
+  Se resolver trocar
+                  [G]
+O amor por um instante
+    [D/F#]
+Termina comigo antes
+[Em7]                 [C9]           [G]
+    Se pra você eu sou insignificante
+    [D/F#]
+Termina comigo antes
+
+[Em7]     [D/F#]  [G]      [G/B]  [C9]
+    Se resol_ver trocar
+                  [G]
+O amor por um instante
+    [D/F#]
+Termina comigo antes
+[Em7]                 [C9]           [G]
+    Se pra você eu sou insignificante
+    [D/F#]       [Em7]
+Termina comigo antes
+
+    [C9]         [G]
+Termina comigo antes
+    [D/F#]       [Em7]
+Termina comigo antes
+    [C9]         [G]
+Termina comigo antes
+      [D/F#]            [Em7]
+Vai doer, mas termina antes`,
+  },
+  {
+    id:            "gusttavo-lima-vagabundo-part-luis-fonsi",
+    titulo:        "VAGABUNDO (part. Luis Fonsi)",
+    artista:       "Gusttavo Lima",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2612,
+    cifra: `[Dm]                          [Am]
+Dizem que todo homem é vagabundo
+        [G]           [Am]
+Eu não sou, eu não sou
+   [Dm]                         [Am]
+Se existe alguém fiel nesse mundo
+                [G]                [Am]
+Esse alguém soy yo, esse alguém soy yo
+
+  [G]                                  [Am]
+Pergunta pra minha nega se eu vou pra rua
+  [G]                             [Am]
+Pergunta se já me viram no cabaré
+  [G]                                 [Am]
+Pergunta se eu frequento a vida noturna
+          [Dm]                 [E7]              [Am]
+Ela vai dizer que eu sou o sonho de toda mulher
+
+[Refrão]
+
+[Dm]                            [Am]
+Dizem que todo homem é vagabundo
+        [G]           [Am]
+Eu não sou, eu não sou
+   [Dm]                         [Am]
+Se existe alguém fiel nesse mundo
+                [G]                  [Am]
+Esse alguém soy yo, esse alguém soy yo
+
+( [Dm]  [Am]  [G]  [Am] )
+
+[Dm]                                   [Am]
+Dicen que to' los hombres son vagabundos
+       [G]          [Am]
+Yo no soy, yo no soy
+    [Dm]                           [Am]
+Si existe alguien fiel en este mundo
+                [G]                           [Am]
+Ese alguien soy yo (soy yo), ese alguien soy yo (ey)
+
+ [G]                                      [Am]
+Pregúntale a mi bebé si yo vivo en la calle
+[G]                                      [Am]
+Pregúntale si me han visto en un cabaret (oh)
+[G]                                      [Am]
+Pregunta si yo frecuento la vida nocturna
+                [Dm]                   [E7]            [Am]
+¿Qué te va a decir? Que yo soy el sueño de toda mujer (ay)
+
+[Refrão]
+
+[Dm]                            [Am]
+Dizem que todo homem é vagabundo
+        [G]                        [Am]
+Eu não sou (eu não sou), eu não sou (eu não sou)
+   [Dm]                         [Am]
+Se existe alguém fiel nesse mundo
+                [G]                  [Am]
+Esse alguém soy yo, esse alguém soy yo
+
+[Dm]                                   [Am]
+Dicen que to' los hombres son vagabundos (son vagabundos)
+        [G]                     [Am]
+Yo no soy (yo no soy), yo no soy (yo no soy)
+    [Dm]                           [Am]
+Si existe alguien fiel en este mundo
+                [G]
+Ese alguien soy yo (ese alguien soy yo)
+                [Am]
+Ese alguien soy yo (ese alguien soy yo, ay)`,
+  },
+  {
+    id:            "gusttavo-lima-a-noite-la-notte",
+    titulo:        "A Noite (La Notte)",
+    artista:       "Gusttavo Lima",
+    tom:           "B",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4885,
+    cifra: `[Intro] [E]  [B]  [D#m7]  [C#m7]
+
+[Tab - Intro]
+
+E|-----------------------------------------------------|
+B|---------------------------5/7---5p4-----------------|
+G|-----------------4-4h6p4-3-----------4/6-------------|
+D|-4/6-64-2-------------------------------------------|
+A|-----------4/6---------------------------------------|
+E|-----------------------------------------------------|
+
+[Primeira Parte]
+
+   [E]
+Palavras não bastam, não dá pra entender
+      [B]
+Esse medo que cresce e não para
+          [D#m7]
+É uma história que se complicou
+                  [C#m7]
+Eu sei bem o porquê
+
+          [E]
+Qual é o peso da culpa
+
+Que eu carrego nos braços?
+      [B]
+Me entorta as costas e dá um cansaço
+       [D#m7]
+A maldade do tempo fez
+                    [C#m7]
+Eu me afastar de você
+
+[Refrão]
+
+           [B/D#]   [E]
+E quando chega a noite
+                   [B]
+Eu não consigo dormir
+                [D#m7]
+Meu coração acelera
+           [G#m7]
+Eu sozinho aqui
+        [B/D#]    [E]
+Mudo o lado da cama
+                 [B]
+Eu ligo a televisão
+                      [D#m7]
+Olhos nos olhos do espelho
+               [G#m7]
+O telefone na mão
+
+[Segunda Parte]
+
+              [E]
+Pro tanto que eu te queria
+
+O perto nunca bastava
+       [B]
+Essa proximidade não dava
+       [D#m7]
+Me perdi no que era real
+                  [C#m7]  [D#m7]
+E no que eu inventei
+        [E]
+Reescrevi as memórias
+
+Deixei o cabelo crescer
+        [B]
+E te dedico uma linda história, confesso
+          [D#m7]
+Nem a maldade do tempo
+                          [C#m7]
+consegue me afastar de você
+
+[Pré-Refrão]
+
+           [D#m7]      [E]
+Te contei tantos segredos
+                    [B]
+Que já não eram só meus
+                    [D#m7]
+Rimas de um velho diário
+                    [G#m7]
+Que nunca me pertenceu
+
+                     [E]
+Tentei palavras não ditas
+                     [B]
+Tantas palavras de amor
+                  [D#m7]
+Nossa paixão é antiga
+                    [G#m7]
+E o tempo nunca passou
+
+[Refrão]
+
+           [D#m7]   [E]
+E quando chega a noite
+                   [B]
+Eu não consigo dormir
+                [D#m7]
+Meu coração acelera
+           [G#m7]
+Eu sozinho aqui
+        [D#m7]    [E]
+Mudo o lado da cama
+                 [B]
+Eu ligo a televisão
+                      [D#m7]
+Olhos nos olhos do espelho
+                     [G#m7]
+O telefone na minha mão
+
+Yeah, yeah, yeah, yeah
+
+( [E]  [B]  [D#m7]  [C#m7])
+
+[Final]
+
+                  [E]
+E quando chega a noite
+                   [B]
+Eu não consigo dormir
+                [D#m7]
+Meu coração acelera
+           [G#m7]
+Eu sozinho aqui
+        [D#m7]    [E]
+Mudo o lado da cama
+                 [B]
+Eu ligo a televisão
+                      [D#m7]
+Olhos nos olhos do espelho
+       [G#m7]
+O telefone na minha mão
+
+( [E] )
+
+          [B]
+Na minha mão`,
+  },
+  {
+    id:            "gusttavo-lima-apelido-carinhoso",
+    titulo:        "Apelido Carinhoso",
+    artista:       "Gusttavo Lima",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4310,
+    cifra: `[Intro]  [Dm]  [F]  [C]  [G]
+
+[Primeira Parte]
+
+[Dedilhado - Primeira Parte - Primeira Estrofe]
+
+Parte 1 de 4
+   [Am]
+E|------------------------------------------|
+B|-------1-----1-----1-----1p0--------------|
+G|-----2---2-----2-----2-------2-0----------|
+D|---2-------2-----2-----2------------------|
+A|-0----------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 4
+   [F9]
+E|-------3-----3-----3-----3----------------|
+B|-----1---1-----1-----1-----1--------------|
+G|---2-------2-----2-----2-----2------------|
+D|-3----------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [G]
+E|------------------------------------------|
+B|-----------------3-8~---------------------|
+G|-----------0-2/4--------------------------|
+D|---------0--------------------------------|
+A|-0---0h2----------------------------------|
+E|---3--------------------------------------|
+
+Parte 4 de 4
+   [Am]
+E|-8-----7-----5----------------------------|
+B|-5-5-----5-----5---8------5h6p5--3--------|
+G|-5---5-----5-----5---5--------------------|
+D|-7---------------------7--5h7p5--3--------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Dedilhado - Primeira Parte - Primeira Estrofe]
+
+Parte 1 de 4
+   [Am]
+E|------------------------------------------|
+B|-1-----1------1------1----1p0-------------|
+G|-2--2-----2------2-----2------2-0---------|
+D|-2----2-----2------2-----2----------------|
+A|-0----------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 4
+   [F9]
+E|-------3-----3-----3----------------------|
+B|-----1---1-----1-----1--------------------|
+G|---2-------2-----2-----2-2p0--------------|
+D|-3---------------------------3-2----------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [G]
+E|------------------------------------------|
+B|-------3-----3-----3-----3/53--1p0-------|
+G|-----0---0-----0-----0--------------------|
+D|---0-------0-----0-----0------------------|
+A|------------------------------------------|
+E|-3----------------------------------------|
+
+Parte 4 de 4
+   [Am]
+E|--------------------0---------------------|
+B|-------1-----1------1---------------------|
+G|-----2---2-----2----2---------------------|
+D|---2-------2--------2---------------------|
+A|-0------------------0---------------------|
+E|------------------------------------------|
+
+[Am]                              [F9]
+   Amor, não é segredo entre a gente
+                          [G]
+Que o meu término é recente
+                                   [Am]
+E você tá arrumando o que ela revirou
+
+[Am]                          [F9]
+   E esse sentimento pendente
+                                 [G]
+Que insiste em bagunçar a minha mente
+                                     [Am]
+Vai passar um dia, mas ainda não passou
+
+[Pré-Refrão]
+
+[Dm]
+   Eu sei que você poderia ter
+      [F]
+Escolhido alguém menos complicado
+[C]
+  Que não tivesse no presente
+        [G]
+Uma pessoa do passado
+
+[Dm]
+   Aceitar essa situação
+       [F]
+É uma forma de amor
+[C]
+  Mas eu preciso que você
+         [G]
+Me faça só mais um favor
+
+[Refrão]
+
+[Dm]
+   Ainda não me chame de meu nego
+[F]                          [C]
+  Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                          [Dm]
+É o mais difícil de esquecer
+
+                           [C/E]  [F]
+Ainda não me chame de meu nego
+                         [C]
+Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                        [Dm]
+É o mais difícil de esquecer
+
+( [Dm]  [F]  [C]  [G] )
+
+[Pré-Refrão]
+
+[Dm]
+   Eu sei que você poderia ter
+      [F]
+Escolhido alguém menos complicado
+[C]
+  Que não tivesse no presente
+        [G]
+Uma pessoa do passado
+
+[Dm]
+   Aceitar essa situação
+       [F]
+É uma forma de amor
+[C]
+  Mas eu preciso que você
+         [G]
+Me faça só mais um favor
+
+[Refrão Final]
+
+[Dm]
+   Ainda não me chame de meu nego
+[F]                          [C]
+  Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                          [Dm]
+É o mais difícil de esquecer
+
+                           [C/E]  [F]
+Ainda não me chame de meu nego
+                         [C]
+Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                        [Dm]
+É o mais difícil de esquecer
+
+   Ainda não me chame de meu nego
+[F]                          [C]
+  Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                          [Dm]
+É o mais difícil de esquecer
+
+                           [C/E]  [F]
+Ainda não me chame de meu nego
+                         [C]
+Ainda não me chame de bebê
+
+Porque era assim que ela me chamava
+[G]
+  E um apelido carinhoso
+                        [Dm7]
+É o mais difícil de esquecer
+
+[Tab - Frase Final]
+
+   [Dm7]                      [F]
+E|-5------------------------1---------------|
+B|-6-5-6-5-6-5-6-5-6-5-6-5--1---------------|
+G|-5-5-5-5-5-5-5-5-5-5-5-5--2---------------|
+D|-7-5-7-5-7-5-7-5-7-5-7-5--3---------------|
+A|-5------------------------3---------------|
+E|--------------------------1---------------|`,
+  },
+  {
+    id:            "gusttavo-lima-desejo-imortal",
+    titulo:        "Desejo Imortal",
+    artista:       "Gusttavo Lima",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1705,
+    cifra: `[Intro] [A]  [D]
+
+[Tab - Intro]
+
+        [A]         [D]
+E|-10-9---------------10-9------------------|
+B|------10--10-12----------10---------------|
+G|----------------11----------11-9----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+         [A]
+Fecho os olhos, tiro a roupa
+ [A/C#]   [D]          [E]
+Só sua boca tem o mel
+    [A]           [A/C#]  [D]
+Que acalma meu de____sejo
+   [A/C#]  [Bm7]        [E]
+E me    leva até o céu
+
+[Pré-Refrão 1]
+
+     [F#m]   [E/G#]  [A]
+Surreal e bom demais
+               [D]  [E]
+Pena que toda vez
+
+[Refrão 1]
+
+              [A]
+A gente faz amor
+            [A/C#]  [D]
+E eu me sinto    mal
+             [A/C#]  [Bm7]
+Você já tem al___guém
+  [F#m]      [E]
+E acha normal
+              [A]
+A gente faz amor
+               [D]
+E eu me sinto mal
+              [A/C#]  [Bm7]
+Mas eu quero de    novo
+         [F#m]        [E]  [F]
+O meu desejo é imortal
+
+[Segunda Parte]
+
+         [Bb]
+Fecho os olhos, tiro a roupa
+        [Bb4]        [F]
+Só sua boca tem o mel
+    [Bb]          [Bb/D]  [Eb]
+Que acalma meu de____sejo
+   [Bb/D]  [Cm7]        [F]
+E me    leva até o céu
+
+[Pré-Refrão 2]
+
+     [Gm]    [F/A]   [Bb]
+Surreal e bom demais
+               [Eb]
+Pena que toda vez
+               [F]
+Pena que toda vez
+
+[Refrão 2]
+
+              [Bb]
+A gente faz amor
+            [Bb/D]  [Eb]
+E eu me sinto    mal
+                [Bb/D]  [Cm7]
+Você já tem alguém
+  [Gm]       [F]
+E acha normal
+
+              [Bb]
+A gente faz amor
+               [Bb/D]  [Eb]
+E eu me sinto mal
+              [Bb/D]  [Cm7]
+Mas eu quero de    novo
+         [Gm]         [F]
+O meu desejo é imortal
+
+              [Bb]
+A gente faz amor
+               [Fm]
+E eu me sinto mal
+                 [Eb]
+Mas eu quero de novo
+                 [F]
+De novo, de novo
+               [Bb]  [F]
+Eu fecho os olhos`,
+  },
+  {
+    id:            "gusttavo-lima-rosas-versos-e-vinhos",
+    titulo:        "Rosas, Versos e Vinhos",
+    artista:       "Gusttavo Lima",
+    tom:           "B",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 509,
+    cifra: `[Intro] [B]  [E]  [B]  [E]  [B]
+
+[Primeira Parte]
+
+[B]                             [E]
+É, às vezes acho que estou enlouquecendo
+       [B]                           [E]
+Por você fujo, viajo no tempo, me submetendo
+  [B/D#] [C#m11]        [B]                     [F#/A#]
+Pra você meu mundo gira em preto em branco
+       [F#]
+E colorido
+       [C#m11]       [B]
+Sem você saio do presente pro passado
+   [F#/A#]              [F#]   [B]  [E]  [B]
+E no futuro eu tô perdido
+
+[Refrão]
+
+             [B9]
+Por você eu mudo o jeito de viver
+             [G#m7]
+Vou ouvir vinil em vez de ouvir CD
+             [E]             [C#m7]
+Por você eu deixo a badalação
+          [F#]           ( [F#]  [E/G#]  [F#/A#] )
+Faço serenata, voz e violão
+
+              [B9]
+Largo essa cidade pra morar no campo
+          [G#m7]
+Faço penitência troco até de santo
+             [E9]         [C#m11]
+Por você cancelo a reunião
+             [F#]
+O meu compromisso é com seu coração
+
+          [F#/A#]       [B9]
+Mas me espera que eu tô chegando
+ [G#m7]
+Tô levando
+ [E]       [B/D#]     [C#m7]
+Rosas e versos e vinhos
+      [F#7]         [B9]
+Me espera que eu tô chegando
+ [G#m7]
+Tô voltando
+ [E]       [B/D#]      [C#m11]      [B9]       [F#/A#]
+Seja no tempo que for eu só quero esse amor
+
+( [G#m]  [F#] )
+
+[B]                        [E]
+É, agora separar a gente
+
+O tempo é incapaz
+
+Por você
+
+[Solo] [B]  [E]  [A]  [F#]
+
+E|------------------------------------------|
+B|---------------75--4-----5p4-------------|
+G|-------------8--------4~------4-----------|
+D|---------6h9---------------------4/6------|
+A|-----6h9-----------------------------7----|
+E|-7h9-----------------------------------7~-|
+
+           \/
+E|------------------------------------------|
+B|-/9-11-12-------12b14r12-------11--12--14-|
+G|------------9-9----------9-9~-------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|-11b12r11p9-11~/-19~----------------------|
+B|------------------------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Refrão]
+
+             [B]
+Por você eu mudo o jeito de viver
+             [G#m7]
+Vou ouvir vinil em vez de ouvir CD
+             [E9]            [C#m7]
+Por você eu deixo a badalação
+          [F#7]          ( [F#]  [E/G#]  [F#/A#] )
+Faço serenata, voz e violão
+
+              [B]
+Largo essa cidade pra morar no campo
+          [G#m]
+Faço penitência troco até de santo
+             [E]          [C#m7]
+Por você cancelo a reunião
+             [F#]
+O meu compromisso é com seu coração
+
+          [F#/A#]       [B9]
+Mas me espera que eu tô chegando
+ [G#m7]
+Tô levando
+ [E]       [B/D#]     [C#m11]
+Rosas e versos e vinhos
+      [F#7]         [B9]
+Me espera que eu tô chegando
+ [G#m7]
+Tô voltando
+ [E9]      [B/D#]      [C#m11]      [B9]       [F#/A#]
+Seja no tempo que for eu só quero esse amor
+
+( [G#m]  [F#] )
+
+[B9]                      [E9]
+É, eu acho que estou enlouquecendo
+       [B7M]
+Por você!`,
+  },
+  {
+    id:            "gusttavo-lima-abre-o-portao-que-eu-cheguei",
+    titulo:        "Abre o Portão Que Eu Cheguei",
+    artista:       "Gusttavo Lima",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1758,
+    cifra: `[Intro] [A]  [E]  [D2]
+
+E|------------------------------------------|
+B|-3/5-5-3---------3/5-5-3------------------|
+G|---------4/6-4-2---------4/6-4-2----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-------------3-3-2-3-3/5-5----------------|
+G|-2h4-4-4/6-2------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+      [A]
+Tá me achando com cara de bobo?
+
+Por que tá me ligando de novo?
+       [D2]
+Dessa vez eu só tô te atendendo pra dizer
+
+Que ontem foi a nossa última vez
+      [A]
+Você deve se achar muito esperta
+
+Toda vez com a mesma conversa
+     [D2]
+Me ilude me leva no chão
+
+E quando vou dormir
+                          [F#m]
+Já estou com você na sua cama
+
+[Pré-Refrão]
+
+           [E]               [D2]
+Eu não consigo entender você
+
+Sempre me diz que é amor mas
+                   [F#m]
+Só me quer por prazer
+           [E]
+Olha pra trás veja tudo o que fez
+[D2]
+   Agora quer brincar comigo
+
+E não vai ter outra vez
+
+[Refrão]
+
+[A]
+  Tô cansando de sair no meio da noite e te satisfazer
+[E/G#]
+     E um minuto depois de matar minha vontade eu me arrepender
+[F#m]                 [E]
+    Sair de madrugada, do meio da balada
+              [D2]
+Largar minha vida pra vir ver você
+
+Só pra vir ver você
+
+[A]
+  Cê sabe que eu sou louco por você e que me tem nas mãos
+[E/G#]
+     E confesso que às vezes me pego esperando a sua ligação
+[F#m]                  [E]                     [D2]
+    Tava fora de mim,  esquece o que eu falei
+                          [A]  [E]  [D2]
+Abre o portão que eu cheguei
+
+[Solo]
+
+E|------------------------------------------|
+B|-3/5-5-3---------3/5-5-3------------------|
+G|---------4/6-4-2---------4/6-4-2----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-------------3-3-2-3-3/5-5----------------|
+G|-2h4-4-4/6-2------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Pré-Refrão]
+
+[F#m]            [E]               [D2]
+    Eu não consigo entender você
+
+Sempre me diz que é amor mas
+                   [F#m]
+Só me quer por prazer
+           [E]
+Olha pra trás veja tudo o que fez
+[D2]
+   Agora quer brincar comigo
+
+E não vai ter outra vez
+
+[Refrão]
+
+[A]
+  Tô cansando de sair no meio da noite e te satisfazer
+[E/G#]
+     E um minuto depois de matar minha vontade eu me arrepender
+[F#m]                 [E]
+    Sair de madrugada, do meio da balada
+              [D2]
+Largar minha vida pra vir ver você
+
+Só pra vir ver você
+
+[A]
+  Cê sabe que eu sou louco por você e que me tem nas mãos
+[E/G#]
+     E confesso que às vezes me pego esperando a sua ligação
+[F#m]                  [E]                     [D2]
+    Tava fora de mim,  esquece o que eu falei
+                          [A]  [E]  [D2]
+Abre o portão que eu cheguei
+
+[Solo]
+
+E|------------------------------------------|
+B|-3/5-5-3---------3/5-5-3------------------|
+G|---------4/6-4-2---------4/6-4-2----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-------------3-2---3-3/5-5----------------|
+G|-2h4-4-4/6-2-----2------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Refrão]
+
+[A]
+  Tô cansando de sair no meio da noite e te satisfazer
+[E/G#]
+     E um minuto depois de matar minha vontade eu me arrepender
+[F#m]                 [E]
+    Sair de madrugada, do meio da balada
+              [D2]
+Largar minha vida pra vir ver você
+
+Só pra vir ver você
+
+[A]
+  Cê sabe que eu sou louco por você e que me tem nas mãos
+[E/G#]
+     E confesso que às vezes me pego esperando a sua ligação
+[F#m]                  [E]                     [D2]
+    Tava fora de mim,  esquece o que eu falei
+                          [A]  [E]  [D2]
+Abre o portão que eu cheguei
+
+[Final]
+
+E|------------------------------------------|
+B|-3/5-5-3---------3/5-5-3------------------|
+G|---------4/6-4-2---------4/6-4-2----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+E|------------------------------------------|
+B|-3p2---3-3/5------------------------------|
+G|-----2-------2----------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|`,
+  },
+  {
+    id:            "gusttavo-lima-sujeito",
+    titulo:        "Sujeito",
+    artista:       "Gusttavo Lima",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2255,
+    cifra: `[Intro] [G]  [A]  [Bm]
+        [G]  [A]  [Bm]
+
+   [G]         [A]       [Bm]
+E|------------------------------------------|
+B|-----3-2------5----5/7-5-3----------------|
+G|------------6---7----------4--------------|
+D|---5--------------------------------------|
+A|------------------------------------------|
+E|-3--------5-------------------------------|
+
+   [G]         [A]       [Bm]
+E|-----------------------5------------------|
+B|-----3-2------5----5/7---75-3------------|
+G|------------6---7-------------------------|
+D|---5--------------------------------------|
+A|------------------------------------------|
+E|-3--------5-------------------------------|
+
+[Primeira Parte]
+
+[G]                                       [D]
+  Do que adianta apagar meu número da agenda
+         [Bm7]                                     [A]
+Se você sabe que ele tá gravado dentro da sua memória?
+[G]                                         [D]
+  Do que adianta tomar todas no fim de semana
+    [Bm7]                                        [A]
+Se na segunda feira vai se repetir a mesma história?
+
+[Riff]
+
+E|------------------------------------------|
+B|-3p2--------------------------------------|
+G|-----2-4----------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Pré-Refrão]
+
+              [G]                  [D]
+Você vai acordar, se olhar no espelho
+              [Bm7]                 [A]
+E aí vai lembrar que existe um sujeito
+                                  [G]
+Que você tenta e não consegue esquecer
+                       [A]
+Que não consegue esquecer
+
+[Refrão]
+
+    [G]
+E quando se tocar que não tem volta
+    [D9]
+Cê vai querer voltar, faço uma aposta
+ [Bm7]
+Vai sentir, por dentro, tão vazia
+     [A9]
+Vai ver que era feliz e não sabia
+ [G]
+Vai sobrar espaço na sua cama
+     [D9]
+Mas vai faltar alguém pra dizer que te ama
+     [Bm7]
+Mas mesmo ele tendo mil defeitos
+     [A9]
+Ninguém te completava como aquele sujeito
+
+[Solo] [G]  [A]  [Bm]
+       [G]  [A]  [Bm]
+
+   [G]         [A]       [Bm]
+E|------------------------------------------|
+B|-----3-2------5----5/7-5-3----------------|
+G|------------6---7----------4--------------|
+D|---5--------------------------------------|
+A|------------------------------------------|
+E|-3--------5-------------------------------|
+
+   [G]         [A]       [Bm]
+E|-----------------------5-----------5/7/10-|
+B|-----3-2------5----5/7---75-3-5/7--------|
+G|------------6---7-------------------------|
+D|---5--------------------------------------|
+A|------------------------------------------|
+E|-3--------5-------------------------------|
+
+[Pré-Refrão]
+
+              [G]                  [D]
+Você vai acordar, se olhar no espelho
+              [Bm7]                 [A]
+E aí vai lembrar que existe um sujeito
+                                  [G]
+Que você tenta e não consegue esquecer
+                       [A]
+Que não consegue esquecer
+
+[Refrão]
+
+    [G]
+E quando se tocar que não tem volta
+    [D9]
+Cê vai querer voltar, faço uma aposta
+ [Bm7]
+Vai sentir, por dentro, tão vazia
+     [A9]
+Vai ver que era feliz e não sabia
+ [G]
+Vai sobrar espaço na sua cama
+     [D9]
+Mas vai faltar alguém pra dizer que te ama
+     [Bm7]
+Mas mesmo ele tendo mil defeitos
+     [A9]
+Ninguém te completava
+
+    [G]
+E quando se tocar que não tem volta
+    [D9]
+Cê vai querer voltar, faço uma aposta
+ [Bm7]
+Vai sentir, por dentro, tão vazia
+     [A9]
+Vai ver que era feliz e não sabia
+ [G]
+Vai sobrar espaço na sua cama
+     [D9]
+Mas vai faltar alguém pra dizer que te ama
+     [Bm7]
+Mas mesmo ele tendo mil defeitos
+     [A9]
+Ninguém te completava como aquele sujeito
+
+[Final] [G]  [A]  [Bm]
+        [G]  [A7M]
+
+   [G]         [A]       [Bm]
+E|------------------------------------------|
+B|-----3-2------5----3-2--------------------|
+G|------------6----------2------------------|
+D|---5--------------------------------------|
+A|------------------------------------------|
+E|-3--------5-------------------------------|
+
+   [G]              [A7M]  [G]  [D]
+E|------------------------------------------|
+B|-------3-5/7-5----------3-----------------|
+G|-----4------------6--0--2-----------------|
+D|---5------------6----0--4-----------------|
+A|-5-------------------2--5-----------------|
+E|---------------------3--------------------|
+
+       [G]                              [D]
+De que adianta apagar meu número da agenda`,
+  },
+  {
+    id:            "gusttavo-lima-60-segundos",
+    titulo:        "Segundos",
+    artista:       "Gusttavo Lima",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1557,
+    cifra: `[Intro] [A9]  [A9/B]  [C#m7]  [B9]  [F#/A#]
+        [A9]  [A9/B]  [C#m7]  [B9]  [A]
+
+[Primeira Parte]
+
+            [E]          [A9]
+Me dê um minuto pra falar
+           [C#m7]      [B]        [E]
+Que eu preciso de você, meu amor
+                                   [A9]
+Cinquenta e nove segundos é o que resta
+          [C#m7]        [B]          [E]
+Pra entender essa paixão no meu peito
+
+[Pré-Refrão]
+
+        [A9]
+Cada segundo que se passa
+        [A9/B]
+Mais aumenta essa vontade
+        [G#m7]
+Esse desejo
+         [C#m7]
+Essa paixão
+
+  [B9]      [A9]
+Que me domina, me fascina
+       [A9/B]                [F#m7]
+O seu jeito de menina tão linda, aah
+            [E]              [B4]
+Você enlouquece o meu coração
+              [A9]             [B4] ( [B] )
+Você sabe que eu tô em suas mãos
+
+[Refrão]
+
+                  [E]
+O tempo passa depressa
+                    [B9]
+Quando estou com você
+                  [C#m7]
+As horas viram minutos
+                  [G#m7]
+Não consigo entender
+                           [A]
+E o que eu mais quero é viver ao teu lado
+ [E/G#]          [F#]  [B4]  [B]
+Cada segundo amor
+
+                  [E]
+O tempo passa depressa
+                    [B9]
+Quando estou com você
+                  [C#m7]
+As horas viram minutos
+                  [G#m7]
+Não consigo entender
+                           [A]
+E o que eu mais quero é viver ao teu lado
+ [E/G#]          [F#]
+Cada segundo amor
+      [B4]            [B]        [A9]
+Te fazer feliz por toda vida
+
+[Pré-Refrão]
+
+        [A9]
+Cada segundo que se passa
+        [A9/B]
+Mais aumenta essa vontade
+        [G#m]
+Esse desejo
+         [C#m]
+Essa paixão
+
+          [A9]
+Que me domina, me fascina
+       [A9/B]                [F#m7]
+O seu jeito de menina tão linda, aah
+            [E]              [B9]
+Você enlouquece o meu coração
+              [A9]             [B4] ( [C] )
+Você sabe que eu tô em suas mãos
+
+[Refrão]
+
+                  [F]
+O tempo passa depressa
+                    [C]
+Quando estou com você
+                  [Dm]
+As horas viram minutos
+                  [Am7]
+Não consigo entender
+                           [Bb9]
+E o que eu mais quero é viver ao teu lado
+ [F/A]           [G]  [C]
+Cada segundo amor
+
+                  [F]
+O tempo passa depressa
+                    [C]
+Quando estou com você
+                  [Dm]
+As horas viram minutos
+                  [Am7]
+Não consigo entender
+                           [Bb9]
+E o que eu mais quero é viver ao teu lado
+ [F/A]           [G]
+Cada segundo amor
+      [C]                    [Bb9]
+Te fazer feliz por toda vida
+                         [F]
+Te fazer feliz por toda vida`,
+  },
+  {
+    id:            "gusttavo-lima-jejum-de-amor",
+    titulo:        "Jejum de Amor",
+    artista:       "Gusttavo Lima",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1034,
+    cifra: `Intro: [E/B]
+       [C#m]  [B9]  [A9]  [B9]  [E]  [B/D#]
+       [C#m]  [B9]  [A9]  [B9]  [E]
+
+Solo :
+
+E|--------------------------------------|
+B|----------5-4-4/5--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4---------------------------4-|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|-4-6-4h6p4-4-4/6------|
+D|----------7-----4-4/6-|
+A|----------------------|
+E|----------------------|
+
+E|-----------------------------------------|
+B|-----------5-4-5/75--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4------------------------------4-|
+D|-----------------------------------------|
+A|-----------------------------------------|
+E|-----------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|--------4-4/6-4-------|
+D|-6-7-6-7-------4-4/6--|
+A|----------------------|
+E|----------------------|
+
+
+ [B/D#]         [C#m]               [B9]
+Não sou de ficar mais de uma semana sem amor
+ [A9]            [B9]            [E]
+Sem um beijo, sem um corpo, tá difícil
+ [B/D#]          [C#m]           [B9]
+Deixa eu te falar, eu vou fazer jejum de amor
+  [A9]
+Pra provar o que eu sinto
+
+[E]                [B/D#]      [C#m]
+ Quer saber? Eu tô arrependido
+                           [B/D#]
+Porque não falei no seu ouvido
+                       [A9]
+As frases de amor que não falei
+               [E]
+Em nosso cobertor
+      [B/D#]      [C#m]                   [B/D#]
+Sentimento proibido, até parece impossível
+                     [A9]                       [B9]
+Quer saber? Eu necessito ter de volta seu calor
+
+( [A/C#]  [B/D#] )
+
+Refrão:
+
+            [C#m]
+Sua boca é minha
+          [A9]
+Domina a minha
+                  [E]                        [B9]
+E o que é que as duas estão fazendo tão sozinhas?
+            [C#m]
+Sua boca é minha
+          [A9]
+Domina a minha
+                  [E]                        [B9]
+E o que é que as duas estão fazendo tão sozinhas?
+                  [C#m]
+Ai, ai, ai, boca minha
+
+Solo: [B9]  [A9]  [B9]  [E]  [B/D#]
+      [C#m]  [B9]  [A9]  [B9]  [E]
+
+E|--------------------------------------|
+B|----------5-4-4/5--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4---------------------------4-|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|-4-6-4h6p4-4-4/6------|
+D|----------7-----4-4/6-|
+A|----------------------|
+E|----------------------|
+
+E|-----------------------------------------|
+B|-----------5-4-5/75--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4------------------------------4-|
+D|-----------------------------------------|
+A|-----------------------------------------|
+E|-----------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|--------4-4/6-4-------|
+D|-6-7-6-7-------4-4/6--|
+A|----------------------|
+E|----------------------|
+
+ [B/D#]         [C#m]               [B9]
+Não sou de ficar mais de uma semana sem amor
+ [A9]            [B9]            [E]
+Sem um beijo, sem um corpo, tá difícil
+ [B/D#]          [C#m]           [B9]
+Deixa eu te falar, eu vou fazer jejum de amor
+  [A9]
+Pra provar o que eu sinto
+
+[E]                [B/D#]      [C#m]
+ Quer saber? Eu tô arrependido
+                           [B/D#]
+Porque não falei no seu ouvido
+                       [A9]
+As frases de amor que não falei
+               [E]
+Em nosso cobertor
+
+      [B/D#]      [C#m]                   [B/D#]
+Sentimento proibido, até parece impossível
+                     [A9]                       [B9]
+Quer saber? Eu necessito ter de volta seu calor
+
+( [A/C#]  [B/D#] )
+
+Refrão:
+
+            [C#m]
+Sua boca é minha
+          [A9]
+Domina a minha
+                  [E]                        [B9]
+E o que é que as duas estão fazendo tão sozinhas?
+            [C#m]
+Sua boca é minha
+          [A9]
+Domina a minha
+                  [E]                        [B9]
+E o que é que as duas estão fazendo tão sozinhas?
+            [C#m]
+Sua boca é minha
+          [A9]
+Domina a minha
+                  [E]                        [B9]
+E o que é que as duas estão fazendo tão sozinhas?
+                  [C#m]
+Ai, ai, ai, boca minha
+
+Final: [B9]  [A9]  [B9]  [E]  [B/D#]
+       [C#m]  [B9]  [A9]  [B9]  [E]
+
+E|--------------------------------------|
+B|----------5-4-4/5--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4---------------------------4-|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|-4-6-4h6p4-4-4/6------|
+D|----------7-----4-4/6-|
+A|----------------------|
+E|----------------------|
+
+E|-----------------------------------------|
+B|-----------5-4-5/75--5-5-5-5-2/4-4-4-2--|
+G|--4-4-4-4------------------------------4-|
+D|-----------------------------------------|
+A|-----------------------------------------|
+E|-----------------------------------------|
+
+E|----------------------|
+B|----------------------|
+G|--------4-4/6-4-------|
+D|-6-7-6-7-------4-4/6--|
+A|----------------------|
+E|----------------------|`,
+  },
+  {
+    id:            "gusttavo-lima-fui-fiel",
+    titulo:        "Fui Fiel",
+    artista:       "Gusttavo Lima",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 3805,
+    cifra: `Intro:
+
+E|------7--------------------------------5/7-----7-----------------|
+B|--7/6---7-9-7------7-9-7------10-9-10------7/9---7-9-7-----7-9-7-|
+G|--------------9-6--------9-6---------------------------9-6-------|
+D|-----------------------------------------------------------------|
+A|-----------------------------------------------------------------|
+E|-----------------------------------------------------------------|
+
+E|-----------|
+B|-----------|
+G|--9-6-6/9--|
+D|-----------|
+A|-----------|
+E|-----------|
+
+
+Primeira Parte:
+
+[E]              [B]
+  Foi bonito, foi, foi intenso
+ [F#m]             [A]
+Foi verdadeiro, mais sincero
+[E]                [B]              [F#m]
+  Sei que fui capaz, fiz até demais
+         [A]
+Te quis do teu jeito
+
+[E]         [B]            [F#m]
+  Te amei,  te mostrei     que o meu amor
+       [A]
+Foi o mais profundo
+[E]         [B]                     [F#m]
+  Me doei,  me entreguei, fui fiel
+    [A]
+Chorei, chorei
+
+Refrão 2x:
+
+ [E]                          [B]
+Hoje eu acordei, me veio a falta de você
+    [F#m]              [A]
+Saudade de você, saudade de você
+     [E]                         [B]
+Lembrei que me acordava de manhã só pra dizer
+     [F#m]              [A]
+Bom dia, meu bebê, te amo, meu bebê
+
+(repete tudo)`,
+  },
+  {
+    id:            "gusttavo-lima-cor-de-ouro",
+    titulo:        "Cor de Ouro",
+    artista:       "Gusttavo Lima",
+    tom:           "B",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2664,
+    cifra: `[Intro] [B5(9)]  [F#]  [G#m]  [E]
+        [B5(9)]  [F#]  [G#m]  [E]
+
+[Violão 1]
+
+E|-------11---------9------------------------11---7--|
+B|----12---------11---12-11h12p11---------12------9--|
+G|-11---------11------------------11---11---------9--|
+D|---------------------------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Violão 2]
+
+E|---------------------------------------------------|
+B|---------------------------------------------------|
+G|--8-8-8-8-8-8-8-8--6-6-6-6-6-6-6-6-----------------|
+D|--9-9-9-9-9-9-9-9--8-8-8-8-8-8-8-8-----------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+E|---------------------------------------------------|
+B|---------------------------------------------------|
+G|--8-8-8-8-8-8-8-8--9-9-9-9-9-9-9-9-----------------|
+D|--9-9-9-9-9-9-9-9--9-9-9-9-9-9-9-9-----------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Primeira Parte]
+
+[B5(9)]                     [F#]
+     Nunca pensei que um dia fosse ser assim
+[G#m]                        [E]
+    Você chegou sem dizer nada tomou conta de mim
+[B5(9)]                  [F#]
+     Antes de você chegar só tinha solidão
+[G#m]                     [E]
+    Somente marcas e feridas no meu coração
+
+[Frase Pré-Refrão - violão 2]
+
+E|--3/4----------------------------------------------|
+B|------7-5-4----------------------------------------|
+G|------------6-4---6--------------------------------|
+D|----------------6----------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Pré-Refrão]
+
+[C#m]         [E]                   [B5(9)]
+    Amor você é tudo que eu preciso
+[C#m]                    [E]               [F#]
+    Com você eu to no céu eu tô no paraíso
+
+[Violão 2]
+
+E|-11--9--7------------------------------------------|
+B|-----------9-9p7-------------9h10p9----------------|
+G|-11--9--8---------9-8------9--------9--------------|
+D|----------------------9-11-------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Refrão]
+
+[B5(9)]                   [F#]
+     Esse cabelo cor de ouro é que me deixa louco
+[C#m]                        [E]
+    Esse sorriso nos seus lábios que eu me entrego todo
+[B5(9)]                        [F#]
+     Não sei mais ver minha vida sem você por perto
+[C#m]                  [E]          [F#]
+    Amor sem você comigo a vida é um deserto
+
+[B5(9)]                   [F#]
+     Esse cabelo cor de ouro é que me deixa louco
+[C#m]                        [E]
+    Esse sorriso nos seus lábios que eu me entrego todo
+[B5(9)]                        [F#]
+     Não sei mais ver minha vida sem você por perto
+[C#m]                  [E]          [F#]
+    Amor sem você comigo a vida é um deserto
+
+[Solo] [B5(9)]  [F#]  [C#m]  [E]
+       [B5(9)]  [F#]  [C#m]  [E]  [F#]
+
+[Solo - violão 2]
+
+E|---------------------------------------------------|
+B|--------------------9-11-11/12---------------------|
+G|-8-8-8-8-8-9-11-11-------------9-8-9-8------8-----|
+D|----------------------------------------9-11-------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+E|---------------------------------------------------|
+B|--------------------9-11-11/12---------------------|
+G|-8-8-8--8-9-11-11--------------9-8-9-8------------|
+D|----------------------------------------9-11-------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Primeira Parte]
+
+[B5(9)]                     [F#]
+     Nunca pensei que um dia fosse ser assim
+[G#m]                        [E]
+    Você chegou sem dizer nada tomou conta de mim
+[B5(9)]                  [F#]
+     Antes de você chegar só tinha solidão
+[G#m]                     [E]
+    Somente marcas e feridas no meu coração
+
+[Frase Pré-Refrão - violão 2]
+
+E|--3/4----------------------------------------------|
+B|------7-5-4----------------------------------------|
+G|------------6-4---6--------------------------------|
+D|----------------6----------------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Pré-Refrão]
+
+[C#m]         [E]                   [B5(9)]
+    Amor você é tudo que eu preciso
+[C#m]                    [E]               [F#]
+    Com você eu to no céu eu tô no paraíso
+
+[Violão 2]
+
+E|-11--9--7------------------------------------------|
+B|------------9-9p7------------9h10p9----------------|
+G|-11--9--8---------9-8------9--------9--------------|
+D|----------------------9-11-------------------------|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+[Refrão]
+
+[B5(9)]                   [F#]
+     Esse cabelo cor de ouro é que me deixa louco
+[C#m]                        [E]
+    Esse sorriso nos seus lábios que eu me entrego todo
+[B5(9)]                        [F#]
+     Não sei mais ver minha vida sem você por perto
+[C#m]                  [E]          [F#]
+    Amor sem você comigo a vida é um deserto
+
+[B5(9)]                   [F#]
+     Esse cabelo cor de ouro é que me deixa louco
+[C#m]                        [E]
+    Esse sorriso nos seus lábios que eu me entrego todo
+[B5(9)]                        [F#]
+     Não sei mais ver minha vida sem você por perto
+[C#m]                  [E]          [F#]
+    Amor sem você comigo a vida é um deserto
+
+[B5(9)]                   [F#]
+     Esse cabelo cor de ouro é que me deixa louco
+[C#m]                        [E]
+    Esse sorriso nos seus lábios que eu me entrego todo
+[B5(9)]                        [F#]
+     Não sei mais ver minha vida sem você por perto
+[C#m]                  [E]          [F#]           [B5(9)]
+    Amor sem você comigo a vida é um deserto`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-ainda-ontem-chorei-de-saudade",
+    titulo:        "Ainda Ontem Chorei de Saudade",
+    artista:       "João Mineiro e Marciano",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 4364,
+    cifra: `[Intro] [C]  [Dm]  [G]  [C]  [G]
+        [C]  [C7]  [F]  [C]  [G]  [C]
+
+[Primeira Parte]
+
+ [C]               [Am]
+Você me pede na carta
+              [Dm]
+Que eu desapareça
+    [G]
+Que eu nunca mais te procure
+                  [C]   [G]
+Pra sempre te esqueça
+
+ [C]                  [Am]
+Posso fazer sua vontade
+               [Dm]
+Atender seu pedido
+ [G]
+Mas esquecer é bobagem
+            [C]   [G]
+É tempo perdido
+
+[Refrão]
+
+[C]                         [G]
+Ainda ontem chorei de saudade
+                                [C]   [G]
+Relendo a carta, sentindo o perfume
+ [C]
+Mas que fazer com essa dor
+          [G]
+Que me invade
+                              [C]   [G]
+Mato esse amor ou me mata o ciúme
+
+( [C]  [Dm]  [G]  [C]  [G] )
+( [C]  [C7]  [F]  [C]  [G]  [C] )
+
+[Segunda Parte]
+
+[C]                  [Am]
+O dia inteiro te odeio
+              [Dm]
+Te busco, te caço
+ [G]
+Mas em meu sonho de noite
+                 [C]   [G]
+Te beijo e te abraço
+
+ [C]                    [Am]
+Porque os sonhos são meus
+                     [Dm]
+Ninguém rouba e nem tira
+ [G]
+Melhor sonhar na verdade
+                [C]   [G]
+Que amar na mentira
+
+[Refrão Final]
+
+[C]                         [G]
+Ainda ontem chorei de saudade
+                                [C]   [G]
+Relendo a carta, sentindo o perfume
+ [C]
+Mas que fazer com essa dor
+          [G]
+Que me invade
+                              [C]
+Mato esse amor ou me mata o ciume
+
+[Final] [F]  [C]  [G]
+        [C]  [G]  [C]`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-seu-amor-ainda-e-tudo",
+    titulo:        "Seu Amor Ainda é Tudo",
+    artista:       "João Mineiro e Marciano",
+    tom:           "B",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 628,
+    cifra: `[Intro] [Bm]  [Em]  [A]  [D]  [F#7]
+
+[Primeira Parte]
+
+  [Bm]                                  [Em]
+Muito prazer em revê-la, você está bonita
+[F#7]                                      [Bm]
+Muito elegante, mais jovem, tão cheia de vida
+[Bm]                                 [Em]
+Eu ainda falo de flores e declamo seu nome
+[F#7]                                    [B]     [F#7]
+Mesmo meus dedos me traem e disco seu telefone
+
+[Refrão]
+
+ [B]      [B7M]       [B6]         [B7M] [B]
+É, minha cara, mudei, minha cara
+                      [E]
+Mas por dentro eu não mudo
+ [C#m]   [C#m7M]   [C#m7]      [C#m6]         [F#7]
+O sentimento não para, a doença não sara
+                 [B]     [F#7]
+Seu amor ainda é tudo, tudo
+
+[B]                  [G#m]             [C#m]  [C#m7M]  [C#m7]  [C#m6]
+Daquele momento até hoje esperei você
+   [F#7]                                 [B]  [E]  [F#7]
+Daquele maldito momento até hoje, só você
+   [B]                  [G#m]               [C#m]  [C#m7M]  [C#m7]  [C#m6]
+Eu sei que o culpado de não ter você sou eu
+ [F#7]                                [B] [F#7]   [B]
+E esse medo terrível de amar outra vez é meu
+
+( [Bm]  [Em]  [Bm] )
+( [F#7]  [Bm]  [F#7] )
+
+[Segunda Parte]
+
+ [Bm]                             [Em]
+Sei, não devia dizer, disse perdoa
+[F#7]                                    [Bm]
+Bem que eu queria encontrá-la e sorrir numa boa
+[Bm]                                  [Em]
+Mas convenhamos a vida nos faz tão pequenos
+[F#7]                                    [B]     [F#7]
+Nos preparamos pra muito e choramos por menos
+
+[Refrão]
+
+  [B]     [B7M]       [B6]         [B7M] [B]
+É, minha cara, mudei, minha cara
+                      [E]
+Mas por dentro eu não mudo
+ [C#m]   [C#m7M]   [C#m7]     [C#m6]         [F#7]
+O sentimento não pára a doença não sara
+                 [B]     [F#7]
+Seu amor ainda é tudo, tudo
+
+[B]                  [G#m]             [C#m]  [C#m7M]  [C#m7]  [C#m6]
+Daquele momento até hoje esperei você
+   [F#7]                                 [B]  [E]  [F#7]
+Daquele maldito momento até hoje, só você
+   [B]                  [G#m]               [C#m]  [C#m7M]  [C#m7]  [C#m6]
+Eu sei que o culpado de não ter você sou eu
+ [F#7]                                     [B]    [E]   [B]
+E esse medo terrível de amar outra vez é meeeee...uuu`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-aline",
+    titulo:        "Aline",
+    artista:       "João Mineiro e Marciano",
+    tom:           "C#",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3155,
+    cifra: `[Intro] [A]  [C#7]  [D]  [E]
+
+           [A]
+Ontem retornei
+    [C#7]
+Na areia
+           [D]    [Bm]
+Branca e ardente
+            [E]
+Então te esperei
+             [A]
+Ouvi os teus risos
+         [C#7]
+Que eram vindos
+        [D]   [Bm]
+Que uma onda
+              [E]
+Trouxe a meus pés
+
+        [A]       [C#7]
+E eu chamei, chamei
+ [D]            [E]
+Aline, estou aqui!
+        [A]       [C#7]
+E eu chorei, chorei
+   [D]          [E]
+Um mar só por ti
+
+            [A]
+Risquei na areia
+          [C#7]
+Teu lindo rosto
+         [D]      [Bm]
+Sempre sorrindo
+          [E]
+Talvez de mim
+       [A]
+A onda mansa
+        [C#7]
+Tudo apagou
+            [D]     [Bm]
+A mesma esperança
+           [E]
+De te encontrar
+
+        [A]       [C#7]
+E eu chamei, chamei
+ [D]           [E]
+Aline, estou aqui!
+        [A]       [C#7]
+E eu chorei, chorei
+   [D]          [E]
+Um mar só por ti
+
+( [A]  [C#7]  [D]  [E] )
+
+          [A]
+Sei que ouvi
+          [C#7]
+O sino ao longe
+          [D]   [Bm]
+Que anunciava
+        [E]
+O amanhecer
+
+        [A]       [C#7]
+E eu chamei, chamei
+ [D]           [E]
+Aline, estou aqui!
+        [A]       [C#7]
+E eu chorei, chorei
+   [D]          [E]
+Um mar só por ti
+
+        [A]       [C#7]
+E eu chamei, chamei
+ [D]           [E]
+Aline, estou aqui!
+        [A]       [C#7]
+E eu chorei, chorei
+   [D]          [E]
+Um mar só por ti`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-se-eu-nao-puder-te-esquecer",
+    titulo:        "Se eu não puder te esquecer",
+    artista:       "João Mineiro e Marciano",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 1571,
+    cifra: `[Intro] [F]  [G7]  [Em]  [A7]  [Dm]  [G7]  [C]  [G7]
+
+[Primeira Parte]
+[C]
+Se eu não puder te esquecer
+                   [G7]
+Mando dizer numa flor
+ [Dm]
+Mando uma estrela avisar
+ [G7]                   [C]  [G7]
+Que o velho amor acordou
+
+ [C]
+Se não puder me esquecer
+                 [G7]
+Basta dizer por aí
+ [Dm]
+Quando você sussurrar
+ [G7]                [C]   [C7]
+Meu coração vai ouvir
+
+[Refrão]
+      [F]      [G7]      [C]
+Esquecer, difícil demais
+    [Am]       [Dm]
+Ninguém é capaz
+    [G7]         [C]     [C7]
+Se amou um pouquinho
+
+      [F]     [G7]        [C]
+Esquecer você, nem pensar
+   [Am]           [Dm]
+E quando eu tentar
+          [G7]    [C]
+Que eu morra sozinho
+
+(  [F]  [G7]  [Em]  [A7]  [Dm]  [G7]  [C]  [G7]  )
+
+[Primeira Parte]
+[C]
+Se eu não puder te esquecer
+                   [G7]
+Mando dizer numa flor
+ [Dm]
+Mando uma estrela avisar
+ [G7]                   [C]  [G7]
+Que o velho amor acordou
+
+ [C]
+Se não puder me esquecer
+                 [G7]
+Basta dizer por aí
+ [Dm]
+Quando você sussurrar
+ [G7]                [C]   [C7]
+Meu coração vai ouvir
+
+[Refrão]
+
+      [F]      [G7]      [C]
+Esquecer, difícil demais
+    [Am]       [Dm]
+Ninguém é capaz
+    [G7]         [C]     [C7]
+Se amou um pouquinho
+
+      [F]     [G7]        [C]
+Esquecer você, nem pensar
+   [Am]           [Dm]
+E quando eu tentar
+          [G7]    [C]
+Que eu morra sozinho
+
+(  [C]  )`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-paredes-azuis",
+    titulo:        "Paredes Azuis",
+    artista:       "João Mineiro e Marciano",
+    tom:           "D",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 2520,
+    cifra: `[Intro] [G]  [A]  [F#m]  [Bm7]  [Em]  [G]
+        [A]  [G]
+        [A]  [G]
+
+[Primeira Parte]
+       [D]  [G]                  [D]
+Já se vai mais de uma semana sem você
+   [G]                     [D]
+E eu aqui lutando pra esquecer
+    [Bm]              ( [Em]  [Em7+] )   [Em]
+Tentando enganar meu coração
+
+[Pré-Refrão]
+       [G]  [A]                       [F#m]
+Entre nós, tudo se tornou um caso sério
+        [Bm7]                     [Em] [Em7]
+Que por fim foi terminar em adultério
+     [G]     [A7]              [D]        [D7]
+Que muita gente chama de traição
+
+[Refrão]
+  [G]
+Aqui todas paredes são azuis
+  [A]                  [D]
+Aquela mesma cor que escolhemos
+  [Bm]                        [A]
+Tudo ainda esta do mesmo jeito
+ [Em]    [A7]            [D]            [D7]
+Apenas seu amor que hoje é menos
+
+ [G]
+Resta uma saudade sem igual
+ [A]                     [D]
+Fumaça de cigarro em caracol
+   [Bm]                         [A]
+O gosto do seu corpo está na boca
+     [Em]     [A7]                [D]     ( [D]  [D7] )
+Seu cheiro ainda está no meu lençol
+
+( [G]  [A]  [F#m]  [Bm7]  [Em]  [G] )
+( [A]  [G] )
+( [A]  [G]  )
+
+[Segunda Parte]
+       [D]          [G]                [D]
+Olha aqui, que espécie de amor você me deu
+    [G]                   [D]
+Me fez gostar assim e me esqueceu
+    [Bm]             ( [Em]  [Em7+] )   [Em]
+Me fez acreditar sem merecer
+
+[Pré-Refrão]
+       [G]                [A]          [F#m]
+Olha aqui pintamos de azul nossas paredes
+   [Bm]                       [Em] [Em7]
+Deixou minha esperança toda verde
+   [G]          [A7]      [D]          [D7]
+Depois tirou a cor do meu viver.
+
+[Refrão]
+   [G]
+Aqui todas paredes são azuis
+   [A]                 [D]
+Aquela mesma cor que escolhemos
+   [Bm]                       [A]
+Tudo ainda esta do mesmo jeito
+ [Em]    [A7]            [D]            [D7]
+Apenas seu amor que hoje é menos
+
+ [G]
+Resta uma saudade sem igual
+  [A]                    [D]
+Fumaça de cigarro em caracol
+    [Bm]                         [Em] [A]
+O gosto do seu corpo está na boca
+     [Em]     [A7]                [D]
+Seu cheiro ainda está no meu lençol
+
+(  [G]  [F#m]  [Em]  [D]  )`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-amor-clandestino",
+    titulo:        "Amor Clandestino",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 911,
+    cifra: `[A]                                                          [Bm]
+Quando a porta se abrir, você vai sair, e pedir que eu esqueça
+              [E]                                       [A]
+Toda vez é assim, vai fugindo de mim, quase perco a cabeça
+                                          [A7]                     [D]     [Dm]
+Quando o relogio avisa, visto a minha camisa, me escondo da dor
+                     [A]  [F#m]           [Bm] [E]             [A]     ( [E] )
+Nem bem a porta se fecha, você me esquece, no elevador
+            [A]                                            [Bm]
+Fica a sensação, que essa nossa paixão, é um caso sem jeito
+                   [E]                                           [A]     [E]
+Pra te amar outra vez, lembro o que a gente fez, te procuro no peito
+                 [A]                       [A7]                   [D]    [Dm]
+Só encontro um vazio, feito um peixe sem rio, me falta um pedaço
+                  [A]  [F#m]                 [Bm]  [E]                      [A]   ( [A] )
+Sinto então sua boca, e o meu corpo sem roupa, dentro do seu abraço
+                [A]                                         [Bm]
+Esse amor de momento, quase nunca tem tempo, é feito as pressas
+               [E]                                            [A]      [E]
+Não divide segredos, não tem paz nem sossego, não admite promessas
+                  [A]                     [A7]                            [D]    [Dm]
+Esse amor clandestino, faz de mim um menino, que ao dormir também chora
+               [A]    [F#m]             [Bm]   [E]   ( [E7] )            [A]        [E]
+E adormece querendo, te ouvir me dizendo,    nunca mais vou embora`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-no-mesmo-lugar",
+    titulo:        "No Mesmo Lugar",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3780,
+    cifra: `[Intro] [E7]  [A]  [A7]
+        [D]  [A]  [E7]  [A]  [E7]
+
+[Primeira Parte]
+
+[A]                       [D]                 [A]
+Nem mesmo outro rosto bonito, me faz te esquecer
+                             [D]            [E7]
+Nem mesmo o sabor de outra boca te substitui
+      [D]                                          [A]
+Nem mesmo o melhor dos  momentos nos braços de alguém
+   [E7]                                       [A]
+Fará com que eu seja outra vez o mesmo que fui
+
+[Refrão]
+
+   [E7]                               [A]
+A vida tem horas difíceis pra gente passar
+  [E7]                   [D]              [A]       [A7]
+Pedaços quase impossíveis pra se entender, hê
+        [D]               [E7]               [A]
+Por que uma coisa estranha marcou nosso fim
+              [F#m]                [Bm]
+Um pobre qualquer foi tirá-la de mim
+              [E7]                [A]
+Se nem mesmo Deus me tirou de você
+
+( [E7]  [A]  [A7]  [D] )
+( [A]  [E7]  [A]  [E7] )
+
+[Segunda Parte]
+
+[A]                     [D]                    [A]
+Me sinto pregado em você, que já é minha cruz
+                       [D]                  [E7]
+Nem mesmo com mil orações consegui me livrar
+   [D]                                 [A]
+Você se livrou facilmente e saiu por aí
+        [E7]                             [A]
+Eu saio, porém eu me sinto no mesmo lugar
+
+[Refrão]
+
+   [E7]                               [A]
+A vida tem horas difíceis pra gente passar
+  [E7]                   [D]              [A]       [A7]
+Pedaços quase impossíveis pra se entender, hê
+        [D]               [E7]               [A]
+Por que uma coisa estranha marcou nosso fim
+              [F#m]                [Bm]
+Um pobre qualquer foi tirá-la de mim
+              [E7]                [A]
+Se nem mesmo Deus me tirou de você
+     [A]
+De você`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-minha-serenata",
+    titulo:        "Minha Serenata",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 1684,
+    cifra: `[Intro] [A]  [E7]  [A]  [E7]  [A]  [E7]  [A]
+
+ [A]         [E7]          [A]        [E7]     [D]        [A]
+Nesta rua deserta e calma no silencio da madrugada
+ [E7]        [D]         [A]                      [E7]
+Eu canto esta serenata para ti, oh minha amada
+   [A]           [E7]       [A]    [E7]     [D]        [A]
+Não sei se estás dormindo ou se estás acordada
+   [E7]      [D]         [A]
+Somente com meu violão
+                    [E7]          [D]   [E7]     [A]  [A7]
+Ofereço-te esta canção nesta noite enluarada
+
+  [D]
+Você sabe mulher, você sabe
+  [A]
+O motivo que vivo cantando
+[E7]
+Você sabe mulher, você sabe
+          [D]      [E7]         [A]
+Porque às vezes canto chorando
+
+[A]        [E7]           [A]      [E7]    [D]        [A]
+Meu bem se estás ouvindo, acenda a luz de fora
+ [E7]       [D]         [A]                      [E7]
+Venha me ver na janela, abrace, me beija agora
+[A]          [E7]       [A]         [E7]         [D]         [A]
+Estrelinha do infinito que brilha no romper da aurora
+[E7]      [D]           [A]
+A ti darei minha vida
+                       [E7]       [D]      [E7]       [A]  [A7]
+E tenho esperança querida que serás minha senhora
+
+  [D]
+Você sabe mulher, você sabe
+  [A]
+O motivo que vivo cantando
+[E7]
+Você sabe mulher, você sabe
+          [D]      [E7]       [A]
+Porque às vezes canto chorando`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-esta-noite-como-lembranca",
+    titulo:        "Esta Noite Como Lembrança",
+    artista:       "João Mineiro e Marciano",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 4995,
+    cifra: `Intro: [C] [G7] [C]
+          [C]        [F]     [G7]          [C]
+Você me pede nesta noite que estamos juntos
+                               [G7]
+Que eu fique e que faça você feliz
+         [F]                               [C]
+Peço desculpas mesmo chorando eu abro a porta
+         [G7]                        [C]     [C7]
+O seu destino infelizmente eu não fiz
+
+  [F]            [G7]        [C]
+Agora resta partir vida minha
+                 [F]   [G7]    [C]
+Eu tenho que deixar você aqui
+   [F]                   [G7]         [C]
+Chorando confessa que sem mim não dorme
+                    [F]  [G7]        [C]
+Confesso que sem você não vou dormir
+
+Introdução
+
+          [C]              [F]   [G7]        [C]
+O seu destino foi construído por suas mãos
+                                       [G7]
+Faz dois anos que não é minha que se casou
+         [F]                           [C]
+A quero tanto mas eu enfrento a realidade
+           [G7]                             [C]     [C7]
+Fique esta noite como lembrança do que acabou
+
+ [F]             [G7]        [C]
+Agora resta partir vida minha
+                [F]    [G7]    [C]
+Eu tenho que deixar você aqui
+   [F]                  [G7]          [C]
+Chorando confessa que sem mim não dorme
+                    [F]  [G7]        [C]
+Confesso que sem você não vou dormir`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-telefone-mais",
+    titulo:        "Telefone Mais",
+    artista:       "João Mineiro e Marciano",
+    tom:           "C",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3918,
+    cifra: `[Primeira Parte]
+
+[C]                    [Dm]
+Hoje de manhã meu telefone
+[G]                        [C]
+Resolveu me dar sinal de vida
+          [Am]                       [Dm]
+Me despertou tocou tocou e eu atendi
+         [G]                            [C]     [G]
+Ouvi uma voz que sempre foi tão pretendida
+[C]                     [Dm]
+Eu ouvi de novo a sua voz
+[G]                        [C]
+Pelo menos se lembrou de mim
+[C7]                 [F]
+Quanta alegria propiciou
+ [C]            [G7]           [C]   [C7]
+Por favor me faça sempre assim
+
+[Refrão]
+
+              [F]       [G]                   [C]
+Me telefone mais eu preciso matar minha saudade
+       [Am]                        [Dm]
+Me telefone quantas vezes for possível
+       [G]                  [C]
+A sua voz sempre me traz felicidade
+
+[Segunda Parte]
+
+  [C]                       [Dm]
+Você me chamou de meu amigo
+[G]                            [C]
+Mesmo assim gostei valeu demais
+         [Am]                        [Dm]
+Se não existe mais amor que seja assim
+       [G]                       [C]   [G]
+Sua amizade pode crer é bom demais
+[C]                      [Dm]
+Seja como for não me esqueça
+[G]                       [C]
+Mesmo ao telefone me agrada
+[C7]                         [F]
+Basta uma palavra em cada vez
+[C]          [G7]              [C]  [C7]
+Por favor repita esta chamada
+
+[Refrão]
+
+              [F]         [G]                 [C]
+Me telefone mais eu preciso matar minha saudade
+       [Am]                        [Dm]
+Me telefone quantas vezes for possível
+       [G]                  [C]
+A sua voz sempre me traz felicidade`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-pare-com-isso",
+    titulo:        "Pare Com Isso",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 1502,
+    cifra: `[Intro] [Bb]  [Ab]  [Bb]  [Eb]
+        [Bb]  [F7]  [Bb]  [Bbm]
+
+[Primeira Parte]
+
+              [Bbm]
+Eu vou e não volto
+                  [F7]
+Nem mesmo que eu tenha
+                  [Bbm]
+Que morrer de saudade
+
+Pare com isso
+
+Não tem cabimento
+         [Ebm]
+Você me seguir
+           [F7]
+É chato demais
+                                [Bbm]
+Na frente de amigos você aproximar
+                                  [F7]
+Com cara de anjo perguntando pra mim
+              [Bb]
+Você vai demorar
+
+[Refrão]
+
+        [Bb]
+Sua atitude se torna tão feia
+                [F]
+Pra você e pra mim
+
+Provoca sorrisos você dá na cara
+          [Bb]
+Não sabe fingir
+                                [Bb7]
+Ontem foi engraçado você aproximou
+               [Eb]  [Ebm]
+Com ternura pediu
+             [Bb]                 [F]
+Me leva pra casa você vinha de lá
+      [Bb]
+Todo mundo viu
+
+( [Bb]  [Ab]  [Bb]  [Eb] )
+( [Bb]  [F7]  [Bb]  [Bbm] )
+
+[Segunda Parte]
+
+           [Bbm]                 [F7]
+Eu amo e odeio quase ao mesmo tempo
+            [Bbm]
+A mesma pessoa
+
+Amor veja bem como é que eu posso
+          [Ebm]
+Continuar assim
+             [F7]
+Você me faz falta sem você comigo
+              [Bbm]
+Não dá pra viver
+                             [F7]
+Porém há lugares que preciso ir
+             [Bb]
+Sem levar você
+
+[Refrão]
+
+        [Bb]
+Sua atitude se torna tão feia
+                [F]
+Pra você e pra mim
+
+Provoca sorrisos você dá na cara
+          [Bb]
+Não sabe fingir
+                                [Bb7]
+Ontem foi engraçado você aproximou
+               [Eb]  [Ebm]
+Com ternura pediu
+             [Bb]                 [F]
+Me leva pra casa você vinha de lá
+      [Bb]
+Todo mundo viu`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-a-bailarina",
+    titulo:        "A Bailarina",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3858,
+    cifra: `[Fm]               [Bbm]   [Eb7]              [Ab]
+Ela era quase criança nos sonhos bons de menina
+                  [C7]                 [Fm]
+Queria ser bem famosa queria ser bailarina
+               [Bbm]      [Eb7]                [Ab]
+E despediu-se bem nova contra a vontade dos pais
+                   [C7]                       [Fm]
+E foi tentar a carreira não retornou nunca mais
+
+ [F]                  [C7]                [F]
+Para contar sua história não preciso tanto
+                                       [C7]
+Ela foi sempre enganada e as coisas mudaram
+
+No fim perdeu a carreira tornou-se na vida
+[Bb]           [C7]              [F]
+Uma famosa amante que tantos amaram
+             [C7]              [F]
+A bailarina venceu e tem fama demais
+            [F7]                [Bb]
+Apenas é diferente o caminho porém
+                                      [F]
+Ela não dança no palco recebe um por vez
+                [C7]            [F]    [Fm]
+Naquele quarto bonito a platéia vem
+
+ [Fm]                   [Bbm]   [Eb7]                [Ab]
+De vez em quando ela chora lembra do sonho passado
+                     [C7]                 [Fm]
+Pois se soubesse de tudo ela não tinha tentado
+                   [Bbm]    [Eb7]               [Ab]
+Nesse bailado de agora é muito triste a canção
+                  [C7]                  [Fm]
+Abraça o fã que lhe paga a fama foi ilusão
+
+ [F]                  [C7]                [F]
+Para contar sua história não preciso tanto
+                                       [C7]
+Ela foi sempre enganada e as coisas mudaram
+
+No fim perdeu a carreira tornou-se na vida
+[Bb]           [C7]              [F]
+Uma famosa amante que tantos amaram
+             [C7]              [F]
+A bailarina venceu e tem fama demais
+            [F7]                [Bb]
+Apenas é diferente o caminho porém
+                                      [F]
+Ela não dança no palco recebe um por vez
+                [C7]            [F]    [Fm]
+Naquele quarto bonito a platéia vem`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-crises-de-amor",
+    titulo:        "Crises de amor",
+    artista:       "João Mineiro e Marciano",
+    tom:           "F",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 1954,
+    cifra: `[Intro] [C]  [F]  [C]  [F]
+        [C]  [F]  [C]  [Bb]
+        [Am]  [Gm]  [Am]  [Gm]  [F]
+
+[Primeira Parte]
+
+ [F]            [Am]               [F]                                [Gm]
+Só existe um caminho pra nos dois, não adianta nem tentar variações.
+      [Bb]                              [C]                        [F]     [C]
+Já bebeu da mesma água que bebi, batizou  com seu amor meu coração
+[F]                [Am]            [F]        [F7]                       [Bb]
+Não adianta lamentar o que passou, é por isso que eu peço não se vá
+
+[Pré-Refrão]
+                                [F]                                    [Gm]
+Fui parceiro nos momentos mais felizes, se agora nosso amor esta em crise
+        [Bb]           [C]            [F]    [F7]
+Fique aqui pois haveremos de enfrentar
+
+[Refrão]
+                  [Bb]                             [C]                           [Bb]  [F]
+São as crises de amor , nem por isso te amo menos...... nem por isso nem por nada
+                               [C]                [Bb]          [C]                [F]
+Não adianta nem tentar novos caminhos quando é fácil consertar a velha estrada
+
+( [C]  [F]  [C]  [F] )
+( [C]  [F]  [C]  [Bb] )
+( [Am]  [Gm]  [Am]  [Gm]  [F] )
+
+[Segunda Parte]
+
+[F]               [Am]             [F]                                 [Gm]
+Conhecemos mil segredos um do outro, muitas vezes nos amamos confiantes
+     [Bb]                            [C]                        [F]      [C]
+Conheci você no auge do amor, e você me conheceu no mesmo instante
+[F]                                         [F7]                    [Bb]
+Já é tarde pra jogarmos tudo fora, tanto tempo alimentando as ilusões
+
+[Pré-Refrão]
+
+                                [F]                                 [Gm]
+Você sabe as reações dos meus sentidos, e eu já sei como você reagido
+      [Bb]     [C]            [F]   [F7]
+Tudo isso favorece as emoções
+
+[Refrão]
+                  [Bb]                             [C]                           [Bb]  [F]
+São as crises de amor , nem por isso te amo menos...... nem por isso nem por nada
+                               [C]                [Bb]        [C]                  [F]
+Não adianta nem tentar novos caminhos quando é fácil consertar a velha estrada`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-o-beijo-do-adeus",
+    titulo:        "O Beijo do Adeus",
+    artista:       "João Mineiro e Marciano",
+    tom:           "F",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 447,
+    cifra: `[Intro] [F]  [Em]  [Dm]  [C7]
+        [Bb]  [F]  [C7]  [F]
+
+ [F]                                        [C7]
+Devolva todas minhas coisas porque não lhe servem
+                 [Bb]       [C7]           [F]
+Arrume tudo numa caixa que eu vou buscar
+                    [F7]                 [Bb]
+À noite vou bater na porta com toda tristeza
+ [F]                    [C7]              [F]     [Em]  [Dm]
+Você vai rever a quem que não consegue amar
+
+  [C7]                                      [F]
+Prefiro aparecer à noite pra esconder meu rosto
+ [C7]                                 [F]     [Em]  [Dm]
+Cansado por essa saudade que me fez sentir
+ [C7]                                 [Bb]
+Ainda quero lhe pedir com muita esperança
+                                  [F]
+Junto com as coisas quero por lembrança
+             [C7]             [F]
+O beijo do adeus pra depois sumir
+
+( [F]  [Em]  [Dm]  [C7] )
+( [Bb]  [F]  [C7]  [F] )
+
+[F]                                     [C7]
+Se acaso perceber em mim um cheiro de bebida
+                      [Bb]        [C7]       [F]
+Compreenda precisei coragem pra rever você
+                      [F7]                 [Bb]
+Não pense que eu seja um boêmio, pois não sou ainda
+    [F]              [C7]              [F]     [Em]  [Dm]
+Mas hoje para não chorar, tenho que beber
+
+ [C7]                                       [F]
+Prefiro aparecer à noite pra esconder meu rosto`,
+  },
+  {
+    id:            "joao-mineiro-e-marciano-viola-esta-chorando",
+    titulo:        "Viola Está Chorando",
+    artista:       "João Mineiro e Marciano",
+    tom:           "A",
+    ritmo:         "Sertanejo Raiz",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo","raiz"],
+    tocadasSemana: 3054,
+    cifra: `[Intro] [E]  [A]  [A7]  [D]
+        [E]  [A]  [E]
+
+         [A]         [E/G#]          [F#m]
+Trago no peito uma saudade tão doída
+                  [A7]              [F#7]          [Bm]
+Tão cruel tão atrevida que eu não posso controlar
+                  [Bm/A]            [E/G#]
+No pensamento aquela flor maravilhosa
+                 [E]                           [A]   [E]
+Flor morena e formosa que se foi pra não voltar
+
+           [A]         [E/G#]           [F#m]
+Lembro das noites de canções, de poesias
+                       [A/E]        [A7]          [D]
+Noite a dentro a gente ia e eu cantava só pra ela
+                      [D#5-]            [C#m]
+Meu canto é triste desde que ela foi embora
+[F#m]              [Bm]  [E7]                [A]
+Pois até minha viola chora de saudade dela
+
+[Refrão]
+
+              [E]
+Viola está chorando
+                  [A]       [A7]
+Chorando está meu coração
+                    [D]
+Meu desespero meu sufoco
+                 [E]                    [A]
+Desabafo pouco a pouco na magia da canção
+
+              [E]
+Viola está chorando
+                  [A]       [A7]
+Chorando está meu coração
+                    [D]
+Meu desespero meu sufoco
+                 [E]                    [A]
+Desabafo pouco a pouco na magia da canção
+
+( [E]  [A]  [A7] )
+( [D]  [E]  [A]  [E] )
+
+[Segunda Parte]
+
+           [A]          [E/G#]          [F#m]
+Preso nas garras dessa dor tão impulsiva
+                    [A7]        [F#7]         [Bm]
+Feito um barco à deriva vou vivendo por viver
+                   [Bm/A]            [E/G#]
+Viver sem ela é não ter sol nem ter abrigo
+                 [E]                           [A]   [E]
+É bem mais que um castigo é pior do que morrer
+
+           [A]         [E/G#]           [F#m]
+Solto meu grito meu apelo meu lamento
+                       [A/E]   [A7]                 [D]
+Vai meu canto vai no vento, vai até aonde ela está
+                    [D#5-]        [C#m]
+E pede à ela que devolva minha vida
+[F#m]              [Bm]     [E7]               [A]
+Tô num beco sem saída, pede à ela pra voltar
+
+[Refrão]
+
+              [E]
+Viola está chorando
+                  [A]       [A7]
+Chorando está meu coração
+                    [D]
+Meu desespero meu sufoco
+                 [E]                    [A]
+Desabafo pouco a pouco na magia da canção
+
+              [E]
+Viola está chorando
+                  [A]       [A7]
+Chorando está meu coração
+                    [D]
+Meu desespero meu sufoco
+                 [E]                    [A]
+Desabafo pouco a pouco na magia da canção
+
+              [E]
+Viola está chorando
+                  [A]       [A7]
+Chorando está meu coração
+                    [D]
+Meu desespero meu sufoco
+                 [E]                    [A]
+Desabafo pouco a pouco na magia da canção
+
+[Final] [E]  [A]  [A7]
+        [D]  [E]  [A]  [E]`,
+  },
+  {
+    id:            "jorge-e-mateus-gaivota",
+    titulo:        "Gaivota",
+    artista:       "Jorge e Mateus",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4521,
+    cifra: `[Intro] [C]
+
+[G4]                 [Am]
+Eu não confio em mim
+[F]                  [C]          [G]
+Perto de você por mais nenhum segundo
+[G]                   [Am]           [F]  [C]
+Esse olhar sorrindo assim é covardia
+             [G]
+Não me leve a mal
+                   [Am]
+Não é questão de querer, quero tanto
+[F]                     [C]
+Talvez até mais que você
+
+[C]                      [G]
+Agora explica pro meu medo
+                       [Am]
+Que não vou ser seu brinquedo
+                [F]                             [C]
+Que eu posso confiar de olho fechado no seu beijo
+                    [G]               [F]
+Se existe alguma contra-indicação desse seu cheiro
+
+
+[Refrão]
+[Am]                       [F]         [C]
+Tem gente que chega e que vai, não volta
+             [G]                          [Am]
+Cê vem pra ficar ou vai voar que nem gaivota
+           [F]                              [C]
+Se quer aplicar uma injeção de amor no peito
+
+Oh-oh-oh-oh então faz direito
+
+[Am]                       [F]         [C]
+Tem gente que chega e que vai, não volta
+             [G]                          [Am]
+Cê vem pra ficar ou vai voar que nem gaivota
+           [F]                              [C]
+Se quer aplicar uma injeção de amor no peito
+
+Oh-oh-oh-oh então faz direito
+
+           [C]        [G]        [F]
+[Passagem] Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh
+
+[G4]                 [Am]
+Eu não confio em mim
+[F]                  [C]          [G]
+Perto de você por mais nenhum segundo
+[G]                   [Am]           [F]  [C]
+Esse olhar sorrindo assim é covardia
+             [G]
+Não me leve a mal
+                   [Am]
+Não é questão de querer, quero tanto
+[F]                     [C]
+Talvez até mais que você
+
+[C]                      [G]
+Agora explica pro meu medo
+                       [Am]
+Que não vou ser seu brinquedo
+                [F]                             [C]
+Que eu posso confiar de olho fechado no seu beijo
+                    [G]               [F]
+Se existe alguma contra-indicação desse seu cheiro
+
+
+[Refrão]
+[Am]                       [F]         [C]
+Tem gente que chega e que vai, não volta
+             [G]                          [Am]
+Cê vem pra ficar ou vai voar que nem gaivota
+           [F]                              [C]
+Se quer aplicar uma injeção de amor no peito
+             [G]
+Oh-oh-oh-oh então faz direito
+
+[Am]                       [F]         [C]
+Tem gente que chega e que vai, não volta
+             [G]                          [Am]
+Cê vem pra ficar ou vai voar que nem gaivota
+           [F]                              [C]
+Se quer aplicar uma injeção de amor no peito
+
+Oh-oh-oh-oh então faz direito
+
+[Am]                       [F]         [C]
+Tem gente que chega e que vai, não volta
+             [G]                          [Am]
+Cê vem pra ficar ou vai voar que nem gaivota
+           [F]                              [C]
+Se quer aplicar uma injeção de amor no peito
+
+Oh-oh-oh-oh então faz direito`,
+  },
+  {
+    id:            "jorge-e-mateus-memoria-tem-nada-a-ver-paredes",
+    titulo:        "Memória / Tem Nada a Ver / Paredes",
+    artista:       "Jorge e Mateus",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2827,
+    cifra: `[C]
+A minha memória
+  [E]             [Am]        [Am/G]
+Reprisa você tal qual uma tela
+      [F]
+Sou a chama da vela
+    [G]                    [C4(9)]
+Que quase se apaga com o sopro do ar
+
+    [E]
+Se volto ao passado
+    [E7]                  [Am]      [Am/G]
+E reviro os guardados, um tanto inseguro
+       [F]
+Por saber de verdade
+     [G]               [C]           [G7]
+Que nesse presente você não está
+
+  [C]
+Apago as luzes
+   [E]               [Am]        [Am/G]
+E deixo a porta da frente encostada
+          [F]                 [G]
+É que as vezes me perco no tempo
+             [C4(9)]
+Pensando que posso te esquecer
+
+   [E]               [E7]
+E cada manhã é um futuro incerto
+    [Am]               [Am/G]
+Que não a traz de volta
+     [F]
+A bater nessa porta
+     [G]             [C]      [G7]
+Que nunca fechou pra você
+
+ [C]
+Vem
+ [E]              [Am]    [Am/G]
+Nem que seja em sonho vem
+        [F]                [G]
+Eu te quero de qualquer jeito
+      [C9]
+Eu te quero como for
+
+        [E]                  [E7]
+Pois enquanto eu estiver sonhando
+        [Am]    [Am/G]
+Estará comigo
+          [F]                    [G]
+Entre os sonhos, o sonho mais lindo
+               [C]  [G7]
+É viver este amor
+
+ [C]
+Alguém me disse que você falou
+         [G9]
+Que acha graça e tem pena de mim
+           [F]                                 [G9]
+Que não me ama que o nosso caso já chegou ao fim
+
+       [C]
+Ao telefone não atende mais
+          [G9]
+Que pra você agora tanto faz
+        [F]
+Se é verdade que você não quer
+         [G9]
+Responda se puder
+           [Am]              [E7]
+Quem é que liga no meio da noite
+               [Am]
+Diz que está sozinha
+                    [C7]                    [F]
+Quem é que nos meus braços fala que é só minha
+              [G7]                 [C]  [G7]
+E chora de emoção na hora do prazer
+          [Am]                 [E7]
+Porque será que você não assume
+                [Am]
+Que eu sou seu homem
+               [C7]                   [F]
+Porque o tempo todo fala no meu nome
+               [G7]                   [C]  [C7]
+Confessa que você não sabe me esquecer
+               [F]
+Tem nada a ver
+              [G7]     [E7]         [Am]
+Você é quem está fugindo da verdade
+               [C7]              [F]
+Parece que tem medo da felicidade
+                 [G7]                    [C]  [C7]
+Você diz que não,   teu corpo diz que sim
+               [F]               [G7]
+Tem nada a ver,  a boca que me beija
+      [E7]        [Am]
+A mão que me apedreja
+                  [C7]                [F]
+Se deita em minha cama depois me difama
+                   [G7]                    [C]  [G7]
+Diz que não me quer   mas vive atrás de mim
+
+                   [F#4]
+Despertador tocou,    cadê o meu amor
+        [G#m7]                 [E9]
+Pra me dar o primeiro beijo do dia
+    [B]            [F#4]
+Na hora do café,    cadê minha mulher
+        [G#m7]                [F#4]
+Que os meus desejos, de cor    sabia
+
+[Pré-Refrão]
+
+    [E9]
+Eu tentei trabalhar
+
+Tá difícil concentrar
+        [G#m7]                      [B]
+Fim de tarde é pior, ao se pôr o sol
+            [F#4]
+Ela me esperava
+
+Com o sorriso estampado na cara
+        [E9]
+Hoje o dia tá passando
+
+A saudade apertando
+        [F#4]
+E eu sozinho nessa casa
+
+[Refrão]
+
+                            [E9]
+Ah, se essas paredes não falassem
+                             [B]
+Ah, se o travesseiro não contasse
+                     [F#]
+Todas as noites de amor
+                   [G#m7]
+Que eu vivi com você
+
+                          [E9]
+Ah, se essa cama não lembrasse
+                         [B]
+Ah, se esse espelho mostrasse
+       [D#m7]
+Você aqui
+                     [G#m7]
+Pra eu conseguir dormir
+
+                            [E9]
+Ah, se essas paredes não falassem
+                             [B]
+Ah, se o travesseiro não contasse
+                     [F#]
+Todas as noites de amor
+                   [G#m7]
+Que eu vivi com você
+
+                          [E9]
+Ah, se essa cama não lembrasse
+                         [B]
+Ah, se esse espelho mostrasse
+       [D#m7]
+Você aqui
+                     [G#m7]
+Pra eu conseguir dormir`,
+  },
+  {
+    id:            "jorge-e-mateus-orelha",
+    titulo:        "Orelha",
+    artista:       "Jorge e Mateus",
+    tom:           "E",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4985,
+    cifra: `[E]                                          [B9]
+Não era de uma casa só, era de toda a rua, de todo coração
+[E]                                      [B9]
+Dormia em cada porta aberta, sempre encontrava um prato e um irmão
+  [E]                                             [B9]
+Mais de 10 anos nas vizinhas, viu criança crescer, viu o tempo passar
+    [E]                                      [B9]
+Cão comunitário, alma mansa, nunca soube o que era machucar
+[E]                                       [B9]
+Quem passa por aqui conhece seu jeito calmo de olhar
+[E]                                        [B9]
+A rua inteira hoje chora porque aprenderam a te amar
+
+                     [E]                                          [B9]
+Corre livre agora, orelha. Você foi de todo mundo, foi nosso também
+                                  [E]                              [B9]
+Se existe céu pros bons de alma, você tá lá cuidando da gente além
+                                  [E]
+Aqui ficou saudade espalhada no chão
+                                  [B9]
+Em cada esquina que você deitou, que o amor de uma vizinhança inteira
+[E]                                          [B9]
+Seja mais forte que a maldade que te levou
+
+   [E]                                       [B9]
+Florianópolis sabe teu nome, porque teu rabo abanava para qualquer um
+[E]                                     [B9]                 [E]
+Você confiava sem medo no mundo que nem sempre foi comum
+                                        [B9]
+Não pediu nada além de carinho, nem conhecia raiva ou defesa
+[E]                                       [B9]
+Pagou com a vida inocente a crueldade de quem perdeu a pureza
+[E]                                    [B9]
+Não foi descuido, foi escolha. E escolha também pesa
+[E]                                        [B9]
+Um cão que era de todos partiu por causa da frieza
+                     [E]                                              [B9]
+Corre livre agora, orelha. Você foi de todo mundo, foi nosso também
+                                  [E]                                   [B9]
+Se existe céu pros bons de alma, você tá lá cuidando da gente além
+                                  [E]
+Aqui ficou saudade espalhada no chão
+
+                                  [B9]
+Em cada esquina que você deitou, que o amor de uma vizinhança inteira
+[E]                                          [B9]
+Seja mais forte que a maldade que te levou
+
+[E]                                  [B9]
+Que nenhuma rua esqueça teu nome que nenhum latido morra em vão
+[E]                                              [B9]
+Orelha virou símbolo, virou promessa de mais cuidado e mais compaixão
+                            [E]                                        [B9]
+Eu.... corre livre agora orelha. Depois de tantos anos sendo abrigo e lá
+                                [E]                         [B9]
+A rua promete em silêncio proteger quem ainda e é confiar
+                               [E]                           [B9]
+Porque amor não morre não, nem com o tempo, nem com o fim
+                               [E]                          [B9]
+Orelha vive em cada cão que ainda acredita na gente. Mesmo assim. Ah`,
+  },
+  {
+    id:            "luan-santana-te-esperando",
+    titulo:        "Te Esperando",
+    artista:       "Luan Santana",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2748,
+    cifra: `[Intro] [G]  [C9]
+
+[Solo Intro]
+
+E|------------------------------------------|
+B|-1/3-1-0h1p1------------------------------|
+G|-------------0----------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+E|------------------------------------------|
+B|-1-0-1/3----------------------------------|
+G|---------0--------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+ [G]
+Mesmo que você
+
+Não caia na minha cantada
+
+Mesmo que você conheça outro cara
+    [C9]
+Na fila de um banco
+
+Um tal de Fernando
+
+Um lance, assim, sem graça
+
+ [G]
+Mesmo que vocês fiquem sem se gostar
+
+Mesmo que vocês casem sem se amar
+   [C9]
+E depois de seis meses
+
+Um olhe pro outro
+
+E aí, pois é, sei lá
+
+ [G]
+Mesmo que você suporte este casamento
+
+Por causa dos filhos, por muito tempo
+ [C9]
+Dez, vinte, trinta anos
+
+Até se assustar
+
+Com os seus cabelos brancos
+
+    [G]
+Um dia vai sentar
+
+Numa cadeira de balanço
+
+Vai lembrar do tempo
+
+Que tinha vinte anos
+ [C9]
+Vai lembrar de mim e se perguntar
+
+Por onde esse cara deve estar
+
+[Refrão]
+
+            [G]
+E eu vou estar
+
+Te esperando
+                            [C9]
+Nem que já esteja velhinha gagá
+
+Com noventa, viúva, sozinha
+              [G]
+Não vou me importar
+
+Vou ligar
+                               [C9]
+Te chamar pra sair namorar no sofá
+
+Nem que seja além dessa vida
+          [G]
+Eu vou estar
+        [C9]   [Cm]
+Te esperando
+
+[Solo]
+
+[Primeira Parte]
+
+ [G]
+Mesmo que você
+
+Não caia na minha cantada
+
+Mesmo que você conheça outro cara
+    [C9]
+Na fila de um banco
+
+Um tal de Fernando
+
+Um lance, assim, sem graça
+
+ [G]
+Mesmo que vocês fiquem sem se gostar
+
+Mesmo que vocês casem sem se amar
+   [C9]
+E depois de seis meses
+
+Um olhe pro outro
+
+E aí, pois é, sei lá
+
+ [G]
+Mesmo que você suporte este casamento
+
+Por causa dos filhos, por muito tempo
+ [C9]
+Dez, vinte, trinta anos
+
+Até se assustar
+
+Com os seus cabelos brancos
+
+    [G]
+Um dia vai sentar
+
+Numa cadeira de balanço
+
+Vai lembrar do tempo
+
+Que tinha vinte anos
+ [C9]
+Vai lembrar de mim e se perguntar
+
+Por onde esse cara deve estar
+
+[Refrão]
+
+            [G]
+E eu vou estar
+
+Te esperando
+                            [C9]
+Nem que já esteja velhinha gagá
+
+Com noventa, viúva, sozinha
+              [G]
+Não vou me importar
+
+Vou ligar
+                               [C9]
+Te chamar pra sair namorar no sofá
+
+Nem que seja além dessa vida
+
+            [G]
+E eu vou estar
+
+Te esperando
+                            [C9]
+Nem que já esteja velhinha gagá
+
+Com noventa, viúva, sozinha
+              [G]
+Não vou me importar
+
+Vou ligar
+                               [C9]
+Te chamar pra sair namorar no sofá
+
+Nem que seja além dessa vida
+          [G]
+Eu vou estar
+        [C9]
+Te esperando
+             [G]
+Te esperando`,
+  },
+  {
+    id:            "luan-santana-chuva-de-arroz",
+    titulo:        "Chuva de Arroz",
+    artista:       "Luan Santana",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 948,
+    cifra: `[Intro] [Em]  [G]  [Bm]  [A]
+
+[Em]       [G]
+Oh oh oh oh
+[Bm]       [A]
+Oh oh oh oh
+
+[Dedilhado Intro]
+
+Parte 1 de 4
+    [Em]               [G]
+E|-------3-----2----------------------------|
+B|-0----------------0-----------------------|
+G|------------------------2-----0-----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|-0-0-0---0-0---0--3-3-3---3-3---3---------|
+
+Parte 2 de 4
+    [Bm]               [A]
+E|------------------------------------------|
+B|------------------------------------------|
+G|-2-----0----------------------------------|
+D|-------------4/54--2-----0-2h4p2p0-------|
+A|-2-2-2---2-2--------0-0-0-----------4-----|
+E|------------------------------------------|
+
+Parte 3 de 4
+    [Em]               [G]
+E|-------3-----2----------------------------|
+B|-0----------------0-----------------------|
+G|------------------------2-----0-----------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|-0-0-0---0-0---0--3-3-3---3-3---3---------|
+
+Parte 4 de 4
+
+    [Bm]               [A]
+E|-------0-----2----------------------------|
+B|-3----------------2-----------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|-2-2-2---2-2---2--0-----------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+     [Em]               [G]
+Não mudei de cidade, nem de telefone
+ [Bm]               [A]
+Só escolhi ser feliz
+     [Em]              [G]
+É o mesmo endereço, mesmo apartamento
+     [Bm]                [A]
+Em frente à igreja matriz
+
+[Dedilhado Primeira Parte]
+
+Parte 1 de 4
+    [Em]               [G]
+E|------------------------------------------|
+B|-0-----------3----0-----------3-----------|
+G|-------0----------------2-----------------|
+D|-2-2-2-2-2-2-2-2--------------------------|
+A|------------------------------------------|
+E|------------------3-3-3-3-3-3-3-3---------|
+
+Parte 2 de 4
+   [Bm]                [A]
+E|------------------------------------------|
+B|------------------------------------------|
+G|-2-----0-----2----------------------------|
+D|------------------2-----2-----------------|
+A|-2-2-2-2-2-2-2-2--0-0-0-0-0-0-0-0---------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [Em]                [G]
+E|------------------------------------------|
+B|-0-----------3----0-----------3/5---------|
+G|-------0----------------2-----------------|
+D|-2-2-2-2-2-2-2-2--------------------------|
+A|------------------------------------------|
+E|------------------3-3-3-3-3-3-------------|
+
+Parte 4 de 4
+   [Bm]               [A]
+E|------------------------------------------|
+B|-7-----7-----7----5-----------------------|
+G|-7-----7-----7----------------6-----------|
+D|-7-----7-----7----------7-----------------|
+A|------------------0-0-0-0-0-0-0-0---------|
+E|-7-7-7-7-7-7-7-7--------------------------|
+
+[Segunda Parte]
+
+          [Bm]
+Por isso todo mundo passa
+    [G]                    [D]     [A]
+E quem nunca passou vai passar
+         [Bm]
+Já tô dizendo aos meus amigos
+ [G]                       [D]
+Calma, que eu não vou pirar
+      [A]
+Já pirei
+
+[Dedilhado Segunda Parte]
+
+Parte 1 de 4
+   [Bm]                [G]
+E|-------5----------------------------------|
+B|---3--------------3-----3-----------------|
+G|-4---4--------------4---------4-----------|
+D|------------------------------------------|
+A|-2-2-2-2-2-2-2-2--------------------------|
+E|------------------3-3-3-3-3-3-3-3---------|
+
+Parte 2 de 4
+    [D]                [A]
+E|-------0-----2----------------------------|
+B|-3----------------2-----0-----------------|
+G|------------------------------2-----------|
+D|-0-0-0-0-0-0-0-0--------------------------|
+A|------------------0-0-0-0-0-0-0-0---------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [Bm]                [G]
+E|-------5----------------------------------|
+B|---3--------------3-----3-----------------|
+G|-4---4--------------4---------4-----------|
+D|------------------------------------------|
+A|-2-2-2-2-2-2-2-2--------------------------|
+E|------------------3-3-3-3-3-3-3-3---------|
+
+Parte 4 de 4
+    [D]                [A]
+E|-------0-----2----------------------------|
+B|-3----------------2-----------------------|
+G|------------------------------------------|
+D|-0-0-0-0-0-0-0-0--------------------------|
+A|------------------0-----------------------|
+E|------------------------------------------|
+
+[Pré-Refrão]
+
+          [G]          [A9]
+Me apaixonei perdidamente
+            [G]
+E o que eu sei
+                  [A9]
+É que daqui pra frente
+
+[Refrão]
+
+     [Em]                [G]
+Vai ser nossa cidade, nosso telefone
+ [Bm]              [A]
+Nosso endereço, nosso apartamento
+ [Em]                  [G]
+Sabe aquela igreja, tô aqui na frente
+[Bm]              [A]
+   Imaginando chuvas de arroz na gente
+
+[Pós-Refrão]
+
+[Em]  [G]  [Bm]       [A9]
+       Oh oh oh oh
+[Em]       [G]
+Oh oh oh oh
+[Bm]       [A9]
+Oh oh oh oh
+
+[Primeira Parte]
+
+     [Em]               [G]
+Não mudei de cidade, nem de telefone
+ [Bm]               [A9]
+Só escolhi ser feliz
+     [Em]              [G]
+É o mesmo endereço, mesmo apartamento
+     [Bm]                [A9]
+Em frente à igreja matriz
+
+[Segunda Parte]
+
+          [Bm]
+Por isso todo mundo passa
+    [G]                    [D]     [A9]
+E quem nunca passou vai passar
+         [Bm]
+Já tô dizendo aos meus amigos
+ [G]                       [D]
+Calma, que eu não vou pirar
+      [A9]
+Já pirei
+
+[Pré-Refrão]
+
+          [G]          [A9]
+Me apaixonei perdidamente
+            [G]
+E o que eu sei
+                  [A9]
+É que daqui pra frente
+
+[Refrão]
+
+     [Em]                [G]
+Vai ser nossa cidade, nosso telefone
+ [Bm]              [A9]
+Nosso endereço, nosso apartamento
+ [Em]                  [G]
+Sabe aquela igreja, tô aqui na frente
+[Bm]              [A9]
+   Imaginando chuvas
+
+     [Em]                [G]
+Vai ser nossa cidade, nosso telefone
+ [Bm]              [A9]
+Nosso endereço, nosso apartamento
+ [Em]                  [G]
+Sabe aquela igreja, tô aqui na frente
+[Bm]              [A9]
+   Imaginando chuvas de arroz na gente
+
+[Pós-Refrão]
+
+[Em]  [G]  [Bm]       [A9]
+       Oh oh oh oh
+[Em]       [G]
+Oh oh oh oh
+[Bm]       [A9]
+Oh oh oh oh
+
+[Tab - Final]
+
+E|------------------------------------------|
+B|---0---8-----7----------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|-7---7---7-7---7--------------------------|
+E|------------------------------------------|`,
+  },
+  {
+    id:            "luan-santana-te-vivo",
+    titulo:        "Te Vivo",
+    artista:       "Luan Santana",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2767,
+    cifra: `[Intro] [D]  [F#m/C#]  [Bm]
+        [D]  [F#m/C#]  [Bm]
+
+[Dedilhado - Intro]
+
+Parte 1 de 2
+   [D]               [F#m/C#]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------2-------2-----------|
+G|---2---2---2--------2---2---2-------------|
+D|-0----------------------------------------|
+A|------------------4-----------------------|
+E|------------------------------------------|
+
+Parte 2 de 2
+   [Bm]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------3-------3-----------|
+G|---4---4---4--------4---4---4-------------|
+D|------------------4-----------------------|
+A|-2----------------------------------------|
+E|------------------------------------------|
+
+[Primeira parte]
+
+[Dedilhado - Primeira Parte]
+
+Parte 1 de 4
+  [D]               [F#m/C#]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------2-------2-----------|
+G|---2---2---2--------2---2---2-------------|
+D|-0----------------------------------------|
+A|------------------4-----------------------|
+E|------------------------------------------|
+
+Parte 2 de 4
+   [Bm]               [G]
+E|---------2-----2----------3-----3---------|
+B|-----3-------3--------3-------3-----------|
+G|---4---4---4--------4---4---4-------------|
+D|------------------------------------------|
+A|-2----------------------------------------|
+E|------------------3-----------------------|
+
+Parte 3 de 4
+   [D]                [F#m/C#]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------2-------2-----------|
+G|---2---2---2--------2---2---2-------------|
+D|-0----------------------------------------|
+A|------------------4-----------------------|
+E|------------------------------------------|
+
+Parte 4 de 4
+   [Bm]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------3-------3-----------|
+G|---4---4---4--------4---4---4-------------|
+D|------------------4-----------------------|
+A|-2----------------------------------------|
+E|------------------------------------------|
+
+[D]                  [F#m/C#]
+  Quando me sinto só
+                 [Bm]   [G]
+Te faço mais presente
+[D]                  [F#m/C#]
+  Eu fecho os meus olhos
+             [Bm]
+E enxergo a gente
+
+[Pré-refrão]
+
+[Dedilhado - Pré-Refrão]
+
+Parte 1 de 4
+   [Em]
+E|---------0-----0----------0-----0---------|
+B|-----0-------0--------0-------0-----------|
+G|---0---0---0--------0---0---0-------------|
+D|------------------2-----------------------|
+A|------------------------------------------|
+E|-0----------------------------------------|
+
+Parte 2 de 4
+   [Bm]
+E|------------------------------------------|
+B|---------3-----3----------3-----3---------|
+G|-----4-------4--------4-------4-----------|
+D|---4---4---4--------4---4---4-------------|
+A|-2----------------2-----------------------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [G]               [Em]
+E|--------------------------0-----0---------|
+B|---------3-----3------0-------0-----------|
+G|-----4-------4------0---0---0-------------|
+D|---5---5---5------------------------------|
+A|------------------------------------------|
+E|-3----------------0-----------------------|
+
+Parte 4 de 4
+   [A]                [A4]
+E|---------0-----0----------0-----0---------|
+B|-----2-------2--------3-------3-----------|
+G|---2---2---2--------2---2---2-------------|
+D|------------------------------------------|
+A|-0----------------0-----------------------|
+E|------------------------------------------|
+
+[Em]
+   Em questão de segundos
+               [Bm]
+Voo pra outro mundo
+
+Outra constelação
+                  [G]
+Não dá para explicar
+                [Em]
+Ao ver você chegando
+             [A]  [A4]
+Qual a sensação
+
+[Refrão]
+
+[Dedilhado - Refrão]
+
+Parte 1 de 6
+   [D]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------3-------3-----------|
+G|---2---2---2--------2---2---2-------------|
+D|-0----------------0-----------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 6
+   [A]                [F#]
+E|---------0-----0----------2-----2---------|
+B|-----2-------2--------2-------2-----------|
+G|---2---2---2--------3---3---3-------------|
+D|------------------------------------------|
+A|-0----------------------------------------|
+E|------------------2-----------------------|
+
+Parte 3 de 6
+   [Bm]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------3-------3-----------|
+G|---4---4---4--------4---4---4-------------|
+D|------------------4-----------------------|
+A|-2----------------------------------------|
+E|------------------------------------------|
+
+Parte 4 de 6
+   [G]
+E|---------3-----3----------3-----3---------|
+B|-----3-------3--------3-------3-----------|
+G|---4---4---4--------4---4---4-------------|
+D|------------------------------------------|
+A|------------------5-----------------------|
+E|-3----------------------------------------|
+
+Parte 1 de 6
+   [D]
+E|---------2-----2----------2-----2---------|
+B|-----3-------3--------3-------3-----------|
+G|---2---2---2--------2---2---2-------------|
+D|-0----------------0-----------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 6
+   [A]                [F#]
+E|---------0-----0----------2-----2---------|
+B|-----2-------2--------2-------2-----------|
+G|---2---2---2--------3---3---3-------------|
+D|------------------------------------------|
+A|-0----------------------------------------|
+E|------------------2-----------------------|
+
+Parte 5 de 6
+   [G2]
+E|------------------------------------------|
+B|---------3-----3----------3-----3---------|
+G|-----2-------2--------2-------2-----------|
+D|---0---0---0--------0---0---0-------------|
+A|------------------------------------------|
+E|-3----------------3-----------------------|
+
+Parte 6 de 6
+   [Em7]             [A4]
+E|------------------0-----------------------|
+B|---------3-----3--3-----------------------|
+G|-----0-------0----2-----------------------|
+D|---0---0---0------------------------------|
+A|------------------0-----------------------|
+E|-0----------------------------------------|
+
+[D]
+  A gente não precisa
+                  [A]
+Tá colado pra tá junto
+                        [F#]
+Os nossos corpos se conversam
+
+Por horas e horas
+[Bm]
+   Sem palavras
+
+Tão dizendo a todo instante
+[G]
+Um pro outro o quanto se adoram
+
+[D]
+  Eu não preciso te olhar
+                   [A]
+Pra te ter em meu mundo
+                          [F#]
+Porque aonde quer que eu vá
+              [G2]
+Você está em tudo
+                      [Em7]  [A4]
+Tudo, tudo que eu preciso  oh
+    [D]   [F#m/C#]  [Bm]
+Te vivo
+
+( [D]  [F#m/C#]  [Bm]  )
+
+[Primeira parte]
+
+[D]                  [F#m/C#]
+  Quando me sinto só
+                 [Bm]   [G]
+Te faço mais presente
+[D]                  [F#m/C#]
+  Eu fecho os meus olhos
+             [Bm]
+E enxergo a gente
+
+[Pré-refrão]
+
+[Em]
+   Em questão de segundos
+               [Bm]
+Voo pra outro mundo
+
+Outra constelação
+                  [G]
+Não dá para explicar
+                [Em]
+Ao ver você chegando
+             [A]  [A4]
+Qual a sensação
+
+[Refrão Final]
+
+[D]
+  A gente não precisa
+                  [A]
+Tá colado pra tá junto
+                        [F#]
+Os nossos corpos se conversam
+
+Por horas e horas
+[Bm]
+   Sem palavras
+
+Tão dizendo a todo instante
+[G]
+Um pro outro o quanto se adoram
+
+[D]
+  Eu não preciso te olhar
+                   [A]
+Pra te ter em meu mundo
+                          [F#]
+Porque aonde quer que eu vá
+              [G2]
+Você está em tudo
+                      [Em7]  [A4]
+Tudo, tudo que eu preciso  oh
+
+[D]
+  A gente não precisa
+                  [A]
+Tá colado pra tá junto
+                        [F#]
+Os nossos corpos se conversam
+
+Por horas e horas
+[Bm]
+   Sem palavras
+
+Tão dizendo a todo instante
+[G]
+Um pro outro o quanto se adoram
+
+[D]
+  Eu não preciso te olhar
+                   [A]
+Pra te ter em meu mundo
+                          [F#]
+Porque aonde quer que eu vá
+              [G2]
+Você está em tudo
+                      [Em7]  [A4]
+Tudo, tudo que eu preciso  oh
+    [D]   [F#m/C#]  [D]
+Te vivo`,
+  },
+  {
+    id:            "luan-santana-tudo-que-voce-quiser",
+    titulo:        "Tudo Que Você Quiser",
+    artista:       "Luan Santana",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 3380,
+    cifra: `[Intro]
+
+[C]       [F7M/C]     [C]
+  Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+
+[Primeira Parte]
+
+     [C]
+Tem dias que eu acordo pensando em você
+                                        [F7M/C]
+Em fração de segundos vejo o mundo desabar
+   [C]
+E aí que cai a ficha que eu não vou te ver
+                                         [F7M/C]
+Será que esse vazio um dia vai me abandonar
+
+[Pré-Refrão]
+
+     [Dm]
+Tem gente que tem cheiro de rosa, de avelã
+    [F7M/C]
+Tem o perfume doce de toda manhã
+   [C]
+Você tem tudo, você tem muito
+
+ [Dm]
+Muito mais que um dia eu sonhei pra mim
+    [F7M/C]
+Tem a pureza de um anjo querubim
+     [C]                   [G]
+Eu trocaria tudo pra te ter aqui
+
+[Refrão]
+
+     [C]
+Eu troco minha paz por um beijo seu
+
+Eu troco meu destino pra viver o seu
+     [F7M/C]
+Eu troco minha cama pra dormir na sua
+
+Eu troco mil estrelas pra te dar a lua
+   [Am]
+E tudo que você quiser
+                                  [C]
+E se você quiser te dou meu sobrenome
+
+[Pós-Refrão]
+
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+
+[Pré-Refrão]
+
+     [Dm]
+Tem gente que tem cheiro de rosa, de avelã
+    [F7M/C]
+Tem o perfume doce de toda manhã
+   [C]
+Você tem tudo, você tem muito
+
+ [Dm]
+Muito mais que um dia eu sonhei pra mim
+    [F7M/C]
+Tem a pureza de um anjo querubim
+     [C]                   [G]
+Eu trocaria tudo pra te ter aqui
+
+[Refrão]
+
+     [C]
+Eu troco minha paz por um beijo seu
+
+Eu troco meu destino pra viver o seu
+     [F7M/C]
+Eu troco minha cama pra dormir na sua
+
+Eu troco mil estrelas pra te dar a lua
+   [Am]
+E tudo que você quiser
+                                  [F7M/C]
+E se você quiser te dou meu sobrenome
+
+     [C]
+Eu troco minha paz por um beijo seu
+
+Eu troco meu destino pra viver o seu
+     [F7M/C]
+Eu troco minha cama pra dormir na sua
+
+Eu troco mil estrelas pra te dar a lua
+   [Am]
+E tudo que você quiser
+                                  [C]
+E se você quiser te dou meu sobrenome
+
+[Pós-Refrão]
+
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]  [C]
+Oh oh oh oh oh
+
+[Final]
+
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]
+Oh oh oh oh oh
+      [F7M/C]     [C]
+Oh oh oh, oh oh oh
+      [Am]    [G]  [C]
+Oh oh oh oh oh`,
+  },
+  {
+    id:            "luan-santana-sinais",
+    titulo:        "Sinais",
+    artista:       "Luan Santana",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 465,
+    cifra: `[Intro] [A9]  [F#m7(11)]  [D9]
+        [A9]  [F#m7(11)]  [D9]
+
+[Tab - Intro]
+
+Parte 1 de 2
+E|-8-----3--------------------------------------------|
+B|---3-----3---6-----5-----3---5----------------------|
+G|-----5-----5---5-5---5-5---5---5--------------------| (3x)
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+E|-8-----3------3--3----------------------------------|
+B|---3-----3----6--6----------------------------------|
+G|-----5-----5--5--5----------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+Parte 2 de 2
+E|-8-8-8--3-3-3--3-3-3--3-3-3--3-3--3-3---------------|
+B|-3-3-3--3-3-3--6-6-6--5-5-5--3-3--5-5---------------|
+G|-5-5-5--5-5-5--5-5-5--5-5-5--5-5--5-5---------------| (3x)
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+E|-8-8-8--3-3-3--3-3----------------------------------|
+B|-3-3-3--3-3-3--6-6----------------------------------|
+G|-5-5-5--5-5-5--5-5----------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+[Primeira Parte]
+
+[A9]                        [F#m7(11)]
+   Vi seu sorriso em meu sonho
+[D9]                       [E]
+   Segui seu rastro na areia do deserto
+[A9]                        [F#m7(11)]
+   Eu escutei sua voz ao vento
+[D9]                        [E]
+   Senti seu cheiro cada vez de mim mais perto
+
+[Segunda Parte]
+
+[F#m7(11)]                        [E]
+         Virei um louco meio obsecado
+     [D9]
+Pra te encontrar em algum lugar do mundo
+[F#m7(11)]                        [E]
+         E mesmo sem nunca ter te tocado
+    [D9]       [Bm]            [E]
+Me pertencia    bem lá no fundo
+
+[Pré-Refrão]
+
+   [D9]                                 [F#m7(11)]
+Sinais, me mostraram o caminho até você
+                             [D9]
+Vagalumes guiam-me sem perceber
+                [Bm]       [E]
+E no fim da estrada uma luz parece ser você
+
+[Refrão]
+
+   [A9]          [E]
+Sinais, me ajudaram
+   [F#m7(11)]         [D9]
+A perceber o meu caminho é você
+[D9/C#]  [Bm]
+E ninguém no mundo vai fazer
+                       [E]  [D9]  [E]
+Eu me sentir denovo assim
+
+   [A9]             [E]
+Sinais, vindos de um lugar
+     [F#m7(11)]            [D9]
+Tão longe às vezes se encondem
+ [D9/C#]  [Bm]
+No   farol em uma ilha
+                         [E]
+Numa noite tão vazia eu beijei você
+        [A9]
+Até o amanhecer
+
+[Solo] [A9]  [F#m7(11)]  [D9]
+       [A9]  [F#m7(11)]  [D9]
+
+[Tab - Solo]
+
+E|-8-8-8--3-3-3--3-3-3--3-3-3--3-3--3-3---------------|
+B|-3-3-3--3-3-3--6-6-6--5-5-5--3-3--5-5---------------|
+G|-5-5-5--5-5-5--5-5-5--5-5-5--5-5--5-5---------------| (3x)
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+E|-8-8-8--3-3-3--3-3----------------------------------|
+B|-3-3-3--3-3-3--6-6----------------------------------|
+G|-5-5-5--5-5-5--5-5----------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+[Primeira Parte]
+
+[A9]                        [F#m7(11)]
+   Vi seu sorriso em meu sonho
+[D9]                       [E]
+   Segui seu rastro na areia do deserto
+[A9]                        [F#m7(11)]
+   Eu escutei sua voz ao vento
+[D9]                        [E]
+   Senti seu cheiro cada vez de mim mais perto
+
+[Segunda Parte]
+
+[F#m7(11)]                        [E]
+         Virei um louco meio obsecado
+     [D9]
+Pra te encontrar em algum lugar do mundo
+[F#m7(11)]                        [E]
+         E mesmo sem nunca ter te tocado
+    [D9]        [Bm]        [E]
+Me pertencia bem lá no fundo
+
+[Pré-Refrão]
+
+   [D9]                                 [F#m7(11)]
+Sinais, me mostraram o caminho até você
+                             [D9]
+Vagalumes guiam-me sem perceber
+                [Bm]       [E]
+E no fim da estrada uma luz parece ser você
+
+[Refrão]
+
+   [A9]          [E]
+Sinais, me ajudaram
+   [F#m7(11)]         [D9]
+A perceber o meu caminho é você
+[D9/C#]  [Bm]
+E ninguém no mundo vai fazer
+                       [E]  [D9]  [E]
+Eu me sentir denovo assim
+
+   [A9]             [E]
+Sinais, vindos de um lugar
+     [F#m7(11)]            [D9]
+Tão longe às vezes se encondem
+ [D9/C#]  [Bm]
+No   farol em uma ilha
+                         [E]
+Numa noite tão vazia eu beijei você
+        [A9]
+Até o amanhecer`,
+  },
+  {
+    id:            "luan-santana-escreve-ai",
+    titulo:        "Escreve Ai",
+    artista:       "Luan Santana",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2976,
+    cifra: `[Intro] [F7M]  [Em7]  [F7M]  [Em7]
+
+[Tab - Intro]
+
+  [F7M]   [Em7]  [F7M]        [Em7]  [F7M]
+E|-0--0-------0----0--0-------0--------------|
+B|-1--1--3----1----1--1--3----1--------------|
+G|-2--2--4----2----2--2--4----2--------------|
+D|-3--3--5----3----3--3--5----3--------------|
+A|-------------------------------------------|
+E|-------0---------------0-------------------|
+
+[Primeira Parte]
+
+[Tab - Primeira Parte]
+
+Parte 1 de 4
+   [C]
+E|------------------------------------------|
+B|-1---1---1---1---1---1---1---1------------|
+G|-0---0---0---0---0---0---0---0------------|
+D|---2---2---2---2---2---2---2---2----------|
+A|-3---------------3------------------------|
+E|------------------------------------------|
+
+Parte 2 de 4
+   [Am7]
+E|------------------------------------------|
+B|-1---1---1---1---1---1---1---1------------|
+G|-0---0---0---0---0---0---0---0------------|
+D|---2---2---2---2---2---2---2---2----------|
+A|-0---------------0------------------------|
+E|------------------------------------------|
+
+Parte 3 de 4
+   [F]        [F7M]   [Em7]  [F7M]
+E|-----------0--0-------0-------------------|
+B|-1---1-----1--1--3----1-------------------|
+G|-2---2-----2--2--4----2-------------------|
+D|---3---3---3--3--5----3-------------------|
+A|------------------------------------------|
+E|-1---------------0------------------------|
+
+Parte 4 de 4
+   [C]
+E|------------------------------------------|
+B|-1---1---1---1----------------------------|
+G|-0---0---0---0----------------------------|
+D|---2---2---2---2--------------------------|
+A|-3----------------------------------------|
+E|------------------------------------------|
+
+[C]
+  Te falo tanta coisa
+
+Enquanto tento segurar a lágrima
+                [Am7]
+Que insiste em cair
+
+Entro no meu carro, abro o vidro
+
+E antes de ir embora
+                   [F]
+Eu te digo olha aqui
+       [F7M]       [Em7]  [F7M]
+Ainda vou te esque___cer
+        [C]
+Escreve aí
+
+[Segunda Parte]
+
+[C]
+  Chego em casa dou de cara com sua foto
+                              [Am7]
+Uma ducha e um vinho pra acalmar
+
+E eu penso vou partir pra outra logo
+
+Mas quem é que eu tô
+              [F]  [F7M]  [Em7]  [F7M]
+Tentando enganar
+
+Mas quem é que eu tô
+              [C]
+Tentando enganar
+
+[Pré-Refrão]
+
+[Tab - Pré-Refrão]
+
+Parte 1 de 2
+   [G4]    [G]  [F]
+E|-3-3-3-3----------------------------------|
+B|-1-1-1-0--1---1---1---1-------------------|
+G|-0-0-0-0--2---2---2---2-------------------|
+D|------------3---3---3---3-----------------|
+A|------------------------------------------|
+E|-3-3-3-3--1-------------------------------|
+
+Parte 2 de 2
+   [G4]    [G]  [F/A]            [G/B]        [C/E]
+E|-3-3-3-3------------------3---3---3--0----|
+B|-1-1-1-0--1---1---1---1---3---3---3--1----|
+G|-0-0-0-0--2---2---2---2-----0---0----0----|
+D|------------3---3---3---3------------2----|
+A|----------0---------------2----------x----|
+E|-3-3-3-3-----------------------------0----|
+
+        [G4]            [G]
+É só você fazer assim
+        [F]
+Que eu volto
+       [G4]             [G]
+É só você fazer assim
+        [F/A]
+Que eu volto
+         [G/B]  [C/E]
+Que eu volto
+
+[Refrão]
+
+            [F]
+É que eu te amo e falo na sua cara
+            [G]
+Se tirar você de mim não sobra nada
+          [Em7]
+O teu sorriso me desmonta inteiro
+        [Am7]
+Até um simples estalar de dedos
+
+          [F]
+Talvez você tenha deixado eu ir
+           [G]
+Pra ter o gosto de me ver aqui
+         [Em7]
+Fraco demais para continuar
+          [Am7]
+Juntando forças pra poder falar
+
+[Pós-Refrão]
+
+        [F]             [G]
+Que eu volto, é só você sorrir
+        [F]             [G]
+Que eu volto, é só fazer assim
+        [C]         [F]
+Que eu volto, eu volto
+    [C]    [F7M]  [Em7]  [F7M]
+Eu volto
+
+[Segunda Parte]
+
+[C]
+  Chego em casa dou de cara com sua foto
+                              [Am7]
+Uma ducha e um vinho pra acalmar
+
+E eu penso vou partir pra outra logo
+
+Mas quem é que eu tô
+              [F]  [F7M]  [Em7]  [F7M]
+Tentando enganar
+
+Mas quem é que eu tô
+              [C]
+Tentando enganar
+
+[Pré-Refrão]
+
+        [G4]
+É só você fazer assim
+        [F]
+Que eu volto
+        [G4]
+É só você fazer assim
+        [F/A]
+Que eu volto
+        [G/B]
+Que eu volto
+
+[Refrão]
+
+[C/E]         [F]
+É que eu te amo e falo na sua cara
+            [G]
+Se tirar você de mim não sobra nada
+          [Em7]
+O teu sorriso me desmonta inteiro
+        [Am7]
+Até um simples estalar de dedos
+
+          [F]
+Talvez você tenha deixado eu ir
+           [G]
+Pra ter o gosto de me ver aqui
+         [Em7]
+Fraco demais para continuar
+          [Am7]
+Juntando forças pra poder falar
+
+[Pós-Refrão]
+
+        [F]             [G]
+Que eu volto, é só você sorrir
+        [F]             [G]
+Que eu volto, é só fazer assim
+
+[Final]
+
+[Tab - Final]
+
+Parte 1 de 3
+   [F]                 [G]
+E|-------------------3----------------------|
+B|-1---1---1---1-----3----------------------|
+G|-2---2---2---2-----0----------------------|
+D|---3---3---3---3---0----------------------|
+A|-------------------2----------------------|
+E|-1-----------------3----------------------|
+
+Parte 2 de 3
+   [C]                [F]
+E|------------------------------------------|
+B|-1---1---1---1----1---1---1---1-----------|
+G|-0---0---0---0----2---2---2---2-----------|
+D|---2---2---2---2----3---3---3---3---------|
+A|-3----------------------------------------|
+E|------------------1-----------------------|
+
+Parte 3 de 3
+   [C]                [F7M]   [Em7]  [F7M]
+E|-------------------0--0-------0-----------|
+B|-1---1---1---1-----1--1--3----1-----------|
+G|-0---0---0---0-----2--2--4----2-----------|
+D|---2---2---2---2---3--3--5----3-----------|
+A|-3----------------------------------------|
+E|-------------------------0----------------|
+
+        [F]             [G]
+Que eu volto, é só fazer assim
+        [C]         [F]
+Que eu volto, eu volto
+        [C]    [F7M]  [Em7]  [F7M]
+Que eu volto`,
+  },
+  {
+    id:            "luan-santana-ilha",
+    titulo:        "Ilha",
+    artista:       "Luan Santana",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2484,
+    cifra: `[Intro] [Bm]  [D2]  [G]  [Em]
+
+[Tab - Solo Intro]
+
+Parte 1 de 2
+               [Bm]       [D2]        [G]        [Em]
+E|------------------------------------------|
+B|--3p2----2-2h3--3-3/5-3-----5-5/7----8---5|
+G|--4----4---------------------------7---4--|
+D|--4----------------------7----------------|
+A|------------------------------------------|
+E|------------------------------------------|
+  P.m
+
+Parte 2 de 2
+E|------------------------------------------|
+B|--3/5/3-----------------------------------|
+G|------------------------------------------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Primeira Parte]
+
+[D2]                                 [A4]  [A]
+   Quero que prometa que se comprometa
+                                      [Bm]
+A ir procurar outro amor em outro planeta
+                                   [G]
+Pra que eu não te veja sentada na mesa
+                                    [D2]
+Rindo à toa enquanto outra boca te beija
+        [A4]  [A]
+Ai, ai, ah
+
+[Pré-Refrão]
+
+ [Bm]                  [G]
+Vou engolir meu coração pra me amar por dentro
+  [D2]
+Que nós dois sabemos que tanto sofrimento
+[A4]
+É perda de tempo, é perda de tempo
+ [Bm]                   [G]
+Vou transformar decepção em novo começo
+   [D2]
+O passado é um erro, o presente é só acerto
+  [A4]
+Amor, eu te prometo
+
+[Refrão]
+
+                 [Bm]
+Também vou procurar outro amor em outro planeta
+  [G]
+Guarda o seu ciúme em qualquer gaveta
+[D]                                          [A4]
+  Primeiro a gente peita, depois a gente aceita
+                        [Bm]
+Que amores vêm, amores vão
+                            [G]
+Cê vai pro céu, volta pro chão
+                                     [A]
+E quando tá pra se afogar no mar da vida
+        [G]           [A4]              [Bm]
+Vem alguém, vem alguém, que se torna ilha
+
+[Solo] [Bm]  [G]  [D2]  [F#m]
+
+[Tab - Solo]
+
+Parte 1 de 2
+             [Bm]       [G]        [D2]         [F#m]
+E|------------------------------------------|
+B|--3p2----2h3--3-5-5/7----8---7------7/2-2-|
+G|-------4---------------7---7------7-------|
+D|------------------------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Parte 2 de 2
+E|------------------------------------------|
+B|-x-x-5/7/5-x-x-3/5/3----------------------|
+G|-x-x-------x-x----------------------------|
+D|-x-x-------x-x----------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+[Pré-Refrão]
+
+ [Bm]                  [G]
+Vou engolir meu coração pra me amar por dentro
+  [D2]
+Que nós dois sabemos que tanto sofrimento
+[A4]
+É perda de tempo, é perda de tempo
+ [Bm]                   [G]
+Vou transformar decepção em novo começo
+   [D2]
+O passado é um erro, o presente é só acerto
+  [A4]
+Amor, eu te prometo
+
+[Refrão]
+
+                 [Bm]
+Também vou procurar outro amor em outro planeta
+ [G]
+Guarda o seu ciúme em qualquer gaveta
+[D]                                          [A4]   [A]
+  Primeiro a gente peita, depois a gente aceita
+                        [Bm]
+Que amores vêm, amores vão
+                            [G]
+Cê vai pro céu, volta pro chão
+                                     [A4]
+E quando tá pra se afogar no mar da vida
+        [G]           [A4]
+Vem alguém, vem alguém
+
+                 [Bm]
+Também vou procurar outro amor em outro planeta
+  [G]
+Guarda o seu ciúme em qualquer gaveta
+[D]                                          [A]
+  Primeiro a gente peita, depois a gente aceita
+                        [Bm]
+Que amores vêm, amores vão
+                            [G]
+Cê vai pro céu, volta pro chão
+                                     [A]
+E quando tá pra se afogar no mar da vida
+        [G]           [A]               [D]
+Vem alguém, vem alguém, que se torna ilha`,
+  },
+  {
+    id:            "luan-santana-tanto-faz",
+    titulo:        "Tanto Faz",
+    artista:       "Luan Santana",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2264,
+    cifra: `Primeira Parte:
+
+[Am]
+   O quarto meio escuro
+
+A janela aberta
+   [F7M]
+A porta encostada
+                [C]
+A lua está tão bela
+          [G]
+E eu to aqui sentindo falta de você
+
+    [Am]
+Já vi todos os filmes
+
+Li todos os livros
+[F7M]
+E to esperando
+             [C]
+A próxima novela
+          [G]
+Tudo porque eu to tentando te esquecer
+
+Pré-refrão:
+
+[Dm]                       [F7M]
+   Em qualquer lugar que eu vou
+                     [C]
+Onde você está eu estou
+
+Refrão:
+
+O meu pensamento te segue
+
+Minha saudade te persegue
+        [Dm]
+O meu amor não envelhece
+
+Você não sai da minha mente
+
+   [C]
+É que você me causa febre
+
+De uns 40 graus ou um pouco mais
+         [Dm]
+Eu quero é você
+
+Eu amo só você
+     [F7M]   [G]     [C]
+E o resto tanto faz
+          [Dm]  [F7M]
+Tanto faz
+
+Pré-refrão:
+
+[Dm]                       [F7M]
+   Em qualquer lugar que eu vou
+                     [C]
+Onde você está eu estou
+
+Refrão:
+
+O meu pensamento te segue
+
+Minha saudade te persegue
+        [Dm]
+O meu amor não envelhece
+
+Você não sai da minha mente
+
+   [C]
+É que você me causa febre
+
+De uns 40 graus ou um pouco mais
+         [Dm]
+Eu quero é você
+
+Eu amo só você
+     [F7M]  [G]
+E o resto
+
+[C]
+O meu pensamento te segue
+
+Minha saudade te persegue
+        [Dm]
+O meu amor não envelhece
+
+Você não sai da minha mente
+
+   [C]
+É que você me causa febre
+
+De uns 40 graus ou um pouco mais
+         [Dm]
+Eu quero é você
+
+Eu amo só você
+     [F7M]   [G]     [C]
+E o resto tanto faz
+          [Dm]
+Tanto faz
+     [F7M]   [G]     [C]
+E o resto tanto faz`,
+  },
+  {
+    id:            "luan-santana-amar-nao-e-pecado",
+    titulo:        "Amar Não É Pecado",
+    artista:       "Luan Santana",
+    tom:           "B",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2544,
+    cifra: `[Intro] [G#m7]  [E]  [B5]  [F#11]
+        [G#m7]  [E]  [B5]  [F#11]
+
+[Tab - Intro]
+
+   [G#m7]         [E]            [B5]             [F#11]
+E|-----------------------------------------------------|
+B|-------0------------0------------0-------------0-----|
+G|-----4---4--------1---1--------4---4---------3---3---|
+D|---4-------4----2-------2----4-------4-----4-------4-|
+A|---------------------------2-------------------------|
+E|-4------------0---------------------------2----------|
+
+[Primeira Parte]
+
+           [G#m7]             [E]
+Eu não sei      de onde vem
+      [B5]           [F#11]
+Essa força que me leva pra você
+[G#m7]           [E]
+     Eu só sei   que faz bem
+        [B5]           [F#11]
+Mas confesso que no fundo eu duvidei
+
+[G#m7]           [E]              [B5]
+     Tive medo   e em segredo
+                     [F#11]
+Guardei o sentimento e me sufoquei
+[G#m7]           [E]
+     Mas agora   é a hora
+           [B5]                        [F#11]
+Eu vou gritar pra todo mundo de uma vez
+
+[Refrão]
+
+             [B9]
+Eu tô apaixonado
+                [F#]
+Eu tô contando tudo
+                [G#m]                    [E]
+E não tô nem ligando pro que vão dizer
+              [B9]
+Amar não é pecado
+                 [F#]
+E se eu tiver errado
+               [G#m]                    [E]
+Que se dane o mundo, eu só quero você
+
+             [B9]
+Eu tô apaixonado
+                [F#]
+Eu tô contando tudo
+                [G#m]                    [E]
+E não tô nem ligando pro que vão dizer
+              [B9]
+Amar não é pecado
+                 [F#]
+E se eu tiver errado
+               [G#m]                    [E]
+Que se dane o mundo, eu só quero você
+
+[Ponte] [G#m7]  [E]  [B5]  [F#11]
+        [G#m7]  [E]  [B5]  [F#11]
+
+[Tab - Ponte]
+
+   [G#m7]         [E]            [B5]             [F#11]
+E|-----------------------------------------------------|
+B|-------0------------0------------0-------------0-----|
+G|-----4---4--------1---1--------4---4---------3---3---|
+D|---4-------4----2-------2----4-------4-----4-------4-|
+A|---------------------------2-------------------------|
+E|-4------------0---------------------------2----------|
+
+[Primeira Parte]
+
+           [G#m7]             [E]
+Eu não sei      de onde vem
+      [B5]           [F#11]
+Essa força que me leva pra você
+[G#m7]           [E]
+     Eu só sei   que faz bem
+        [B5]           [F#11]
+Mas confesso que no fundo eu duvidei
+
+[G#m7]           [E]              [B5]
+     Tive medo   e em segredo
+                     [F#11]
+Guardei o sentimento e me sufoquei
+[G#m7]           [E]
+     Mas agora   é a hora
+           [B5]                        [F#11]
+Eu vou gritar pra todo mundo de uma vez
+
+[Refrão]
+
+             [B9]
+Eu tô apaixonado
+                [F#]
+Eu tô contando tudo
+                [G#m]                    [E]
+E não tô nem ligando pro que vão dizer
+              [B9]
+Amar não é pecado
+                 [F#]
+E se eu tiver errado
+               [G#m]                    [E]
+Que se dane o mundo, eu só quero você
+
+             [B9]
+Eu tô apaixonado
+                [F#]
+Eu tô contando tudo
+                [G#m]                    [E]
+E não tô nem ligando pro que vão dizer
+              [B9]
+Amar não é pecado
+                 [F#]
+E se eu tiver errado
+               [G#m]                    [E]
+Que se dane o mundo, eu só quero você`,
+  },
+  {
+    id:            "luan-santana-meteoro",
+    titulo:        "Meteoro",
+    artista:       "Luan Santana",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 5090,
+    cifra: `[Refrão]
+
+[A]                         [E]
+  Te dei o sol, te dei o mar
+                    [F#m]
+Pra ganhar seu coração
+                   [D]
+Você é raio de saudade
+               [A]
+Meteoro da paixão
+                  [E]
+Explosão de sentimentos
+                        [F#m]
+Que eu não puder acreditar
+            [D]
+Ah! como é bom poder te amar
+
+[Solo] [A]  [E]  [F#m]  [D]
+       [A]  [E]  [F#m]  [D]
+
+[Tab - Solo]
+
+Parte 1 de 6
+E|--------------------------------------------|
+B|--------------------------------------------|
+G|-------2-2-2-2-2-2-2-2----------------------|
+D|-------2-2-2-2-2-2-2-2----------------------|
+A|-0-2/4--------------------------------------|
+E|--------------------------------------------|
+
+Parte 2 de 6
+E|--------------------------------------------|
+B|-3/5-5-5-5-5-5-5----------------------------|
+G|-2/4-4-4-4-4-4-4----------------------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+Parte 3 de 6
+E|---------2-0-2------------------------------|
+B|--3-------------2---------------------------|
+G|-2---1/2---1-2--2---------------------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+Parte 4 de 6
+E|--------------------------------------------|
+B|--------------------------------------------|
+G|-2-2-2-2-2-2--------------------------------|
+D|-2-2-2-2-2-2--------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+Parte 5 de 6
+E|--------------------------------------------|
+B|-3/5-5-5-5-5-5-5----------------------------|
+G|-2/4-4-4-4-4-4-4----------------------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+Parte 6 de 6
+E|--------9-7-7/9-95-------------------------|
+B|-3------------------------------------------|
+G|2---7h9-9-7-7/9-96-------------------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+[Primeira Parte]
+
+[A]                        [E]
+  Depois que eu te conheci
+            [F#m]
+Fui mais feliz
+             [D]
+Você é exatamente
+                     [A]
+O que eu sempre quis
+                   [E]             [F#m]
+Ela se encaixa perfeitamente em mim
+                  [D]
+O nosso quebra-cabeça teve fim
+
+[Pré-Refrão]
+
+[Tab - Pré-Refrão]
+
+   [A4]
+E|-----10p9----12-----10p9---12-----10p9---12-|
+B|---9------9-------9------9------9------9----|
+G|-9--------------9-------------9-------------|
+D|--------------------------------------------|
+A|--------------------------------------------|
+E|--------------------------------------------|
+
+   [F#m]          [D9]
+E|-------3------------5--------5-------5------|
+B|-----3---3----------5--------5-------5------|
+G|---3-------3------7------7---------7-----7--|
+D|-4--------------7------7---7-----7-----7---7|
+A|--------------5----------------5------------|
+E|--------------------------------------------|
+
+[A4]
+   Se for sonho não me acorde
+       [F#m]      [D9]
+Eu preciso flutuar
+
+Pois só quem sonha
+    [E]
+Consegue alcançar
+
+[Refrão]
+
+[A]                         [E]
+  Te dei o sol, te dei o mar
+                    [F#m]
+Pra ganhar seu coração
+                   [D]
+Você é raio de saudade
+               [A]
+Meteoro da paixão
+                  [E]
+Explosão de sentimentos
+                        [F#m]
+Que eu não puder acreditar
+            [D]
+Ah! Como é bom poder te amar
+
+( [A]  [E]  [D]  [F#m]  [E] )
+( [A]  [E]  [D]  [F#m]  [E] )
+
+[Primeira Parte]
+
+[A]                        [E]
+  Depois que eu te conheci
+            [F#m]
+Fui mais feliz
+             [D]
+Você é exatamente
+                     [A]
+O que eu sempre quis
+                   [E]             [F#m]
+Ela se encaixa perfeitamente em mim
+                  [D]         [A]
+O nosso quebra-cabeça teve fim
+
+[Pré-Refrão]
+
+        [E]             [F#m]
+Se for sonho não me acorde
+                   [D]
+Eu preciso flutuar
+
+Pois só quem sonha
+    [E]
+Consegue alcançar
+
+[Refrão]
+
+[A]                         [E]
+  Te dei o sol, te dei o mar
+                    [F#m]
+Pra ganhar seu coração
+                   [D]
+Você é raio de saudade
+               [A]
+Meteoro da paixão
+                  [E]
+Explosão de sentimentos
+                        [F#m]
+Que eu não puder acreditar
+            [D]
+Ah! Como é bom poder te amar
+
+[Terceira Parte]
+
+[A]     [G#m]    [F#m]          [E]
+  Tão     veloz quanto a luz
+         [D]           [A]
+Pelo Universo eu viajei
+         [F#m]        [E]
+Vem me guia, me conduz
+         [D]            [E]
+Que pra sempre te amarei
+
+[Refrão]
+
+[A]                         [E]
+  Te dei o sol, te dei o mar
+                    [F#m]
+Pra ganhar seu coração
+                   [D]
+Você é raio de saudade
+               [A]
+Meteoro da paixão
+                  [E]
+Explosão de sentimentos
+                        [F#m]
+Que eu não puder acreditar
+            [D]
+Ah! Como é bom poder te amar
+
+[A]                         [E]
+  Te dei o sol, te dei o mar
+                    [F#m]
+Pra ganhar seu coração
+                   [D]
+Você é raio de saudade
+               [A]
+Meteoro da paixão
+                  [E]
+Explosão de sentimentos
+                        [F#m]
+Que eu não puder acreditar
+            [D]
+Ah! Como é bom poder te amar
+
+[F#m]         [D]
+Ah! Como é bom poder te amar
+
+[Final] [A]  [E]  [F#m]  [D]  [A]
+
+[Tab - Solo Final]
+
+E|--------------------------------------------|
+B|----------------------3/5-5-5-5-5-5-5-------|
+G|-------2-2-2-2-2-2-2--2/4-4-4-4-4-4-4-------|
+D|-------2-2-2-2-2-2-2------------------------|
+A|-0-2/4--------------------------------------|
+E|--------------------------------------------|
+
+E|-----------5--------------------------------|
+B|-----7-5-7-----7-5--------------------------|
+G|-5/7---------------7-76-64-4-----2--------|
+D|-------------------------------2h4----------|
+A|--------------------------------------------|
+E|--------------------------------------------|`,
+  },
+  {
+    id:            "luan-santana-dia-lugar-e-hora",
+    titulo:        "Dia, Lugar e Hora",
+    artista:       "Luan Santana",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2700,
+    cifra: `Intro: [E]  [Am9]  [E]  [Am9]  [E]  [A9]
+       [E]  [A/E]  [E]  [E4]
+
+Primeira Parte - Primeira Estrofe:
+
+      [E]
+Se a moça do café não demorasse tanto
+
+Pra me dar o troco
+   [E7]  [D/F#]  [E/G#]  [A7M]
+Se eu não   ti____vesse
+
+Discutido na calçada
+                 [Am]
+Com aquele cara louco
+                       [E]
+E ó que eu nem sou de rolo
+
+Parte 1 de 3
+
+   [E]   [E7]    [D/F#]  [E/G#]
+E|-0---4-----2-----4------------------------|
+B|-0---3-----3-----5------------------------|
+G|-1---4-----2-----4------------------------|
+D|-2----------------------------------------|
+A|-2----------------------------------------|
+E|-0---0-----2-----4------------------------|
+
+Parte 2 de 3
+
+        [A7M]              [Am]
+E|-2/4----------4---4-----------------------|
+B|----------5---5---5----5------------------|
+G|--------6---6---6---6--5------------------|
+D|------------------------------------------|
+A|------0----------------0------------------|
+E|------------------------------------------|
+
+Parte 3 de 3
+
+   [E]
+E|------------------------------------------|
+B|-9--9--10--9--7--9------------------------|
+G|-9--9---9--9--8--9------------------------|
+D|-9--9--11--9-----9------------------------|
+A|------------------------------------------|
+E|-0----------------------------------------|
+
+Primeira Parte - Segunda Estrofe:
+
+       [E]
+Se eu não tivesse atravessado
+                         [E7]
+Aquela hora no sinal vermelho
+(lick 1)     A9
+Se eu não parasse bem na hora do almoço
+                [Am]
+Pra cortar o cabelo
+                      (lick 2)
+E ó que eu nem sou vaidoso
+
+Parte 1 de 4
+
+E|-0-0--0-0-0-0--0-0-0---0-0-0-0------------|
+B|-0-0--0-0-0-0--0-0-0---0-0-0-0------------|
+G|-1-1--1-1-1-1--1-1-1---1-1-1-1------------|
+D|-2-2--2-2-2-2--2-2-2---0-0-0-0------------|
+A|-2-2--2-2-2-2--2-2-2---2-2-2-2------------|
+E|-0-0--0-0-0-0--0-0-0---0-0-0-0------------|
+   ↓ ↓  ↑ ↓ ↑ ↓  ↓ ↓ ↑    ↓ ↓ ↓ ↑
+
+Parte 2 de 4(Lick 1)
+
+E|------------------------------------------|
+B|-7/9-7-5----------------------------------|
+G|------------------------------------------|
+D|-7/9-7-6----------------------------------|
+A|------------------------------------------|
+E|---------73------------------------------|
+
+Parte 3 de 4
+
+E|-0-0--0-0-0-0--0-0-0---0-0-0-0-0----------|
+B|-0-0--0-0-0-0--0-0-0---1-1-1-1-1----------|
+G|-2-2--2-2-2-2--2-2-2---2-2-2-2-2----------|
+D|-2-2--2-2-2-2--2-2-2---2-2-2-2-2----------|
+A|-0-0--0-0-0-0--0-0-0---0-0-0-0-0----------|
+E|------------------------------------------|
+   ↓ ↓  ↑ ↓ ↑ ↓  ↓ ↓ ↑    ↓ ↓ ↓ ↑ ↓
+
+Lick 2:
+
+E|------------------------------------------|
+B|-9h10-9--7/95----------------------------|
+G|-9----9-----------------------------------|
+D|-9h11-9--7/96----------------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Pré-refrão:
+
+    [E]            [B/D#]
+Eu não teria te encontrado
+    [Bm/D]          [D/E]  [E/G#]
+Eu não teria me apaixonado
+    [A]
+Mas   aconteceu
+           [Am]              [E]  [B]
+Foi mais forte que eu e você
+
+Aí eu disse
+
+Parte 1 de 2
+
+   [E]        [B/D#]      [Bm/D]     [D/E]  [E/G#]
+E|-0---0-----------------------2----4-------|
+B|-0---0----7---7-----7---7----3----5-------|
+G|---1---1--4---4-----4---4------2----4-----|
+D|------------4---4-----4---4---------------|
+A|----------6---------5---------------------|
+E|-0---------------------------0----4-------|
+
+Parte 2 de 2
+
+   [A]                         [E]    [B]
+E|-----------0--0---0-0-0----0-0----0-0h2---|
+B|-0h2-----0-----------------0-0--4-------0-|
+G|-2-----2------4/5-4-2-2h4--1-1------------|
+D|-----2--------------------------4---------|
+A|-0------------------------------2---------|
+E|---------------------------0--------------|
+
+Refrão:
+
+ [E]                     [F#m7(11)]
+Quer que eu faça um café?
+               [B4]
+Ou faça minha vida
+                [C#m7]
+Se encaixar na sua?
+  [B4]           [A9]
+Aqui mesmo na rua
+  [E/G#]        [F#m7(11)]
+Era pra ser agora
+               [E/G#]  [A9]
+Quando é pra acon_tecer
+
+Tem dia, lugar e tem hora
+
+Intro: [E]  [Am9]  [E]  [Am9]  [E]  [A9]
+       [E]  [A/E]  [E]  [E4]
+
+Repetição Primeira Parte - Segunda Estrofe:
+
+       [E]
+Se eu não tivesse atravessado
+                         [E7]
+Aquela hora no sinal vermelho
+(lick 1)     A9
+Se eu não parasse bem na hora do almoço
+                [Am]
+Pra cortar o cabelo
+                       [E]
+E ó que eu nem sou vaidoso
+
+Repetição Pré-refrão:
+
+    [E]            [B/D#]
+Eu não teria te encontrado
+    [Bm/D]          [D/E]  [E/G#]
+Eu não teria me apaixonado
+    [A9]
+Mas    aconteceu
+           [Am]              [E]
+Foi mais forte que eu e você
+
+Aí eu disse
+
+Refrão:
+
+ [E]                     [F#m7(11)]
+Quer que eu faça um café?
+               [B4]
+Ou faça minha vida
+                [C#m7]
+Se encaixar na sua?
+  [B4]           [A9]
+Aqui mesmo na rua
+  [E/G#]        [F#m7(11)]
+Era pra ser agora
+               [E/G#]  [A9]
+Quando é pra acon_tecer
+     [B4]               [E]
+Tem dia, lugar e tem hora
+[B4]
+Eu disse
+
+ [E]                     [F#m7(11)]
+Quer que eu faça um café?
+               [B4]
+Ou faça minha vida
+                [C#m7]
+Se encaixar na sua?
+  [B4]           [A9]
+Aqui mesmo na rua
+  [E/G#]        [F#m7(11)]
+Era pra ser agora
+               [E/G#]  [A9]
+Quando é pra acon_tecer
+     [B4]
+Tem dia, lugar e tem hora
+
+Intro: [E]  [Am9]  [E]  [Am9]  [E]  [A9]
+       [E]  [A/E]  [E]  [E4]
+
+      [E]
+Se a moça do café não demorasse tanto
+
+Base Solo: [C#m7]  [B4]  [A9] (8x)
+
+Solo:
+
+Parte 1 de 6
+
+E|----------------------------------------------------|
+B|------------12~-------------------12p11p97---7-----|
+G|-11b13r11p9-------11/13---------------------9---9/11|
+D|------------------------11~9/119-------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+Parte 2 de 6
+
+E|-----9--11b12~~r11p9--------14-16-------------------|
+B|-/9-------------------17b19-------14~~b\------------|
+G|----------------------------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+Parte 3 de 6
+
+E|-19-------------------------------------------------|
+B|----17----------2119p17----------------14-16-------|
+G|-------14/16-18----------16-------11/13-------------|
+D|----------------------------1814-------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+Parte 4 de 6
+
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|-11/13-13~~-----------------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+
+Parte 5 de 6
+
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-11~~9-11------------------------------------------|
+A|------------9/11~-----------------------------------|
+E|----------------------------------------------------|
+
+Parte 6 de 6
+
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|------9---------------------------------------------|
+A|-9/11---11-9-7-9------------------------------------|
+E|-----------------9~---------------------------------|`,
+  },
+  {
+    id:            "luan-santana-eu-voce-o-mar-e-ela",
+    titulo:        "Eu, Você, o Mar e Ela",
+    artista:       "Luan Santana",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1658,
+    cifra: `Intro: [Dm7]  [F]  [Am]  [G4(6)]
+
+Intro e Primeira Parte:
+
+Parte 01 de 02
+
+   [Dm7]              [F]
+E|---------------5--------5-----7-8---------|
+B|-------6-----8--------6-----6-------------|
+G|-----5-----5--------5-----5---------------|
+D|---7-----7--------------------------------|
+A|-5----------------8-----------------------|
+E|------------------------------------------|
+
+Parter 02 de 02
+
+   [Am]                [G4(6)]
+E|-------8-----10-7--------7-----8-5--------|
+B|-----5-----5-----------5-----5------------|
+G|---5-----5-----------5-----5--------------|
+D|-7-----------------5----------------------|
+A|------------------------------------------|
+E|------------------------------------------|
+
+Primeira Parte:
+
+[Dm7]        [F]          [Am]     [G4(6)]
+    Ser romântico às vezes ajuda
+[Dm7]         [F]
+    Mas se fecho os olhos
+ [Am]         [G4(6)]
+Te imagino nua
+
+[Dm7]           [F]
+    Talvez pareça
+          [Am]      [G4(6)]
+Uma cena de Hollywood
+[Dm7]        [F]                  [Am]
+    Se tá pensando isso, por favor
+         [G4(6)]
+Não se ilude
+
+[Dm7]        [F]         [Am]        [G4(6)]
+    Eu só quero uma noite de amor
+[Dm7]         [F]
+    Como as outras
+        [Am]          [G4(6)]
+Só mais uma que passou
+
+Refrão:
+
+                       [Am]
+Mas foi só a porta fechar
+     [G]               [Dm]
+Pra mudar minha cabeça
+   [F]                [Am]
+A sua boca vale o preço
+                 [G]              [Dm]
+Pra perder o sossego que eu tinha
+
+
+   [F]                [Am]
+A lua até beijou o mar
+     [G]                [Dm]
+Pra não ficar de vela
+    [F]                   [Am]
+Os quatro perdidos de amor
+       [G]          [Dm]  [F]
+Eu, você, o mar e ela
+[Am]        [G]          [Dm]  [F]  [Am]  [G]
+   Eu, você, o mar e ela
+
+Primeira Parte:
+
+[Dm]        [F]          [Am]     [G]
+   Ser romântico às vezes ajuda
+[Dm]         [F]
+   Mas se fecho os olhos
+ [Am]         [G]
+Te imagino nua
+
+[Dm]           [F]
+   Talvez pareça
+          [Am]      [G]
+Uma cena de Hollywood
+[Dm]        [F]                  [Am]
+   Se tá pensando isso, por favor
+         [G]
+Não se ilude
+
+[Dm]        [F]         [Am]        [G]
+   Eu só quero uma noite de amor
+[Dm]         [F]
+   Como as outras
+        [Am]          [G]
+Só mais uma que passou
+
+Refrão:
+
+                       [Am]
+Mas foi só a porta fechar
+     [G]               [Dm]
+Pra mudar minha cabeça
+   [F]                [Am]
+A sua boca vale o preço
+                 [G]              [Dm]
+Pra perder o sossego que eu tinha
+
+   [F]                [Am]
+A lua até beijou o mar
+     [G]                [Dm]
+Pra não ficar de vela
+    [F]                   [Am]
+Os quatro perdidos de amor
+       [G]          [Dm]  [F]
+Eu, você, o mar e ela
+[Am]        [G]          [Dm]  [F]  [Am]
+   Eu, você, o mar e ela
+
+     [F]                 [Am]
+Mas foi só a porta fechar
+     [G]               [Dm]
+Pra mudar minha cabeça
+   [F]                [Am]
+A sua boca vale o preço
+                 [G]              [Dm]
+Pra perder o sossego que eu tinha
+
+                    [Am]
+A lua até beijou o mar
+     [G]                [Dm]
+Pra não ficar de vela
+    [F]                   [Am]
+Os quatro perdidos de amor
+       [G]          [Dm]  [F]  [Am]  [G]
+Eu, você, o mar e ela
+        [Dm]  [F]  [Am]
+O mar e ela
+       [G]
+Eu, você, o mar e ela`,
+  },
+  {
+    id:            "luan-santana-garotas-nao-merecem-chorar",
+    titulo:        "Garotas Não Merecem Chorar",
+    artista:       "Luan Santana",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4728,
+    cifra: `[Primeira Parte]
+
+[Em7]
+Ela é uma mulher menina que precisa
+   [G]
+Urgentemente ser mais forte
+[Am7]
+Ela quer alguém que leia seu sorriso
+   [G]
+Antes de olhar seu decote
+
+[Em7]
+Ela vê suas amigas se entregando
+     [G]
+Ao primeiro que aparecer
+ [Am]        [G]         [D]
+Numa tentativa boba de se preencher
+
+        [Am]               [G]
+E|------------------------------------------|
+B|------------0h1p0-------------------------|
+G|--------2---------2------0---2h4p2-0------|
+D|----------2---------2------0--------------|
+A|-10\--0-----------------------------------|
+E|-----------------------3------------------|
+
+   [D]
+E|------------------------------------------|
+B|-----3------------------------------------|
+G|---2---2----------------------------------|
+D|-4----------------------------------------|
+A|-5----------------------------------------|
+E|------------------------------------------|
+
+[Pré-refrão]
+
+[C9]
+   Garotas querem mais
+  [G]                   [D]
+Amor de verdade mais sinceridade
+[C9]
+   Garotos são todos iguais
+     [G]                [D]
+Têm necessidade, não passam vontade
+[Am7]                     [C9]  [D]
+    Mas tô aqui pra provar
+
+[Refrão]
+
+    [G]                                  [Em7]
+Eu não te deixaria por uma aventura à toa e nem
+[D]
+  Te trocaria por qualquer outra pessoa
+[Am7]                    [C9]         [D]
+    Só pra matar a vontade, o crime não compensa
+
+   [G]                              [Em7]
+Garotas inocentes não merecem chorar
+     [D]
+Por garotos que não tem a verdade no olhar
+[Am7]                  [C9]         [D]             [G]
+    Escolhi ser diferente amor,   só pra te amar
+
+[Primeira Parte]
+
+[Em7]
+Ela é uma mulher menina que precisa
+   [G]
+Urgentemente ser mais forte
+[Am7]
+Ela quer alguém que leia seu sorriso
+   [G]
+Antes de olhar seu decote
+
+[Em7]
+Ela vê suas amigas se entregando
+     [G]
+Ao primeiro que aparecer
+ [Am]        [G]         [D]
+Numa tentativa boba de se preencher
+
+[Pré-refrão]
+
+[C9]
+   Garotas querem mais
+  [G]                   [D]
+Amor de verdade mais sinceridade
+[C9]
+   Garotos são todos iguais
+     [G]                [D]
+Têm necessidade, não passam vontade
+[Am7]                     [C9]  [D]
+    Mas tô aqui pra provar
+
+[Refrão]
+
+    [G]                                  [Em7]
+Eu não te deixaria por uma aventura à toa e nem
+[D]
+  Te trocaria por qualquer outra pessoa
+[Am7]                    [C9]         [D]
+    Só pra matar a vontade, o crime não compensa
+
+   [G]                              [Em7]
+Garotas inocentes não merecem chorar
+     [D]
+Por garotos que não tem a verdade no olhar
+[Am7]                  [C9]        [D]
+    Escolhi ser diferente amor
+
+    [G]                                  [Em7]
+Eu não te deixaria por uma aventura à toa e nem
+[D]                                     [Am7]
+  Te trocaria por qualquer outra pessoa
+[C9]       [D]
+   O crime não compensa
+
+   [G]                              [Em7]
+Garotas inocentes não merecem chorar
+     [D]
+Por garotos que não tem a verdade no olhar
+[A]                  [C9]        [D]
+  Escolhi ser diferente amor
+            [G]  [Em7]
+Só pra te amar
+[C9]                  [Am7]       [D]
+   Escolhi ser diferente amor
+            [G]
+Só pra te amar`,
+  },
+  {
+    id:            "luan-santana-agua-com-acucar",
+    titulo:        "Água Com Açúcar",
+    artista:       "Luan Santana",
+    tom:           "F",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1811,
+    cifra: `[Primeira Parte]
+
+                               [C]
+Você terminou com ele é tá chorando
+                           [Am7]
+Quer água com açúcar ou o meu amor?
+                             [F7M]
+E se eu te contar que a água acabou
+                        [C]             [G]
+E o açúcar que tem é só   do meu amor?
+
+[Pré-Refrão]
+
+                  [F7M]
+Que coincidência, ó
+                [G]
+Eu sozinho e você só
+                            [Em]
+Porque que a gente não se amarra?
+                    [Am7]
+Um no outro e da um nó?
+                      [F7M]
+Eu sei você quer desistir
+                       [G]
+Mas tenho uma opção melhor
+
+[Refrão]
+
+               [C]
+Antes de desistir do amor
+                  [Am7]
+Tenta o meu, por favor
+
+Se não servir, cê joga fora
+                         [F7M]
+Vai embora e diz que não deu
+     [G]                          [C]   [G]
+Mas antes disso prova um beijo meu
+
+( [C]  [Am7]  [F7M]  [G]  [C] )
+
+[Pré-Refrão]
+
+                  [F7M]
+Que coincidência, ó
+               [G]
+Eu sozinho e você só
+                            [Em]
+Porque que a gente não se amarra?
+                    [Am7]
+Um no outro e da um nó?
+                     [F7M]
+Eu sei você quer desistir
+                       [G]
+Mas tenho uma opção melhor
+
+[Refrão]
+
+              [C]
+Antes de desistir do amor
+                  [Am7]
+Tenta o meu, por favor
+
+Se não servir, cê joga fora
+                         [F7M]
+Vai embora e diz que não deu
+     [G]                          [C]   [G]
+Mas antes disso prova um beijo meu
+
+              [C]
+Antes de desistir do amor
+                  [Am7]
+Tenta o meu, por favor
+
+Se não servir, cê joga fora
+                         [F7M]
+Vai embora e diz que não deu
+     [G]                          [C]
+Mas antes disso prova um beijo meu
+
+                             [Am7]
+Não vai embora sem um beijo meu
+     [F7M]        [G]
+Não vai embora sem
+
+[Final] [C]  [Am7]  [F7M]
+        [G]  [C]  [G]
+        [C]  [Am7]  [F7M]  [G]
+        [C]  [Am7]  [F7M]  [G]  [C]`,
+  },
+  {
+    id:            "luan-santana-cantada",
+    titulo:        "Cantada",
+    artista:       "Luan Santana",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1438,
+    cifra: `Intro 2x: (Lick 1)
+
+Lick 1
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-----0-0---0-0--------------------------------------|
+A|-4/5-----------0-0----------------------------------|
+E|----------------------------------------------------|
+
+Primeira Parte:
+
+(Lick 1) (2x)
+Pela luz do sol que me ilumina
+
+Não existe nada mais que me fascina
+        [G]
+Que te ver chegar
+
+      (Lick 1) (2x)
+Com a pele bronzeada e a boca vermelha
+
+E esse sorrisão de orelha a orelha
+     [G]
+Vai me faltando o ar
+Primeira Parte - Parte 1 de 2 (2x)
+
+E|------------------------------------------|
+B|------------------------------------------|
+G|------------------------------------------|
+D|-----0-0---0-0----------------------------|
+A|-4/5-----------0-0------------------------|
+E|------------------------------------------|
+
+Primeira Parte - Parte 2 de 2
+
+E|-x-x--3-3-3-3-----------------------------|
+B|-x-x--3-3-3-3-----------------------------|
+G|-x-x--0-0-0-0-----------------------------|
+D|-x-x--0-0-0-0-----------------------------|
+A|-x-x--2-2-2-2-----------------------------|
+E|-x-x--3-3-3-3-----------------------------|
+   ↓ ↑  ↓ ↑ ↑ ↓
+
+Pré-refrão:
+
+      [A9]
+Se esse sorriso for pra mim
+          [G]
+Eu sou o cara
+                      (Lick 1)
+Que tem mais sorte no mundo
+
+  [A9]                           [G]
+Azar de quem perdeu, agora sou eu
+                            [Em]
+Quem vai te queimar no meu fogo
+                     [A9]
+E amanhã vai ter de novo
+
+Refrão - Parte 1 de 2:
+
+ (lick 2)     Em
+E às 9 da manhã
+                 [A9]
+Quando você acordar
+            [D]                 [G]
+E se perguntar como foi, como é
+   Em                   A5 (lick 3)
+A gente só saiu pra jantar
+Lick 2
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-----0---0------------------------------------------|
+A|-0h2---0--------------------------------------------|
+E|-----------3-2-0------------------------------------|
+
+Lick 3
+   [A5]
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|-2--------------------------------------------------|
+D|-2-0------------------------------------------------|
+A|-0---4-2-0------------------------------------------|
+E|-----------3-2--------------------------------------|
+
+Refrão - Parte 2 de 2:
+E foi ficando
+         [Em]                   [A9]
+É que a gente só saiu pra jantar
+           (lick 4)
+E foi ficando
+   [Em]
+A gente saiu
+G/A               (lick 1)  (lick 5)
+    E ficou pro café
+Lick 4
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|----------------------------------------------------|
+A|-0--------------------------------------------------|
+E|---3-2----------------------------------------------|
+
+Lick 1
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-----0-0---0-0--------------------------------------|
+A|-4/5-----------0-0----------------------------------|
+E|----------------------------------------------------|
+
+Lick 5
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-0--------------------------------------------------|
+A|-4h5-4-2-0-----0------------------------------------|
+E|-----------0h2--------------------------------------|
+
+Primeira Parte:
+
+ [D]
+Pela luz do sol que me ilumina
+
+Não existe nada mais que me fascina
+ [G]
+Que te ver chegar
+
+       [D]
+Com a pele bronzeada e a boca vermelha
+
+E esse sorrisão de orelha a orelha
+     [G]
+Vai me faltando o ar
+
+Pré-refrão:
+
+      [A9]
+Se esse sorriso for pra mim
+          [G]
+Eu sou o cara
+                       [D]
+Que tem mais sorte no mundo
+
+  [A9]                           [G]
+Azar de quem perdeu, agora sou eu
+                            [Em]
+Quem vai te queimar no meu fogo
+                     [A9]
+E amanhã vai ter de novo
+
+Refrão Final:
+
+ (lick 2)     Em
+E às 9 da manhã
+                 [A9]
+Quando você acordar
+            [D]                 [G]
+E se perguntar como foi, como é
+   [Em]                   [A9]
+A gente só saiu pra jantar
+
+E foi ficando
+         [Em]                   [A9]
+É que a gente só saiu pra jantar
+               [D]
+E ficou pro café
+
+ (lick 2)     Em
+E às 9 da manhã
+                 [A9]
+Quando você acordar
+            [D]                 [G]
+E se perguntar como foi, como é
+   [Em]                   [A9]
+A gente só saiu pra jantar
+           (lick 4)
+E foi ficando
+         [Em]                   [A9]
+É que a gente só saiu pra jantar
+           (lick 4)
+E foi ficando
+   [Em]
+A gente saiu
+[G/A]
+    E ficou pro café
+
+Final: (lick 1) (lick 6)
+
+ [D/F#]
+Pela luz do sol que me ilumina
+
+Não existe nada mais que me fascina
+        [G]
+Que te ver chegar
+
+Lick 1
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-----0-0---0-0--------------------------------------|
+A|-4/5-----------0-0----------------------------------|
+E|----------------------------------------------------|
+
+Lick 6
+E|----------------------------------------------------|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|-----0-0---0-0--------------------------------------|
+A|-4/5-----------0-----0------------------------------|
+E|-----------------2h3--------------------------------|`,
+  },
+  {
+    id:            "renato-teixeira-romaria",
+    titulo:        "Romaria",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 512,
+    cifra: `[Intro] [D]  [G]  [D]  [G]
+
+[Primeira Parte]
+
+[D]                  [G]
+  É de sonho e de pó
+[D]                  [G]
+  O destino de um só
+      [D]              [F#7]  [Bm]
+Feito eu perdido em pensamentos
+               [F#7]
+Sobre o meu cavalo
+[Bm]                 [E]        [Bm]        [E]
+   É de laço e de nó, de gibeira o jiló
+       [Bm]        [F#7]    [Bm]  [B7]
+Dessa vida, cumprida a sol
+
+[Refrão]
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+[Segunda Parte]
+
+[D]                 [G]
+  O meu pai foi peão
+[D]                [G]
+  Minha mãe solidão
+        [D]             [F#7]   [Bm]
+Meus irmãos perderam-se na vida
+                [F#7]
+A custa de aventuras
+[Bm]               [E]         [Bm]       [E]
+   Descasei, joguei, investi, desisti
+       [Bm]            [F#7]        [Bm]  [B7]
+Se há sorte, eu não sei, nunca vi
+
+[Refrão]
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+[Terceira Parte]
+
+[D]                [G]
+  Me disseram porém
+[D]                  [G]
+  Que eu viesse aqui
+       [D]        [F#7]      [Bm]
+Pra pedir de romaria e prece
+             [F#7]
+Paz nos desaventos
+[Bm]                    [E]
+   Como eu não sei rezar
+[Bm]                [E]
+   Só queria mostrar
+       [Bm]         [F#7]        [Bm]  [B7]
+Meu olhar, meu olhar, meu olhar
+
+[Refrão]
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]   [F#7]  [Bm]
+Senhora de Apare_cida
+    [G]                    [A7]
+Ilumina a mina escura e funda
+                 [D]   [D7]
+O trem da minha vida
+
+        [G]              [A7]
+Sou caipira, pirapora nossa
+         [D]    [F#7]  [G]   [D/F#]
+Senhora de, Apare_cida`,
+  },
+  {
+    id:            "renato-teixeira-tocando-em-frente",
+    titulo:        "Tocando Em Frente",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 667,
+    cifra: `[D]                             [C]
+Ando devagar porque já tive pressa
+                                    [G]
+E levo esse sorriso porque já chorei demais
+[D]
+Hoje me sinto mais forte
+               [C]
+Mais feliz quem sabe
+                           [G]
+Eu só levo a certeza de que muito pouco eu sei
+ [D7]
+E nada sei
+
+[Am]           [C]          [Am]
+  Conhecer as manhas e as manhãs
+       [C]               [G]
+O sabor das massas e das maçãs
+[Am]         [C]        [Am]
+  É preciso amor pra poder pulsar
+       [C]         [Am]
+É preciso paz pra poder sorrir
+               [G]
+É preciso a chuva para florir
+
+[D]                       [C]
+Penso que cumprir a vida seja simplesmente
+                     [G]
+Compreender a marcha e ir tocando em frente
+[D]                              [C]
+Como um velho boiadeiro levando a boiada
+                                 [G]
+Eu vou tocando os dias pela longa estrada eu vou
+ [D7]
+Estrada eu sou
+
+[Am]         [C]       [Am]
+  Conhecer as manhas e as manhãs
+       [C]               [G]
+O sabor das massas e das maçãs
+[Am]         [C]          [Am]
+  É preciso amor pra poder pulsar
+       [C]         [Am]
+É preciso paz pra poder sorrir
+          [G]
+É preciso a chuva para florir
+
+( [D]  [C]  [G] )
+( [D]  [C]  [G] )
+( [D]  [C]  [G] )
+
+[D]                 [C]
+Todo mundo ama um dia todo mundo chora
+                          [G]
+Um dia a gente chega e no outro vai embora
+[D]                 [C]
+Cada um de nós compõe a sua própria história
+                        [G]
+E cada ser em si carrega o dom de ser capaz
+[D7]
+De ser feliz
+
+[Am]         [C]       [Am]
+  Conhecer as manhas e as manhãs
+       [C]               [G]
+O sabor das massas e das maçãs
+[Am]         [C]          [Am]
+  É preciso amor pra poder pulsar
+       [C]         [Am]
+É preciso paz pra poder sorrir
+          [G]
+É preciso a chuva para florir
+
+[D]                            [C]
+Ando devagar porque já tive pressa
+                                    [G]
+E levo esse sorriso porque já chorei demais
+[D]                 [C]
+Cada um de nós compõe a sua própria história
+                        [G]
+E cada ser em si carrega o dom de ser capaz
+[D7]
+De ser feliz`,
+  },
+  {
+    id:            "renato-teixeira-voce-vai-gostar-casinha-branca",
+    titulo:        "Você Vai Gostar (Casinha Branca)",
+    artista:       "Renato Teixeira",
+    tom:           "A",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4430,
+    cifra: `[Am]
+Fiz uma casinha branca
+
+Lá no pé da serra
+               [E7]
+Pra nós dois morar
+     [Dm]               [E7]
+Fica perto da barranca
+           [Am]
+Do Rio Paraná
+
+A paisagem é uma beleza
+            [A7]
+Eu tenho certeza
+            [Dm]
+Você vai gostar
+            [Am]
+Fiz uma capela
+                   [E7]
+Bem do lado da janela
+               [A]
+Pra nós dois rezar
+
+Quando for dia de festa
+                                [E]
+Você veste o seu vestido de algodão
+
+Quebro meu chapéu na testa
+                  [A]
+Para arrematar as coisas do leilão
+[A7]                  [D]
+Satisfeito eu vou levar
+              [C#7]
+Você de braço dado
+               [F#m]
+Atrás da procissão
+
+[D]                    [A]
+Vou com meu terno riscado
+    [F#7]     [Bm]            [E7]     [A]
+Uma flor do lado e meu chapéu na mão
+[D]                    [A]
+Vou com meu terno riscado
+    [F#7]     [Bm]            [E7]     [A]
+Uma flor do lado e meu chapéu na mão
+
+( [E7]  [A] )`,
+  },
+  {
+    id:            "renato-teixeira-amanheceu-peguei-a-viola",
+    titulo:        "Amanheceu, Peguei a Viola",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4270,
+    cifra: `[Intro] [G]  [D]  [B7]
+        [Em]  [A7]  [D]  [D7]
+        [G]  [D]  [B7]
+        [Em]  [A7]  [D]
+
+[Refrão]
+
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+
+[Primeira Parte]
+
+          [D7]
+Sou cantador e tudo nesse mundo
+                 [G]
+Vale pra que eu cante e possa praticar
+        [Bb7]     [A7]        [D]
+A minha arte sapateia as cordas
+             [E]                    [A7]
+E esse povo gosta de me ouvir cantar
+
+[Refrão]
+
+       [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+
+[Segunda Parte]
+
+         [D7]
+Ao meio-dia eu tava em mato grosso
+              [G]
+Do sul ou do norte, não sei explicar
+          [Bb7]         [A7]      [D]
+Só sei dizer que foi de tardezinha
+               [E]                   [A7]
+Eu já tava cantando em belém do pará
+
+[Refrão]
+
+       [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+
+[Terceira Parte]
+
+           [D7]
+Em Porto Alegre um tal de coronel
+                  [G]
+Pediu que eu musicasse um verso que ele fez
+           [Bb7]       [A7]      [D]
+Para uma china, que pela poesia
+              [E]                   [A7]
+Nem lá em pequim se vê tanta altivez
+
+[Refrão]
+
+       [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+
+[Quarta Parte]
+
+          [D7]
+Parei em minas pra trocar as cordas
+           [G]
+E segui direto para o ceará
+        [Bb7]       [A7]          [D]
+E no caminho fui pensando, é lindo
+                 [E]                [A7]
+Essa grande aventura de poder cantar
+
+[Refrão]
+
+       [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]
+Botei na sacola e fui viajar
+  [G]    [D]          [G]   [D]
+Amanheceu, peguei a viola
+       [G]    [D]          [A7] [D]  [A7]
+Botei na sacola e fui viajar
+
+[E]   [A]    [E]          [A]   [E]
+  Amanheceu, peguei a viola
+       [A]    [E]          [B7] [E]
+Botei na sacola e fui viajar
+
+[Quinta Parte]
+
+          [E7]
+Chegou a noite e me pegou cantando
+             [A]
+Num bailão, no norte lá do paraná
+          [C7]        [B7]            [E]
+Daí pra frente ninguém mais se espanta
+                 [F#]                   [B7]
+E o resto da noitada eu não posso contar
+
+[Refrão]
+
+       [E]            [A]       [E]
+Anoiteceu, e eu voltei pra casa
+       [A]       [E]                 [B7]    [E]
+Que o dia foi longo e o sol foi descansar
+  [A]    [E]          [A]   [E]
+Amanheceu, peguei a viola
+       [A]    [E]          [B7] [E]
+Botei na sacola e fui viajar
+  [A]    [E]          [A]   [E]
+Amanheceu, peguei a viola
+       [A]    [E]          [B7] [E]
+Botei na sacola e fui viajar
+
+  [A]    [E]  [A]  [E]
+Amanheceu
+
+[Final] [A]  [E]  [B7]  [E]`,
+  },
+  {
+    id:            "renato-teixeira-um-violeiro-toca",
+    titulo:        "Um Violeiro Toca",
+    artista:       "Renato Teixeira",
+    tom:           "G",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 5242,
+    cifra: `[G]                   [D/G]
+Quando uma estrela cai
+No escurão da noite
+[C]
+E um violeiro toca suas mágoas
+[D]
+Então os olhos dos bichos
+Vão ficando iluminados
+[C]
+Rebrilham neles estrelas
+De um sertão enluarado
+[G]
+Quando um amor termina
+[D/G]
+Perdido numa esquina
+[C]
+E um violeiro toca sua sina
+[D]
+Então os olhos dos bichos
+Vão ficando entristecidos
+[C]
+Rebrilham neles lembranças
+Dos amores esquecidos
+
+[G]               [D]
+Tudo é sertão, tudo é paixão
+[C]              [D]
+Se um violeiro toca
+[C]
+A viola e o violeiro
+             [G]
+E o amor se tocam (2V)
+
+[G]                [D]
+Quando um amor começa
+Nossa alegria chama
+[C]
+E um violeiro toca em nossa cama
+[D]
+Então os olhos dos bichos
+São os olhos de quem ama
+ [C]
+Pois a natureza é isso
+                       [G]
+Sem medo, nem dó, nem drama...`,
+  },
+  {
+    id:            "renato-teixeira-amora",
+    titulo:        "Amora",
+    artista:       "Renato Teixeira",
+    tom:           "A",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 726,
+    cifra: `[A]                   [D]           [F#]       [Bm]   [B7]  [B]
+     Depois da curva da estrada tem um pé de araçá
+                         [B7]                       [Em]  [E4]  [E]
+     Sinto vir água nos olhos, toda vez que passo lá
+                         [G]         [C]         [G]      [G#]  [A]
+     Sinto o coração flechado, cercado de solidão
+                         [D]   [D#]      [E]            [A]
+     Penso que deve ser doce,    a fruta do coração
+     [A7]                        [A7]   [A7(4)]  [A7]
+        Vou contar para o seu pai
+                  [D]   [D4]   [D]
+     Que você namora
+                       [D7]                   [G]     [G4]  [G]
+     Vou contar prá sua mãe, que você me ignora
+                         [C]        [B7]          [Bº]   [Bbº]
+     Vou pintar a minha boca, no vermelho da amora
+                       [D]      [D#]  [E]                    [A]
+     Que nasce lá no quintal,       da casa onde você mora
+
+[Solo] [A]  [D]  [F#]  [Bm]  [B7]
+       [Em]  [G]  [C]  [G]  [A]  [D]  [E]  [A]
+
+     [A7]                        [A7]   [A7(4)]  [A7]
+        Vou contar para o seu pai
+                  [D]   [D4]   [D]
+     Que você namora
+                      [D7]                   [G]     [G4]  [G]
+     Vou contar prá sua mãe, que você me ignora
+                         [C]        [B7]          [Bº]   [Bbº]
+     Vou pintar a minha boca, no vermelho da amora
+                       [D]      [D#]  [E]                    [A]
+     Que nasce lá no quintal,       da casa onde você mora
+                            [D]           [F#]       [G]   [C]  [G]
+     Depois da curva da estrada tem um pé de araçá`,
+  },
+  {
+    id:            "renato-teixeira-frete",
+    titulo:        "Frete",
+    artista:       "Renato Teixeira",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4146,
+    cifra: `[Am]                                                        [C]
+Eu conheço cada palmo desse chão  é só me mostrar qual é a direção
+      [F]                          [A#]           [A7]                       [Dm]
+Quantas idas e vindas meu Deus quantas voltas  viajar é preciso é preciso
+[G7]                              [E]  [C]  [D]  [D#]  [E/D]    [Am]
+Com a carroceria sobre as costas       vou fazendo frete cortando o estradão
+      [G]                [C]             [A]                  [Dm]
+Eu conheço todos os sotaques  desse povo todas as paisagens
+      [B]                [Em]             [A]                  [D]
+Dessa terra todas as cidades  das mulheres todas as vontades
+      [F]                    [C]             [B7]                   [E]
+Eu conheço as minhas liberdades  pois a vida não me cobra o frete
+[Am]                                                      [C]
+Por onde eu passei deixei saudades  a poeira é minha vitamina
+      [F]                      [A#]   [A7]                            [Dm]
+Nunca misturei mulher com parafuso  mas não nego a elas meus apertos
+[G7]                        [E]    [C]  [D]  [D#]  [E/D]        [Am]
+Coisas do destino e do meu jeito    sou irmão de estrada e acho muito bom
+    [G]                  [C]             [A]                 [Dm]
+Eu conheço todos os sotaques  desse povo todas as paisagens
+      [B]                 [Em]         [A]                     [D]
+Dessa terra todas as cidades  das mulheres todas as vontades
+      [F]                    [C]             [B7]                   [E]
+Eu conheço as minhas liberdades  pois a vida não me cobra o frete
+
+[Am]                                                              [C]
+Mas quando eu me lembro lá de casa  a mulher e os filhos esperando
+      [F]                         [A#]       [A7]                          [Dm]
+Sinto que me morde a boca da saudade  e a lembrança me agarra e profana
+[G7]                        [E]    [C]  [D]  [D#]  [E/D]    [Am]
+o meu tino forte de homem           e é quando a estrada me acode
+    [G]                  [C]             [A]                  [Dm]
+Eu conheço todos os sotaques  desse povo todas as paisagens
+      [B]                 [Em]         [A]                     [D]
+Dessa terra todas as cidades  das mulheres todas as vontades
+      [F]                    [C]             [B7]                   [E]
+Eu conheço as minhas liberdades  pois a vida não me cobra o frete`,
+  },
+  {
+    id:            "renato-teixeira-cuitelinho",
+    titulo:        "Cuitelinho",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2608,
+    cifra: `[D]                                    [A7]  [G]  [A7]
+Cheguei na beira do porto onde as onda se espaia
+      [D]                                      [A7]  [G]  [A7]
+As garça dá meia volta e senta na beira da praia
+                      [A7]                            [D]
+E o cuitelinho não gosta       que o botão de rosa caia, ai, ai
+
+              [D]                                  [A7]  [G]  [A7]
+Ai quando eu vim da minha terra despedi da parentaia
+      [D]                                     [A7]  [G]  [A7]
+Eu entrei no Mato Grosso dei em terras paraguaia
+                [A7]                             [D]
+Lá tinha revolução         enfrentei fortes batáia, ai, ai
+
+    [D]                              [A7]  [G]  [A7]
+A tua saudade corta feito aço de naváia
+       [D]                                 [A7]  [G]  [A7]
+O coração fica aflito bate uma, a outra faia
+                   [A7]                                [D]
+E os óio se enche d´água     que até a vista se atrapáia, ai`,
+  },
+  {
+    id:            "renato-teixeira-irmaos-da-lua",
+    titulo:        "Irmãos da Lua",
+    artista:       "Renato Teixeira",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2695,
+    cifra: `[C]      [C7]
+Somos todos irmãos da lua
+           [F]     [Fm]
+Moramos na mesma rua
+ [C]            [Em] [Am]
+Bebemos do mesmo copo
+          [D7]    [G]
+A mesma bebida crua
+             [C]     [C7]
+O caminho já não é novo
+           [F]     [Fm]
+Por ele é que passa o povo
+ [C]            [Em] [Am]
+Farinha do mesmo saco
+           [D7]    [G]
+Galinha do mesmo ovo
+               [C]         [C7]
+Mas nada é melhor, que a água
+              [F]      [Fm]
+E a terra é a mãe de todos
+ [C]            [Em] [Am]
+O ar é que toca o homem
+            [D7]     [G]
+E o homem maneja o fogo
+              [C]    [C7]
+E o homem possui a fala
+           [F]     [Fm]
+E a fala edifica o canto
+ [C]            [Em] [Am]
+E o canto repousa a alma
+           [D7]      [G]
+Pra alma depende a calma
+               [C]    [C7]
+E a calma é irmã do simples
+              [F]     [Fm]
+E o simples resolve tudo
+ [C]            [Em] [Am]
+Mas tudo na vida às vezes
+                [D7]     [G]
+Consiste em não se ter nada
+
+Solo: ([C] [C7] [F] [Fm] [C] [Am] [D7] [G]) 2x
+       E e eeeê uh uh uh êe...`,
+  },
+  {
+    id:            "renato-teixeira-amizade-sincera",
+    titulo:        "Amizade Sincera",
+    artista:       "Renato Teixeira",
+    tom:           "C",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4824,
+    cifra: `(intro) [G]
+
+[G]
+Amizade sincera é um santo remédio
+                [D]
+É um abrigo seguro
+É natural da amizade
+                                  [G]
+O abraço, o aperto de mão, o sorriso
+Por isso se for preciso
+         [G7]             [C]
+Conte comigo, amigo disponha
+                       [G]
+Lembre-se sempre que mesmo modesta
+     [D]          [C]    [F]  [C]
+Minha casa será sempre sua
+[G]     [G]  [C]
+Amigo
+
+ [G]
+Os verdadeiros amigos
+Do peito, de fé
+              [D]
+Os melhores amigos
+[Am]                   [D]
+Não trazem dentro da boca
+          [C]                    [G]
+Palavras fingidas ou falsas histórias
+Sabem entender o silêncio
+              [G7]                   [C]
+E manter a presença mesmo quando ausentes
+                [G]
+Por isso mesmo apesar de tão raro
+
+             [D]                                    [C]        [G]       [D]                        [G]
+Não há nada melhor do que um grande  amigo...amigo... amigo...
+
+[G]
+Por isso se for preciso
+         [G7]             [C]
+Conte comigo, amigo disponha
+                       [G]
+Lembre-se sempre que mesmo modesta
+     [D]          [C]    [F]  [C]                         [G]
+Minha casa será sempre sua.... amigo`,
+  },
+  {
+    id:            "renato-teixeira-trem-do-pantanal",
+    titulo:        "Trem do Pantanal",
+    artista:       "Renato Teixeira",
+    tom:           "E",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 334,
+    cifra: `[Intro] [E]  [G#7]  [C#m]  [E]  [A]
+        [E]  [G#7]  [C#m]  [C]  [F#m]  [B7]  [E]
+
+    [E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+[C#m]                [E]                [A]
+As estrelas do cruzeiro fazem um sinal
+     [E]                    [G#7]
+De que este é o melhor caminho
+         [C#m]    [C]
+Pra quem é como eu
+         [F#m]          [B7]  [E]
+Mais um fugitivo da guer-ra
+    [E]
+Enquanto este velho trem
+       [G#7]
+Atravessa o pantanal
+   [C#m]
+O povo lá em casa
+   [E]                       [A]
+Espera que eu mande um postal
+   [E]                [G#7]       [C#m]   [C]
+Dizendo que eu estou muito bem vivo
+        [F#m]              [B7]  [E]
+Rumo a Santa Cruz de La Sierra
+
+[E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+ [C#m]              [E]               [A]
+Só meu coração está batendo desigual
+           [E]          [G#7]   [C#m]     [C]
+Ele agora sabe que o medo viaja também
+       [F#m]                 [B7]  [E]  [C]
+Sobre todos os trilhos da ter-ra
+
+[Solo] [E]  [G#7]  [C#m]  [E]  [A]
+       [E]  [G#7]  [C#m]  [C]  [F#m]  [B7]  [E]
+
+[E]
+Enquanto este velho trem
+     [G#7]
+Atravessa o pantanal
+ [C#m]              [E]               [A]
+Só meu coração está batendo desigual
+           [E]          [G#7]   [C#m]     [C]
+Ele agora sabe que o medo viaja também
+       [F#m]                 [B7]  [E]  [C]
+Sobre todos os trilhos da ter-ra
+        [F#m]              [B7]  [E]  [C]
+Rumo a Santa Cruz de La Sierra
+       [F#m]                 [B7]  [E]
+Sobre todos os trilhos da ter-ra`,
+  },
+  {
+    id:            "renato-teixeira-raizes",
+    titulo:        "Raízes",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 2353,
+    cifra: `[Intro] [G]
+
+                [G]
+Galo cantou
+Madrugada da Campina
+Manhã menina
+      [G7]             [C]
+Tá na flor do meu jardim
+         [D]
+Hoje é domingo
+      [C]               [G]
+Me desculpe eu tô sem pressa
+       [E]          [A7]
+Nem preciso de conversa
+                   [D]     [D11]   [D]
+Não há nada pra cumprir
+         [C]
+Passar o dia
+          [C#º]          [G]
+Ouvindo o som de uma viola
+   [E]                  [A7]
+Eu quero que o mundo agora
+   [D7]                 [G]   [G7]
+Se mostre pros bem-te-vi
+        [C]
+Mando daqui
+           [C#º]         [G]
+Das bandas do rural lembranças
+     [E]            [A7]
+Vibrações da nova hora
+      [D7]             [G]
+Pra você que não tá aqui
+      [D]
+Amanhecer
+        [C]          [G]
+É uma lição do universo
+           [D]
+Que nos ensina
+          [C]         [G]
+Que é preciso renascer
+  [C]  [D]     [C]  [G]
+O novo amanhece
+  [C]  [D]     [C]  [G]
+O novo amanhece
+
+Já tem rolinha
+Lá no terreiro varrido
+E o orvalho brilha
+     [G7]         [C]
+Como pérolas ao sol
+        [D]
+Tem uma nuvem
+      [C]             [G]
+Que caminha pras montanhas
+       [E]          [A7]
+Se enfiando feito alma
+                  [D]    [D11]   [D]
+Por dentro do matagal
+         [C]
+E quanto mais
+      [C#º]                 [G]
+A luz     vai invadindo a terra
+        [E]           [A7]
+O que a noite não revela
+  [D7]             [G]      [G7]
+O dia mostra pra mim
+         [C]
+A rádio agora
+     [C#º]          [G]
+Tá tocando Rancho Fundo
+      [E]         [A7]
+Somos só eu e o mundo
+  [D7]           [G]
+E tudo começa aqui
+
+      [D]
+Amanhecer
+        [C]          [G]
+É uma lição do universo
+           [D]
+Que nos ensina
+          [C]         [G]
+Que é preciso renascer
+  [C]  [D]     [C]  [G]
+O novo amanhece
+  [C]  [D]     [C]  [G]
+O novo amanhece`,
+  },
+  {
+    id:            "renato-teixeira-sina-de-violeiro",
+    titulo:        "Sina de Violeiro",
+    artista:       "Renato Teixeira",
+    tom:           "G",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4769,
+    cifra: `[Intro] ( [D]  [G]  [D]  [G]  [Am]  [Bm]  [C]  [Am]  [Bm]  [G] )2X    [D]  [G]  [D]  [G]  [D]  [G]
+
+[G]             [G7]
+   Meu pai chegou aqui
+           [C]
+Num fim de dia
+         [D7]
+Há muito tempo
+                [G]
+Em cima de um cavalo
+      [E7]
+E era pobre e moço
+        [Am]
+E só queria
+          [D7]
+Semear de calo
+                 [G]
+As mãos de plantador
+          [G7]
+Com minha mãe
+                   [C]
+Casou-se assim que pode
+         [D7]
+Achar um rancho
+              [G]
+No jeito e na cor
+         [E7]
+Da terra boa
+           [Am]
+E semeou o milho
+            [D7]
+E semeou os filhos
+            [G]
+E semeou o amor
+
+( [D]  [G]  [D]  [G]  [Am]  [Bm]  [C]  [Am]  [Bm]  [G] )   [D]  [G]  [D]  [G]  [D]  [G]
+
+          [G7]
+E assim a vida
+               [C]
+Foi-se como um rio
+          [D7]
+Meu pai dizia
+            [G]
+Um dia será mar
+       [E7]
+E toda noite
+         [Am]
+Reunia a prole
+             [D7]
+E tinha cantorias
+           [G]
+Para se cantar
+        [G7]
+Não era fácil a lida
+      [C]
+Mas valia
+          [D7]
+Porque um homem
+          [G]
+Precisa lutar
+             [E7]
+Nem quando a morte
+            [Am]
+Nos levou Rosinha
+              [D7]
+A mais pequenininha
+              [G]
+Deu pra fraquejar
+
+( [D]  [G]  [D]  [G]  [Am]  [Bm]  [C]  [Am]  [Bm]  [G] )   [D]  [G]  [D]  [G]  [D]  [G]
+
+         [G7]
+De sol a sol
+              [C]
+O braço do trabalho
+            [D7]
+Foi como um laço
+            [G]
+Mas nunca sonhou
+         [E7]
+Por isso Pedro
+                 [Am]
+Nosso irmão mais velho
+             [D7]
+Foi para bem longe
+                [G]
+E nunca mais voltou
+     [G7]
+Mariazinha
+             [C]
+Se casou bem moça
+          [D7]
+E foi com Bento
+              [G]
+Homem trabalhador
+            [E7]
+Mas veio um tempo
+             [Am]
+Negro em sua vida
+              [D7]
+Ele garrou na pinga
+                [G]
+E nunca mais largou
+
+( [D]  [G]  [D]  [G]  [Am]  [Bm]  [C]  [Am]  [Bm]  [G] )   [D]  [G]  [D]  [G]  [D]  [G]
+
+      [G7]
+Uma cegueira triste
+      [C]
+Certo dia
+          [D7]
+Nos olhos calmos
+             [G]
+Do meu pai entrou
+          [E7]
+Varreu as cores
+            [Am]
+Do seu pensamento
+              [D7]
+Ele deitou na cama
+               [G]
+E nunca mais falou
+        [G7]
+A minha mãe
+               [C]
+Mulher de raça forte
+          [D7]
+Pegou nas rédeas
+            [G]
+Com as duas mãos
+             [E7]
+E eu me enterrei
+             [Am]
+De alma na viola
+                 [D7]
+Onde plantei tristezas
+           [G]
+E colhi canções
+
+( [D]  [G]  [D]  [G]  [Am]  [Bm]  [C]  [Am]  [Bm]  [G] )   [D]  [G]  [D]  [G]  [D]  [G]
+
+         [G7]
+Por isso mesmo amigo
+             [C]
+É que eu lhe digo
+           [D7]
+Não tem sentido
+               [G]
+Em peito de cantor
+         [E7]
+Brotar o riso
+             [Am]
+Onde foi semeada
+              [D7]
+A consciência viva
+           [G]
+Do que é a dor`,
+  },
+  {
+    id:            "renato-teixeira-rio-de-lagrimas",
+    titulo:        "Rio de lágrimas",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 4924,
+    cifra: `[D]        [A7]  [D]
+O rio de Piracicaba
+    [A7]             [D]     [A7]
+Vai jogar água pra fora
+[D]         [A7]    [D]
+Quando chegar a água
+    [A7]                  [D]
+Dos olhos de alguém que chora
+                     [A]
+Lá no bairro onde eu moro
+                 [Bm]
+Só existe uma nascente
+                    [A]
+A nascente dos meus olhos
+                  [D]
+Já formou água corrente
+   [D7]             [G]
+Pertinho da minha casa
+           [A]    [D]
+Já formou uma lagoa
+                      [A7]
+Com lágrimas dos meus olhos
+                    [D]
+Por causa de uma pessoa
+                     [A]
+Eu quero apanhar uma rosa
+                   [Bm]
+Minha mão já não alcança
+                [A]
+Eu choro desesperado
+                    [D]
+Igualzinho a uma criança
+  [D7]                  [G]
+Duvido alguém que não chore
+             [A]     [D]
+Pela dor de uma saudade
+                      [A]
+Eu quero ver quem não chora
+                 [D]
+Quando ama de verdade`,
+  },
+  {
+    id:            "renato-teixeira-assim-os-dias-passarao-part-almir-sater",
+    titulo:        "Assim Os Dias Passarão (Part. Almir Sater)",
+    artista:       "Renato Teixeira",
+    tom:           "D",
+    ritmo:         "Modão",
+    dificuldade:   "iniciante",
+    tags:          ["modao","raiz"],
+    tocadasSemana: 1603,
+    cifra: `[Intro]  [Bm]  [E]  [Bm]  [E]
+
+[Bm]                     [E]
+Dezembro vai , janeiro vem
+[Bm]                          [E]
+O tempo passa veloz como um trem
+[G]                               [D]
+No rádio a noticia, um amigo se foi
+[A]                                 [Bm]
+Atrás dos mistérios que sempre buscou
+[G]                                    [D]
+Mais uma pra estrada, mais um fim de show
+[A]                                  [Bm]    [E]  [Bm]  [E]
+Ao som das guitarras do bom rock n roll
+
+[Bm]                  [E]
+O tempo trás suas lições
+[Bm]                       [E]
+E as grava em nossos corações
+[G]                               [D]
+Contando a história assim como foi
+[A]                                    [Bm]
+Mostrando os caminhos que irão nos levar
+[G]                                [D]
+Como se fosse o rio correndo pro mar
+[A]                               [Bm]   [G]  [E]  [A]
+Como se fossem pedras no rio a rolar
+
+( [Bm]  [E]  [Bm]  [E] )
+( [G]  [D]  [A]  [Bm] )
+( [G]  [D]  [A]  [Bm] )
+( [G]  [E]  [A] )
+
+[Bm]                 [E]
+Assim os dias passarão
+[Bm]                 [E]
+Virão as novas gerações
+[G]                              [D]
+Outras perguntas, provaveis canções
+[A]                                     [Bm]
+Outro mundo, outra gente, outras dimensões
+[G]                             [D]
+E na hora marcada, em algum lugar
+[A]                              [Bm]   [G]  [E]  [A]   [Bm]
+Uma estrela virá pra lhe acompanhar`,
+  },
+  {
+    id:            "rick-renner-ela-e-demais",
+    titulo:        "Ela é Demais",
+    artista:       "Rick & Renner",
+    tom:           "F",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4711,
+    cifra: `[Intro] [F]  [Dm]  [Bb]  [C7(4/9)]
+        [F]  [Dm]  [Bb]  [C]
+
+[Tab - Intro]
+
+Parte de 1 de 4
+              [F]                    [Dm]
+E|--------------------------------------------------|
+B|-------------------------3--5--5/6----------------|
+G|------------2--3--5--5----------------------------|
+D|-----2-3-5----------------------------------------|
+A|-3-5----------------------------------------------|
+E|--------------------------------------------------|
+
+Parte de 2 de 4
+             [Bb]
+E|-------------6--6---------------------------------|
+B|-6--5---------------------------------------------|
+G|-------5-5/7--------------------------------------|
+D|--------------------------------------------------|
+A|--------------------------------------------------|
+E|--------------------------------------------------|
+
+Parte de 3 de 4
+   [C7(4/9)]                   [F]                    [Dm]
+E|-6--5-----------------------------------8-10----8-|
+B|-------8--6----------------------6-8/10------10---|
+G|-------------7-5-------------5-7------------------|
+D|-----------------8-7-5---5-7----------------------|
+A|-----------------------8--------------------------|
+E|--------------------------------------------------|
+
+Parte de 4 de 4
+          [Bb]               [C]
+E|-13p12--12---10--10--8-8-8--6-6-6--5h6p5----------|
+B|-----------------------------------------8--------|
+G|--------------------------------------------------|
+D|--------------------------------------------------|
+A|--------------------------------------------------|
+E|--------------------------------------------------|
+
+[Primeira Parte]
+
+[Tab - Primeira Parte]
+
+Parte de 1 de 4
+   [F]                [Dm]                   [Bb]
+E|--------8------8----------8------8---------------|
+B|-------------------------------------------------|
+G|---9h10---9h10-------9h10---9h10-----------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 2 de 4
+   [C]         [Bb6]  [C]
+E|-------------------------------------------------|
+B|----5h6--5------5h6--8---------------------------|
+G|-------------------------------------------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 3 de 4
+   [F]  [Dm]              [Bb]
+E|-----------------------6-5-5h6-------------------|
+B|---------5-6-8-8/10------------------------------|
+G|-------7-----------------------------------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 4 de 4
+   [C]         [Bb6]  [C]
+E|-------------------------------------------------|
+B|----5h6--5------5h6--8--6------------------------|
+G|-------------------------------------------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+[F]
+  Ela tem um jeito lindo
+                [Dm]
+De me olhar nos olhos
+                [Bb]
+Me despertando sonhos
+              [C]  [Bb6]  [C]
+Loucuras de amor
+
+[F]
+  Ela tem um jeito doce
+              [Dm]
+De tocar meu corpo
+              [Bb]
+Que me deixa louco
+               [C]  [Bb6]  [C]
+Um louco sonhador
+
+[Pré-Refrão]
+
+[F]                  [Dm]
+  Ela sabe me prender como ninguém
+[Bb2]  [C]           [F]
+    Tem seus mistérios
+           [Dm]           [Bb2]
+Sabe se fazer como ninguém
+          [C]    [Bb/D]  [C/E]
+Meu caso sério
+
+[Refrão]
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[Interlúdio] [F]  [Dm]  [Bb]  [C]
+             [F]  [Dm]  [Bb]  [C]
+
+[Tab - Interlúdio]
+
+Parte de 1 de 4
+              [F]                    [Dm]
+E|--------------------------------------------------|
+B|-------------------------3--5--5/6----------------|
+G|------------2--3--5--5----------------------------|
+D|-----2-3-5----------------------------------------|
+A|-3-5----------------------------------------------|
+E|--------------------------------------------------|
+
+Parte de 2 de 4
+             [Bb]
+E|-------------6--6---------------------------------|
+B|-6--5---------------------------------------------|
+G|-------5-5/7--------------------------------------|
+D|--------------------------------------------------|
+A|--------------------------------------------------|
+E|--------------------------------------------------|
+
+Parte de 3 de 4
+   [C]                         [F]                    [Dm]
+E|-6--5-----------------------------------8-10----8-|
+B|-------8--6----------------------6-8/10------10---|
+G|-------------7-5-------------5-7------------------|
+D|-----------------8-7-5---5-7----------------------|
+A|-----------------------8--------------------------|
+E|--------------------------------------------------|
+
+Parte de 4 de 4
+          [Bb]               [C]
+E|-13p12--12---10--10--8-8-8--6-6-6--5h6p5----------|
+B|-----------------------------------------8--------|
+G|--------------------------------------------------|
+D|--------------------------------------------------|
+A|--------------------------------------------------|
+E|--------------------------------------------------|
+
+[Segunda Parte]
+
+[Tab - Segunda Parte]
+
+Parte de 1 de 4
+   [F]                 [Dm]              [Bb]
+E|-------8--------8--------------------6-6-6-5-----|
+B|--------------8--------5-6-8-8/10------------6---|
+G|--9h10---9-10--------7-------------------------7-|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 2 de 4
+   [C]         [Bb6]  [C]
+E|-------------------------------------------------|
+B|----5-6/8-------5-6--8---------------------------|
+G|-------------------------------------------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 3 de 4
+   [F]            [Dm]              [Bb]
+E|-----------8-----5-5-5-6-8-----------------------|
+B|---------------------------6------6-6-6-8-8/10---|
+G|------9h10-------------------------------------7-|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+Parte de 4 de 4
+   [C]         [Bb6]  [C]
+E|-------------------------------------------------|
+B|----5h6/8------5h6--8--6-------------------------|
+G|-------------------------------------------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+[F]
+  Ela tem um brilho forte
+                 [Dm]
+Brilha feito estrela
+              [Bb]
+Ah, eu adoro vê-la
+                 [C]  [Bb6]  [C]
+Fazendo aquele amor
+
+[F]
+  Que me enlouquece, me embriaga
+              [Dm]
+Me envolve inteiro
+                [Bb]
+E me faz prisioneiro
+               [C]  [Bb6]  [C]
+Um louco sonhador
+
+[Pré-Refrão]
+
+[F]                  [Dm]
+  Ela sabe me prender como ninguém
+[Bb2]  [C]           [F]
+    Tem seus mistérios
+           [Dm]           [Bb2]
+Sabe se fazer como ninguém
+          [C]    [Bb/D]  [C/E]
+Meu caso sério
+
+[Refrão]
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[F]                 [Dm]
+  Uma deusa, uma louca
+          [Bb2]
+Uma feiticeira
+[C]
+Ela é demais
+
+[F]                     [Dm]
+  Quando beija minha boca
+                [Bb2]
+E se entrega inteira
+     [C]
+Meu Deus, ela é demais
+
+[Final] [F]  [Bb2]  [F]
+
+[Tab - Final]
+
+Parte 1 de 2
+            [F]                    [Bb2]
+E|------------------------------------------------|
+B|-----------------------3--5--5/6----------------|
+G|----------2--3--5--5----------------------------|
+D|---2-3-5----------------------------------------|
+A|-5----------------------------------------------|
+E|------------------------------------------------|
+
+Parte 2 de 2
+                  [F]
+E|-1----------------------------------------------|
+B|-----1----------1----1--------------------------|
+G|---------3------0h2--0h2------------------------|
+D|-------------3--0h3--0h3------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|`,
+  },
+  {
+    id:            "rick-renner-mae",
+    titulo:        "Mãe",
+    artista:       "Rick & Renner",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1000,
+    cifra: `[Intro] [A7M]  [D7M]  [A7M]  [D7M]
+        [A/C#]  [Bm]  [Bm/A]
+        [E/G#]  [D/F#]  [E]  [D/F#]  [E/G#]
+
+[Primeira Parte]
+
+ [A]                  [E/G#]            [F#m]
+Mãe, hoje eu descobri que eu cresci
+            [C#m]         [D]
+É que de repente eu me vi
+       [A/C#]          [Bm]  [F#7(13-)]  [F#]
+Tão sozinho na estrada
+ [Bm]                [Bm/A]     [E/G#]
+Mãe, hoje eu precisei de você
+             [D/F#]     [E]
+Eu não sabia o que fazer
+                  [A]  [E4]  [E]
+Me vi de mãos atadas
+
+[Pré-Refrão]
+
+ [A]              [E/G#]     [F#m]
+Mãe o que é que a gente faz
+                       [Em7]
+Quando o sucesso não traz
+               [A/C#]     [D]   [D4]  [D]
+A paz a que a gente procura
+                  [D#º]           [A/E]
+Mãe, hoje aqui sozinho eu rezei
+             [A4]           [A]    [B]
+Aqui no meu cantinho eu chorei
+            [E]       [A]   [E4]  [E]
+E chorando fiz uma jura
+
+[Refrão]
+
+ [A]                    [E/G#]
+Juro que a partir de hoje
+                       [F#m]
+Eu vou fazer meu tempo
+                [C#m]                    [D]
+Vou ficar mais perto do teu sentimento
+                [A/C#]               [Bm]  [F#7(13-)]  [F#]
+Vou ficar mais perto, mãe do teu amor
+ [Bm]                [Bm/A]                [E/G#]
+Juro não deixar jamais a minha ambição
+               [D/F#]                 [E]
+Falar tão mais alto que meu coração
+             [D]             [A/C#]    [D/F#]  [E/G#]
+Se minha riqueza, mãe é o teu amor
+
+ [A]
+Mãe, me dá teu colo
+ [C#m]                    [Bm]
+Mãe, mulher que adoro, mãe
+                  [E4]          [E]
+Se existo devo a ti meu respirar
+ [A]                    [C#m]
+Mãe tão puro amor de mãe
+                     [Bm]
+Que as vezes não me vem
+                    [E/G#]  [D/F#]  [E]
+Palavras pra expressar
+ [D]             [E]             [A]
+Mãe pra ti conjugo o verbo amar
+
+( [A7M]  [D7M]  [A7M]  [D7M] )
+( [A/C#]  [Bm]  [Bm/A] )
+( [E/G#]  [D/F#]  [E]  [D/F#]  [E/G#] )
+
+[Segunda Parte]
+
+ [A]                 [E/G#]      [F#m]
+Mãe, teu conselho me orienta
+             [C#m7]       [D]
+Teu carinho me alimenta
+             [A/C#]           [Bm]  [F#7(13-)]  [F#]
+Da paz, do amor, da esperança
+ [Bm]                 [Bm/A]       [E/G#]
+Mãe hoje eu sou um homem eu sei
+               [D/F#]        [E]
+Mas as vezes que eu chorei
+        [D]            [A]    [E4]  [E]
+Não passei de uma criança
+
+[Pré-Refrão]
+
+ [A]              [E/G#]     [F#m]
+Mãe o que é que a gente faz
+                       [Em7]
+Quando o sucesso não traz
+               [A/C#]     [D]   [D4]  [D]
+A paz a que a gente procura
+                  [D#º]        [A/E]
+Mãe, hoje aqui sozinho eu rezei
+             [A4]           [A]    [B]
+Aqui no meu cantinho eu chorei
+            [E]       [A]   [E4]  [E]
+E chorando fiz uma jura
+
+[Refrão]
+
+ [A]                    [E/G#]
+Juro que a partir de hoje
+                       [F#m]
+Eu vou fazer meu tempo
+                [C#m]                    [D]
+Vou ficar mais perto do teu sentimento
+                [A/C#]               [Bm]  [F#7(13-)]  [F#]
+Vou ficar mais perto, mãe do teu amor
+ [Bm]                [Bm/A]                [E/G#]
+Juro não deixar jamais a minha ambição
+               [D/F#]                 [E]
+Falar tão mais alto que meu coração
+             [D]             [A/C#]    [D/F#]  [E/G#]
+Se minha riqueza, mãe é o teu amor
+
+ [A]
+Mãe, me dá teu colo
+ [C#m]                    [Bm]
+Mãe, mulher que adoro, mãe
+                  [E4]          [E]
+Se existo devo a ti meu respirar
+ [A]                    [C#m]
+Mãe tão puro amor de mãe
+                     [Bm]
+Que as vezes não me vem
+                    [E/G#]  [D/F#]  [E]
+Palavras pra expressar
+ [D]             [E]             [A7M]  [D7M]
+Mãe pra ti conjugo o verbo amar
+ [A7M]
+Mãe`,
+  },
+  {
+    id:            "rick-renner-nos-bares-da-cidade",
+    titulo:        "Nos Bares da Cidade",
+    artista:       "Rick & Renner",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1635,
+    cifra: `[Intro] [D]  [D4]  [D]  [D4]
+
+    [D]                     [D4]          [D]
+Garçom, me traga outra garrafa de cerveja
+             [D4]          [D]
+Vou ficar sozinho nessa mesa
+                            [A7]
+Eu quero beber e chorar por ela
+
+   [G]
+Garçom, a minha vida agora
+               [D]
+Tá de ponta cabeça
+
+Já tentei mas nada
+                   [A]
+Faz com que eu esqueça
+              [G]                  [D]  [G]  [A]  [G]
+Os olhos e os lábios daquela mulher
+
+   [D]                 [D4]           [D]
+Garçom, ela saiu de vez da minha vida
+            [D4]         [D]
+E agora eu busco uma saída
+                [D7]               [G]
+Minha história de amor acaba em solidão
+   [G]
+Garçom, se eu ficar muito chato
+               [D]
+E der algum vexame
+                                 [A]
+Pegue toda a minha cerveja e derrame
+                [G]         [A]         [D]  [A7]
+Faça o que ela fez com a minha paixão
+
+   [D]
+Derrama cerveja, derrama
+               [A]
+Derrama a tristeza do meu coração
+    [A]                     [A7]
+Que essa angústia é uma bebida
+              [D]             [A7]
+Misturada, batida com a solidão
+   [D]
+Derrama cerveja, derrama
+               [D7]                [G]
+Enquanto eu derramo toda essa saudade
+   [G]                 [D]                      [A]
+Eu sou apenas um qualquer bebendo por mulher
+                 [D]
+Nos bares da cidade
+
+( [D]  [D4]  [D]  [D4] )
+
+    [D]                     [D4]          [D]
+Garçom, me traga outra garrafa de cerveja
+             [D4]           [D]
+Vou ficar sozinho nessa mesa
+                            [A7]
+Eu quero beber e chorar por ela
+
+   [G]
+Garçom, a minha vida agora
+               [D]
+Tá de ponta cabeça
+
+Já tentei mas nada
+                    [A]
+Faz com que eu esqueça
+     [G]                           [D]  [G]  [A]  [G]
+Os olhos e os lábios daquela mulher
+
+   [D]                 [D4]           [D]
+Garçom, ela saiu de vez da minha vida
+           [D4]           [D]
+E agora eu busco uma saída
+                [D7]             [G]
+Minha história de amor acaba em solidão
+   [G]
+Garçom, se eu ficar muito chato
+              [D]
+E der algum vexame
+                                [A]
+Pegue toda a minha cerveja e derrame
+                [G]         [A]         [D]  [A7]
+Faça o que ela fez com a minha paixão
+
+   [D]
+Derrama cerveja, derrama
+               [A]
+Derrama a tristeza do meu coração
+    [A]                     [A7]
+Que essa angústia é uma bebida
+              [D]             [A7]
+Misturada, batida com a solidão
+   [D]
+Derrama cerveja, derrama
+               [D7]                [G]
+Enquanto eu derramo toda essa saudade
+   [G]                 [D]                      [A]
+Eu sou apenas um qualquer bebendo por mulher
+                 [D]
+Nos bares da cidade
+
+   [D]
+Derrama cerveja, derrama
+               [A]
+Derrama a tristeza do meu coração
+    [A]                     [A7]
+Que essa angústia é uma bebida
+              [D]             [A7]
+Misturada, batida com a solidão
+   [D]
+Derrama cerveja, derrama
+               [D7]                [G]
+Enquanto eu derramo toda essa saudade
+   [G]                 [D]                      [A]
+Eu sou apenas um qualquer bebendo por mulher
+                 [D]
+Nos bares da cidade
+
+   [G]                 [D]                      [A]
+Eu sou apenas um qualquer bebendo por mulher
+                 [D]
+Nos bares da cidade`,
+  },
+  {
+    id:            "rick-renner-so-pensando-em-voce",
+    titulo:        "Só Pensando Em Você?",
+    artista:       "Rick & Renner",
+    tom:           "G",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4232,
+    cifra: `[Intro] [Gm]  [Eb7M]  [F]  [Gm]
+
+[Tab - Intro]
+
+E|-6-5--8--6----6-5---5--6-5--8--6--|
+B|------------------8---------------|
+G|----------------------------------|
+D|----------------------------------|
+A|----------------------------------|
+E|----------------------------------|
+
+[Primeira Parte]
+
+[Gm]
+ Recordações não param
+                                       [Cm7]
+De atormentar minha cabeça com o que passou
+
+Nossa história
+      [Eb7M]                                  [F]
+Fica na minha memória como um filme que marcou
+
+E me faz questionar
+   [D7]                               [Gm]
+Se tudo o que nós vivemos juntos acabou
+
+[Segunda Parte]
+
+[Gm]
+ Você foi embora
+                                       [Cm7]
+Mas deixou uma saudade e com ela a solidão
+
+Que me apavora
+       [Eb7M]                      [F]
+Que maltrata e machuca o meu coração
+
+Que sofre por não ter
+[D7]                            [Gm]   [F/A]  [Bb]
+A felicidade que está em suas mãos
+
+[Pré-Refrão]
+
+[Bb]               [Eb] [Bb]
+ E quanto tempo mais
+                                       [F]           [Bb] [F]
+Você vai demorar pra refletir sobre a nossa relação
+[Bb]                [Eb] [Bb]
+ O teu silêncio traz
+                                      [F]
+O desespero e eu já não aguento essa sua indecisão
+      [D7]
+Eu preciso dar um tempo
+             [G]
+Pro meu coração
+
+[Refrão]
+
+                 [Em]
+Já chorei pra valer
+      [Bm]         [Am]
+Só pensando em você
+            [D7]
+É inútil tentar te esquecer, ié
+[G]                [Em]
+ Posso até disfarçar
+       [Bm]         [Am]
+Que deixei de te amar (de te amar, de te amar)
+         [Cm7]                 [D7]          [Gm]
+Só que a minha vida não tem graça sem você
+
+[Solo] [Gm]  [Eb7M]  [F]
+       [Gm]  [Cm7]  [F]
+
+[Segunda Parte]
+
+[Gm]
+ Você foi embora
+                                       [Cm7]
+Mas deixou uma saudade e com ela a solidão
+
+Que me apavora
+       [Eb7M]                      [F]
+Que maltrata e machuca o meu coração
+
+Que sofre por não ter
+[D7]                            [Gm]   [F/A]  [Bb]
+A felicidade que está em suas mãos
+
+[Pré-Refrão]
+
+[Bb]               [Eb] [Bb]
+ E quanto tempo mais
+                                       [F]           [Bb] [F]
+Você vai demorar pra refletir sobre a nossa relação
+[Bb]                [Eb] [Bb]
+ O teu silêncio traz
+                                      [F]
+O desespero e eu já não aguento essa sua indecisão
+      [D7]
+Eu preciso dar um tempo
+             [G]
+Pro meu coração
+
+[Refrão]
+
+                 [Em]
+Já chorei pra valer
+      [Bm]         [Am]
+Só pensando em você
+            [D7]
+É inútil tentar te esquecer, ié
+[G]                [Em]
+ Posso até disfarçar
+       [Bm]         [Am]
+Que deixei de te amar (de te amar, de te amar)
+         [Cm7]                 [D7]          [G]
+Só que a minha vida não tem graça sem você
+
+                 [Em]
+Já chorei pra valer
+      [Bm]         [Am]
+Só pensando em você
+            [D7]
+É inútil tentar te esquecer
+[G]                [Em]
+ Posso até disfarçar
+       [Bm]         [Am]
+Que deixei de te amar (de te amar, de te amar)
+         [Cm7]                 [D7]          [Gm]
+Só que a minha vida não tem graça sem você
+[Gm]
+Cadê você?`,
+  },
+  {
+    id:            "rick-renner-filha",
+    titulo:        "Filha",
+    artista:       "Rick & Renner",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 3497,
+    cifra: `[Intro] [D]  [A]  [G]  [D]  [A]
+
+ [D]
+Hoje eu parei pra escrever
+        [A]
+Alguma coisa assim sobre você
+          [G]
+E simplesmente me deixei levar
+         [D]                  [A]
+Pela emoção de poder lhe falar
+    [D]
+Do dia em que você nasceu
+           [A]
+Vinda do amor de sua mãe e eu
+             [G]
+Um lindo presente que o Senhor nos deu
+        [D]                [A]
+A realidade de um sonho meu
+    [D]
+E quando você chorou
+             [A]
+Deus me ensinou uma nova canção
+     [Em]                   [G]
+Seus olhos de um anjo pequeno
+          [D]                [A]
+Iam se fazendo minha religião
+ [D]
+Coisas que de mim não saem
+            [A]
+A primeira vez que me chamou de pai
+               [Em]               [G]
+Vou lhe confessar agora, minha filha
+[Em]                          [A]                   [D]    [A]
+Com você eu aprendi que um homem tem que ter família
+  [D]
+Quinze anos faz agora
+          [A]
+É de alegria que meus olhos choram
+             [G]
+Meu pequeno anjo que agora fascina
+              [D]                    [A]
+Para mim vai ser sempre minha menina
+[D]
+Filha onde você vai
+             [A]
+Pode não sobrar um lugar pro seu pai
+              [Em]                       [G]
+Mas tenha certeza que eu vou sempre estar
+            [D]                 [A]
+Perto de você onde quer que vá
+    [Em]                  [A]
+Não é que eu vá te vigiar
+    [D]               [A/C#]     [Bm]
+Não é que eu queira ser seu dono
+         [G]               [A]
+Isso é só um cuidado de pai
+              [D]   [A]
+Filha eu te amo
+
+[Solo] [D]  [F#7]  [Bm]  [Em]  [G]  [D]  [A]
+       [D]  [F#7]  [Bm]  [G]  [Em]  [A]
+
+    [D]
+E quando você chorou
+             [A]
+Deus me ensinou uma nova canção
+      [Em]                    [G]
+Seus olhos de um anjo pequeno
+          [D]                 [A]
+Iam se fazendo minha religião
+[D]
+Coisas que de mim não saem
+            [A]
+A primeira vez que me chamou de pai
+              [Em]                 [G]
+Vou lhe confessar agora minha filha
+  [Em]                         [A]                   [D]   [A]
+Com você eu aprendi que um homem tem que ter família
+[D]
+15 Anos faz agora
+          [A]
+É de alegria que meus olhos choram
+             [G]
+Meu pequeno anjo que agora fascina
+               [D]                   [A]
+Para mim vai ser sempre minha menina
+[D]
+Filha onde você vai
+             [A]
+Pode não sobrar um lugar pro seu pai
+              [Em]                       [G]
+Mas tenha certeza que eu vou sempre estar
+         [D]                   [A]
+Perto de você onde quer que vá
+    [Em]                  [A]
+Não é que eu vá te vigiar
+ [D]                  [A/C#]     [Bm]
+Não é que eu queira ser seu dono
+    [G]                     [A]
+Isso é só um cuidado de pai
+             [D]  [A]
+Filha eu te amo
+     [Em]               [A]
+Não é que eu vá te vigiar
+    [D]               [A/C#]     [Bm]
+Não é que eu queira ser seu dono
+        [G]                [A]
+Isso é só um cuidado de pai
+             [D]
+Filha, eu te amo`,
+  },
+  {
+    id:            "rick-renner-sem-direcao",
+    titulo:        "Sem Direção",
+    artista:       "Rick & Renner",
+    tom:           "F",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4472,
+    cifra: `[Intro] [Bb]  [F]  [Bb]  [F]  [C]  [Bb]  [F]
+
+E|------------------------------------------------------|
+B|------------------------------------------------------|
+G|---------------------------------5--------------------|
+D|-5/7-5----5/7-5-----5/7-5----5-7--7-5-5-7/10--5-3-3---|
+A|------8-5-------8--------8-5--------------------------|
+E|-----------------8------------------------------------|
+
+[F]                                 [Bb]
+Sem direção, meu coração, anda perdido
+[F]                                       [Bb]
+Seja onde for, por esse amor, vive esquecido
+[Bb]        [C]             [Bb]     [F]     [Bb]  [F]
+Dia sem sol, noite sem lua, ferido
+
+[F]                                         [Bb]
+Não posso mais, machuca demais, esse desacerto
+[F]                                      [Bb]
+Pra solidão, já disse não, mas não tem jeito,
+[Bb]        [C]                [Bb]             [F]      [C7]
+Vivendo assim, sou alvo do fim, é tiro no peito
+
+[F]        [Am7]           [Dm]                       [Bb]
+Por esse amor eu me engano, que fazer se eu amo
+       [Gm]      [Bb]         [C]
+Quem sabe amanhã vai voltar
+[F]          [Am7]          [Dm]        [C]        [Bb]
+Por esse amor eu me entrego, juro não nego
+    [Gm]        [C]              [Bb]   [F]
+Preciso desse amor pra caminhar
+
+( [Bb]  [F]  [Bb]  [F]  [C]  [Bb]  [F] )
+
+E|------------------------------------------------------|
+B|------------------------------------------------------|
+G|---------------------------------5--------------------|
+D|-5/7-5----5/7-5-----5/7-5----5-7--7-5-5-7/10--5-3-3---|
+A|------8-5-------8--------8-5--------------------------|
+E|-----------------8------------------------------------|
+
+[F]                                         [Bb]
+Não posso mais, machuca demais, esse desacerto
+[F]                                      [Bb]
+Pra solidão, já disse não, mas não tem jeito,
+[Bb]        [C]                [Bb]             [F]      [C7]
+Vivendo assim, sou alvo do fim, é tiro no peito
+
+[F]        [Am7]           [Dm]                       [Bb]
+Por esse amor eu me engano, que fazer se eu amo
+       [Gm]      [Bb]         [C]
+Quem sabe amanhã vai voltar
+[F]          [Am7]          [Dm]        [C]        [Bb]
+Por esse amor eu me entrego, juro não nego
+    [Gm]        [C]              [Bb]   [F]
+Preciso desse amor pra caminhar
+
+[F]        [Am7]           [Dm]                       [Bb]
+Por esse amor eu me engano, o que fazer se eu amo
+       [Gm]      [Bb]         [C]
+Quem sabe amanhã vai voltar
+[F]          [Am7]          [Dm]        [C]        [Bb]
+Por esse amor eu me entrego, juro não nego
+    [Gm]        [C]              [Bb]   [F]
+Preciso desse amor pra caminhar`,
+  },
+  {
+    id:            "rick-renner-escolta-de-vagalumes",
+    titulo:        "Escolta de Vagalumes",
+    artista:       "Rick & Renner",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 5061,
+    cifra: `[Intro] [A]  [Bm]  [E7]  [A]  [A7]
+        [D]  [E7]  [A]  [A9]
+
+   [A]                 [E/G#]          [F#m]  [A7]
+Voltando pra minha terra, eu renasci
+    [D]                  [A7]                  [D]  [D]  [C#]  [D]
+Nos anos que fiquei distante, acho que morri
+[E7]                    [D]                    [A]
+Morri de saudade dos pais, irmãos e companheiros
+                              [E7]
+Que ao cair da tarde no velho terreiro
+          [D]                       [A]
+A gente cantava as mais lindas canções
+
+  [E7]               [D]            [A]
+Viola afinada e na voz dueto perfeito
+                               [E7]
+Longe eu não cantava doia meu peito
+           [D]    ( [E7] )    [A]
+Na cidade grande só tive ilusões
+
+       [E7]                     [F#m]
+Mas voltei, mas voltei, eu voltei
+  [E7]               [D]                [A]
+E ao passar a porteira,a mata e o perfume
+                           [E7]
+Eu fui escoltado pelos vagalumes
+             [D]               [A]
+Pois era uma linda noite de luar
+
+       [E7]                     [F#m]
+Mas chorei, mas chorei, eu chorei
+   [E7]                     [D]                  [A]
+Ao ver meus pais, meus irmãos vindo ao meu encontro
+                            [E7]
+A felicidade misturou o meu pranto
+                [D]        ( [E7] )  [A]
+Com o orvalho da noite desse meu lugar
+
+( [A]  [Bm]  [E7]  [A]  [A7] )
+( [D]  [E7]  [A]  [A9] )
+
+   [A]                 [E/G#]                 [F#m]  [A7]
+Ganhei dinheiro lá fora, mas foi tudo em vão
+   [D]              [A7]                 [D]  [C#]  [D]
+A natureza é meu mundo, eu sou o sertão
+    [E7]                 [D]                 [A]
+Correr pelos campos floridos feito um menino
+                            [E7]
+Esquecer as mágoas e os desatinos
+              [D]              [A]
+Que a vida lá fora me proporcionou
+
+  [E7]            [D]             [A]
+Ouvir o sabiá cantando e a juriti
+                             [E7]
+E a felicidade de um bem-ti-vi
+            [D]     ( [E7] )    [A]
+Que parece dizer: meu amigo voltou
+
+[E7]                     [F#m]
+Mas voltei, mas voltei, eu voltei
+  [E7]               [D]                 [A]
+E ao passar a porteira, a mata e o perfume
+                           [E7]
+Eu fui escoltado pelos vagalumes
+             [D]               [A]
+Pois era uma linda noite de luar
+
+       [E7]                     [F#m]
+Mas chorei, mas chorei, eu chorei
+   [E7]                     [D]                  [A]
+Ao ver meus pais, meus irmãos vindo ao meu encontro
+                            [E7]
+A felicidade misturou o meu pranto
+                [D]        ( [E7] )  [A]
+Com o orvalho da noite desse meu lugar
+
+[Final] [A]  [Bm]  [E7]  [A]  [A7]
+        [D]  [E7]  [A]  [A9]`,
+  },
+  {
+    id:            "rick-renner-preciso-te-encontrar",
+    titulo:        "Preciso te encontrar",
+    artista:       "Rick & Renner",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4498,
+    cifra: `[Intro] [C]  [G7]  [F]  [C]
+        [C]  [G7]  [F]  [C]
+
+[C]                                  [G7]
+Andei seguindo o teu olhar em cada rua em que eu passei
+            [F]                                 [G7]
+Em cada esquina em que eu parei, tentei te encontrar
+[C]                                      [G7]
+Em cada rosto eu quis te ver, eu quis fugir da solidão
+          [F]                           [G7]
+Mas este vazio no coração me diz que não vai dar
+[C]                                    [G7]
+Onde você anda? Que eu não consigo achar o teu caminho
+            [Am]                          [G7]
+Ficar assim sozinho sem você me dá uma vontade de morrer
+[C]                                   [G7]
+Eu estou perdido, nem sei que dia é hoje da semana
+                      [Am]                             [G7]    [F]
+Mas sei que pra quem ama qualquer dia é bom pra se amar, amar
+               [C]      [F]              [C]      [F]               [C]
+Preciso te encontrar,  preciso te encontrar,  preciso te encontrar
+
+[C]                                      [G7]
+Em cada rosto eu quis te ver, eu quis fugir da solidão
+          [F]                           [G7]
+Mas este vazio no coração me diz que não vai dar
+[C]                                    [G7]
+Onde você anda? que eu não consigo achar o teu caminho
+            [Am]                          [G7]
+Ficar assim sozinho sem você me dá uma vontade de morrer
+[C]                                   [G7]
+Eu estou perdido, nem sei que dia é hoje da semana
+                      [Am]                             [G7]
+Mas sei que pra quem ama qualquer dia é bom pra se amar, amar
+
+ [C]                                   [G7]
+Onde você anda? que eu não consigo achar o teu caminho
+            [Am]                          [G7]
+Ficar assim sozinho sem você me dá uma vontade de morrer
+[C]                                   [G7]
+Eu estou perdido, nem sei que dia é hoje da semana
+                      [Am]                             [G7]
+Mas sei que pra quem ama qualquer dia é bom pra se amar, amar
+               [C]      [F]               [C]       [F]
+Preciso te encontrar,   preciso te encontrar,   preciso te
+           [F]               [C]
+Encontrar,   preciso te encontrar
+               [C]
+Preciso te encontrar`,
+  },
+  {
+    id:            "rick-renner-eu-mereco",
+    titulo:        "Eu Mereço",
+    artista:       "Rick & Renner",
+    tom:           "F",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2041,
+    cifra: `[Intro] [F9]  [Bb9]  [F9]  [Bb9]
+
+[F9]                  [F4]   [F9]
+Foi só uma noite e nada mais
+                    [F4]      [F9]
+Era pra ser só uma transa a mais
+                              [Bb] [Bb9]
+Mas não foi assim como eu pensei
+[Bb]                           [Gm]
+De repente um vinho um clima bom
+                           [Bb]
+Um toque de carinho aquele som
+                 [C]              [F9]
+Sem perceber aos poucos me entreguei
+
+                   [F4]     [F9]
+Foi um lance de desejo antigo
+                    [F9]     [F4]
+Não sei o que aconteceu comigo
+                           [Bb] [Bb9]
+Eu nunca transei ninguém assim
+[Bb]                         [Gm]
+Só que eu dormi depois do amor
+                        [Bb]
+E quando a manhã me acordou
+            [C]        [F]
+Estava sem ela e sem mim
+
+[C]
+O que é que a gente faz
+                          [Bb]
+Quando a paixão vem de repente
+                                                 [F]
+Feito um raio rouba a paz e invade o coração da gente
+                    [C]
+Assim da noite pro dia
+                      [F]
+Um sentimento por alguém
+
+[C]
+O que é que a gente faz
+                       [Bb]
+Quando a noite foi gostosa
+                                            [F]
+Você fez e aconteceu com uma mulher maravilhosa
+                 [C]
+Mas acorda no silêncio
+              [F]
+De um quarto sem ninguém
+
+[Refrão]
+
+[C]                           [Dm]
+É, vira inferno o que era céu
+                    [C]
+Tô num quarto de motel
+      [Bb]  [C]      [F]
+Sem nome, sem endereço
+
+[C]                        [Dm]
+É, quem mandou me dar assim
+                     [C]
+Isso é bem feito pra mim
+      [Bb]      [C]       [F]
+Manda outra que eu mereço
+
+[Segunda Parte]
+
+ [F]  [Bb]  [F]  [Bb]
+
+
+   [F4]     [F9]
+Foi um lance de desejo antigo
+                    [F9]     [F4]
+Não sei o que aconteceu comigo
+                           [Bb] [Bb9]
+Eu nunca transei ninguém assim
+[Bb]                         [Gm]
+Só que eu dormi depois do amor
+                        [Bb]
+E quando a manhã me acordou
+            [C]        [F]
+Estava sem ela e sem mim
+
+[C]
+O que é que a gente faz
+                          [Bb]
+Quando a paixão vem de repente
+                                                 [F]
+Feito um raio rouba a paz e invade o coração da gente
+                    [C]
+Assim da noite pro dia
+                      [F]
+Um sentimento por alguém
+
+[C]
+O que é que a gente faz
+                       [Bb]
+Quando a noite foi gostosa
+                                            [F]
+Você fez e aconteceu com uma mulher maravilhosa
+                 [C]
+Mas acorda no silêncio
+              [F]
+De um quarto sem ninguém
+
+[Refrão]
+
+[C]                           [Dm]
+É, vira inferno o que era céu
+                    [C]
+Tô num quarto de motel
+      [Bb]  [C]      [F]
+Sem nome, sem endereço
+
+[C]                        [Dm]
+É, quem mandou me dar assim
+                     [C]
+Isso é bem feito pra mim
+      [Bb]      [C]       [F]
+Manda outra que eu mereço
+
+[C]                           [Dm]
+É, vira inferno o que era céu
+                    [C]
+Tô num quarto de motel
+      [Bb]  [C]      [F]
+Sem nome, sem endereço
+
+[C]                        [Dm]
+É, quem mandou me dar assim
+                     [C]
+Isso é bem feito pra mim
+      [Bb]              [F]
+Manda outra que eu mereço
+
+ [F]  [Bb]  [F]  [Bb]  [F]`,
+  },
+  {
+    id:            "rick-renner-casa-de-caboclo",
+    titulo:        "Casa de Caboclo",
+    artista:       "Rick & Renner",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 2361,
+    cifra: `[Intro]  [A] [E] [A] [E] [A] [E] [A] [E] [A]
+
+[A]
+Seja bem-vindo nessa casa de caboclo
+O que eu tenho é muito pouco
+                      [E]
+Aqui nesse fim de estrada
+Tem um ditado aqui no nosso recanto
+Que o pouco com Deus é muito
+                       [A]
+E o muito sem Deus é nada
+Não repare minha estrada esburacada
+                  [A7]
+Ela é trilha de boiada,
+                   [D]
+Ela é rota de tropeiro
+                              [A]
+Quando chove é uma lama grudadera
+                    [E]
+Quando é sol vira poeira
+                   [A]
+Parecendo um fumaceiro
+
+
+[Refrão]
+            [E]                       [A]
+Seu carro moço é o primeiro que aparece
+                     [E]
+Meu cachorro não conhece,
+                    [A]
+Nunca viu um trem assim
+             [E]                    [A]
+Pode até parecer surpresa pro senhor
+                   [E]
+Mas o progresso passou
+                        [A]     [E]
+E acho que esqueceu de mim
+
+
+[A]
+A minha água vem da fonte, não tem cano
+Café coado no pano,
+                  [E]
+Meu açúcar é rapadura
+Mas é da boa, feita de cana caiana
+O melado dessa cana
+                   [A]
+Adoça qualquer margura
+Se o senhor não tá com pressa, eu vou mandar
+                 [A7]
+Minha véia preparar
+                     [D]
+Um franguinho com quiabo
+                                     [A]
+Aqui na roça eu não tenho o tal do Uísque
+                [E]
+Pra abrir o apetite,
+                           [A]
+Eu vou buscar um esquenta-rabo
+
+
+[Refrão]
+            [E]                       [A]
+Seu carro moço é o primeiro que aparece
+                     [E]
+Meu cachorro não conhece,
+                    [A]
+Nunca viu um trem assim
+             [E]                    [A]
+Pode até parecer surpresa pro senhor
+                   [E]
+Mas o progresso passou
+                        [A] [E] [A] [E] [A] [E] [A] [E] [A]
+E acho que esqueceu de mim
+
+
+[A]
+Agora que a gente já forrô o peito
+Se quiser eu dô um jeito
+                     [E]
+Pro senhor fazer o quilo
+Não se preocupe, não tem barulho de nada
+Aqui na minha morada
+                    [A]
+É só passarinho e grilo
+Tem uma coisa que eu vou pedir pro senhor
+                  [A7]
+Pra me fazer um favor
+                   [D]
+Na hora que for embora
+                                    [A]
+Feche a porteira que me serve de escudo
+                     [E]
+Pra proteger o meu mundo
+                   [A]
+Desse mundo lá de fora
+
+
+[Refrão]
+            [E]                       [A]
+Seu carro moço é o primeiro que aparece
+                     [E]
+Meu cachorro não conhece
+                    [A]
+Nunca viu um trem assim
+           [E]                    [A]
+Pode até parecer surpresa pro senhor
+                   [E]
+Mas o progresso passou
+                        [A]
+E acho que esqueceu de mim
+
+            [E]                       [A]
+Seu carro moço é o primeiro que aparece
+                     [E]
+Meu cachorro não conhece
+                    [A]
+Nunca viu um trem assim
+           [E]                    [A]
+Pode até parecer surpresa pro senhor
+                   [E]
+Mas o progresso passou
+                        [A]   [E]
+E acho que esqueceu de mim`,
+  },
+  {
+    id:            "rick-renner-eu-sem-voce",
+    titulo:        "Eu sem você",
+    artista:       "Rick & Renner",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 4192,
+    cifra: `[Intro] [A]  [D]  [A]  [D]
+        [A]  [A]  [A4]
+        [A]  [D]  [D4]
+        [D]  [A]  [E7]
+        [A]  [D]  [A]
+
+E|--------------------------------------------------------|
+B|--------------------------------------------------------|
+G|--------------------------------------------------------|
+D|--------------------------------------------------------|
+A|---0-0--2--4--4-----0-0--2--4--5-5-5-4--2---0-0---------|
+E|-0---------------0-------------------------------0--2---|
+
+E|--14-14-14-12-10--9--12-12-12-10--9-7--10-10-10--9-7--9-|
+B|--15-15-15-14-12-10--14-14-14-12-10-9--12-12-12-10-9-10-|
+G|--------------------------------------------------------|
+D|--------------------------------------------------------|
+A|--------------------------------------------------------|
+E|--------------------------------------------------------|
+
+E|--------------------------------------------------------|
+B|--------------------------------------------------------|
+G|--------------------------------------------------------|
+D|--------------------------------------------------------|
+A|------4--7--5-4-----------------------------------------|
+E|--5-5-------------7--5-5-5~-----------------------------|
+
+                   [A]  [A4]  [A]                        [A]  [A4]  [A]
+Meus dias sem te ver      são difíceis de viver
+                                                 [D]  [D4]  [D]
+Feito um louco na cidade        com saudade de você
+                   [D]  [D4]  [D]                     [A]  [A4]  [A]
+Durmo em qualquer lugar olhos vermelhos de chorar
+                 [E7]
+É uma pena que você     não consegue entender
+                          [A]  [D/A]  [A]
+Meu jeito louco de te amar
+
+          [A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+          [A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+( [A]  [D]  [A]  [D] )
+( [A]  [A]  [A4] )
+( [A]  [D]  [D4] )
+( [D]  [A]  [E7] )
+( [A]  [D]  [A] )
+
+                   [A]  [A4]  [A]                    [A]  [A4]  [A]
+Meus dias sem te ver         dá vontade de morrer
+                                          [D]  [D4]  [D]
+Eu tô enlouquecendo, tô bebendo pra esquecer
+                                           [A]  [A4]  [A]
+Não sei nem me cuidar   longe de você não dá
+                 [E7]
+É uma pena que você     não consegue entender
+                        [A]  [A4]  [A]
+Meu jeito louco de te amar
+
+          [A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+          [A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+          [A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+[A7]     [D]
+E se eu pareço um vagabundo
+É que o amor maior do mundo
+                    [A]   [A4]   [A]
+Mora aqui no peito meu
+                           [E7]
+E se eu sofro assim por ela
+
+É que aprendi que a vida é ela
+                        [A]  [A4]  [A]
+E que o amor dela sou eu
+
+( [A]  [D]  [A]  [D] )
+( [A]  [A]  [A4] )
+( [A]  [D]  [D4] )
+( [D]  [A]  [E7] )
+( [A]  [D]  [A] )`,
+  },
+  {
+    id:            "rick-renner-paixao-de-peao",
+    titulo:        "Paixão de Peão",
+    artista:       "Rick & Renner",
+    tom:           "D",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 921,
+    cifra: `[Intro] [D]
+
+[D]
+O meu amor foi embora
+
+Estou numa boa agora
+                     [A]
+De olho noutra paixão
+
+
+Na maior felicidade
+
+Curtindo minha liberdade
+                 [D]
+Minha vida de peão
+
+
+Estou feliz vivendo assim
+[D]
+ Na dor eu botei um fim
+                        [G]
+Tristeza, joguei no chão
+
+                          [D]
+Saudade, eu mandei embora
+                       [A]
+Solidão, cortei de espora
+                  [D]
+Como faz um campeão
+
+                      [A]                    [D]
+Meu amor fugiu de mim, meu cavalo se mandou
+                     [A]         [G]          [D]
+Chorei pelo meu cavalo, sorri pelo meu amor
+                   [G]                    [D]
+Cavalo bom é difícil, difícil de se achar
+                         [A]                            [D]
+Mulher bonita é mais fácil, se encontra em qualquer lugar
+
+
+[Refrão]
+                                         [A]
+Paixão de peão é boi, de violeiro é viola
+                           [G]                [D]
+Dor de amor que se foi, só outro amor consola
+                                         [A]
+Banana só dá no cacho, melancia dá na rama
+                      [G]           [A]              [D]
+Minha paixão é aquela fruta gostosa que dá na cama
+
+                                         [A]
+Paixão de peão é boi, de violeiro é viola
+                           [G]                [D]
+Dor de amor que se foi, só outro amor consola
+                                         [A]
+Banana só dá no cacho, melancia dá na rama
+                      [G]           [A]              [D]
+Minha paixão é aquela fruta gostosa que dá na cama
+
+[D]
+O meu amor foi embora
+
+Estou numa boa agora
+                     [A]
+De olho noutra paixão
+
+
+Na maior felicidade
+
+Curtindo minha liberdade
+                 [D]
+Minha vida de peão
+
+
+Estou feliz vivendo assim
+[D]
+ Na dor eu botei um fim
+                        [G]
+Tristeza, joguei no chão
+
+                         [D]
+Saudade, eu mandei embora
+                       [A]
+Solidão, cortei de espora
+                  [D]
+Como faz um campeão
+
+                     [A]                    [D]
+Meu amor fugiu de mim, meu cavalo se mandou
+                     [A]         [G]          [D]
+Chorei pelo meu cavalo, sorri pelo meu amor
+                   [G]                    [D]
+Cavalo bom é difícil, difícil de se achar
+                         [A]                            [D]
+Mulher bonita é mais fácil, se encontra em qualquer lugar
+
+
+[Refrão]
+                                         [A]
+Paixão de peão é boi, de violeiro é viola
+                           [G]                [D]
+Dor de amor que se foi, só outro amor consola
+                                         [A]
+Banana só dá no cacho, melancia dá na rama
+                      [G]           [A]              [D]
+Minha paixão é aquela fruta gostosa que dá na cama
+
+                                        [A]
+Paixão de peão é boi, de violeiro é viola
+                           [G]                [D]
+Dor de amor que se foi, só outro amor consola
+                                         [A]
+Banana só dá no cacho, melancia dá na rama
+                      [G]           [A]              [D]
+Minha paixão é aquela fruta gostosa que dá na cama`,
+  },
+  {
+    id:            "rick-renner-mil-vezes-cantarei",
+    titulo:        "Mil Vezes Cantarei",
+    artista:       "Rick & Renner",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 5109,
+    cifra: `[Intro] [C]
+
+E|----------------------------------------------------------------|
+B|----------------------------------------------------------------|
+G|-5---4-5-7/9-7--------------------------------------------------|
+D|---7-----------9---5---5-7--5-7--5/7-5--------------------------|
+A|---------------------8-----------------8-7-5-3-5----------------|
+E|----------------------------------------------------------------|
+
+E|----------------------------------------------------------------|
+B|---------5------------------------------------------------------|
+G|-5---4-5----12-9----2-4-5--4-5----------------------2--7-5-4----|
+D|---7------------9---3-5-7--5-7---5/7-5--------------3--9-5-5----|
+A|----------------------------------------8-7--5-3-5--------------|
+E|----------------------------------------------------------------|
+
+[C9]                         [Em]
+Toda vez que eu penso em você
+        [F]                       [C9]
+Dói lembrar tanto amor que eu te dei
+    [F]                   [C9]
+Teu amor que um dia foi meu
+             [G]  [G4]
+Hoje eu não sei
+
+          [C9]                [Em]
+Quando o dia amanhece eu sinto
+      [F]                    [C9]
+Que você ainda está nessa cama
+     [F]                    [C9]
+E em minha emoção se derrama
+           [F/G]  [G]
+Choro por ti
+
+[Am]                    [Em]
+Se não fosse por essa canção
+    [F]                [C9]
+Já teria morrido de amor
+        [F]                 [C/E]
+Mas eu tenho a estranha ilusão
+         [F]                [G]  [F/G]
+Que me escute e volte pra mim
+
+                      [C9]
+Mais de mil vezes cantarei
+           [G/B]         [Am]
+Porque não morre a ilusão
+          [Am/G]        [Dm]
+E onde quer que você vá
+[C/E]                  [F/G]
+Me escutará seu coração
+
+                      [C9]
+Mais de mil vezes cantarei
+            [G/B]         [Am]
+Porque não morre essa paixão
+      [Am/G]         [Dm]
+E eu estou seguro que
+[C/E]            [F/G]          [C9]
+Me escutará seu coração oh, oh
+
+( [C] )
+
+[Am]                    [Em]
+Se não fosse por essa canção
+    [F]                [C9]
+Já teria morrido de amor
+        [F]                 [C/E]
+Mas eu tenho a estranha ilusão
+         [F]                [G]  [F/G]
+Que me escute e volte pra mim
+
+                      [C9]
+Mais de mil vezes cantarei
+           [G/B]         [Am]
+Porque não morre a ilusão
+          [Am/G]        [Dm]
+E onde quer que você vá
+[C/E]                  [F/G]
+Me escutará seu coração
+
+                      [C9]
+Mais de mil vezes cantarei
+            [G/B]         [Am]
+Porque não morre essa paixão
+      [Am/G]         [Dm]
+E eu estou seguro que
+[C/E]            [F/G]          [C9]
+Me escutará seu coração oh, oh
+
+
+         [G/B]           [Am]
+Que não morra o nosso amor
+         [Dm]    [C/E]
+Que não morra
+       [F/G]
+Por favor
+             [C9]  [G/B]  [Am]  [F]  [C9]
+Não o nosso amor`,
+  },
+  {
+    id:            "rick-renner-quarto-de-motel",
+    titulo:        "Quarto de Motel",
+    artista:       "Rick & Renner",
+    tom:           "A",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 1490,
+    cifra: `[Intro] [F]  [Bb9]
+
+ [F]
+Foi só uma noite e nada mais
+
+Era pra ser só uma transa a mais
+                             [Bb9]
+Mas não foi assim como eu pensei
+                             [Gm]
+De repente um vinho,um clima bom
+                            [Bb9]
+Um toque de carinho, aquele som
+                                [F]
+Sem perceber aos poucos me entreguei
+
+Foi um lance de desejo antigo
+
+Não sei o que aconteceu comigo
+             [F7]            [Bb9]
+Eu nunca transei ninguém assim
+                               [Gm]
+Só que eu dormi depois do amor
+                        [C]
+E quando a manhã me acordou
+        [Bb9]         [F]        [C]
+Estava sem ela e sem mim
+
+                                               [Bb9]
+O que que a gente faz quando a paixão vem de repente
+                                              [F]
+Feito um raio,rouba a paz invade o coração da gente
+                     [Bb9]                     [F]       [C]
+E assim da noite pro dia um sentimento por alguém
+                                            [Bb9]
+O que que a gente faz quando a noite foi gostosa
+                                        [F]
+Você fez aconteceu com uma mulher maravilhosa
+                [C]                          [F]
+Mas acorda no silêncio de um quarto sem ninguém
+
+[C]                         [Dm]
+É, vira inferno o que era céu
+                   [C]
+Tô num quarto de Motel
+    [Bb9]           [F]
+Sem nome, sem endereço
+[C]                       [Dm]
+É, quem mandou me dar assim
+                     [C]
+Isso é bem feito pra mim
+      [Bb9]          [F]
+Manda outra que eu... mereço
+
+( [F]  [Bb9] )
+( [F]  [Bb9] )
+
+[F]
+ Foi um lance de desejo antigo
+
+Não sei o que aconteceu comigo
+             [F7]            [Bb9]
+Eu nunca transei ninguém assim
+                               [Gm]
+Só que eu dormi depois do amor
+                        [C]
+E quando a manhã me acordou
+        [Bb9]         [F]        [C]
+Estava sem ela e sem mim
+
+                                               [Bb9]
+O que que a gente faz quando a paixão vem de repente
+                                              [F]
+Feito um raio,rouba a paz invade o coração da gente
+                     [Bb9]                     [F]       [C]
+E assim da noite pro dia um sentimento por alguém
+                                            [Bb9]
+O que que a gente faz quando a noite foi gostosa
+                                        [F]
+Você fez aconteceu com uma mulher maravilhosa
+                [C]                          [F]
+Mas acorda no silêncio de um quarto sem ninguém
+
+[C]                          [Dm]
+É, vira inferno o que era céu
+                   [C]
+Tô num quarto de Motel
+    [Bb9]           [F]
+Sem nome, sem endereço
+[C]                       [Dm]
+É, quem mandou me dar assim
+                     [C]
+Isso é bem feito pra mim
+      [Bb9]          [F]
+Manda outra que eu... mereço
+
+[Final] [F]  [Bb9]
+        [F]  [Bb9]`,
+  },
+  {
+    id:            "rick-renner-fim-de-semana",
+    titulo:        "Fim De Semana",
+    artista:       "Rick & Renner",
+    tom:           "C",
+    ritmo:         "Sertanejo",
+    dificuldade:   "iniciante",
+    tags:          ["sertanejo"],
+    tocadasSemana: 3426,
+    cifra: `[Intro] [F]  [G]  [F]
+
+[C]            [F]       [G]
+Do jeito que você me olha
+ [F]         [C]    [F] [G] [F]
+Você me fascina
+[C]        [F]           [G]
+Eu fico louco por você
+        [F]        [C]    [F] [G] [F]
+E esse amor me domina
+
+[C]         [F]      [G]  [F]
+Podemos sair por ai
+  [C]           [F]      [G]   [F]
+Fazer um programa legal
+[C]            [F]        [G]
+E o fim de semana curtir
+ [F]            [C]     [F] [G] [F]
+Que tal? Que tal?
+ [C]           [F]       [G]    [F]
+Chega mais perto de mim
+[C]             [F]       [G]   [F]
+Mais perto do meu coração
+[C]            [F]       [G]
+Se tudo der certo assim
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom
+
+[C]             [F]        [G]
+Do jeito que você me olha
+ [F]             [C]    [F]  [G]  [F]
+Você não me engana
+ [C]           [F]          [G]
+Quem sabe a gente se encontra
+     [F]        [C]    [F] [G] [F]
+E a gente se ama
+
+[C]         [F]      [G]  [F]
+Podemos sair por ai
+  [C]           [F]      [G]   [F]
+Fazer um programa legal
+[C]            [F]        [G]
+E o fim de semana curtir
+ [F]            [C]     [F] [G] [F]
+Que tal? Que tal?
+ [C]           [F]       [G]    [F]
+Chega mais perto de mim
+[C]             [F]       [G]   [F]
+Mais perto do meu coração
+[C]            [F]       [G]
+Se tudo der certo assim
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom
+
+[C]            [F]       [G]
+Do jeito que você me olha
+ [F]         [C]    [F] [G] [F]
+Você me fascina
+[C]        [F]           [G]
+Eu fico louco por você
+        [F]        [C]    [F] [G] [F]
+E esse amor me domina
+
+[C]         [F]      [G]  [F]
+Podemos sair por ai
+  [C]           [F]      [G]   [F]
+Fazer um programa legal
+[C]            [F]        [G]
+E o fim de semana curtir
+ [F]            [C]     [F] [G] [F]
+Que tal? Que tal?
+ [C]           [F]       [G]    [F]
+Chega mais perto de mim
+[C]             [F]       [G]   [F]
+Mais perto do meu coração
+[C]            [F]       [G]
+Se tudo der certo assim
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom
+[F]             [C]   [F] [G]
+Que bom, que bom
+[F]            [C]    [F] [G] [F]
+Que bom, que bom`,
+  },
   // FIM_CIFRAS
 ];
 
