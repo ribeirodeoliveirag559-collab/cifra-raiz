@@ -1,13 +1,9 @@
-"use client";
-import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
 import { IconVideo, IconTimer, IconCheck } from "@/components/Icons";
 
 export default function CursosPage() {
-  const [mostrarEmBreve, setMostrarEmBreve] = useState(false);
-
   const modulosComProgresso = MODULOS.map((modulo) => {
     const progresso = PROGRESSO_MOCK.find((p) => p.moduloId === modulo.id);
     const assistidas = progresso?.aulasAssistidas.length ?? 0;
@@ -32,35 +28,12 @@ export default function CursosPage() {
           </div>
         </div>
 
-        {/* Grid de módulos — bloqueado com overlay ao clicar */}
-        <div
-          className="relative max-w-5xl mx-auto px-4 py-10"
-          onClick={() => setMostrarEmBreve(true)}
-        >
-          {/* Overlay Em Breve */}
-          {mostrarEmBreve && (
-            <div
-              className="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-2xl cursor-pointer"
-              style={{ background: "rgba(0,0,0,0.65)" }}
-              onClick={(e) => { e.stopPropagation(); setMostrarEmBreve(false); }}
-            >
-              <div className="animate-respirar flex flex-col items-center gap-4 select-none">
-                <span className="text-5xl font-display font-bold text-white drop-shadow-lg tracking-wide">
-                  Em Breve!
-                </span>
-                <span className="text-[#D4900A] text-sm font-semibold tracking-widest uppercase">
-                  Videoaulas em produção
-                </span>
-              </div>
-              <p className="absolute bottom-6 text-white/40 text-xs">toque para fechar</p>
-            </div>
-          )}
-
+        <div className="max-w-5xl mx-auto px-4 py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {modulosComProgresso.map((modulo) => (
               <div
                 key={modulo.id}
-                className={`relative bg-white rounded-2xl border-2 p-6 transition-all cursor-pointer select-none ${
+                className={`relative bg-white rounded-2xl border-2 p-6 overflow-hidden ${
                   modulo.pct === 100
                     ? "border-green-400"
                     : modulo.pct > 0
@@ -70,12 +43,12 @@ export default function CursosPage() {
               >
                 {/* Badge status */}
                 {modulo.pct === 100 && (
-                  <span className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                  <span className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full z-10">
                     Concluído
                   </span>
                 )}
                 {modulo.pct > 0 && modulo.pct < 100 && (
-                  <span className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                  <span className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-bold px-2 py-0.5 rounded-full z-10">
                     Em andamento
                   </span>
                 )}
@@ -133,6 +106,19 @@ export default function CursosPage() {
                     <span className="text-sm font-semibold text-[#4A2810]">Começar módulo →</span>
                   </div>
                 )}
+
+                {/* Overlay Em Breve — sempre visível */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl select-none"
+                  style={{ background: "rgba(0,0,0,0.65)" }}>
+                  <div className="animate-respirar flex flex-col items-center gap-3">
+                    <span className="text-4xl font-display font-bold text-white drop-shadow-lg tracking-wide">
+                      Em Breve!
+                    </span>
+                    <span className="text-[#D4900A] text-xs font-semibold tracking-widest uppercase">
+                      Videoaulas em produção
+                    </span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
