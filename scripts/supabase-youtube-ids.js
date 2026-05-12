@@ -158,13 +158,14 @@ async function main() {
 
     // Salva no Supabase a cada BATCH_SAVE registros
     if (lote.length >= BATCH_SAVE || i === total - 1) {
-      if (lote.length > 0) {
+      for (const item of lote) {
         const { error } = await supabase
           .from("cifras")
-          .upsert(lote, { onConflict: "id" });
-        if (error) console.error(`\n  ✗ Erro ao salvar lote: ${error.message}`);
-        lote.length = 0;
+          .update({ youtube_id: item.youtube_id })
+          .eq("id", item.id);
+        if (error) console.error(`\n  ✗ Erro ao salvar ${item.id}: ${error.message}`);
       }
+      lote.length = 0;
     }
 
     // Pausa entre chamadas ao YouTube
