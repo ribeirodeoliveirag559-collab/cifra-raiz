@@ -1,13 +1,16 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo, useDeferredValue } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import type { Cifra } from "@/lib/dados";
-import { getAllCifras } from "@/lib/cifras-service";
+import { getAllCifras, filtrarCifrasLocal } from "@/lib/cifras-service";
 import { getRecentes, tempoRelativo, type CifraRecente } from "@/lib/historico";
 import { getPlaylists, type Playlist } from "@/lib/playlists";
 import { IconGuitar, IconPlaylist, IconClock, IconNote } from "@/components/Icons";
+
+const PAGINA = 60; // resultados por "página" no scroll
+const DIFICULDADES = ["iniciante", "intermediario", "avancado"] as const;
 
 export default function CifrasPage() {
   const [busca, setBusca] = useState("");
@@ -16,6 +19,12 @@ export default function CifrasPage() {
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
   const [cifras, setCifras] = useState<Cifra[]>([]);
   const [carregando, setCarregando] = useState(true);
+  const [filtroRitmo, setFiltroRitmo] = useState<string>("");
+  const [filtroDif, setFiltroDif] = useState<string>("");
+  const [limite, setLimite] = useState(PAGINA);
+
+  // useDeferredValue dá um debounce nativo do React — evita re-render por keystroke
+  const buscaDiferida = useDeferredValue(busca);
 
   useEffect(() => {
     setRecentes(getRecentes());
@@ -26,12 +35,34 @@ export default function CifrasPage() {
     });
   }, []);
 
-  const buscando = busca.trim() !== "" || mostrarTodas;
+  const buscando = busca.trim() !== "" || mostrarTodas || filtroRitmo !== "" || filtroDif !== "";
 
-  const cifrasFiltradas = cifras.filter((c) =>
-    c.titulo.toLowerCase().includes(busca.toLowerCase()) ||
-    c.artista.toLowerCase().includes(busca.toLowerCase())
-  );
+  // Lista de ritmos únicos no banco (para os chips de filtro)
+  const ritmosDisponiveis = useMemo(() => {
+    const set = new Set<string>();
+    cifras.forEach((c) => c.ritmo && set.add(c.ritmo));
+    return Array.from(set).sort();
+  }, [cifras]);
+
+  const cifrasFiltradas = useMemo(() => {
+    let base = cifras;
+    if (filtroRitmo) base = base.filter((c) => c.ritmo === filtroRitmo);
+    if (filtroDif)   base = base.filter((c) => c.dificuldade === filtroDif);
+    return filtrarCifrasLocal(base, buscaDiferida);
+  }, [cifras, buscaDiferida, filtroRitmo, filtroDif]);
+
+  // Reset paginação quando muda filtro/busca
+  useEffect(() => { setLimite(PAGINA); }, [buscaDiferida, filtroRitmo, filtroDif]);
+
+  const cifrasVisiveis = cifrasFiltradas.slice(0, limite);
+  const buscaEmAndamento = busca !== buscaDiferida; // mostra "buscando..."
+
+  function limparTudo() {
+    setBusca("");
+    setMostrarTodas(false);
+    setFiltroRitmo("");
+    setFiltroDif("");
+  }
 
   return (
     <>
@@ -51,15 +82,79 @@ export default function CifrasPage() {
 
         <div className="max-w-5xl mx-auto px-4 py-8">
           {/* Busca */}
-          <div className="mb-8">
-            <input
-              type="text"
-              placeholder="Buscar por música ou artista..."
-              value={busca}
-              onChange={(e) => { setBusca(e.target.value); setMostrarTodas(false); }}
-              className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 bg-white text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A]"
-            />
+          <div className="mb-4">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Buscar por música, artista ou ritmo..."
+                value={busca}
+                onChange={(e) => { setBusca(e.target.value); setMostrarTodas(false); }}
+                className="w-full border border-[#E0D8CE] rounded-xl pl-4 pr-10 py-3 bg-white text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A]"
+              />
+              {busca && (
+                <button
+                  onClick={() => setBusca("")}
+                  aria-label="Limpar busca"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#F0EAE0] hover:bg-[#D4900A] hover:text-white text-[#7A5C44] text-sm flex items-center justify-center transition-colors"
+                >
+                  ×
+                </button>
+              )}
+            </div>
           </div>
+
+          {/* Filtros — só aparecem quando já carregou */}
+          {!carregando && cifras.length > 0 && (
+            <div className="mb-8 space-y-3">
+              {/* Ritmo */}
+              <div className="flex items-center gap-2 overflow-x-auto pb-1">
+                <span className="text-xs font-semibold text-[#7A5C44] shrink-0 mr-1">Ritmo:</span>
+                <button
+                  onClick={() => setFiltroRitmo("")}
+                  className={`shrink-0 text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                    filtroRitmo === "" ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
+                  }`}
+                >
+                  Todos
+                </button>
+                {ritmosDisponiveis.map((r) => (
+                  <button
+                    key={r}
+                    onClick={() => setFiltroRitmo(r === filtroRitmo ? "" : r)}
+                    className={`shrink-0 text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                      filtroRitmo === r ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
+                    }`}
+                  >
+                    {r}
+                  </button>
+                ))}
+              </div>
+
+              {/* Dificuldade */}
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-xs font-semibold text-[#7A5C44] mr-1">Nível:</span>
+                <button
+                  onClick={() => setFiltroDif("")}
+                  className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                    filtroDif === "" ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
+                  }`}
+                >
+                  Todos
+                </button>
+                {DIFICULDADES.map((d) => (
+                  <button
+                    key={d}
+                    onClick={() => setFiltroDif(d === filtroDif ? "" : d)}
+                    className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                      filtroDif === d ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
+                    }`}
+                  >
+                    {d === "iniciante" ? "Iniciante" : d === "intermediario" ? "Intermediário" : "Avançado"}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* ── MODO BUSCA ── */}
           {buscando && (
@@ -71,12 +166,35 @@ export default function CifrasPage() {
                 </div>
               ) : (
                 <>
-                  <p className="text-sm text-[#B5865A] mb-4">
-                    {cifrasFiltradas.length} resultado{cifrasFiltradas.length !== 1 ? "s" : ""} encontrado{cifrasFiltradas.length !== 1 ? "s" : ""}
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {cifrasFiltradas.map((c) => <CardCifra key={c.id} cifra={c} />)}
+                  <div className="flex items-center justify-between mb-4">
+                    <p className="text-sm text-[#B5865A]">
+                      {cifrasFiltradas.length} resultado{cifrasFiltradas.length !== 1 ? "s" : ""}
+                      {buscaEmAndamento && <span className="ml-2 text-[#D4900A] animate-pulse">buscando…</span>}
+                    </p>
+                    {(filtroRitmo || filtroDif || busca) && (
+                      <button
+                        onClick={limparTudo}
+                        className="text-xs text-[#D4900A] font-semibold hover:underline"
+                      >
+                        Limpar tudo
+                      </button>
+                    )}
                   </div>
+                  <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 transition-opacity ${buscaEmAndamento ? "opacity-60" : ""}`}>
+                    {cifrasVisiveis.map((c) => <CardCifra key={c.id} cifra={c} />)}
+                  </div>
+
+                  {/* Botão "ver mais" para paginação */}
+                  {cifrasVisiveis.length < cifrasFiltradas.length && (
+                    <div className="mt-8 text-center">
+                      <button
+                        onClick={() => setLimite((l) => l + PAGINA)}
+                        className="bg-[#4A2810] text-[#D4900A] px-6 py-3 rounded-full text-sm font-semibold hover:bg-[#3A1F0C] transition-colors"
+                      >
+                        Carregar mais ({cifrasFiltradas.length - cifrasVisiveis.length} restantes)
+                      </button>
+                    </div>
+                  )}
                 </>
               )}
               {!carregando && cifrasFiltradas.length === 0 && (
@@ -84,7 +202,7 @@ export default function CifrasPage() {
                   <div className="w-14 h-14 rounded-full bg-[#F0EAE0] flex items-center justify-center mx-auto mb-3"><IconGuitar size={24} className="text-[#B5865A]" /></div>
                   <p className="text-[#7A5C44]">Nenhuma cifra encontrada.</p>
                   <button
-                    onClick={() => { setBusca(""); setMostrarTodas(false); }}
+                    onClick={limparTudo}
                     className="mt-4 text-[#D4900A] font-semibold hover:underline"
                   >
                     Limpar filtros
