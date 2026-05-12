@@ -279,6 +279,71 @@ export default function CifraPage() {
             </a>
           </div>
 
+          {/* ── Player YouTube ────────────────────────────────────────────── */}
+          {(ytInfo || ytCarregando) && (
+            <div className="mb-6 rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm bg-[#1a1a1a]">
+              {ytCarregando && !ytInfo ? (
+                <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d]">
+                  <span className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin" />
+                </div>
+              ) : ytAberto ? (
+                <div className="relative aspect-video">
+                  <iframe
+                    src={`${ytInfo!.embedUrl}?autoplay=1&rel=0&modestbranding=1`}
+                    title={`${cifra.titulo} — ${cifra.artista}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                  />
+                  <button
+                    onClick={() => setYtAberto(false)}
+                    className="absolute top-2 right-2 z-20 w-8 h-8 bg-black/70 hover:bg-black text-white rounded-full flex items-center justify-center text-base font-bold transition-colors"
+                    aria-label="Fechar player"
+                  >
+                    ×
+                  </button>
+                </div>
+              ) : (
+                <div className="relative aspect-video cursor-pointer group" onClick={() => setYtAberto(true)}>
+                  <img
+                    src={ytInfo!.thumbnailHD}
+                    alt={`${cifra.titulo} — ${cifra.artista}`}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    onError={(e) => {
+                      const img = e.target as HTMLImageElement;
+                      if (img.src.includes("maxresdefault")) img.src = ytInfo!.thumbnail;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/15 transition-colors" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-red-500 transition-all shadow-2xl">
+                      <svg viewBox="0 0 24 24" fill="white" className="w-10 h-10 ml-1.5">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3">
+                    <p className="text-white font-semibold text-sm line-clamp-1">{cifra.titulo}</p>
+                    <p className="text-white/70 text-xs">{cifra.artista} · Clique para assistir</p>
+                  </div>
+                  <a
+                    href={ytInfo!.watchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="absolute top-3 right-3 flex items-center gap-1.5 bg-black/60 hover:bg-black/80 text-white text-xs font-semibold px-3 py-1.5 rounded-full transition-colors"
+                  >
+                    <svg viewBox="0 0 90 20" className="h-2.5 fill-red-500 shrink-0">
+                      <path d="M27.9727 3.12324C27.6435 1.89498 26.6768 0.928192 25.4485 0.598976C23.2219 4.99491e-07 14.285 0 14.285 0C14.285 0 5.34807 4.99491e-07 3.12148 0.598976C1.89323 0.928192 0.926436 1.89498 0.597221 3.12324C-2.24288e-07 5.34983 0 10 0 10C0 10 -2.24288e-07 14.6502 0.597221 16.8768C0.926436 18.105 1.89323 19.0718 3.12148 19.401C5.34807 20 14.285 20 14.285 20C14.285 20 23.2219 20 25.4485 19.401C26.6768 19.0718 27.6435 18.105 27.9727 16.8768C28.5699 14.6502 28.5699 10 28.5699 10C28.5699 10 28.5699 5.34983 27.9727 3.12324Z"/>
+                      <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white"/>
+                    </svg>
+                    Abrir no YouTube
+                  </a>
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Controles */}
           <div className="bg-white border border-[#E0D8CE] rounded-2xl p-4 mb-6 flex flex-wrap items-center gap-4 relative">
             <div className="flex items-center gap-2">
@@ -331,80 +396,6 @@ export default function CifraPage() {
               </button>
             </div>
           </div>
-
-          {/* ── Player YouTube ────────────────────────────────────────────── */}
-          {(ytInfo || ytCarregando) && (
-            <div className="mb-6 rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm bg-[#1a1a1a]">
-              {ytCarregando && !ytInfo ? (
-                // Skeleton enquanto resolve o vídeo
-                <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d]">
-                  <span className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-                </div>
-              ) : ytAberto ? (
-                // ── Iframe embed ────────────────────────────────────────────
-                <div className="relative aspect-video">
-                  <iframe
-                    src={`${ytInfo!.embedUrl}?autoplay=1&rel=0&modestbranding=1`}
-                    title={`${cifra.titulo} — ${cifra.artista}`}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className="absolute inset-0 w-full h-full"
-                  />
-                  {/* Botão fechar */}
-                  <button
-                    onClick={() => setYtAberto(false)}
-                    className="absolute top-2 right-2 z-20 w-8 h-8 bg-black/70 hover:bg-black text-white rounded-full flex items-center justify-center text-base font-bold transition-colors"
-                    aria-label="Fechar player"
-                  >
-                    ×
-                  </button>
-                </div>
-              ) : (
-                // ── Thumbnail clicável ──────────────────────────────────────
-                <div className="relative aspect-video cursor-pointer group" onClick={() => setYtAberto(true)}>
-                  {/* Thumbnail HD com fallback */}
-                  <img
-                    src={ytInfo!.thumbnailHD}
-                    alt={`${cifra.titulo} — ${cifra.artista}`}
-                    className="absolute inset-0 w-full h-full object-cover"
-                    onError={(e) => {
-                      const img = e.target as HTMLImageElement;
-                      if (img.src.includes("maxresdefault")) img.src = ytInfo!.thumbnail;
-                    }}
-                  />
-                  {/* Overlay escuro */}
-                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/15 transition-colors" />
-                  {/* Botão play central */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-red-500 transition-all shadow-2xl">
-                      <svg viewBox="0 0 24 24" fill="white" className="w-10 h-10 ml-1.5">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
-                  {/* Badge info */}
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3">
-                    <p className="text-white font-semibold text-sm line-clamp-1">{cifra.titulo}</p>
-                    <p className="text-white/70 text-xs">{cifra.artista} · Clique para assistir</p>
-                  </div>
-                  {/* Botão "abrir no YT" */}
-                  <a
-                    href={ytInfo!.watchUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="absolute top-3 right-3 flex items-center gap-1.5 bg-black/60 hover:bg-black/80 text-white text-xs font-semibold px-3 py-1.5 rounded-full transition-colors"
-                  >
-                    <svg viewBox="0 0 90 20" className="h-2.5 fill-red-500 shrink-0">
-                      <path d="M27.9727 3.12324C27.6435 1.89498 26.6768 0.928192 25.4485 0.598976C23.2219 4.99491e-07 14.285 0 14.285 0C14.285 0 5.34807 4.99491e-07 3.12148 0.598976C1.89323 0.928192 0.926436 1.89498 0.597221 3.12324C-2.24288e-07 5.34983 0 10 0 10C0 10 -2.24288e-07 14.6502 0.597221 16.8768C0.926436 18.105 1.89323 19.0718 3.12148 19.401C5.34807 20 14.285 20 14.285 20C14.285 20 23.2219 20 25.4485 19.401C26.6768 19.0718 27.6435 18.105 27.9727 16.8768C28.5699 14.6502 28.5699 10 28.5699 10C28.5699 10 28.5699 5.34983 27.9727 3.12324Z"/>
-                      <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white"/>
-                    </svg>
-                    Abrir no YouTube
-                  </a>
-                </div>
-              )}
-            </div>
-          )}
 
           {/* Cifra */}
           <div className="relative rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm">
