@@ -70,6 +70,15 @@ function parseLinha(raw: string): Linha {
   return { tipo: "acorde-letra", acordes, letra };
 }
 
+// ─── Tipo de dados do YouTube ─────────────────────────────────────────────────
+type YTInfo = {
+  videoId: string;
+  watchUrl: string;
+  embedUrl: string;
+  thumbnail: string;
+  thumbnailHD: string;
+};
+
 // ─── Componente principal ─────────────────────────────────────────────────────
 
 export default function CifraPage() {
@@ -81,6 +90,11 @@ export default function CifraPage() {
   const [rolando, setRolando] = useState(false);
   const [velocidade, setVelocidade] = useState(2);
   const [acordesFixados, setAcordesFixados] = useState<string[]>([]);
+
+  // YouTube
+  const [ytInfo, setYtInfo]       = useState<YTInfo | null>(null);
+  const [ytAberto, setYtAberto]   = useState(false);   // false = thumbnail, true = iframe
+  const [ytCarregando, setYtCarregando] = useState(false);
 
   function toggleAcorde(acorde: string) {
     setAcordesFixados((prev) =>
@@ -107,12 +121,23 @@ export default function CifraPage() {
   const tomOriginalIdx = cifra ? TONS.indexOf(cifra.tom) : 0;
   const semitons = (tomIdx - tomOriginalIdx + 12) % 12;
 
-  // Inicia tomIdx no tom original e registra no histórico
+  // Inicia tomIdx no tom original, registra histórico e busca vídeo no YouTube
   useEffect(() => {
     if (!cifra) return;
     setTomIdx(TONS.indexOf(cifra.tom));
     salvarRecente({ id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
     setPlaylists(getPlaylists());
+
+    // Busca o vídeo real do YouTube
+    setYtInfo(null);
+    setYtAberto(false);
+    setYtCarregando(true);
+    const query = `${cifra.artista} ${cifra.titulo} oficial`;
+    fetch(`/api/youtube?q=${encodeURIComponent(query)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => { if (data?.videoId) setYtInfo(data as YTInfo); })
+      .catch(() => null)
+      .finally(() => setYtCarregando(false));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cifra?.id]);
 
@@ -203,22 +228,37 @@ export default function CifraPage() {
               <PalhetadaRitmo ritmo={cifra.ritmo} />
             </div>
 
-            {/* Card YouTube — crédito ao artista original */}
+            {/* Card YouTube — link direto para o vídeo real */}
             <a
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(cifra.artista + " " + cifra.titulo + " oficial")}`}
+              href={ytInfo?.watchUrl ?? `https://www.youtube.com/results?search_query=${encodeURIComponent(cifra.artista + " " + cifra.titulo + " oficial")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="group shrink-0 w-full sm:w-52 bg-white border-2 border-[#E0D8CE] rounded-2xl overflow-hidden hover:border-red-500 hover:shadow-lg transition-all"
             >
-              {/* Área da miniatura */}
-              <div className="relative bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d] h-28 flex items-center justify-center">
-                {/* Thumbnail do YouTube via imagem do canal */}
-                <div className="absolute inset-0 opacity-20 bg-[url('https://www.youtube.com/img/desktop/yt_1200.png')] bg-center bg-cover" />
-                {/* Ícone de play no estilo YouTube */}
-                <div className="relative z-10 w-14 h-14 bg-red-600 rounded-2xl flex items-center justify-center group-hover:bg-red-500 group-hover:scale-110 transition-all shadow-lg">
-                  <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7 ml-1">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
+              {/* Thumbnail real ou placeholder */}
+              <div className="relative h-28 overflow-hidden bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d]">
+                {ytInfo ? (
+                  <img
+                    src={ytInfo.thumbnail}
+                    alt={`${cifra.titulo} — ${cifra.artista}`}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    {ytCarregando
+                      ? <span className="w-6 h-6 border-2 border-white/20 border-t-white rounded-full animate-spin" />
+                      : <svg viewBox="0 0 24 24" fill="#ffffff40" className="w-10 h-10"><path d="M8 5v14l11-7z"/></svg>
+                    }
+                  </div>
+                )}
+                {/* Overlay play */}
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                  <div className="w-11 h-11 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+                    <svg viewBox="0 0 24 24" fill="white" className="w-5 h-5 ml-0.5">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
                 </div>
               </div>
               {/* Info */}
@@ -232,7 +272,9 @@ export default function CifraPage() {
                 </div>
                 <p className="text-xs font-semibold text-[#4A2810] leading-tight line-clamp-1">{cifra.titulo}</p>
                 <p className="text-xs text-[#B5865A] line-clamp-1">{cifra.artista}</p>
-                <p className="text-[10px] text-red-500 font-semibold mt-1.5 group-hover:underline">▶ Assistir original</p>
+                <p className="text-[10px] text-red-500 font-semibold mt-1.5 group-hover:underline">
+                  {ytInfo ? "▶ Abrir vídeo original" : "▶ Buscar no YouTube"}
+                </p>
               </div>
             </a>
           </div>
@@ -289,6 +331,80 @@ export default function CifraPage() {
               </button>
             </div>
           </div>
+
+          {/* ── Player YouTube ────────────────────────────────────────────── */}
+          {(ytInfo || ytCarregando) && (
+            <div className="mb-6 rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm bg-[#1a1a1a]">
+              {ytCarregando && !ytInfo ? (
+                // Skeleton enquanto resolve o vídeo
+                <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d]">
+                  <span className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin" />
+                </div>
+              ) : ytAberto ? (
+                // ── Iframe embed ────────────────────────────────────────────
+                <div className="relative aspect-video">
+                  <iframe
+                    src={`${ytInfo!.embedUrl}?autoplay=1&rel=0&modestbranding=1`}
+                    title={`${cifra.titulo} — ${cifra.artista}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                  />
+                  {/* Botão fechar */}
+                  <button
+                    onClick={() => setYtAberto(false)}
+                    className="absolute top-2 right-2 z-20 w-8 h-8 bg-black/70 hover:bg-black text-white rounded-full flex items-center justify-center text-base font-bold transition-colors"
+                    aria-label="Fechar player"
+                  >
+                    ×
+                  </button>
+                </div>
+              ) : (
+                // ── Thumbnail clicável ──────────────────────────────────────
+                <div className="relative aspect-video cursor-pointer group" onClick={() => setYtAberto(true)}>
+                  {/* Thumbnail HD com fallback */}
+                  <img
+                    src={ytInfo!.thumbnailHD}
+                    alt={`${cifra.titulo} — ${cifra.artista}`}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    onError={(e) => {
+                      const img = e.target as HTMLImageElement;
+                      if (img.src.includes("maxresdefault")) img.src = ytInfo!.thumbnail;
+                    }}
+                  />
+                  {/* Overlay escuro */}
+                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/15 transition-colors" />
+                  {/* Botão play central */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-red-500 transition-all shadow-2xl">
+                      <svg viewBox="0 0 24 24" fill="white" className="w-10 h-10 ml-1.5">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  {/* Badge info */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3">
+                    <p className="text-white font-semibold text-sm line-clamp-1">{cifra.titulo}</p>
+                    <p className="text-white/70 text-xs">{cifra.artista} · Clique para assistir</p>
+                  </div>
+                  {/* Botão "abrir no YT" */}
+                  <a
+                    href={ytInfo!.watchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="absolute top-3 right-3 flex items-center gap-1.5 bg-black/60 hover:bg-black/80 text-white text-xs font-semibold px-3 py-1.5 rounded-full transition-colors"
+                  >
+                    <svg viewBox="0 0 90 20" className="h-2.5 fill-red-500 shrink-0">
+                      <path d="M27.9727 3.12324C27.6435 1.89498 26.6768 0.928192 25.4485 0.598976C23.2219 4.99491e-07 14.285 0 14.285 0C14.285 0 5.34807 4.99491e-07 3.12148 0.598976C1.89323 0.928192 0.926436 1.89498 0.597221 3.12324C-2.24288e-07 5.34983 0 10 0 10C0 10 -2.24288e-07 14.6502 0.597221 16.8768C0.926436 18.105 1.89323 19.0718 3.12148 19.401C5.34807 20 14.285 20 14.285 20C14.285 20 23.2219 20 25.4485 19.401C26.6768 19.0718 27.6435 18.105 27.9727 16.8768C28.5699 14.6502 28.5699 10 28.5699 10C28.5699 10 28.5699 5.34983 27.9727 3.12324Z"/>
+                      <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white"/>
+                    </svg>
+                    Abrir no YouTube
+                  </a>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Cifra */}
           <div className="relative rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm">
