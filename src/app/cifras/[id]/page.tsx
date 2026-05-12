@@ -91,10 +91,9 @@ export default function CifraPage() {
   const [velocidade, setVelocidade] = useState(2);
   const [acordesFixados, setAcordesFixados] = useState<string[]>([]);
 
-  // YouTube
-  const [ytInfo, setYtInfo]       = useState<YTInfo | null>(null);
-  const [ytAberto, setYtAberto]   = useState(false);   // false = thumbnail, true = iframe
-  const [ytCarregando, setYtCarregando] = useState(false);
+  // YouTube — montado a partir do youtubeId já salvo no banco
+  const [ytInfo, setYtInfo]     = useState<YTInfo | null>(null);
+  const [ytAberto, setYtAberto] = useState(false);
 
   function toggleAcorde(acorde: string) {
     setAcordesFixados((prev) =>
@@ -128,17 +127,20 @@ export default function CifraPage() {
     salvarRecente({ id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
     setPlaylists(getPlaylists());
 
-    // Busca o vídeo real do YouTube
-    setYtInfo(null);
+    // Monta ytInfo direto do youtubeId já salvo no banco — sem chamada à API
     setYtAberto(false);
-    setYtCarregando(true);
-    // Busca "<Artista> - <Título>" — o traço é o formato padrão do título no YouTube
-    const query = `${cifra.artista} - ${cifra.titulo}`;
-    fetch(`/api/youtube?q=${encodeURIComponent(query)}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data) => { if (data?.videoId) setYtInfo(data as YTInfo); })
-      .catch(() => null)
-      .finally(() => setYtCarregando(false));
+    if (cifra.youtubeId) {
+      const vid = cifra.youtubeId;
+      setYtInfo({
+        videoId:     vid,
+        watchUrl:    `https://www.youtube.com/watch?v=${vid}`,
+        embedUrl:    `https://www.youtube-nocookie.com/embed/${vid}`,
+        thumbnail:   `https://img.youtube.com/vi/${vid}/hqdefault.jpg`,
+        thumbnailHD: `https://img.youtube.com/vi/${vid}/maxresdefault.jpg`,
+      });
+    } else {
+      setYtInfo(null);
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cifra?.id]);
 
@@ -247,10 +249,7 @@ export default function CifraPage() {
                   />
                 ) : (
                   <div className="absolute inset-0 flex items-center justify-center">
-                    {ytCarregando
-                      ? <span className="w-6 h-6 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-                      : <svg viewBox="0 0 24 24" fill="#ffffff40" className="w-10 h-10"><path d="M8 5v14l11-7z"/></svg>
-                    }
+                    <svg viewBox="0 0 24 24" fill="#ffffff40" className="w-10 h-10"><path d="M8 5v14l11-7z"/></svg>
                   </div>
                 )}
                 {/* Overlay play */}
@@ -281,13 +280,9 @@ export default function CifraPage() {
           </div>
 
           {/* ── Player YouTube ────────────────────────────────────────────── */}
-          {(ytInfo || ytCarregando) && (
+          {ytInfo && (
             <div className="mb-6 rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm bg-[#1a1a1a]">
-              {ytCarregando && !ytInfo ? (
-                <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-[#1a1a1a] to-[#2d2d2d]">
-                  <span className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-                </div>
-              ) : ytAberto ? (
+              {ytAberto ? (
                 <div className="relative aspect-video">
                   <iframe
                     src={`${ytInfo!.embedUrl}?autoplay=1&rel=0&modestbranding=1`}

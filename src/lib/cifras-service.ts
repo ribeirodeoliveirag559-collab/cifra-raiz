@@ -17,6 +17,7 @@ function mapRow(row: Record<string, unknown>): Cifra {
     tags:          (row.tags as string[]) || [],
     cifra:         (row.cifra as string) || "",
     tocadasSemana: (row.tocadas_semana as number) || 0,
+    youtubeId:     (row.youtube_id as string) || undefined,
   };
 }
 
@@ -41,7 +42,7 @@ export async function getAllCifras(): Promise<Cifra[]> {
   while (true) {
     const { data, error } = await supabase
       .from("cifras")
-      .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana")
+      .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana, youtube_id")
       .order("titulo", { ascending: true })
       .range(offset, offset + PAGE - 1);
 
@@ -88,7 +89,7 @@ export async function searchCifras(query: string): Promise<Cifra[]> {
   const padraoSQL = `%${q}%`;
   const { data, error } = await supabase
     .from("cifras")
-    .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana")
+    .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana, youtube_id")
     .or(`titulo.ilike.${padraoSQL},artista.ilike.${padraoSQL},ritmo.ilike.${padraoSQL}`)
     .limit(500);
 
@@ -165,7 +166,7 @@ export async function getTopCifras(limit = 5): Promise<Cifra[]> {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("cifras")
-    .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana")
+    .select("id, titulo, artista, tom, ritmo, dificuldade, tags, tocadas_semana, youtube_id")
     .order("tocadas_semana", { ascending: false })
     .limit(limit);
 
