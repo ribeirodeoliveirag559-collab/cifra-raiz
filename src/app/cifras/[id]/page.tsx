@@ -291,10 +291,23 @@ export default function CifraPage() {
           </div>
 
           {/* Cifra */}
-          <div
-            ref={conteudoRef}
-            className="bg-white border border-[#E0D8CE] rounded-2xl p-6 md:p-8 max-h-[65vh] overflow-y-auto"
-          >
+          <div className="relative rounded-2xl overflow-hidden border border-[#E0D8CE] shadow-sm">
+            {/* Fade superior — indica que tem conteúdo acima */}
+            <div className="pointer-events-none absolute top-0 left-0 right-0 h-6 bg-gradient-to-b from-white to-transparent z-10 rounded-t-2xl" />
+            {/* Fade inferior — indica que tem conteúdo abaixo */}
+            <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-white to-transparent z-10 rounded-b-2xl" />
+
+            <div
+              ref={conteudoRef}
+              className="bg-white h-[68vh] overflow-y-auto overscroll-contain scroll-smooth px-6 md:px-8 py-6 md:py-8
+                         [scrollbar-width:thin] [scrollbar-color:#D4900A_#F0EAE0]
+                         [&::-webkit-scrollbar]:w-1.5
+                         [&::-webkit-scrollbar-track]:bg-[#F0EAE0]
+                         [&::-webkit-scrollbar-track]:rounded-full
+                         [&::-webkit-scrollbar-thumb]:bg-[#D4900A]/60
+                         [&::-webkit-scrollbar-thumb]:rounded-full
+                         [&::-webkit-scrollbar-thumb:hover]:bg-[#D4900A]"
+            >
             <div className="font-mono text-sm leading-relaxed">
               {linhas.map((linha, i) => {
                 if (linha.tipo === "vazio") return <div key={i} className="h-4" />;
@@ -324,7 +337,8 @@ export default function CifraPage() {
                 );
               })}
             </div>
-          </div>
+            </div>{/* fim scroll container */}
+          </div>{/* fim wrapper relativo */}
 
         </div>
       </main>
