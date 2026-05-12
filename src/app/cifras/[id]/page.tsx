@@ -132,7 +132,8 @@ export default function CifraPage() {
     setYtInfo(null);
     setYtAberto(false);
     setYtCarregando(true);
-    const query = `${cifra.artista} ${cifra.titulo} oficial`;
+    // Busca "<Artista> - <Título>" — o traço é o formato padrão do título no YouTube
+    const query = `${cifra.artista} - ${cifra.titulo}`;
     fetch(`/api/youtube?q=${encodeURIComponent(query)}`)
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => { if (data?.videoId) setYtInfo(data as YTInfo); })
