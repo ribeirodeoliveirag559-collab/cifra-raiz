@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/afinador/page": "/afinador",
+  "/cadastro/page": "/cadastro",
+  "/cifras/[id]/page": "/cifras/[id]",
+  "/cifras/page": "/cifras",
+  "/cursos/[modulo]/page": "/cursos/[modulo]",
+  "/cursos/page": "/cursos",
+  "/dashboard/page": "/dashboard",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/page": "/",
+  "/playlists/[id]/page": "/playlists/[id]",
+  "/playlists/page": "/playlists"
+}

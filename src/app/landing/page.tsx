@@ -91,7 +91,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <img src="/logo.jpg" alt="Cifra Raiz" className="h-9 w-auto rounded-lg" />
           <Link
-            href="/cadastro"
+            href="/cadastro?plano=pro"
             className="bg-[#D4900A] hover:bg-[#A36C05] text-white text-sm font-bold px-5 py-2 rounded-full transition-colors shadow-md"
           >
             Começar Grátis →
@@ -130,7 +130,7 @@ export default function LandingPage() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link
-              href="/cadastro"
+              href="/cadastro?plano=pro"
               className="bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto text-center"
             >
               Começar Grátis Agora →
@@ -313,7 +313,7 @@ export default function LandingPage() {
 
           <div className="mt-14 text-center">
             <Link
-              href="/cadastro"
+              href="/cadastro?plano=pro"
               className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
             >
               Quero começar agora →
@@ -461,7 +461,7 @@ export default function LandingPage() {
               </ul>
 
               <Link
-                href="/cadastro"
+                href="/checkout?plano=mensal"
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-3 rounded-xl transition-all shadow-lg hover:scale-105 relative"
               >
                 Assinar PRO →
@@ -505,7 +505,7 @@ export default function LandingPage() {
             Comece agora — é grátis, sempre foi.
           </p>
           <Link
-            href="/cadastro"
+            href="/cadastro?plano=pro"
             className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-xl px-14 py-5 rounded-2xl transition-all shadow-2xl hover:scale-105"
           >
             Criar minha conta grátis →
@@ -524,7 +524,7 @@ export default function LandingPage() {
             <Link href="/cifras"    className="hover:text-[#D4900A] transition-colors">Cifras</Link>
             <Link href="/cursos"    className="hover:text-[#D4900A] transition-colors">Cursos</Link>
             <Link href="/afinador"  className="hover:text-[#D4900A] transition-colors">Afinador</Link>
-            <Link href="/cadastro"  className="hover:text-[#D4900A] transition-colors">Cadastro</Link>
+            <Link href="/cadastro?plano=pro"  className="hover:text-[#D4900A] transition-colors">Cadastro</Link>
             <Link href="/login"     className="hover:text-[#D4900A] transition-colors">Login</Link>
           </div>
           <p className="text-[#5A3A20] text-xs text-center">

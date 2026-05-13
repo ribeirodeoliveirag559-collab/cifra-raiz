@@ -1,12 +1,14 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 import { IconGuitar } from "@/components/Icons";
 
-export default function CadastroPage() {
-  const router = useRouter();
+function CadastroForm() {
+  const router   = useRouter();
+  const params   = useSearchParams();
+  const plano    = params.get("plano"); // "pro", "mensal", "anual" ou null
   const supabase = createClient();
   const [form, setForm] = useState({ nome: "", email: "", senha: "" });
   const [erro, setErro] = useState("");
@@ -35,13 +37,18 @@ export default function CadastroPage() {
     }
 
     setEnviado(true);
-    setTimeout(() => router.push("/login"), 3000);
+    // Se veio pelo fluxo PRO, redireciona para o checkout após confirmar email
+    const destino = plano ? `/login?plano=${plano}` : "/login";
+    setTimeout(() => router.push(destino), 3000);
   }
 
   async function handleGoogle() {
+    const destino = plano
+      ? `${window.location.origin}/checkout?plano=${plano === "pro" ? "mensal" : plano}`
+      : `${window.location.origin}/`;
     await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: `${window.location.origin}/` },
+      options: { redirectTo: destino },
     });
   }
 
@@ -132,6 +139,14 @@ export default function CadastroPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function CadastroPage() {
+  return (
+    <Suspense>
+      <CadastroForm />
+    </Suspense>
   );
 }
 

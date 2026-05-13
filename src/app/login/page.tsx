@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 
-export default function LoginPage() {
-  const router = useRouter();
+function LoginForm() {
+  const router   = useRouter();
+  const params   = useSearchParams();
+  const plano    = params.get("plano"); // redireciona ao checkout se veio do fluxo PRO
   const supabase = createClient();
   const [form, setForm] = useState({ email: "", senha: "" });
   const [erro, setErro] = useState("");
@@ -27,14 +29,21 @@ export default function LoginPage() {
       return;
     }
 
-    router.push("/");
+    // Se veio pelo fluxo de assinatura, vai ao checkout
+    const destino = plano
+      ? `/checkout?plano=${plano === "pro" ? "mensal" : plano}`
+      : "/";
+    router.push(destino);
     router.refresh();
   }
 
   async function handleGoogle() {
+    const destino = plano
+      ? `${window.location.origin}/checkout?plano=${plano === "pro" ? "mensal" : plano}`
+      : `${window.location.origin}/`;
     await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: `${window.location.origin}/` },
+      options: { redirectTo: destino },
     });
   }
 
@@ -115,6 +124,14 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginForm />
+    </Suspense>
   );
 }
 

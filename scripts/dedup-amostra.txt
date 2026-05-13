@@ -1,0 +1,12 @@
+Amostra das 8 primeiras a serem removidas:
+
+  Zezé di Camargo e Luciano — Você Vai Ver (ver.2)  (2433 chars)
+  Almir Sater — Tocando em frente (ver. 2)  (668 chars)
+  Almir Sater — Tocando em Frente (ver. 4)  (2651 chars)
+  João Neto e Frederico — Meu Anjo - Acústico Ao Vivo  (1111 chars)
+  João Neto e Frederico — Só De Você (ver. 2)  (1642 chars)
+  Cesar Menotti e Fabiano — Esperando na Janela - (Ao Vivo)  (1271 chars)
+  Leonardo — Pareço Um Menino (ver. 2)  (1647 chars)
+  Eduardo Costa — Amor de Violeiro  (1654 chars)
+
+Total: 8

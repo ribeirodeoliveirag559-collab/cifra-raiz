@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/afinador/page": "app/afinador/page.js",
+  "/cadastro/page": "app/cadastro/page.js",
+  "/cifras/[id]/page": "app/cifras/[id]/page.js",
+  "/cifras/page": "app/cifras/page.js",
+  "/cursos/[modulo]/page": "app/cursos/[modulo]/page.js",
+  "/cursos/page": "app/cursos/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/playlists/[id]/page": "app/playlists/[id]/page.js",
+  "/playlists/page": "app/playlists/page.js"
+}
