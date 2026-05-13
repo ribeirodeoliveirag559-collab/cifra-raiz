@@ -248,45 +248,6 @@ export default function LandingPage() {
       </section>
 
 
-      {/* ── PROBLEMA ──────────────────────────────────────────────────────── */}
-      <section className="py-20 px-4 bg-[#FAF7F2]">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">Você conhece essa frustração?</p>
-            <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810] leading-tight mb-3">
-              Aprender violão sertanejo na internet<br className="hidden md:block"/> é um pesadelo
-            </h2>
-            <p className="text-[#7A5C44] text-lg max-w-xl mx-auto">
-              Você quer tocar as melhores modas no churrasco — mas fica travado em cifras erradas, sites confusos e vídeos que não explicam nada.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-4">
-            {[
-              "Cifras espalhadas em 10 sites diferentes, cada uma com um acorde diferente",
-              "Tab completamente errada — você toca e não soa igual à música",
-              "Nenhum site tem o repertório sertanejo completo que você quer",
-              "Tem que mudar de aba pra ver o YouTube, perder o lugar na cifra e começar de novo",
-              "Não sabe a palhetada certa — fica soando mecânico, sem o balanço da música",
-              "Acordes em tom errado — precisa de violão com capotraste ou re-afinar na mão",
-            ].map((pain) => (
-              <div key={pain} className="flex items-start gap-4 bg-white border border-[#E0D8CE] rounded-2xl p-5">
-                <span className="shrink-0 text-red-400 mt-0.5">
-                  <IcoXCircle className="w-6 h-6" />
-                </span>
-                <p className="text-[#4A2810] font-medium text-sm leading-relaxed">{pain}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 text-center">
-            <p className="text-[#7A5C44] text-lg font-medium">
-              Você não tem problema de talento. Você só não tinha a ferramenta certa.
-            </p>
-            <p className="text-[#D4900A] font-bold text-xl mt-2">Até agora.</p>
-          </div>
-        </div>
-      </section>
 
       {/* ── SOLUÇÃO / FEATURES ────────────────────────────────────────────── */}
       <section className="py-20 px-4 bg-[#4A2810]">
