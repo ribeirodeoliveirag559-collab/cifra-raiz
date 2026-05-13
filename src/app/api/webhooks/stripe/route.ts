@@ -39,24 +39,28 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Assinatura inválida" }, { status: 400 });
   }
 
-  // ── Pagamento concluído → ativa PRO ───────────────────────────────────
+  // ── Pagamento único concluído → ativa acesso VITALÍCIO ───────────────
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
-    const userId  = session.metadata?.user_id;
+
+    // Só processa pagamentos concluídos (não assinaturas)
+    if (session.payment_status !== "paid") {
+      return NextResponse.json({ received: true });
+    }
+
+    const userId = session.metadata?.user_id;
 
     if (!userId) {
       console.error("[webhook] user_id ausente nos metadados");
       return NextResponse.json({ error: "user_id ausente" }, { status: 400 });
     }
 
-    const subscriptionId = session.subscription as string;
-
     const { error } = await supabaseAdmin
       .from("profiles")
       .update({
-        plano:                  "pro",
-        stripe_customer_id:     session.customer as string,
-        stripe_subscription_id: subscriptionId,
+        plano:              "pro",        // acesso vitalício
+        stripe_customer_id: session.customer as string,
+        plano_expira_em:    null,         // null = nunca expira (vitalício)
       })
       .eq("id", userId);
 
@@ -65,43 +69,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Erro ao salvar perfil" }, { status: 500 });
     }
 
-    console.log(`✅ PRO ativado para user ${userId}`);
-  }
-
-  // ── Assinatura atualizada (renovação) → atualiza data de expiração ────
-  if (event.type === "customer.subscription.updated") {
-    const sub    = event.data.object as Stripe.Subscription;
-    const userId = sub.metadata?.user_id;
-
-    if (userId) {
-      const expiraEm = new Date(
-        (sub.items.data[0]?.current_period_end ?? 0) * 1000
-      ).toISOString();
-
-      await supabaseAdmin
-        .from("profiles")
-        .update({ plano_expira_em: expiraEm, plano: "pro" })
-        .eq("id", userId);
-    }
-  }
-
-  // ── Assinatura cancelada → volta para FREE ─────────────────────────────
-  if (event.type === "customer.subscription.deleted") {
-    const sub    = event.data.object as Stripe.Subscription;
-    const userId = sub.metadata?.user_id;
-
-    if (userId) {
-      await supabaseAdmin
-        .from("profiles")
-        .update({
-          plano:                  "free",
-          stripe_subscription_id: null,
-          plano_expira_em:        null,
-        })
-        .eq("id", userId);
-
-      console.log(`🔄 Plano voltou para FREE: user ${userId}`);
-    }
+    console.log(`✅ Acesso VITALÍCIO ativado para user ${userId}`);
   }
 
   return NextResponse.json({ received: true });

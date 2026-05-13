@@ -25,32 +25,22 @@ export async function POST(req: NextRequest) {
 
     const { plano } = (await req.json()) as { plano: "mensal" | "anual" };
 
-    const priceId =
-      plano === "anual"
-        ? process.env.STRIPE_PRICE_ID_ANUAL!
-        : process.env.STRIPE_PRICE_ID_MENSAL!;
-
     const baseUrl = process.env.NEXT_PUBLIC_URL || "http://localhost:3000";
+    const stripe  = getStripe();
 
-    const stripe = getStripe();
-
-    // Cria a sessão de checkout
+    // Pagamento único — acesso vitalício
     const session = await stripe.checkout.sessions.create({
-      mode: "subscription",
+      mode: "payment",
       payment_method_types: ["card"],
       customer_email: user.email,
       locale: "pt-BR",
-      line_items: [{ price: priceId, quantity: 1 }],
+      line_items: [{
+        price:    process.env.STRIPE_PRICE_ID_VITALICIO!,
+        quantity: 1,
+      }],
       success_url: `${baseUrl}/sucesso?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${baseUrl}/landing#planos`,
-      metadata: {
-        user_id: user.id,
-        plano,
-      },
-      subscription_data: {
-        metadata: { user_id: user.id },
-      },
-      // Permite cupom de desconto
+      cancel_url:  `${baseUrl}/landing#planos`,
+      metadata: { user_id: user.id },
       allow_promotion_codes: true,
     });
 

@@ -425,23 +425,22 @@ export default function LandingPage() {
               </Link>
             </div>
 
-            {/* Plano PRO */}
+            {/* Acesso Vitalício */}
             <div className="bg-[#4A2810] border-2 border-[#D4900A] rounded-3xl p-8 relative overflow-hidden">
               {/* Badge */}
               <div className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-black px-3 py-1 rounded-full">
-                MAIS POPULAR
+                OFERTA ESPECIAL
               </div>
               <div className="absolute inset-0 opacity-5 pointer-events-none">
                 <div className="text-[#D4900A] text-9xl absolute -bottom-4 -right-4">🎸</div>
               </div>
 
               <div className="mb-6 relative">
-                <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">PRO</p>
+                <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">Acesso Vitalício</p>
                 <div className="flex items-end gap-2">
-                  <p className="font-display text-5xl font-black text-white">R$ 19</p>
-                  <p className="text-[#B5865A] text-base mb-1">/mês</p>
+                  <p className="font-display text-5xl font-black text-white">R$ 24,90</p>
                 </div>
-                <p className="text-[#B5865A] text-sm mt-1">ou R$ 149/ano <span className="text-[#D4900A] font-bold">(economize 35%)</span></p>
+                <p className="text-[#D4900A] font-bold text-sm mt-1">✨ Pague uma vez. Acesse para sempre.</p>
               </div>
 
               <ul className="space-y-3 mb-8 relative">
@@ -452,6 +451,7 @@ export default function LandingPage() {
                   "Conteúdo exclusivo semanal",
                   "Suporte prioritário",
                   "Acesso antecipado a novidades",
+                  "Sem mensalidade, sem renovação",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-[#FAF7F2]">
                     <span className="text-[#D4900A]"><IcoCheck /></span>
@@ -461,10 +461,10 @@ export default function LandingPage() {
               </ul>
 
               <Link
-                href="/checkout?plano=mensal"
+                href="/checkout?plano=vitalicio"
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-3 rounded-xl transition-all shadow-lg hover:scale-105 relative"
               >
-                Assinar PRO →
+                Garantir acesso vitalício →
               </Link>
             </div>
           </div>
