@@ -552,22 +552,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── FOOTER ────────────────────────────────────────────────────────── */}
-      <footer className="bg-[#3A1F08] py-10 px-4">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <img src="/logo.jpg" alt="Cifra Raiz" className="h-10 w-auto rounded-lg" />
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-[#7A5C44]">
-            <Link href="/cifras"   className="hover:text-[#D4900A] transition-colors">Cifras</Link>
-            <Link href="/cursos"   className="hover:text-[#D4900A] transition-colors">Cursos</Link>
-            <Link href="/afinador" className="hover:text-[#D4900A] transition-colors">Afinador</Link>
-            <Link href="/login"    className="hover:text-[#D4900A] transition-colors">Login</Link>
-            <Link href="/checkout?plano=vitalicio" className="hover:text-[#D4900A] transition-colors">Assinar</Link>
-          </div>
-          <p className="text-[#5A3A20] text-xs text-center">
-            © 2026 Cifra Raiz · Todos os direitos reservados
-          </p>
-        </div>
-      </footer>
 
     </div>
   );
