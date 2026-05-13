@@ -247,21 +247,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── NÚMEROS ───────────────────────────────────────────────────────── */}
-      <section className="py-12 px-4 bg-white border-y border-[#E0D8CE]">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
-          {[
-            { n: "7.200+", label: "Cifras de sertanejo" },
-            { n: "50+",    label: "Artistas cadastrados" },
-            { n: "100%",   label: "Acordes revisados" },
-          ].map((s) => (
-            <div key={s.n}>
-              <p className="font-display text-4xl md:text-5xl font-black text-[#D4900A]">{s.n}</p>
-              <p className="text-[#7A5C44] text-sm mt-1 font-medium">{s.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* ── PROBLEMA ──────────────────────────────────────────────────────── */}
       <section className="py-20 px-4 bg-[#FAF7F2]">
