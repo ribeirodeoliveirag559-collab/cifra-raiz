@@ -39,10 +39,7 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Rota raiz "/" → redireciona para /landing
-  if (pathname === "/") {
-    return NextResponse.redirect(new URL("/landing", request.url));
-  }
+  // Rota raiz "/" → redireciona para /landing (tratada depois de verificar auth)
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -74,11 +71,19 @@ export async function middleware(request: NextRequest) {
   // ── Verifica autenticação ─────────────────────────────────────────────────
   const { data: { user } } = await supabase.auth.getUser();
 
-  // Não está logado → redireciona para /login
+  // Não está logado → redireciona para /login (ou /landing se for a raiz)
   if (!user) {
+    if (pathname === "/") {
+      return NextResponse.redirect(new URL("/landing", request.url));
+    }
     const loginUrl = new URL("/login", request.url);
     loginUrl.searchParams.set("redirect", pathname);
     return NextResponse.redirect(loginUrl);
+  }
+
+  // Usuário logado na raiz → redireciona para /cifras
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL("/cifras", request.url));
   }
 
   // ── Verifica plano PRO no Supabase ────────────────────────────────────────

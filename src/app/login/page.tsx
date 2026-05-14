@@ -7,11 +7,18 @@ import { createClient } from "@/lib/supabase";
 function LoginForm() {
   const router   = useRouter();
   const params   = useSearchParams();
-  const plano    = params.get("plano"); // redireciona ao checkout se veio do fluxo PRO
+  const redirect = params.get("redirect") ?? "/cifras";
   const supabase = createClient();
-  const [form, setForm] = useState({ email: "", senha: "" });
-  const [erro, setErro] = useState("");
+
+  const [form, setForm]           = useState({ email: "", senha: "" });
+  const [erro, setErro]           = useState("");
   const [carregando, setCarregando] = useState(false);
+
+  // Recuperação de senha
+  const [modoRecuperar, setModoRecuperar] = useState(false);
+  const [emailRecuperar, setEmailRecuperar] = useState("");
+  const [recuperandо, setRecuperando]     = useState(false);
+  const [recuperadoOk, setRecuperadoOk]   = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -29,49 +36,102 @@ function LoginForm() {
       return;
     }
 
-    // Se veio pelo fluxo de assinatura, vai ao checkout
-    const destino = plano
-      ? `/checkout?plano=${plano === "pro" ? "mensal" : plano}`
-      : "/";
-    router.push(destino);
+    router.push(redirect);
     router.refresh();
   }
 
-  async function handleGoogle() {
-    const destino = plano
-      ? `${window.location.origin}/checkout?plano=${plano === "pro" ? "mensal" : plano}`
-      : `${window.location.origin}/`;
-    await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: { redirectTo: destino },
+  async function handleRecuperar(e: React.FormEvent) {
+    e.preventDefault();
+    setRecuperando(true);
+    const baseUrl = window.location.origin;
+    await supabase.auth.resetPasswordForEmail(emailRecuperar, {
+      redirectTo: `${baseUrl}/login`,
     });
+    setRecuperando(false);
+    setRecuperadoOk(true);
   }
 
+  // ── Tela de recuperação ───────────────────────────────────────────────────
+  if (modoRecuperar) {
+    return (
+      <div className="min-h-screen bg-[#FAF7F2] flex items-center justify-center px-4 py-12">
+        <div className="w-full max-w-md">
+          <div className="text-center mb-8">
+            <span className="font-display text-3xl font-bold text-[#4A2810]">
+              Cifra <span className="text-[#D4900A]">Raiz</span>
+            </span>
+            <p className="text-[#7A5C44] mt-2 text-sm">Recuperar senha</p>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-sm border border-[#F0EAE0] p-8">
+            {recuperadoOk ? (
+              <div className="text-center py-4">
+                <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-7 h-7 text-green-600">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <p className="font-semibold text-[#4A2810] mb-1">E-mail enviado!</p>
+                <p className="text-sm text-[#7A5C44]">Verifique sua caixa de entrada e siga as instruções para redefinir sua senha.</p>
+                <button
+                  onClick={() => { setModoRecuperar(false); setRecuperadoOk(false); setEmailRecuperar(""); }}
+                  className="mt-5 text-sm text-[#D4900A] font-semibold hover:underline"
+                >
+                  Voltar ao login
+                </button>
+              </div>
+            ) : (
+              <form onSubmit={handleRecuperar} className="space-y-4">
+                <p className="text-sm text-[#7A5C44] mb-2">
+                  Informe seu e-mail e enviaremos um link para redefinir sua senha.
+                </p>
+                <div>
+                  <label className="block text-sm font-medium text-[#4A2810] mb-1">E-mail</label>
+                  <input
+                    type="email"
+                    required
+                    value={emailRecuperar}
+                    onChange={(e) => setEmailRecuperar(e.target.value)}
+                    placeholder="voce@email.com"
+                    className="w-full border border-[#E0D8CE] rounded-xl px-4 py-3 text-[#4A2810] placeholder-[#B5865A] focus:outline-none focus:border-[#D4900A] focus:ring-1 focus:ring-[#D4900A] bg-[#FAF7F2]"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  disabled={recuperandо}
+                  className="w-full bg-[#4A2810] text-[#FAF7F2] py-3 rounded-full font-bold text-base hover:bg-[#7A4520] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+                >
+                  {recuperandо ? (
+                    <><span className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" /> Enviando...</>
+                  ) : "Enviar link de recuperação"}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setModoRecuperar(false)}
+                  className="w-full text-sm text-[#7A5C44] hover:text-[#4A2810] transition-colors pt-1"
+                >
+                  Voltar ao login
+                </button>
+              </form>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Tela de login ─────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-[#FAF7F2] flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link href="/" className="font-display text-3xl font-bold text-[#4A2810]">
+          <span className="font-display text-3xl font-bold text-[#4A2810]">
             Cifra <span className="text-[#D4900A]">Raiz</span>
-          </Link>
+          </span>
           <p className="text-[#7A5C44] mt-2 text-sm">Entre na sua conta</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-[#F0EAE0] p-8">
-          <button
-            onClick={handleGoogle}
-            className="w-full flex items-center justify-center gap-3 border border-[#E0D8CE] rounded-xl py-3 px-4 text-[#4A2810] font-medium hover:bg-[#F0EAE0] transition-colors mb-6"
-          >
-            <GoogleIcon />
-            Entrar com Google
-          </button>
-
-          <div className="flex items-center gap-3 mb-6">
-            <div className="flex-1 h-px bg-[#E0D8CE]" />
-            <span className="text-xs text-[#B5865A]">ou com email</span>
-            <div className="flex-1 h-px bg-[#E0D8CE]" />
-          </div>
-
           <form onSubmit={handleSubmit} className="space-y-4">
             {erro && (
               <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
@@ -92,7 +152,13 @@ function LoginForm() {
             <div>
               <div className="flex justify-between mb-1">
                 <label className="text-sm font-medium text-[#4A2810]">Senha</label>
-                <Link href="#" className="text-xs text-[#D4900A] hover:underline">Esqueci minha senha</Link>
+                <button
+                  type="button"
+                  onClick={() => setModoRecuperar(true)}
+                  className="text-xs text-[#D4900A] hover:underline"
+                >
+                  Esqueci minha senha
+                </button>
               </div>
               <input
                 type="password"
@@ -115,13 +181,6 @@ function LoginForm() {
             </button>
           </form>
         </div>
-
-        <p className="text-center mt-6 text-sm text-[#7A5C44]">
-          Não tem conta?{" "}
-          <Link href="/cadastro" className="text-[#D4900A] font-semibold hover:underline">
-            Criar conta
-          </Link>
-        </p>
       </div>
     </div>
   );
@@ -132,16 +191,5 @@ export default function LoginPage() {
     <Suspense>
       <LoginForm />
     </Suspense>
-  );
-}
-
-function GoogleIcon() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 48 48">
-      <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z" />
-      <path fill="#FF3D00" d="m6.306 14.691 6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z" />
-      <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z" />
-      <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" />
-    </svg>
   );
 }

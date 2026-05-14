@@ -1,19 +1,15 @@
 /**
  * POST /api/webhooks/ggcheckout
  *
- * Recebe eventos do GGCheckout e ativa o plano PRO no Supabase.
- *
- * Evento tratado:
- *  - payment.paid → busca usuário pelo e-mail → plano = 'pro'
- *
- * Verificação de assinatura via HMAC-SHA256:
- *  Header: X-Webhook-Signature: sha256=<hash>
+ * Recebe eventos do GGCheckout e:
+ *  1. Cria a conta no Supabase automaticamente (se não existir)
+ *  2. Ativa o plano PRO
+ *  3. Envia e-mail de acesso via Supabase (invite link)
  */
 import { NextRequest, NextResponse } from "next/server";
 import { createHmac } from "crypto";
 import { createClient } from "@supabase/supabase-js";
 
-// Service role ignora RLS — necessário para atualizar qualquer perfil
 const supabaseAdmin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL ?? "https://placeholder.supabase.co",
   process.env.SUPABASE_SERVICE_ROLE_KEY ?? "placeholder"
@@ -24,21 +20,19 @@ export async function POST(req: NextRequest) {
   const signature = req.headers.get("x-webhook-signature") ?? "";
   const eventType = req.headers.get("x-ggcheckout-event") ?? "";
 
-  // ── Verificação de assinatura ────────────────────────────────────────────
+  // ── Verificação de assinatura ─────────────────────────────────────────────
   const secret = process.env.GGCHECKOUT_WEBHOOK_SECRET;
   if (secret) {
     const expected =
-      "sha256=" +
-      createHmac("sha256", secret).update(rawBody).digest("hex");
-
+      "sha256=" + createHmac("sha256", secret).update(rawBody).digest("hex");
     if (signature !== expected) {
-      console.error("[ggcheckout webhook] assinatura inválida");
+      console.error("[webhook] assinatura inválida");
       return NextResponse.json({ error: "Assinatura inválida" }, { status: 401 });
     }
   }
 
-  // ── Só processa pagamentos confirmados ───────────────────────────────────
-  if (eventType !== "payment.paid") {
+  // ── Só processa pagamentos confirmados ────────────────────────────────────
+  if (eventType !== "payment.paid" && eventType !== "pix.paid" && eventType !== "card.paid") {
     return NextResponse.json({ received: true });
   }
 
@@ -51,46 +45,60 @@ export async function POST(req: NextRequest) {
 
   const email: string | undefined = payload?.payment?.email;
   const paymentId: string | undefined = payload?.payment?.id;
+  const nome: string | undefined = payload?.payment?.name;
 
   if (!email) {
-    console.error("[ggcheckout webhook] e-mail ausente no payload");
+    console.error("[webhook] e-mail ausente no payload");
     return NextResponse.json({ error: "E-mail ausente" }, { status: 400 });
   }
 
-  // ── Busca o usuário pelo e-mail na tabela auth.users ─────────────────────
-  const { data: usersData, error: userError } =
-    await supabaseAdmin.auth.admin.listUsers();
+  const baseUrl = process.env.NEXT_PUBLIC_URL ?? "https://cifra-raiz.vercel.app";
 
-  if (userError) {
-    console.error("[ggcheckout webhook] erro ao listar usuários:", userError.message);
-    return NextResponse.json({ error: "Erro ao buscar usuário" }, { status: 500 });
-  }
-
-  const user = usersData?.users?.find(
+  // ── Verifica se usuário já existe ─────────────────────────────────────────
+  const { data: usersData } = await supabaseAdmin.auth.admin.listUsers();
+  const existingUser = usersData?.users?.find(
     (u) => u.email?.toLowerCase() === email.toLowerCase()
   );
 
-  if (!user) {
-    // Pode ser que o cliente pagou sem ter conta — criamos perfil quando ele se cadastrar
-    console.warn(`[ggcheckout webhook] usuário não encontrado para e-mail: ${email}`);
-    return NextResponse.json({ received: true });
+  let userId: string;
+
+  if (existingUser) {
+    // Usuário já existe — só atualiza o plano
+    userId = existingUser.id;
+    console.log(`[webhook] usuário já existe: ${email}`);
+  } else {
+    // ── Cria conta nova e envia e-mail de acesso ──────────────────────────
+    const { data: inviteData, error: inviteError } =
+      await supabaseAdmin.auth.admin.inviteUserByEmail(email, {
+        redirectTo: `${baseUrl}/login`,
+        data: { nome: nome ?? email.split("@")[0] },
+      });
+
+    if (inviteError || !inviteData?.user) {
+      console.error("[webhook] erro ao criar usuário:", inviteError?.message);
+      return NextResponse.json({ error: "Erro ao criar usuário" }, { status: 500 });
+    }
+
+    userId = inviteData.user.id;
+    console.log(`[webhook] novo usuário criado e convite enviado: ${email}`);
   }
 
-  // ── Atualiza o plano para PRO ─────────────────────────────────────────────
-  const { error: updateError } = await supabaseAdmin
+  // ── Ativa plano PRO no perfil ─────────────────────────────────────────────
+  const { error: upsertError } = await supabaseAdmin
     .from("profiles")
-    .update({
-      plano:              "pro",
-      plano_expira_em:    null,          // null = vitalício, nunca expira
-      stripe_customer_id: paymentId,     // reutilizamos o campo para guardar o ID do pagamento
-    })
-    .eq("id", user.id);
+    .upsert({
+      id: userId,
+      nome: nome ?? email.split("@")[0],
+      plano: "pro",
+      plano_expira_em: null,
+      stripe_customer_id: paymentId ?? null,
+    });
 
-  if (updateError) {
-    console.error("[ggcheckout webhook] erro ao atualizar perfil:", updateError.message);
+  if (upsertError) {
+    console.error("[webhook] erro ao salvar perfil:", upsertError.message);
     return NextResponse.json({ error: "Erro ao salvar perfil" }, { status: 500 });
   }
 
-  console.log(`✅ Acesso VITALÍCIO ativado para ${email} (user ${user.id})`);
+  console.log(`✅ Acesso VITALÍCIO ativado para ${email} (user ${userId})`);
   return NextResponse.json({ received: true });
 }
