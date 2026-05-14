@@ -46,8 +46,13 @@ const NAV = [
   },
 ];
 
+const ROTAS_SEM_NAV = ["/landing", "/login", "/cadastro", "/sucesso", "/checkout"];
+
 export default function BottomNav() {
   const pathname = usePathname();
+
+  // Não mostra a barra nas páginas públicas
+  if (ROTAS_SEM_NAV.some((r) => pathname.startsWith(r))) return null;
 
   function isActive(href: string) {
     if (href === "/") return pathname === "/";
