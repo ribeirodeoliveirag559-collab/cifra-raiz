@@ -171,7 +171,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <img src="/logo.jpg" alt="Cifra Raiz" className="h-9 w-auto rounded-lg" />
           <Link
-            href="/checkout?plano=vitalicio"
+            href="https://ggcheckout.app/checkout/v3/ZcwBqKfKbcVK9h18IaE5"
             className="bg-[#D4900A] hover:bg-[#A36C05] text-white text-sm font-bold px-5 py-2 rounded-full transition-colors shadow-md"
           >
             Garantir acesso →
@@ -220,7 +220,7 @@ export default function LandingPage() {
           {/* CTA principal */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link
-              href="/checkout?plano=vitalicio"
+              href="https://ggcheckout.app/checkout/v3/ZcwBqKfKbcVK9h18IaE5"
               className="bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto text-center"
             >
               Garantir meu acesso vitalício →
@@ -365,7 +365,7 @@ export default function LandingPage() {
 
           <div className="mt-14 text-center">
             <Link
-              href="/checkout?plano=vitalicio"
+              href="https://ggcheckout.app/checkout/v3/ZcwBqKfKbcVK9h18IaE5"
               className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
             >
               Quero meu acesso vitalício →
@@ -488,7 +488,7 @@ export default function LandingPage() {
               </ul>
 
               <Link
-                href="/checkout?plano=vitalicio"
+                href="https://ggcheckout.app/checkout/v3/ZcwBqKfKbcVK9h18IaE5"
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-4 rounded-xl transition-all shadow-lg hover:scale-105 relative text-lg"
               >
                 Garantir acesso vitalício →
@@ -544,7 +544,7 @@ export default function LandingPage() {
             Garantia de 7 dias ou seu dinheiro de volta.
           </p>
           <Link
-            href="/checkout?plano=vitalicio"
+            href="https://ggcheckout.app/checkout/v3/ZcwBqKfKbcVK9h18IaE5"
             className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-xl px-14 py-5 rounded-2xl transition-all shadow-2xl hover:scale-105"
           >
             Garantir meu acesso agora →
