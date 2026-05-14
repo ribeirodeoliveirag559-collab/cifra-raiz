@@ -1,18 +1,60 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-export async function middleware(request: NextRequest) {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+// ─── Rotas públicas — qualquer pessoa pode acessar ────────────────────────────
+const ROTAS_PUBLICAS = [
+  "/landing",
+  "/login",
+  "/cadastro",
+  "/sucesso",
+  "/checkout",
+  "/api/webhooks",
+  "/api/checkout",
+];
 
-  // Sem credenciais do Supabase — passa direto (auth via localStorage)
-  if (!url || !key) {
+function isRotaPublica(pathname: string) {
+  return ROTAS_PUBLICAS.some((rota) => pathname.startsWith(rota));
+}
+
+function isRotaEstatica(pathname: string) {
+  return (
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/favicon") ||
+    pathname.startsWith("/logo") ||
+    pathname.startsWith("/icons") ||
+    /\.(?:svg|png|jpg|jpeg|gif|webp|ico|js|css|woff|woff2)$/.test(pathname)
+  );
+}
+
+export async function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  // Arquivos estáticos — passa direto
+  if (isRotaEstatica(pathname)) {
     return NextResponse.next();
   }
 
-  let supabaseResponse = NextResponse.next({ request });
+  // Rotas públicas — passa direto
+  if (isRotaPublica(pathname)) {
+    return NextResponse.next();
+  }
 
-  const supabase = createServerClient(url, key, {
+  // Rota raiz "/" → redireciona para /landing
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL("/landing", request.url));
+  }
+
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  // Sem credenciais configuradas → redireciona para /landing
+  if (!supabaseUrl || !supabaseKey) {
+    return NextResponse.redirect(new URL("/landing", request.url));
+  }
+
+  let response = NextResponse.next({ request });
+
+  const supabase = createServerClient(supabaseUrl, supabaseKey, {
     cookies: {
       getAll() {
         return request.cookies.getAll();
@@ -21,18 +63,37 @@ export async function middleware(request: NextRequest) {
         cookiesToSet.forEach(({ name, value }) =>
           request.cookies.set(name, value)
         );
-        supabaseResponse = NextResponse.next({ request });
+        response = NextResponse.next({ request });
         cookiesToSet.forEach(({ name, value, options }) =>
-          supabaseResponse.cookies.set(name, value, options)
+          response.cookies.set(name, value, options)
         );
       },
     },
   });
 
-  // Renova sessão automaticamente — mantém o usuário logado
-  await supabase.auth.getUser();
+  // ── Verifica autenticação ─────────────────────────────────────────────────
+  const { data: { user } } = await supabase.auth.getUser();
 
-  return supabaseResponse;
+  // Não está logado → redireciona para /login
+  if (!user) {
+    const loginUrl = new URL("/login", request.url);
+    loginUrl.searchParams.set("redirect", pathname);
+    return NextResponse.redirect(loginUrl);
+  }
+
+  // ── Verifica plano PRO no Supabase ────────────────────────────────────────
+  const { data: perfil } = await supabase
+    .from("profiles")
+    .select("plano")
+    .eq("id", user.id)
+    .single();
+
+  // Não tem plano PRO → redireciona para /landing
+  if (!perfil || perfil.plano !== "pro") {
+    return NextResponse.redirect(new URL("/landing#planos", request.url));
+  }
+
+  return response;
 }
 
 export const config = {
