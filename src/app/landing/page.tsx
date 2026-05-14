@@ -225,12 +225,6 @@ export default function LandingPage() {
             >
               Garantir meu acesso vitalício →
             </Link>
-            <Link
-              href="/cifras"
-              className="border-2 border-[#7A5C44] hover:border-[#D4900A] text-[#C4A882] hover:text-[#D4900A] font-semibold text-base px-8 py-4 rounded-2xl transition-colors w-full sm:w-auto text-center"
-            >
-              Ver as cifras
-            </Link>
           </div>
 
           {/* Mini social proof */}
