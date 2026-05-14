@@ -383,19 +383,19 @@ export default function LandingPage() {
               {
                 nome: "Marcos Alves",
                 local: "Goiânia, GO",
-                inicial: "M",
+                foto: "/depoimento-marcos.jpg",
                 texto: "Finalmente um site que tem o repertório certo. Toda cifra que procuro de modão antigo eu acho aqui. Tô aprendendo música que o meu pai tocava e nunca achei em lugar nenhum.",
               },
               {
                 nome: "Ana Paula Ferreira",
                 local: "Uberlândia, MG",
-                inicial: "A",
+                foto: "/depoimento-ana.jpg",
                 texto: "O negócio de transpor o tom mudou minha vida. Sou soprano, sempre que tocava as músicas ficavam altas demais. Agora ajusto com um clique. Simplesmente incrível.",
               },
               {
                 nome: "João Rodrigues",
                 local: "Ribeirão Preto, SP",
-                inicial: "J",
+                foto: "/depoimento-joao.jpg",
                 texto: "Comecei do zero há 3 meses. Com as cifras do Cifra Raiz e os diagramas de acorde já tô tocando Chitãozinho e Xororó nas reuniões de família. Vale cada centavo.",
               },
             ].map((t) => (
@@ -405,8 +405,8 @@ export default function LandingPage() {
                 </div>
                 <p className="text-[#4A2810] text-sm leading-relaxed mb-5 italic">"{t.texto}"</p>
                 <div className="flex items-center gap-3 border-t border-[#E0D8CE] pt-4">
-                  <div className="w-10 h-10 rounded-full bg-[#D4900A]/20 border border-[#D4900A]/30 flex items-center justify-center">
-                    <span className="text-[#D4900A] font-black text-sm">{t.inicial}</span>
+                  <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#D4900A]/30 shrink-0">
+                    <img src={t.foto} alt={t.nome} className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <p className="font-bold text-[#4A2810] text-sm">{t.nome}</p>
