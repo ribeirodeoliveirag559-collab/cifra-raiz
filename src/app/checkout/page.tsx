@@ -1,47 +1,43 @@
 "use client";
 import { useEffect, useState, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
 
 function CheckoutInner() {
   const { user, carregando } = useAuth();
-  const router       = useRouter();
-  const params       = useSearchParams();
-  const plano        = (params.get("plano") ?? "mensal") as "mensal" | "anual";
+  const router = useRouter();
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-    // Se ainda está carregando auth, aguarda
     if (carregando) return;
 
-    // Se não está logado, manda para cadastro
+    // Não está logado → manda para a landing
     if (!user) {
-      router.push(`/cadastro?plano=${plano}`);
+      router.push("/landing");
       return;
     }
 
-    // Já é PRO, manda direto para o dashboard
+    // Já é PRO → direto para as cifras
     if (user.plano === "pro") {
-      router.push("/dashboard");
+      router.push("/cifras");
       return;
     }
 
-    // Cria sessão no Stripe e redireciona
+    // Logado mas sem PRO → redireciona para o checkout do GGCheckout
     fetch("/api/checkout", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ plano }),
     })
       .then((r) => r.json())
       .then((data) => {
         if (data.url) {
-          window.location.href = data.url; // redireciona para o Stripe
+          window.location.href = data.url;
         } else {
           setErro("Erro ao iniciar pagamento. Tente novamente.");
         }
       })
       .catch(() => setErro("Erro de conexão. Tente novamente."));
-  }, [carregando, user, plano, router]);
+  }, [carregando, user, router]);
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] flex items-center justify-center px-4">
@@ -52,10 +48,10 @@ function CheckoutInner() {
           <div className="bg-red-50 border border-red-200 rounded-2xl p-8 max-w-sm">
             <p className="text-red-600 font-semibold mb-4">{erro}</p>
             <button
-              onClick={() => router.push("/landing#planos")}
+              onClick={() => router.push("/landing")}
               className="text-[#D4900A] font-semibold hover:underline"
             >
-              ← Voltar para os planos
+              ← Voltar
             </button>
           </div>
         ) : (

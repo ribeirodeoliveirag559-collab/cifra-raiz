@@ -44,3 +44,5 @@ next-env.d.ts
 scripts/scraper/node_modules/
 scripts/scraper/output/
 src/lib/dados.ts.bak
+
+.vercel

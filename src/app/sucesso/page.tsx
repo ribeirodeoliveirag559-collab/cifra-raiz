@@ -29,7 +29,7 @@ export default function SucessoPage() {
       setContagem((c) => {
         if (c <= 1) {
           clearInterval(interval);
-          window.location.href = "/dashboard";
+          window.location.href = "/cifras";
         }
         return c - 1;
       });
@@ -52,14 +52,14 @@ export default function SucessoPage() {
         </div>
 
         <h1 className="font-display text-4xl md:text-5xl font-black text-white mb-4">
-          Bem-vindo ao PRO! 🎸
+          Bem-vindo ao Cifra Raiz!
         </h1>
 
         <p className="text-[#C4A882] text-lg mb-2">
-          Seu pagamento foi confirmado com sucesso.
+          Seu acesso vitalício está liberado.
         </p>
         <p className="text-[#B5865A] text-sm mb-10">
-          Um recibo foi enviado para o seu e-mail. Aproveite o acesso completo!
+          Enviamos as instruções de login no seu e-mail. Aproveite!
         </p>
 
         {/* Benefícios desbloqueados */}
@@ -68,11 +68,11 @@ export default function SucessoPage() {
             O que você desbloqueou
           </p>
           {[
-            "✅ 7.200+ cifras sertanejas completas",
-            "✅ Cursos em vídeo de violão sertanejo",
-            "✅ Técnicas avançadas de palhetada",
-            "✅ Conteúdo exclusivo toda semana",
-            "✅ Suporte prioritário",
+            "7.200+ cifras sertanejas completas",
+            "Cursos em vídeo de violão sertanejo",
+            "Técnicas avançadas de palhetada",
+            "Conteúdo exclusivo toda semana",
+            "Suporte prioritário",
           ].map((item) => (
             <p key={item} className="text-[#FAF7F2] text-sm py-1.5 border-b border-[#5A3A20] last:border-0">
               {item}
@@ -82,10 +82,10 @@ export default function SucessoPage() {
 
         {/* CTA */}
         <Link
-          href="/dashboard"
+          href="/cifras"
           className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:scale-105 mb-4"
         >
-          Ir para o Dashboard →
+          Ver as cifras →
         </Link>
 
         <p className="text-[#7A5C44] text-sm">

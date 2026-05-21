@@ -8,7 +8,7 @@ import type { Cifra } from "@/lib/dados";
 import { getTopCifras } from "@/lib/cifras-service";
 import {
   IconFilm, IconBook, IconCheckCircle, IconGuitar,
-  IconFire, IconTrophy, IconTarget, IconMusic, IconChat, IconCheck,
+  IconFire, IconTrophy, IconTarget, IconCheck,
 } from "@/components/Icons";
 import { useAuth } from "@/context/AuthContext";
 
@@ -43,10 +43,9 @@ export default function DashboardPage() {
   ];
 
   const atalhos = [
-    { label: "Afinador",            href: "/afinador", Icon: IconTarget },
-    { label: "Todos os cursos",     href: "/cursos",   Icon: IconBook   },
-    { label: "Pedir música",        href: "/pedidos",  Icon: IconMusic  },
-    { label: "Comunidade WhatsApp", href: "#",         Icon: IconChat   },
+    { label: "Afinador",        href: "/afinador", Icon: IconTarget },
+    { label: "Todos os cursos", href: "/cursos",   Icon: IconBook   },
+    { label: "Todas as cifras", href: "/cifras",   Icon: IconGuitar },
   ];
 
   return (
