@@ -10,6 +10,7 @@ const ROTAS_PUBLICAS = [
   "/checkout",
   "/api/webhooks",
   "/api/checkout",
+  "/api/primeiro-acesso",
 ];
 
 function isRotaPublica(pathname: string) {

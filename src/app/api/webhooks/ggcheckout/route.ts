@@ -2,12 +2,13 @@
  * POST /api/webhooks/ggcheckout
  *
  * Recebe eventos do GGCheckout e:
- *  1. Cria a conta no Supabase automaticamente (se não existir)
+ *  1. Cria a conta no Supabase (sem enviar e-mail, com email já confirmado)
  *  2. Ativa o plano PRO
- *  3. Envia e-mail de acesso via Supabase (invite link)
+ *
+ * O cliente cria a senha ele mesmo no /login (primeiro acesso).
  */
 import { NextRequest, NextResponse } from "next/server";
-import { createHmac } from "crypto";
+import { createHmac, randomBytes } from "crypto";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseAdmin = createClient(
@@ -20,7 +21,7 @@ export async function POST(req: NextRequest) {
   const signature = req.headers.get("x-webhook-signature") ?? "";
   const eventType = req.headers.get("x-ggcheckout-event") ?? "";
 
-  // ── Verificação de assinatura ─────────────────────────────────────────────
+  // ── Verificação de assinatura ──────────────────────────────────────
   const secret = process.env.GGCHECKOUT_WEBHOOK_SECRET;
   if (secret) {
     const expected =
@@ -31,30 +32,29 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // ── Só processa pagamentos confirmados ────────────────────────────────────
+  // Só processa pagamentos confirmados
   if (eventType !== "payment.paid" && eventType !== "pix.paid" && eventType !== "card.paid") {
     return NextResponse.json({ received: true });
   }
 
-  let payload: any;
+  let payload: unknown;
   try {
     payload = JSON.parse(rawBody);
   } catch {
     return NextResponse.json({ error: "Payload inválido" }, { status: 400 });
   }
 
-  const email: string | undefined = payload?.payment?.email;
-  const paymentId: string | undefined = payload?.payment?.id;
-  const nome: string | undefined = payload?.payment?.name;
+  const p = (payload as { payment?: { email?: string; id?: string; name?: string } }).payment;
+  const email = p?.email;
+  const paymentId = p?.id;
+  const nome = p?.name;
 
   if (!email) {
     console.error("[webhook] e-mail ausente no payload");
     return NextResponse.json({ error: "E-mail ausente" }, { status: 400 });
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_URL ?? "https://cifra-raiz.vercel.app";
-
-  // ── Verifica se usuário já existe ─────────────────────────────────────────
+  // ── Verifica se usuário já existe ──────────────────────────────────
   const { data: usersData } = await supabaseAdmin.auth.admin.listUsers();
   const existingUser = usersData?.users?.find(
     (u) => u.email?.toLowerCase() === email.toLowerCase()
@@ -63,27 +63,29 @@ export async function POST(req: NextRequest) {
   let userId: string;
 
   if (existingUser) {
-    // Usuário já existe — só atualiza o plano
     userId = existingUser.id;
     console.log(`[webhook] usuário já existe: ${email}`);
   } else {
-    // ── Cria conta nova e envia e-mail de acesso ──────────────────────────
-    const { data: inviteData, error: inviteError } =
-      await supabaseAdmin.auth.admin.inviteUserByEmail(email, {
-        redirectTo: `${baseUrl}/login`,
-        data: { nome: nome ?? email.split("@")[0] },
+    // Cria conta nova SEM enviar e-mail e com senha aleatória (cliente vai definir a sua no /login)
+    const randomPassword = randomBytes(32).toString("hex");
+    const { data: createData, error: createError } =
+      await supabaseAdmin.auth.admin.createUser({
+        email,
+        password: randomPassword,
+        email_confirm: true,
+        user_metadata: { nome: nome ?? email.split("@")[0] },
       });
 
-    if (inviteError || !inviteData?.user) {
-      console.error("[webhook] erro ao criar usuário:", inviteError?.message);
+    if (createError || !createData?.user) {
+      console.error("[webhook] erro ao criar usuário:", createError?.message);
       return NextResponse.json({ error: "Erro ao criar usuário" }, { status: 500 });
     }
 
-    userId = inviteData.user.id;
-    console.log(`[webhook] novo usuário criado e convite enviado: ${email}`);
+    userId = createData.user.id;
+    console.log(`[webhook] novo usuário criado: ${email}`);
   }
 
-  // ── Ativa plano PRO no perfil ─────────────────────────────────────────────
+  // ── Ativa plano PRO ────────────────────────────────────────────────
   const { error: upsertError } = await supabaseAdmin
     .from("profiles")
     .upsert({
