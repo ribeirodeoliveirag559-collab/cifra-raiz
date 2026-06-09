@@ -1,8 +1,8 @@
-﻿"use client";
+"use client";
 import { useState } from "react";
 import Link from "next/link";
 
-// â”€â”€â”€ Ãcones SVG profissionais â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Ícones SVG profissionais ─────────────────────────────────────────────
 const IcoCheck = () => (
   <svg viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 shrink-0">
     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
@@ -19,22 +19,12 @@ const IcoChevron = ({ open }: { open: boolean }) => (
   </svg>
 );
 
-// Ãcone de guitarra/violÃ£o
 const IcoGuitar = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"/>
   </svg>
 );
 
-// Ãcone de nota musical
-const IcoMusic = ({ className = "w-6 h-6" }: { className?: string }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"/>
-    <circle cx="4.5" cy="17" r="1" fill="currentColor" stroke="none"/>
-  </svg>
-);
-
-// Ãcone de play/vÃ­deo
 const IcoPlay = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -42,7 +32,6 @@ const IcoPlay = ({ className = "w-6 h-6" }: { className?: string }) => (
   </svg>
 );
 
-// Ãcone de bateria/ritmo
 const IcoDrum = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <ellipse cx="12" cy="9" rx="9" ry="4"/>
@@ -51,7 +40,6 @@ const IcoDrum = ({ className = "w-6 h-6" }: { className?: string }) => (
   </svg>
 );
 
-// Ãcone de alvo/precisÃ£o
 const IcoTarget = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <circle cx="12" cy="12" r="9"/>
@@ -60,80 +48,61 @@ const IcoTarget = ({ className = "w-6 h-6" }: { className?: string }) => (
   </svg>
 );
 
-// Ãcone de smartphone
 const IcoPhone = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/>
   </svg>
 );
 
-// Ãcone de escrita/cadastro
 const IcoPen = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"/>
   </svg>
 );
 
-// Ãcone de busca
 const IcoSearch = ({ className = "w-6 h-6" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 15.803a7.5 7.5 0 0010.607 10.607z"/>
   </svg>
 );
 
-// Ãcone de usuÃ¡rio
 const IcoUser = ({ className = "w-5 h-5" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
     <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clipRule="evenodd"/>
   </svg>
 );
 
-// Ãcone de escudo (garantia)
 const IcoShield = ({ className = "w-10 h-10" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
   </svg>
 );
 
-// Ãcone de aviso/frustraÃ§Ã£o
-const IcoAlert = ({ className = "w-6 h-6" }: { className?: string }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
-  </svg>
-);
-
-// Ãcone de X (problema)
-const IcoXCircle = ({ className = "w-6 h-6" }: { className?: string }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-  </svg>
-);
-
-// â”€â”€â”€ FAQ accordion â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── FAQ ────────────────────────────────────────────────────────────────
 const faqs = [
   {
-    q: "Preciso saber mÃºsica para usar o Cifra Raiz?",
-    a: "NÃ£o! A plataforma foi pensada para todos os nÃ­veis. Temos cifras classificadas por dificuldade â€” do iniciante absoluto ao avanÃ§ado â€” e os diagramas de acorde aparecem na tela sÃ³ de clicar no acorde.",
+    q: "Preciso saber música para usar o Cifra Raiz?",
+    a: "Não! A plataforma foi pensada para todos os níveis. Temos cifras classificadas por dificuldade — do iniciante absoluto ao avançado — e os diagramas de acorde aparecem na tela só de clicar no acorde.",
   },
   {
-    q: "As cifras sÃ£o de qual estilo?",
-    a: "Foco total em sertanejo, modÃ£o e raiz: ZezÃ© Di Camargo & Luciano, ChitÃ£ozinho & XororÃ³, Leonardo, Almir Sater, Renato Tacia, Eduardo Costa, Luan Santana e muito mais. Mais de 7.200 mÃºsicas do gÃªnero.",
+    q: "As cifras são de qual estilo?",
+    a: "Foco total em sertanejo, modão e raiz: Zezé Di Camargo & Luciano, Chitãozinho & Xororó, Leonardo, Almir Sater, Renato Teixeira, Eduardo Costa, Luan Santana e muito mais. Mais de 7.200 músicas do gênero.",
   },
   {
-    q: "O pagamento Ã© Ãºnico ou mensal?",
-    a: "Ã‰ um pagamento Ãºnico de R$ 24,90 e o acesso Ã© vitalÃ­cio. VocÃª paga uma vez e acessa para sempre, sem mensalidade, sem renovaÃ§Ã£o automÃ¡tica.",
+    q: "O pagamento é único ou mensal?",
+    a: "É um pagamento único de R$ 24,90 e o acesso é vitalício. Você paga uma vez e acessa para sempre, sem mensalidade, sem renovação automática.",
   },
   {
-    q: "Tenho garantia se nÃ£o gostar?",
-    a: "Sim. Oferecemos garantia incondicional de 7 dias. Caso nÃ£o fique satisfeito por qualquer motivo, devolvemos 100% do seu dinheiro sem perguntas.",
+    q: "Tenho garantia se não gostar?",
+    a: "Sim. Oferecemos garantia incondicional de 7 dias. Caso não fique satisfeito por qualquer motivo, devolvemos 100% do seu dinheiro sem perguntas.",
   },
   {
-    q: "As cifras estÃ£o corretas?",
-    a: "Revisamos e validamos cada cifra contra o Ã¡udio original. AlÃ©m disso, vocÃª pode transpor o tom com um clique para qualquer tonalidade â€” ideal para afinar no seu violÃ£o sem ter que contar casa a casa.",
+    q: "As cifras estão corretas?",
+    a: "Revisamos e validamos cada cifra contra o áudio original. Além disso, você pode transpor o tom com um clique para qualquer tonalidade — ideal para afinar no seu violão sem ter que contar casa a casa.",
   },
   {
     q: "Funciona no celular?",
-    a: "Sim! O Cifra Raiz Ã© um PWA (Progressive Web App) â€” funciona perfeitamente no celular, tablet e computador, com visual adaptado para cada tela. Pode atÃ© instalar como app na tela inicial.",
+    a: "Sim! O Cifra Raiz é um PWA (Progressive Web App) — funciona perfeitamente no celular, tablet e computador, com visual adaptado para cada tela. Pode até instalar como app na tela inicial.",
   },
 ];
 
@@ -161,12 +130,12 @@ function FAQ() {
   );
 }
 
-// â”€â”€â”€ PÃ¡gina principal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Página principal ──────────────────────────────────────────────────
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-[#FAF7F2] font-sans">
 
-      {/* â”€â”€ NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* NAV */}
       <nav className="bg-[#4A2810] sticky top-0 z-50 shadow-lg">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <img src="/logo.jpg" alt="Cifra Raiz" className="h-9 w-auto rounded-lg" />
@@ -174,14 +143,13 @@ export default function LandingPage() {
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
             className="bg-[#D4900A] hover:bg-[#A36C05] text-white text-sm font-bold px-5 py-2 rounded-full transition-colors shadow-md"
           >
-            Garantir acesso â†’
+            Garantir acesso →
           </Link>
         </div>
       </nav>
 
-      {/* â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* HERO */}
       <section className="relative overflow-hidden bg-[#4A2810] pb-20 pt-16 px-4">
-        {/* DecoraÃ§Ã£o de fundo â€” padrÃ£o de violÃµes em SVG */}
         <div className="absolute inset-0 opacity-[0.04] pointer-events-none select-none">
           <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -195,39 +163,34 @@ export default function LandingPage() {
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#FAF7F2] to-transparent" />
 
         <div className="relative max-w-4xl mx-auto text-center">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-[#D4900A]/20 border border-[#D4900A]/40 text-[#D4900A] text-xs font-bold px-4 py-1.5 rounded-full mb-6">
             <IcoGuitar className="w-3.5 h-3.5" />
-            Mais de 7.200 cifras de sertanejo e modÃ£o
+            Mais de 7.200 cifras de sertanejo e modão
           </div>
 
-          {/* Headline */}
           <h1 className="font-display text-4xl md:text-6xl font-black text-white leading-tight mb-4">
             Seja o{" "}
             <span className="text-[#D4900A]">sucesso do churrasco!</span>
           </h1>
 
-          {/* Subheadline */}
           <p className="text-[#D4900A] font-bold text-xl md:text-2xl max-w-2xl mx-auto mb-4 leading-snug">
             Aprenda a tocar as melhores modas,<br className="hidden md:block"/> com cifras simplificadas.
           </p>
           <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-            A maior plataforma de cifras sertanejas do Brasil. Mais de 7.200 mÃºsicas
-            com acorde certo, tom transponÃ­vel, palhetada e vÃ­deo do original â€” tudo
-            num lugar sÃ³.
+            A maior plataforma de cifras sertanejas do Brasil. Mais de 7.200 músicas
+            com acorde certo, tom transponível, palhetada e vídeo do original — tudo
+            num lugar só.
           </p>
 
-          {/* CTA principal */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link
               href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
               className="bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto text-center"
             >
-              Garantir meu acesso vitalÃ­cio â†’
+              Garantir meu acesso vitalício →
             </Link>
           </div>
 
-          {/* Mini social proof */}
           <div className="flex items-center justify-center gap-3 text-[#B5865A] text-sm">
             <div className="flex -space-x-2">
               {[0,1,2,3,4].map((i) => (
@@ -236,27 +199,25 @@ export default function LandingPage() {
                 </div>
               ))}
             </div>
-            <span>+3.000 violonistas jÃ¡ estÃ£o tocando</span>
+            <span>+3.000 violonistas já estão tocando</span>
           </div>
         </div>
       </section>
 
-
-
-      {/* â”€â”€ SOLUÃ‡ÃƒO / FEATURES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* SOLUÇÃO / FEATURES */}
       <section className="py-20 px-4 bg-[#4A2810]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">A soluÃ§Ã£o</p>
+            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">A solução</p>
             <h2 className="font-display text-3xl md:text-4xl font-black text-white leading-tight mb-4">
-              Tudo que vocÃª precisa para tocar sertanejo â€”<br className="hidden md:block"/> numa plataforma sÃ³
+              Tudo que você precisa para tocar sertanejo —<br className="hidden md:block"/> numa plataforma só
             </h2>
             <p className="text-[#D4900A] font-semibold text-xl mb-3">
               Aprenda a tocar as melhores modas, com cifras simplificadas.
             </p>
             <p className="text-[#B5865A] text-base max-w-2xl mx-auto">
-              O Cifra Raiz foi construÃ­do por violonistas, para violonistas. Cada detalhe foi pensado
-              para vocÃª tocar mais e se frustrar menos â€” e ser aquele cara que arrasa no churrasco.
+              O Cifra Raiz foi construído por violonistas, para violonistas. Cada detalhe foi pensado
+              para você tocar mais e se frustrar menos — e ser aquele cara que arrasa no churrasco.
             </p>
           </div>
 
@@ -265,7 +226,7 @@ export default function LandingPage() {
               {
                 icon: <IcoGuitar className="w-6 h-6 text-[#D4900A]" />,
                 title: "7.200+ cifras revisadas",
-                desc: "Todas as mÃºsicas sertanejas que vocÃª quer, num sÃ³ lugar. Sem buscar em 10 sites diferentes.",
+                desc: "Todas as músicas sertanejas que você quer, num só lugar. Sem buscar em 10 sites diferentes.",
               },
               {
                 icon: (
@@ -273,28 +234,28 @@ export default function LandingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"/>
                   </svg>
                 ),
-                title: "TranspÃµe o tom na hora",
+                title: "Transpõe o tom na hora",
                 desc: "Toque em qualquer tonalidade com um clique. Sem capotraste, sem reafinar, sem calcular casa a casa.",
               },
               {
                 icon: <IcoPlay className="w-6 h-6 text-[#D4900A]" />,
-                title: "VÃ­deo original embutido",
-                desc: "O clipe do YouTube aparece direto na cifra. OuÃ§a a mÃºsica e acompanhe os acordes na mesma tela.",
+                title: "Vídeo original embutido",
+                desc: "O clipe do YouTube aparece direto na cifra. Ouça a música e acompanhe os acordes na mesma tela.",
               },
               {
                 icon: <IcoDrum className="w-6 h-6 text-[#D4900A]" />,
                 title: "Palhetada de cada ritmo",
-                desc: "Sertanejo universitÃ¡rio, modÃ£o, guarÃ¢nia, xote â€” veja o padrÃ£o exato de palhetada para cada estilo.",
+                desc: "Sertanejo universitário, modão, guarânia, xote — veja o padrão exato de palhetada para cada estilo.",
               },
               {
                 icon: <IcoTarget className="w-6 h-6 text-[#D4900A]" />,
                 title: "Diagrama de acordes",
-                desc: "Clique em qualquer acorde da cifra e veja o diagrama com os dedos exatos. Perfeito para quem estÃ¡ comeÃ§ando.",
+                desc: "Clique em qualquer acorde da cifra e veja o diagrama com os dedos exatos. Perfeito para quem está começando.",
               },
               {
                 icon: <IcoPhone className="w-6 h-6 text-[#D4900A]" />,
                 title: "Funciona como app",
-                desc: "Instale na tela do celular e use onde quiser. A cifra rola sozinha enquanto vocÃª toca, sem precisar parar.",
+                desc: "Instale na tela do celular e use onde quiser. A cifra rola sozinha enquanto você toca, sem precisar parar.",
               },
             ].map((f) => (
               <div key={f.title} className="bg-[#3A1F08] border border-[#7A4520] rounded-2xl p-6 hover:border-[#D4900A] transition-colors group">
@@ -309,16 +270,16 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* â”€â”€ COMO FUNCIONA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* COMO FUNCIONA */}
       <section className="py-20 px-4 bg-[#FAF7F2]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">Simples assim</p>
             <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810] mb-3">
-              Em 3 passos vocÃª jÃ¡ estÃ¡ tocando
+              Em 3 passos você já está tocando
             </h2>
             <p className="text-[#7A5C44] text-lg max-w-xl mx-auto">
-              Aprenda a tocar as melhores modas, com cifras simplificadas â€” sem precisar de professor ou anos de treino.
+              Aprenda a tocar as melhores modas, com cifras simplificadas — sem precisar de professor ou anos de treino.
             </p>
           </div>
 
@@ -327,19 +288,19 @@ export default function LandingPage() {
               {
                 step: "01",
                 title: "Garanta seu acesso",
-                desc: "Pagamento Ãºnico de R$ 24,90. Acesso imediato e vitalÃ­cio â€” sem mensalidade, sem burocracia.",
+                desc: "Pagamento único de R$ 24,90. Acesso imediato e vitalício — sem mensalidade, sem burocracia.",
                 icon: <IcoPen className="w-7 h-7 text-white" />,
               },
               {
                 step: "02",
-                title: "Busque a mÃºsica que quer",
-                desc: "Pesquise por nome, artista ou ritmo. Mais de 7.200 cifras sertanejas disponÃ­veis.",
+                title: "Busque a música que quer",
+                desc: "Pesquise por nome, artista ou ritmo. Mais de 7.200 cifras sertanejas disponíveis.",
                 icon: <IcoSearch className="w-7 h-7 text-white" />,
               },
               {
                 step: "03",
                 title: "Toque do seu jeito",
-                desc: "Ajuste o tom, ative o rolar automÃ¡tico e use os diagramas de acorde. Ã‰ sÃ³ tocar.",
+                desc: "Ajuste o tom, ative o rolar automático e use os diagramas de acorde. É só tocar.",
                 icon: <IcoGuitar className="w-7 h-7 text-white" />,
               },
             ].map((s, i) => (
@@ -362,19 +323,19 @@ export default function LandingPage() {
               href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
               className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
             >
-              Quero meu acesso vitalÃ­cio â†’
+              Quero meu acesso vitalício →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* â”€â”€ DEPOIMENTOS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* DEPOIMENTOS */}
       <section className="py-20 px-4 bg-white border-y border-[#E0D8CE]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">O que dizem por aÃ­</p>
+            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">O que dizem por aí</p>
             <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810]">
-              Violonistas que jÃ¡ usam todo dia
+              Violonistas que já usam todo dia
             </h2>
           </div>
 
@@ -382,28 +343,28 @@ export default function LandingPage() {
             {[
               {
                 nome: "Marcos Alves",
-                local: "GoiÃ¢nia, GO",
+                local: "Goiânia, GO",
                 foto: "/depoimento-marcos.jpg",
-                texto: "Finalmente um site que tem o repertÃ³rio certo. Toda cifra que procuro de modÃ£o antigo eu acho aqui. TÃ´ aprendendo mÃºsica que o meu pai tocava e nunca achei em lugar nenhum.",
+                texto: "Finalmente um site que tem o repertório certo. Toda cifra que procuro de modão antigo eu acho aqui. Tô aprendendo música que o meu pai tocava e nunca achei em lugar nenhum.",
               },
               {
                 nome: "Ana Paula Ferreira",
-                local: "UberlÃ¢ndia, MG",
+                local: "Uberlândia, MG",
                 foto: "/depoimento-ana.jpg",
-                texto: "O negÃ³cio de transpor o tom mudou minha vida. Sou soprano, sempre que tocava as mÃºsicas ficavam altas demais. Agora ajusto com um clique. Simplesmente incrÃ­vel.",
+                texto: "O negócio de transpor o tom mudou minha vida. Sou soprano, sempre que tocava as músicas ficavam altas demais. Agora ajusto com um clique. Simplesmente incrível.",
               },
               {
-                nome: "JoÃ£o Rodrigues",
-                local: "RibeirÃ£o Preto, SP",
+                nome: "João Rodrigues",
+                local: "Ribeirão Preto, SP",
                 foto: "/depoimento-joao.jpg",
-                texto: "Comecei do zero hÃ¡ 3 meses. Com as cifras do Cifra Raiz e os diagramas de acorde jÃ¡ tÃ´ tocando ChitÃ£ozinho e XororÃ³ nas reuniÃµes de famÃ­lia. Vale cada centavo.",
+                texto: "Comecei do zero há 3 meses. Com as cifras do Cifra Raiz e os diagramas de acorde já tô tocando Chitãozinho e Xororó nas reuniões de família. Vale cada centavo.",
               },
             ].map((t) => (
               <div key={t.nome} className="bg-[#FAF7F2] border border-[#E0D8CE] rounded-2xl p-6">
                 <div className="flex gap-1 mb-4">
                   {[1,2,3,4,5].map((s) => <IcoStar key={s}/>)}
                 </div>
-                <p className="text-[#4A2810] text-sm leading-relaxed mb-5 italic">"{t.texto}"</p>
+                <p className="text-[#4A2810] text-sm leading-relaxed mb-5 italic">&ldquo;{t.texto}&rdquo;</p>
                 <div className="flex items-center gap-3 border-t border-[#E0D8CE] pt-4">
                   <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#D4900A]/30 shrink-0">
                     <img src={t.foto} alt={t.nome} className="w-full h-full object-cover" />
@@ -419,7 +380,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* â”€â”€ PLANOS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* PLANOS */}
       <section className="py-20 px-4 bg-[#FAF7F2]" id="planos">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
@@ -427,18 +388,15 @@ export default function LandingPage() {
             <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810] mb-4">
               Pague uma vez. Acesse para sempre.
             </h2>
-            <p className="text-[#7A5C44] text-lg">Sem assinatura. Sem renovaÃ§Ã£o automÃ¡tica.</p>
+            <p className="text-[#7A5C44] text-lg">Sem assinatura. Sem renovação automática.</p>
           </div>
 
-          {/* Card Ãºnico â€” Acesso VitalÃ­cio */}
           <div className="max-w-md mx-auto">
             <div className="bg-[#4A2810] border-2 border-[#D4900A] rounded-3xl p-8 relative overflow-hidden shadow-2xl">
-              {/* Badge */}
               <div className="absolute top-4 right-4 bg-[#D4900A] text-white text-xs font-black px-3 py-1 rounded-full">
                 OFERTA ESPECIAL
               </div>
 
-              {/* DecoraÃ§Ã£o de fundo */}
               <div className="absolute inset-0 opacity-[0.04] pointer-events-none">
                 <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -451,7 +409,7 @@ export default function LandingPage() {
               </div>
 
               <div className="mb-6 relative">
-                <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">Acesso VitalÃ­cio</p>
+                <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">Acesso Vitalício</p>
                 <div className="flex items-end gap-2">
                   <p className="font-display text-5xl font-black text-white">R$ 24,90</p>
                 </div>
@@ -464,14 +422,14 @@ export default function LandingPage() {
               <ul className="space-y-3 mb-8 relative">
                 {[
                   "7.200+ cifras sertanejas revisadas",
-                  "TransposiÃ§Ã£o de tom com 1 clique",
+                  "Transposição de tom com 1 clique",
                   "Diagramas de acorde interativos",
                   "Player do YouTube integrado",
                   "Palhetada de cada estilo",
-                  "Afinador de violÃ£o",
-                  "Cursos em vÃ­deo completos",
-                  "ConteÃºdo exclusivo semanal",
-                  "Sem mensalidade, sem renovaÃ§Ã£o",
+                  "Afinador de violão",
+                  "Cursos em vídeo completos",
+                  "Conteúdo exclusivo semanal",
+                  "Sem mensalidade, sem renovação",
                   "Acesso antecipado a novidades",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-[#FAF7F2]">
@@ -485,38 +443,37 @@ export default function LandingPage() {
                 href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-4 rounded-xl transition-all shadow-lg hover:scale-105 relative text-lg"
               >
-                Garantir acesso vitalÃ­cio â†’
+                Garantir acesso vitalício →
               </Link>
             </div>
           </div>
 
-          {/* Garantia */}
           <div className="mt-10 text-center flex flex-col items-center gap-3">
             <span className="text-[#D4900A]">
               <IcoShield className="w-12 h-12" />
             </span>
             <p className="font-bold text-[#4A2810] text-lg">Garantia incondicional de 7 dias</p>
             <p className="text-[#7A5C44] text-sm max-w-sm">
-              NÃ£o gostou? Devolvemos 100% do seu dinheiro sem burocracia, sem perguntas.
+              Não gostou? Devolvemos 100% do seu dinheiro sem burocracia, sem perguntas.
             </p>
           </div>
         </div>
       </section>
 
-      {/* â”€â”€ FAQ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* FAQ */}
       <section className="py-20 px-4 bg-white border-t border-[#E0D8CE]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">DÃºvidas frequentes</p>
+            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">Dúvidas frequentes</p>
             <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810]">
-              Perguntas & Respostas
+              Perguntas &amp; Respostas
             </h2>
           </div>
           <FAQ />
         </div>
       </section>
 
-      {/* â”€â”€ CTA FINAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* CTA FINAL */}
       <section className="py-24 px-4 bg-[#4A2810] text-center">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-center mb-6">
@@ -531,8 +488,8 @@ export default function LandingPage() {
             Aprenda a tocar as melhores modas, com cifras simplificadas.
           </p>
           <p className="text-[#B5865A] text-lg mb-4 max-w-xl mx-auto">
-            Mais de 7.200 mÃºsicas sertanejas. Acordes certos. Tom ajustÃ¡vel.
-            Um pagamento Ãºnico de R$ 24,90 â€” acesso para sempre.
+            Mais de 7.200 músicas sertanejas. Acordes certos. Tom ajustável.
+            Um pagamento único de R$ 24,90 — acesso para sempre.
           </p>
           <p className="text-[#D4900A] font-bold text-sm mb-10">
             Garantia de 7 dias ou seu dinheiro de volta.
@@ -541,13 +498,11 @@ export default function LandingPage() {
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
             className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-xl px-14 py-5 rounded-2xl transition-all shadow-2xl hover:scale-105"
           >
-            Garantir meu acesso agora â†’
+            Garantir meu acesso agora →
           </Link>
         </div>
       </section>
 
-
     </div>
   );
 }
-
