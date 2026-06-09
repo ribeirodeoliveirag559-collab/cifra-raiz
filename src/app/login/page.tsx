@@ -13,6 +13,15 @@ function LoginInner() {
   const [carregando, setCarregando] = useState(false);
   const [erro, setErro] = useState("");
 
+  function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+    return Promise.race([
+      promise,
+      new Promise<T>((_, reject) =>
+        setTimeout(() => reject(new Error(`Tempo esgotado (${label}). Verifique sua conexão.`)), ms)
+      ),
+    ]);
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setErro("");
@@ -20,32 +29,37 @@ function LoginInner() {
 
     const emailNorm = email.trim().toLowerCase();
 
-    // 1ª tentativa: login normal
-    const { error: loginError } = await supabase.auth.signInWithPassword({
-      email: emailNorm,
-      password: senha,
-    });
-
-    if (!loginError) {
-      // Login OK → entra
-      window.location.href = redirect;
-      return;
-    }
-
-    // Se falhou, tenta criar o acesso (primeiro acesso)
     try {
-      const res = await fetch("/api/primeiro-acesso", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: emailNorm, password: senha }),
-      });
+      // 1ª tentativa: login normal (15s timeout)
+      const { error: loginError } = await withTimeout(
+        supabase.auth.signInWithPassword({ email: emailNorm, password: senha }),
+        15000,
+        "login"
+      );
+
+      if (!loginError) {
+        window.location.href = redirect;
+        return;
+      }
+
+      // Falhou — tenta criar acesso pela primeira vez
+      const res = await withTimeout(
+        fetch("/api/primeiro-acesso", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: emailNorm, password: senha }),
+        }),
+        15000,
+        "criar acesso"
+      );
 
       const data = await res.json();
 
       if (!res.ok) {
-        // Se a API disse "já tem senha", significa que a senha digitada está errada
         if (res.status === 409) {
-          setErro("Senha incorreta. Verifique e tente novamente.");
+          setErro("Senha incorreta. Tente outra senha.");
+        } else if (res.status === 404) {
+          setErro("E-mail não encontrado. Use o e-mail que você usou na compra.");
         } else {
           setErro(data.error ?? "Não foi possível entrar.");
         }
@@ -53,21 +67,23 @@ function LoginInner() {
         return;
       }
 
-      // Acesso criado, agora tenta entrar de novo
-      const { error: loginError2 } = await supabase.auth.signInWithPassword({
-        email: emailNorm,
-        password: senha,
-      });
+      // Acesso criado, login final
+      const { error: loginError2 } = await withTimeout(
+        supabase.auth.signInWithPassword({ email: emailNorm, password: senha }),
+        15000,
+        "entrar"
+      );
 
       if (loginError2) {
-        setErro("Erro ao entrar após criar o acesso. Tente novamente.");
+        setErro("Acesso criado, mas houve erro ao entrar. Atualize a página e tente de novo.");
         setCarregando(false);
         return;
       }
 
       window.location.href = redirect;
-    } catch {
-      setErro("Erro de conexão. Tente novamente.");
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : "Erro desconhecido.";
+      setErro(msg);
       setCarregando(false);
     }
   }
