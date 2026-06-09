@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 
@@ -9,7 +9,7 @@ function LoginInner() {
   const router = useRouter();
   const params = useSearchParams();
   const redirect = params.get("redirect") ?? "/cifras";
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
   const [step, setStep] = useState<Step>("loading");
   const [email, setEmail] = useState("");
