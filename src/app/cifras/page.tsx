@@ -19,7 +19,6 @@ export default function CifrasPage() {
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
   const [cifras, setCifras] = useState<Cifra[]>([]);
   const [carregando, setCarregando] = useState(true);
-  const [filtroRitmo, setFiltroRitmo] = useState<string>("");
   const [filtroDif, setFiltroDif] = useState<string>("");
   const [limite, setLimite] = useState(PAGINA);
 
@@ -35,24 +34,16 @@ export default function CifrasPage() {
     });
   }, []);
 
-  const buscando = busca.trim() !== "" || mostrarTodas || filtroRitmo !== "" || filtroDif !== "";
-
-  // Lista de ritmos únicos no banco (para os chips de filtro)
-  const ritmosDisponiveis = useMemo(() => {
-    const set = new Set<string>();
-    cifras.forEach((c) => c.ritmo && set.add(c.ritmo));
-    return Array.from(set).sort();
-  }, [cifras]);
+  const buscando = busca.trim() !== "" || mostrarTodas || filtroDif !== "";
 
   const cifrasFiltradas = useMemo(() => {
     let base = cifras;
-    if (filtroRitmo) base = base.filter((c) => c.ritmo === filtroRitmo);
-    if (filtroDif)   base = base.filter((c) => c.dificuldade === filtroDif);
+    if (filtroDif) base = base.filter((c) => c.dificuldade === filtroDif);
     return filtrarCifrasLocal(base, buscaDiferida);
-  }, [cifras, buscaDiferida, filtroRitmo, filtroDif]);
+  }, [cifras, buscaDiferida, filtroDif]);
 
   // Reset paginação quando muda filtro/busca
-  useEffect(() => { setLimite(PAGINA); }, [buscaDiferida, filtroRitmo, filtroDif]);
+  useEffect(() => { setLimite(PAGINA); }, [buscaDiferida, filtroDif]);
 
   const cifrasVisiveis = cifrasFiltradas.slice(0, limite);
   const buscaEmAndamento = busca !== buscaDiferida; // mostra "buscando..."
@@ -60,7 +51,6 @@ export default function CifrasPage() {
   function limparTudo() {
     setBusca("");
     setMostrarTodas(false);
-    setFiltroRitmo("");
     setFiltroDif("");
   }
 
@@ -106,30 +96,6 @@ export default function CifrasPage() {
           {/* Filtros — só aparecem quando já carregou */}
           {!carregando && cifras.length > 0 && (
             <div className="mb-8 space-y-3">
-              {/* Ritmo */}
-              <div className="flex items-center gap-2 overflow-x-auto pb-1">
-                <span className="text-xs font-semibold text-[#7A5C44] shrink-0 mr-1">Ritmo:</span>
-                <button
-                  onClick={() => setFiltroRitmo("")}
-                  className={`shrink-0 text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
-                    filtroRitmo === "" ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
-                  }`}
-                >
-                  Todos
-                </button>
-                {ritmosDisponiveis.map((r) => (
-                  <button
-                    key={r}
-                    onClick={() => setFiltroRitmo(r === filtroRitmo ? "" : r)}
-                    className={`shrink-0 text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
-                      filtroRitmo === r ? "bg-[#4A2810] text-[#D4900A]" : "bg-[#F0EAE0] text-[#7A5C44] hover:bg-[#E0D8CE]"
-                    }`}
-                  >
-                    {r}
-                  </button>
-                ))}
-              </div>
-
               {/* Dificuldade */}
               <div className="flex items-center gap-2 flex-wrap">
                 <span className="text-xs font-semibold text-[#7A5C44] mr-1">Nível:</span>
@@ -171,7 +137,7 @@ export default function CifrasPage() {
                       {cifrasFiltradas.length} resultado{cifrasFiltradas.length !== 1 ? "s" : ""}
                       {buscaEmAndamento && <span className="ml-2 text-[#D4900A] animate-pulse">buscando…</span>}
                     </p>
-                    {(filtroRitmo || filtroDif || busca) && (
+                    {(filtroDif || busca) && (
                       <button
                         onClick={limparTudo}
                         className="text-xs text-[#D4900A] font-semibold hover:underline"
