@@ -58,8 +58,7 @@ function LoginInner() {
       setCarregando(false);
       return;
     }
-    router.push(redirect);
-    router.refresh();
+    window.location.href = redirect;
   }
 
   async function handleEnviarLink(e: React.FormEvent) {
@@ -112,13 +111,14 @@ function LoginInner() {
       );
       const result = (await Promise.race([update, timeout])) as Awaited<typeof update>;
 
-      setCarregando(false);
       if (result.error) {
+        setCarregando(false);
         setErro("Erro: " + result.error.message);
         return;
       }
-      router.push(redirect);
-      router.refresh();
+      // Navegação completa pra garantir que cookies da nova sessão
+      // estejam disponíveis no middleware do destino
+      window.location.href = redirect;
     } catch (err: unknown) {
       setCarregando(false);
       const msg = err instanceof Error ? err.message : "Erro desconhecido. Tente novamente.";
