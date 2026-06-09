@@ -95,14 +95,35 @@ function LoginInner() {
     }
     setErro("");
     setCarregando(true);
-    const { error } = await supabase.auth.updateUser({ password: novaSenha });
-    setCarregando(false);
-    if (error) {
-      setErro("Erro ao salvar a senha. Tente novamente.");
-      return;
+
+    try {
+      // Verifica sessão antes
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session) {
+        setCarregando(false);
+        setErro("Sessão expirada. Volte ao login e peça um novo link.");
+        return;
+      }
+
+      // Timeout de 15s pra detectar requisições penduradas
+      const update = supabase.auth.updateUser({ password: novaSenha });
+      const timeout = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Tempo esgotado. Verifique sua conexão.")), 15000)
+      );
+      const result = (await Promise.race([update, timeout])) as Awaited<typeof update>;
+
+      setCarregando(false);
+      if (result.error) {
+        setErro("Erro: " + result.error.message);
+        return;
+      }
+      router.push(redirect);
+      router.refresh();
+    } catch (err: unknown) {
+      setCarregando(false);
+      const msg = err instanceof Error ? err.message : "Erro desconhecido. Tente novamente.";
+      setErro(msg);
     }
-    router.push(redirect);
-    router.refresh();
   }
 
   // ── TELA: definir senha (após clicar no link do e-mail) ──────────────
