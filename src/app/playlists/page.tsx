@@ -8,23 +8,33 @@ import { IconPlaylist, IconNote, IconX } from "@/components/Icons";
 
 export default function PlaylistsPage() {
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
+  const [carregando, setCarregando] = useState(true);
   const [criando, setCriando] = useState(false);
   const [nome, setNome] = useState("");
 
-  useEffect(() => { setPlaylists(getPlaylists()); }, []);
+  useEffect(() => {
+    getPlaylists().then((pls) => {
+      setPlaylists(pls);
+      setCarregando(false);
+    });
+  }, []);
 
-  function handleCriar(e: React.FormEvent) {
+  async function refresh() {
+    setPlaylists(await getPlaylists());
+  }
+
+  async function handleCriar(e: React.FormEvent) {
     e.preventDefault();
     if (!nome.trim()) return;
-    criarPlaylist(nome);
-    setPlaylists(getPlaylists());
+    await criarPlaylist(nome);
+    await refresh();
     setNome("");
     setCriando(false);
   }
 
-  function handleDeletar(id: string) {
-    deletarPlaylist(id);
-    setPlaylists(getPlaylists());
+  async function handleDeletar(id: string) {
+    await deletarPlaylist(id);
+    await refresh();
   }
 
   return (
@@ -79,8 +89,13 @@ export default function PlaylistsPage() {
             </div>
           )}
 
-          {/* Lista de playlists */}
-          {playlists.length === 0 ? (
+          {/* Loading */}
+          {carregando ? (
+            <div className="flex items-center justify-center py-20 gap-3 text-[#B5865A]">
+              <span className="w-5 h-5 border-2 border-[#D4900A]/30 border-t-[#D4900A] rounded-full animate-spin" />
+              Carregando playlists...
+            </div>
+          ) : playlists.length === 0 ? (
             <div className="text-center py-20">
               <div className="w-16 h-16 rounded-full bg-[#F0EAE0] flex items-center justify-center mx-auto mb-4">
                 <IconPlaylist size={28} className="text-[#B5865A]" />

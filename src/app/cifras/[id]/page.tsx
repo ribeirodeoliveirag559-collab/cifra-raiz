@@ -156,7 +156,7 @@ export default function CifraPage() {
     if (!cifra) return;
     setTomIdx(TONS.indexOf(cifra.tom));
     salvarRecente({ id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
-    setPlaylists(getPlaylists());
+    getPlaylists().then(setPlaylists);
 
     // Monta ytInfo direto do youtubeId já salvo no banco — sem chamada à API
     if (cifra.youtubeId) {
@@ -174,19 +174,21 @@ export default function CifraPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cifra?.id]);
 
-  function handleAdicionar(playlistId: string) {
+  async function handleAdicionar(playlistId: string) {
     if (!cifra) return;
-    adicionarCifra(playlistId, { id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
+    await adicionarCifra(playlistId, { id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
+    setPlaylists(await getPlaylists());
     setAdicionado(playlistId);
     setTimeout(() => { setAdicionado(null); setModalPlaylist(false); }, 1200);
   }
 
-  function handleCriarEAdicionar(e: React.FormEvent) {
+  async function handleCriarEAdicionar(e: React.FormEvent) {
     e.preventDefault();
     if (!novaPlaylist.trim() || !cifra) return;
-    const nova = criarPlaylist(novaPlaylist);
-    adicionarCifra(nova.id, { id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
-    setPlaylists(getPlaylists());
+    const nova = await criarPlaylist(novaPlaylist);
+    if (!nova) return;
+    await adicionarCifra(nova.id, { id: cifra.id, titulo: cifra.titulo, artista: cifra.artista, tom: cifra.tom, ritmo: cifra.ritmo });
+    setPlaylists(await getPlaylists());
     setNovaPlaylist("");
     setAdicionado(nova.id);
     setTimeout(() => { setAdicionado(null); setModalPlaylist(false); }, 1200);
@@ -338,7 +340,7 @@ export default function CifraPage() {
 
             {/* Botão playlist */}
             <button
-              onClick={() => { setPlaylists(getPlaylists()); setModalPlaylist(true); }}
+              onClick={async () => { setPlaylists(await getPlaylists()); setModalPlaylist(true); }}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#E0D8CE] text-[#7A5C44] text-xs font-semibold hover:border-[#D4900A] hover:text-[#D4900A] transition-colors"
             >
               <IconNote size={13} /> Adicionar à playlist

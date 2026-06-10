@@ -27,7 +27,7 @@ export default function CifrasPage() {
 
   useEffect(() => {
     setRecentes(getRecentes());
-    setPlaylists(getPlaylists());
+    getPlaylists().then(setPlaylists);
     getAllCifras().then((data) => {
       setCifras(data);
       setCarregando(false);

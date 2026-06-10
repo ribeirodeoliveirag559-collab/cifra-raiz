@@ -1,46 +1,64 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { getPlaylists, removerCifra, reordenarCifras, type Playlist, type PlaylistCifra } from "@/lib/playlists";
+import { getPlaylists, removerCifra, reordenarCifras, type Playlist } from "@/lib/playlists";
 import { IconPlaylist, IconNote, IconPlay, IconX, IconGuitar, IconArrowUp, IconArrowDown } from "@/components/Icons";
 
 export default function PlaylistPage() {
   const { id } = useParams<{ id: string }>();
-  const router = useRouter();
   const [playlist, setPlaylist] = useState<Playlist | null>(null);
+  const [carregando, setCarregando] = useState(true);
   const [tocandoIdx, setTocandoIdx] = useState<number | null>(null);
 
-  useEffect(() => {
-    const pl = getPlaylists().find((p) => p.id === id) ?? null;
-    setPlaylist(pl);
+  const refresh = useCallback(async () => {
+    const pls = await getPlaylists();
+    setPlaylist(pls.find((p) => p.id === id) ?? null);
   }, [id]);
 
-  function refresh() {
-    setPlaylist(getPlaylists().find((p) => p.id === id) ?? null);
+  useEffect(() => {
+    (async () => {
+      await refresh();
+      setCarregando(false);
+    })();
+  }, [refresh]);
+
+  async function handleRemover(cifraId: string) {
+    await removerCifra(id, cifraId);
+    await refresh();
   }
 
-  function handleRemover(cifraId: string) {
-    removerCifra(id, cifraId);
-    refresh();
-  }
-
-  function moverCima(idx: number) {
+  async function moverCima(idx: number) {
     if (!playlist || idx === 0) return;
     const novas = [...playlist.cifras];
     [novas[idx - 1], novas[idx]] = [novas[idx], novas[idx - 1]];
-    reordenarCifras(id, novas);
-    refresh();
+    await reordenarCifras(id, novas);
+    await refresh();
   }
 
-  function moverBaixo(idx: number) {
+  async function moverBaixo(idx: number) {
     if (!playlist || idx === playlist.cifras.length - 1) return;
     const novas = [...playlist.cifras];
     [novas[idx], novas[idx + 1]] = [novas[idx + 1], novas[idx]];
-    reordenarCifras(id, novas);
-    refresh();
+    await reordenarCifras(id, novas);
+    await refresh();
+  }
+
+  if (carregando) {
+    return (
+      <>
+        <Header />
+        <main className="flex-1 flex items-center justify-center bg-[#FAF7F2] py-20">
+          <div className="flex flex-col items-center gap-4 text-[#B5865A]">
+            <span className="w-8 h-8 border-2 border-[#D4900A]/30 border-t-[#D4900A] rounded-full animate-spin" />
+            <p className="text-sm">Carregando playlist...</p>
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
   }
 
   if (!playlist) {
