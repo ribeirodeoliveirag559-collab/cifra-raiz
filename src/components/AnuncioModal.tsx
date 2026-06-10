@@ -1,73 +1,77 @@
 "use client";
 import { useState, useEffect } from "react";
 
-// 👇 Altere esta URL para o link real do vídeo tutorial
-const VIDEO_URL = "https://www.youtube.com/watch?v=COLOQUE_O_LINK_AQUI";
+// ID do vídeo do YouTube (parte depois de /shorts/ ou v=)
+const VIDEO_ID = "vqduuO5xv3Q";
+const VIDEO_URL = `https://youtube.com/shorts/${VIDEO_ID}`;
+const EMBED_URL = `https://www.youtube.com/embed/${VIDEO_ID}?rel=0&modestbranding=1`;
 
 export default function AnuncioModal() {
   const [visivel, setVisivel] = useState(false);
 
   useEffect(() => {
     // Mostra uma vez por sessão
-    const jaViu = sessionStorage.getItem("anuncio-pwa-visto");
+    const jaViu = sessionStorage.getItem("anuncio-pwa-visto-v2");
     if (!jaViu) setVisivel(true);
   }, []);
 
   function fechar() {
-    sessionStorage.setItem("anuncio-pwa-visto", "1");
+    sessionStorage.setItem("anuncio-pwa-visto-v2", "1");
     setVisivel(false);
   }
 
   if (!visivel) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center px-6 bg-black/40">
-      <div className="relative bg-[#D4900A] rounded-3xl p-4 w-full max-w-sm shadow-2xl">
-
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center px-4 py-6 bg-black/60"
+      onClick={fechar}
+    >
+      <div
+        className="relative bg-[#D4900A] rounded-3xl p-4 w-full max-w-xs shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* Botão X */}
         <button
           onClick={fechar}
-          aria-label="Fechar anúncio"
-          className="absolute -top-3 -right-3 w-9 h-9 rounded-full bg-[#FAF7F2] border-2 border-[#D4900A] flex items-center justify-center text-[#4A2810] font-bold text-lg leading-none hover:bg-white transition-colors shadow-md"
+          aria-label="Fechar"
+          className="absolute -top-3 -right-3 w-9 h-9 rounded-full bg-[#FAF7F2] border-2 border-[#D4900A] flex items-center justify-center text-[#4A2810] font-bold text-lg leading-none hover:bg-white transition-colors shadow-md z-10"
         >
           ×
         </button>
 
-        {/* Área do vídeo */}
-        <a
-          href={VIDEO_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block mb-4"
-        >
-          <div className="bg-[#A36C05] rounded-2xl flex items-center justify-center"
-            style={{ height: 180 }}>
-            {/* Borda interna estilo TV */}
-            <div className="border-[3px] border-[#2C1A0E] rounded-xl w-[88%] h-[78%] flex items-center justify-center">
-              {/* Botão play */}
-              <div className="w-16 h-16 rounded-full border-[3px] border-[#2C1A0E] bg-[#A36C05] flex items-center justify-center">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="#2C1A0E">
-                  <polygon points="7,4 20,12 7,20" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </a>
-
-        {/* Título como link */}
-        <a
-          href={VIDEO_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-center font-display font-bold text-[#2C1A0E] underline decoration-2 text-lg leading-snug mb-3 hover:text-white transition-colors"
-        >
+        {/* Título no topo */}
+        <h3 className="font-display font-bold text-[#2C1A0E] text-center text-lg leading-snug mb-3">
           Transforme o site em um aplicativo
-        </a>
+        </h3>
 
-        {/* Subtítulo */}
-        <div className="bg-[#FAF7F2] rounded-2xl px-4 py-2.5 text-center">
-          <p className="text-sm text-[#4A2810]">Acesse o vídeo acima e siga o tutorial.</p>
+        {/* Vídeo incorporado (portrait — formato Shorts) */}
+        <div className="relative w-full rounded-2xl overflow-hidden bg-[#2C1A0E] mb-3" style={{ aspectRatio: "9 / 16" }}>
+          <iframe
+            src={EMBED_URL}
+            title="Tutorial: como instalar o Cifra Raiz no celular"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="absolute inset-0 w-full h-full"
+          />
         </div>
+
+        {/* Rodapé */}
+        <div className="bg-[#FAF7F2] rounded-xl px-4 py-2.5 text-center">
+          <p className="text-xs text-[#4A2810] leading-snug">
+            Assista ao vídeo e siga o tutorial para instalar o Cifra Raiz na tela inicial do seu celular.
+          </p>
+        </div>
+
+        {/* Link alternativo */}
+        <a
+          href={VIDEO_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block text-center text-xs text-[#2C1A0E]/70 underline mt-2 hover:text-[#2C1A0E] transition-colors"
+        >
+          Abrir vídeo no YouTube
+        </a>
       </div>
     </div>
   );
