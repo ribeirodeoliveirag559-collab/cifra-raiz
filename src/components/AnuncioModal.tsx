@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-// Altere esta URL para o link real do vídeo
+// 👇 Altere esta URL para o link real do vídeo tutorial
 const VIDEO_URL = "https://www.youtube.com/watch?v=COLOQUE_O_LINK_AQUI";
 
 export default function AnuncioModal() {
@@ -61,7 +61,7 @@ export default function AnuncioModal() {
           rel="noopener noreferrer"
           className="block text-center font-display font-bold text-[#2C1A0E] underline decoration-2 text-lg leading-snug mb-3 hover:text-white transition-colors"
         >
-          Transforma o site em uma aplicativo
+          Transforme o site em um aplicativo
         </a>
 
         {/* Subtítulo */}

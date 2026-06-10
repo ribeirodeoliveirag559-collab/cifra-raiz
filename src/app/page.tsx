@@ -3,6 +3,7 @@ import { IconFire } from "@/components/Icons";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroCarousel from "@/components/HeroCarousel";
+import AnuncioModal from "@/components/AnuncioModal";
 import { CIFRAS } from "@/lib/dados";
 
 const SERTANEJO_TAGS = ["modão", "raiz", "sertanejo", "clássico", "guarânia", "viola"];
@@ -20,6 +21,7 @@ const topSertanejo = [...CIFRAS]
 export default function LandingPage() {
   return (
     <>
+      <AnuncioModal />
       <Header />
 
       {/* Carrossel hero */}

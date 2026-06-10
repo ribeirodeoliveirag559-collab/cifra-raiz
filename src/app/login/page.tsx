@@ -16,7 +16,7 @@ function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise
 
 function LoginInner() {
   const params = useSearchParams();
-  const redirect = params.get("redirect") ?? "/cifras";
+  const redirect = params.get("redirect") ?? "/";
   const supabase = useMemo(() => createClient(), []);
 
   const [modo, setModo] = useState<Modo>("entrar");
