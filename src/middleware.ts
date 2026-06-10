@@ -82,11 +82,6 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(loginUrl);
   }
 
-  // Usuário logado na raiz → redireciona para /cifras
-  if (pathname === "/") {
-    return NextResponse.redirect(new URL("/cifras", request.url));
-  }
-
   // ── Verifica plano PRO no Supabase ────────────────────────────────────────
   const { data: perfil } = await supabase
     .from("profiles")
