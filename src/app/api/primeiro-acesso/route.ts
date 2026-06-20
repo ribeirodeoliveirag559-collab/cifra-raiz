@@ -36,11 +36,21 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Senha precisa ter no mínimo 6 caracteres" }, { status: 400 });
   }
 
+  // ── Diagnóstico de env ───────────────────────────────────────────
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const srk = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !srk || srk === "placeholder") {
+    return NextResponse.json(
+      { error: `Config faltando: URL=${!!url}, SERVICE_KEY=${srk ? srk.length + " chars" : "MISSING"}` },
+      { status: 500 }
+    );
+  }
+
   // ── Busca usuário ────────────────────────────────────────────────
   const { data: usersData, error: listError } = await supabaseAdmin.auth.admin.listUsers();
   if (listError) {
     console.error("[primeiro-acesso] erro ao listar usuários:", listError.message);
-    return NextResponse.json({ error: "Erro interno" }, { status: 500 });
+    return NextResponse.json({ error: `Erro ao listar usuários: ${listError.message}` }, { status: 500 });
   }
 
   const user = usersData?.users?.find((u) => u.email?.toLowerCase() === email);
