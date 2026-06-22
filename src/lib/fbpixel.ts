@@ -15,7 +15,7 @@ function fbTrack(event: string, params?: Record<string, unknown>) {
 }
 
 /** Clicou em um CTA que leva ao checkout */
-export function trackInitiateCheckout(value = 16.9) {
+export function trackInitiateCheckout(value = 26.9) {
   fbTrack("InitiateCheckout", { value, currency: "BRL" });
 }
 
