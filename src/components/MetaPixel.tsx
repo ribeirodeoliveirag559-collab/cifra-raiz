@@ -1,5 +1,4 @@
 "use client";
-import Script from "next/script";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
@@ -11,42 +10,31 @@ declare global {
   }
 }
 
-export default function MetaPixel() {
+/**
+ * Dispara PageView nas mudanças de rota (Next.js SPA).
+ * O script principal do Pixel está injetado no <head> do layout.tsx
+ * pra carregar o mais cedo possível.
+ */
+export default function MetaPixelRouteTracker() {
   const pathname = usePathname();
 
-  // Dispara PageView a cada mudança de rota (Next.js é SPA)
   useEffect(() => {
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "PageView");
     }
   }, [pathname]);
 
+  // O componente em si é invisível — só roda o efeito
   return (
-    <>
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '${PIXEL_ID}');
-          fbq('track', 'PageView');
-        `}
-      </Script>
-      <noscript>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src={`https://www.facebook.com/tr?id=${PIXEL_ID}&ev=PageView&noscript=1`}
-          alt=""
-        />
-      </noscript>
-    </>
+    <noscript>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        height="1"
+        width="1"
+        style={{ display: "none" }}
+        src={`https://www.facebook.com/tr?id=${PIXEL_ID}&ev=PageView&noscript=1`}
+        alt=""
+      />
+    </noscript>
   );
 }
