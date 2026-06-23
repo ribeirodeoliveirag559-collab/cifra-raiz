@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "O pagamento é único ou mensal?",
-    a: "É um pagamento único de R$ 26,90 e o acesso é vitalício. Você paga uma vez e acessa para sempre, sem mensalidade, sem renovação automática.",
+    a: "É um pagamento único de R$ 19,90 e o acesso é vitalício. Você paga uma vez e acessa para sempre, sem mensalidade, sem renovação automática.",
   },
   {
     q: "Tenho garantia se não gostar?",
@@ -291,7 +291,7 @@ export default function LandingPage() {
               {
                 step: "01",
                 title: "Garanta seu acesso",
-                desc: "Pagamento único de R$ 26,90. Acesso imediato e vitalício — sem mensalidade, sem burocracia.",
+                desc: "Pagamento único de R$ 19,90. Acesso imediato e vitalício — sem mensalidade, sem burocracia.",
                 icon: <IcoPen className="w-7 h-7 text-white" />,
               },
               {
@@ -415,7 +415,7 @@ export default function LandingPage() {
               <div className="mb-6 relative">
                 <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">Acesso Vitalício</p>
                 <div className="flex items-end gap-2">
-                  <p className="font-display text-5xl font-black text-white">R$ 26,90</p>
+                  <p className="font-display text-5xl font-black text-white">R$ 19,90</p>
                 </div>
                 <p className="text-[#D4900A] font-semibold text-sm mt-2 flex items-center gap-1.5">
                   <IcoCheck />
@@ -494,7 +494,7 @@ export default function LandingPage() {
           </p>
           <p className="text-[#B5865A] text-lg mb-4 max-w-xl mx-auto">
             Mais de 7.200 músicas sertanejas. Acordes certos. Tom ajustável.
-            Um pagamento único de R$ 26,90 — acesso para sempre.
+            Um pagamento único de R$ 19,90 — acesso para sempre.
           </p>
           <p className="text-[#D4900A] font-bold text-sm mb-10">
             Garantia de 7 dias ou seu dinheiro de volta.
