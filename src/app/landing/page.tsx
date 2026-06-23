@@ -162,7 +162,6 @@ export default function LandingPage() {
             <rect width="100%" height="100%" fill="url(#guitar-pattern)"/>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#FAF7F2] to-transparent" />
 
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-[#D4900A]/20 border border-[#D4900A]/40 text-[#D4900A] text-xs font-bold px-4 py-1.5 rounded-full mb-6">
