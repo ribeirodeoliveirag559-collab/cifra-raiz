@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import BotaoSuporteWhatsApp from "@/components/BotaoSuporteWhatsApp";
 
 // ─── Ícones SVG profissionais ─────────────────────────────────────────────
 const IcoCheck = () => (
@@ -134,6 +135,9 @@ function FAQ() {
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-[#FAF7F2] font-sans">
+
+      {/* Botão flutuante de suporte WhatsApp */}
+      <BotaoSuporteWhatsApp />
 
       {/* NAV */}
       <nav className="bg-[#4A2810] sticky top-0 z-50 shadow-lg">
