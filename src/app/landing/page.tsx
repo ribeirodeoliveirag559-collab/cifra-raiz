@@ -480,65 +480,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* COMO FUNCIONA */}
-      <section className="py-20 px-4 bg-[#FAF7F2]">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">Simples assim</p>
-            <h2 className="font-display text-3xl md:text-4xl font-black text-[#4A2810] mb-3">
-              Em 3 passos você já está tocando
-            </h2>
-            <p className="text-[#7A5C44] text-lg max-w-xl mx-auto">
-              Aprenda a tocar as melhores modas, com cifras simplificadas — sem precisar de professor ou anos de treino.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                step: "01",
-                title: "Garanta seu acesso",
-                desc: "Pagamento único de R$ 17,90. Acesso imediato e vitalício — sem mensalidade, sem burocracia.",
-                icon: <IcoPen className="w-7 h-7 text-white" />,
-              },
-              {
-                step: "02",
-                title: "Busque a música que quer",
-                desc: "Pesquise por nome, artista ou ritmo. Mais de 7.200 cifras sertanejas disponíveis.",
-                icon: <IcoSearch className="w-7 h-7 text-white" />,
-              },
-              {
-                step: "03",
-                title: "Toque do seu jeito",
-                desc: "Ajuste o tom, ative o rolar automático e use os diagramas de acorde. É só tocar.",
-                icon: <IcoGuitar className="w-7 h-7 text-white" />,
-              },
-            ].map((s, i) => (
-              <div key={s.step} className="relative text-center">
-                {i < 2 && (
-                  <div className="hidden md:block absolute top-8 left-[60%] w-[80%] border-t-2 border-dashed border-[#D4900A]/30" />
-                )}
-                <div className="w-16 h-16 bg-[#D4900A] rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  {s.icon}
-                </div>
-                <div className="text-[#D4900A] font-black text-xs tracking-widest mb-2">{s.step}</div>
-                <h3 className="font-display font-bold text-[#4A2810] text-xl mb-2">{s.title}</h3>
-                <p className="text-[#7A5C44] text-sm leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-14 text-center">
-            <Link
-              href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
-              className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
-            >
-              Quero meu acesso vitalício →
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* DEPOIMENTOS */}
       <section className="py-20 px-4 bg-white border-y border-[#E0D8CE]">
         <div className="max-w-5xl mx-auto">
