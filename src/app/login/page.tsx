@@ -50,6 +50,25 @@ function LoginInner() {
   // Limpa sessões expiradas ao montar (evita travamento do supabase-js)
   useEffect(() => { limparSessaoAntiga(); }, []);
 
+  async function resetCompleto() {
+    if (typeof window === "undefined") return;
+    try {
+      // Limpa TUDO: localStorage, sessionStorage, service workers, caches
+      localStorage.clear();
+      sessionStorage.clear();
+      if ("serviceWorker" in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map((r) => r.unregister()));
+      }
+      if ("caches" in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((k) => caches.delete(k)));
+      }
+    } catch { /* ignore */ }
+    // Hard reload sem cache
+    window.location.href = "/login?_=" + Date.now();
+  }
+
   function trocarModo(novo: Modo) {
     setModo(novo);
     setErro("");
@@ -226,9 +245,18 @@ function LoginInner() {
             className="space-y-4"
           >
             {erro && (
-              <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
-                {erro}
-              </p>
+              <div className="text-sm bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                <p className="text-red-600 mb-2">{erro}</p>
+                {(erro.includes("Conexão") || erro.includes("conexão") || erro.includes("Tempo")) && (
+                  <button
+                    type="button"
+                    onClick={resetCompleto}
+                    className="text-xs text-[#D4900A] font-semibold hover:underline"
+                  >
+                    🔄 Limpar tudo e tentar de novo
+                  </button>
+                )}
+              </div>
             )}
 
             <div>

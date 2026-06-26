@@ -37,7 +37,15 @@ export async function middleware(request: NextRequest) {
 
   // Rotas públicas — passa direto
   if (isRotaPublica(pathname)) {
-    return NextResponse.next();
+    const res = NextResponse.next();
+    // Força navegador e CDN a NÃO cachearem /login (evita HTML/JS desatualizado
+    // que causa loops de "credenciais inválidas")
+    if (pathname.startsWith("/login")) {
+      res.headers.set("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
+      res.headers.set("CDN-Cache-Control", "no-store");
+      res.headers.set("Vercel-CDN-Cache-Control", "no-store");
+    }
+    return res;
   }
 
   // Rota raiz "/" → redireciona para /landing (tratada depois de verificar auth)
