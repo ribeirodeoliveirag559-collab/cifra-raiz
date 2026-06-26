@@ -185,9 +185,9 @@ export default function LandingPage() {
             Aprenda a tocar as melhores modas,<br className="hidden md:block"/> com cifras simplificadas.
           </p>
           <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-            A maior plataforma de cifras sertanejas do Brasil. Mais de 7.200 músicas
-            com acorde certo, tom transponível, palhetada e vídeo do original — tudo
-            num lugar só.
+            Cifra Raiz é a plataforma mais completa que você vai conhecer!<br />
+            São diversas músicas com cifras simplificadas, afinador de violão, altere o tom de qualquer música e aprenda acordes novos.<br />
+            Faça parte da nossa comunidade, aqui você aprende do básico ao avançado!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
