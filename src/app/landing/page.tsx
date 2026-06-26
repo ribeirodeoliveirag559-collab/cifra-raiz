@@ -152,39 +152,39 @@ export default function LandingPage() {
         </div>
       </nav>
 
-      {/* HERO — fundo bege escuro com orbs dourados flutuantes (glassmorphism) */}
-      <section className="relative overflow-hidden bg-[#F0EAE0] pb-20 pt-16 px-4">
+      {/* HERO — fundo marrom escuro com orbs dourados flutuantes (glassmorphism) */}
+      <section className="relative overflow-hidden bg-[#4A2810] pb-20 pt-16 px-4">
         {/* Orbs flutuantes coloridas com cores Cifra Raiz */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div
             className="orb"
-            style={{ width: 420, height: 420, top: -120, left: -120, background: "#D4900A", animationDuration: "25s" }}
+            style={{ width: 420, height: 420, top: -120, left: -120, background: "#D4900A", animationDuration: "25s", opacity: 0.5 }}
           />
           <div
             className="orb"
-            style={{ width: 520, height: 520, bottom: -180, right: -120, background: "#F0B429", animationDuration: "22s", animationDelay: "-5s" }}
+            style={{ width: 520, height: 520, bottom: -180, right: -120, background: "#F0B429", animationDuration: "22s", animationDelay: "-5s", opacity: 0.45 }}
           />
           <div
             className="orb"
-            style={{ width: 320, height: 320, top: "40%", left: "55%", background: "#A36C05", animationDuration: "18s", animationDelay: "-10s", opacity: 0.45 }}
+            style={{ width: 320, height: 320, top: "40%", left: "55%", background: "#A36C05", animationDuration: "18s", animationDelay: "-10s", opacity: 0.55 }}
           />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white/40 backdrop-blur-md border border-[#D4900A]/40 text-[#A36C05] text-xs font-bold px-4 py-1.5 rounded-full mb-6 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-[#D4900A]/40 text-[#D4900A] text-xs font-bold px-4 py-1.5 rounded-full mb-6 shadow-lg">
             <IcoGuitar className="w-3.5 h-3.5" />
             Mais de 7.200 cifras de sertanejo e modão
           </div>
 
-          <h1 className="font-display text-4xl md:text-6xl font-black text-[#4A2810] leading-tight mb-4 drop-shadow-sm">
+          <h1 className="font-display text-4xl md:text-6xl font-black text-white leading-tight mb-4 drop-shadow-lg">
             Seja o{" "}
             <span className="text-[#D4900A]">sucesso do churrasco!</span>
           </h1>
 
-          <p className="text-[#A36C05] font-bold text-xl md:text-2xl max-w-2xl mx-auto mb-4 leading-snug">
+          <p className="text-[#D4900A] font-bold text-xl md:text-2xl max-w-2xl mx-auto mb-4 leading-snug">
             Aprenda a tocar as melhores modas,<br className="hidden md:block"/> com cifras simplificadas.
           </p>
-          <p className="text-[#7A5C44] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
             A maior plataforma de cifras sertanejas do Brasil. Mais de 7.200 músicas
             com acorde certo, tom transponível, palhetada e vídeo do original — tudo
             num lugar só.
@@ -199,10 +199,10 @@ export default function LandingPage() {
             </Link>
           </div>
 
-          <div className="flex items-center justify-center gap-3 text-[#7A5C44] text-sm">
+          <div className="flex items-center justify-center gap-3 text-[#B5865A] text-sm">
             <div className="flex -space-x-2">
               {[1,2,3,4,5].map((i) => (
-                <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#F0EAE0] shadow-md">
+                <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#4A2810] shadow-md">
                   <img
                     src={`/social-${i}.jpg`}
                     alt=""
