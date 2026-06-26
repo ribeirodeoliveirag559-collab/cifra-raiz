@@ -196,9 +196,13 @@ export default function LandingPage() {
 
           <div className="flex items-center justify-center gap-3 text-[#B5865A] text-sm">
             <div className="flex -space-x-2">
-              {[0,1,2,3,4].map((i) => (
-                <div key={i} className="w-8 h-8 rounded-full bg-[#7A4520] border-2 border-[#4A2810] flex items-center justify-center">
-                  <IcoUser className="w-4 h-4 text-[#D4900A]" />
+              {[1,2,3,4,5].map((i) => (
+                <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#4A2810] shadow-md">
+                  <img
+                    src={`/social-${i}.jpg`}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               ))}
             </div>
