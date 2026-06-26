@@ -211,6 +211,270 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* ── DEMO DA PLATAFORMA + FUNCIONALIDADES ──────────────────────── */}
+      <section className="relative py-20 px-4 bg-gradient-to-b from-[#3A1F08] via-[#4A2810] to-[#3A1F08] overflow-hidden">
+        {/* Decoração: círculos dourados desfocados */}
+        <div className="absolute top-20 left-10 w-72 h-72 bg-[#D4900A] opacity-[0.08] blur-3xl rounded-full" />
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-[#D4900A] opacity-[0.06] blur-3xl rounded-full" />
+
+        <div className="relative max-w-6xl mx-auto">
+          {/* Header da seção */}
+          <div className="text-center mb-14">
+            <p className="text-[#D4900A] font-bold text-sm uppercase tracking-widest mb-3">
+              Veja por dentro
+            </p>
+            <h2 className="font-display text-3xl md:text-5xl font-black text-white leading-tight mb-4">
+              Tudo isso te espera <br className="hidden md:block"/>
+              <span className="text-[#D4900A]">dentro do Cifra Raiz</span>
+            </h2>
+            <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto">
+              Cada funcionalidade foi pensada pra você tocar mais e desistir menos.
+              Acompanha a cifra, escuta o áudio original e ajusta o tom — tudo na mesma tela.
+            </p>
+          </div>
+
+          {/* Grid: Features esquerda | Phone | Features direita */}
+          <div className="grid lg:grid-cols-[1fr_auto_1fr] gap-6 lg:gap-8 items-center">
+
+            {/* ── FEATURES ESQUERDA ── */}
+            <div className="space-y-4 order-2 lg:order-1">
+              {[
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"/>
+                    </svg>
+                  ),
+                  title: "7.200+ cifras revisadas",
+                  desc: "Catálogo completo de sertanejo, modão e raiz — atualizado toda semana.",
+                  pos: "lg:text-right",
+                },
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"/>
+                    </svg>
+                  ),
+                  title: "Tom transponível 1 clique",
+                  desc: "Toque na sua voz, sem capotraste e sem complicação.",
+                  pos: "lg:text-right",
+                },
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <circle cx="12" cy="12" r="9"/>
+                      <circle cx="12" cy="12" r="5"/>
+                      <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>
+                    </svg>
+                  ),
+                  title: "Diagramas interativos",
+                  desc: "Não sabe um acorde? Clica nele e vê os dedos na hora.",
+                  pos: "lg:text-right",
+                },
+              ].map((f, i) => (
+                <div key={i} className={`bg-[#3A1F08]/80 backdrop-blur-sm border border-[#7A4520]/50 rounded-2xl p-5 hover:border-[#D4900A]/50 transition-all group ${f.pos}`}>
+                  <div className={`flex items-start gap-3 ${f.pos === "lg:text-right" ? "lg:flex-row-reverse" : ""}`}>
+                    <div className="shrink-0 w-10 h-10 bg-[#D4900A]/15 rounded-xl flex items-center justify-center text-[#D4900A] group-hover:bg-[#D4900A]/25 transition-colors">
+                      {f.icon}
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-display font-bold text-white text-base mb-1">{f.title}</h3>
+                      <p className="text-[#B5865A] text-xs leading-relaxed">{f.desc}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* ── PHONE MOCKUP CENTRAL ── */}
+            <div className="relative mx-auto order-1 lg:order-2">
+              {/* Glow dourado atrás */}
+              <div className="absolute inset-0 bg-[#D4900A] opacity-25 blur-3xl rounded-full scale-90" />
+
+              {/* Phone frame */}
+              <div className="relative w-[260px] md:w-[290px] bg-[#1a1208] rounded-[2.5rem] p-3 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7)] ring-1 ring-[#7A4520]/40">
+                {/* Notch */}
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-24 h-5 bg-[#1a1208] rounded-full z-20" />
+
+                {/* Screen */}
+                <div className="relative bg-[#FAF7F2] rounded-[2rem] overflow-hidden h-[520px]">
+                  {/* Header do app */}
+                  <div className="bg-[#4A2810] px-3 py-3 flex items-center justify-between">
+                    <div className="w-7 h-7 bg-white rounded-md flex items-center justify-center">
+                      <img src="/logo.jpg" alt="" className="w-6 h-6 rounded" />
+                    </div>
+                    <span className="text-[#FAF7F2] text-[10px] font-bold">Olá!</span>
+                  </div>
+
+                  {/* Hero carrossel (dourado) */}
+                  <div className="relative bg-gradient-to-br from-[#D4900A] to-[#A36C05] mx-3 mt-3 rounded-xl p-4 overflow-hidden">
+                    <p className="text-[#FFFAEB] text-[9px] font-bold uppercase tracking-wider mb-1.5">
+                      SERTANEJO · MODÃO · RAIZ
+                    </p>
+                    <h4 className="text-white font-display font-black text-base leading-tight mb-1">
+                      O lugar do sertanejo de raiz
+                    </h4>
+                    <p className="text-[#FFFAEB] text-[9px] mb-3">
+                      Aprenda a tocar as músicas que ama.
+                    </p>
+                    <div className="inline-flex bg-white text-[#A36C05] text-[10px] font-bold px-3 py-1.5 rounded-full">
+                      Explorar cifras
+                    </div>
+                    {/* Dots */}
+                    <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1">
+                      <span className="w-3 h-1 bg-white rounded-full" />
+                      <span className="w-1 h-1 bg-white/40 rounded-full" />
+                      <span className="w-1 h-1 bg-white/40 rounded-full" />
+                      <span className="w-1 h-1 bg-white/40 rounded-full" />
+                    </div>
+                  </div>
+
+                  {/* Mais tocadas */}
+                  <div className="px-3 mt-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center gap-1">
+                        <svg viewBox="0 0 24 24" fill="#D4900A" className="w-3 h-3">
+                          <path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z"/>
+                        </svg>
+                        <p className="text-[#4A2810] text-[10px] font-display font-bold">Mais tocadas</p>
+                      </div>
+                      <p className="text-[#D4900A] text-[8px] font-bold">Ver todas →</p>
+                    </div>
+                    {[
+                      { n: 1, t: "Cio da Terra", a: "Pena Branca e Xavantinho", v: "5.276", bg: "bg-[#D4900A]" },
+                      { n: 2, t: "Vontade Dividida", a: "Milionário e José Rico", v: "5.258", bg: "bg-[#B5865A]" },
+                      { n: 3, t: "Mensagem do Além", a: "Milionário e José Rico", v: "5.242", bg: "bg-[#F0EAE0]" },
+                    ].map((c) => (
+                      <div key={c.n} className="bg-white border border-[#F0EAE0] rounded-lg px-2.5 py-2 mb-1.5 flex items-center gap-2">
+                        <span className={`w-5 h-5 rounded-full ${c.bg} text-white text-[9px] font-bold flex items-center justify-center shrink-0 ${c.n === 3 ? "text-[#7A5C44]" : ""}`}>{c.n}</span>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-[#4A2810] text-[10px] font-bold truncate">{c.t}</p>
+                          <p className="text-[#B5865A] text-[8px] truncate">{c.a}</p>
+                        </div>
+                        <div className="text-right shrink-0">
+                          <p className="text-[#D4900A] text-[9px] font-bold">{c.v}</p>
+                          <p className="text-[#B5865A] text-[7px]">toques</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Bottom nav */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#4A2810] flex items-center justify-around py-2">
+                    {[
+                      { l: "Início", a: true },
+                      { l: "Cifras", a: false },
+                      { l: "", c: true },
+                      { l: "Cursos", a: false },
+                      { l: "Afinador", a: false },
+                    ].map((n, i) => (
+                      <div key={i} className="flex flex-col items-center gap-0.5">
+                        {n.c ? (
+                          <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center">
+                            <img src="/logo.jpg" alt="" className="w-5 h-5 rounded" />
+                          </div>
+                        ) : (
+                          <>
+                            <div className={`w-1 h-1 rounded-full ${n.a ? "bg-[#D4900A]" : "bg-[#B5865A]"}`} />
+                            <span className={`text-[7px] ${n.a ? "text-[#D4900A]" : "text-[#B5865A]"}`}>{n.l}</span>
+                          </>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Badge "AO VIVO" */}
+              <div className="absolute -top-2 -right-2 bg-[#D4900A] text-white text-[9px] font-black px-2.5 py-1 rounded-full shadow-lg flex items-center gap-1 z-30">
+                <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
+                AO VIVO
+              </div>
+            </div>
+
+            {/* ── FEATURES DIREITA ── */}
+            <div className="space-y-4 order-3">
+              {[
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"/>
+                    </svg>
+                  ),
+                  title: "YouTube embutido",
+                  desc: "O clipe original na mesma tela da cifra. Escuta e toca junto.",
+                },
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <ellipse cx="12" cy="9" rx="9" ry="4"/>
+                      <path strokeLinecap="round" d="M3 9v6c0 2.21 4.03 4 9 4s9-1.79 9-4V9"/>
+                    </svg>
+                  ),
+                  title: "Palhetada visual",
+                  desc: "Setas ↓↑ pra você acertar o ritmo de cada música.",
+                },
+                {
+                  icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/>
+                    </svg>
+                  ),
+                  title: "Funciona como app",
+                  desc: "Instala na tela do celular e usa offline, igual aplicativo.",
+                },
+              ].map((f, i) => (
+                <div key={i} className="bg-[#3A1F08]/80 backdrop-blur-sm border border-[#7A4520]/50 rounded-2xl p-5 hover:border-[#D4900A]/50 transition-all group">
+                  <div className="flex items-start gap-3">
+                    <div className="shrink-0 w-10 h-10 bg-[#D4900A]/15 rounded-xl flex items-center justify-center text-[#D4900A] group-hover:bg-[#D4900A]/25 transition-colors">
+                      {f.icon}
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-display font-bold text-white text-base mb-1">{f.title}</h3>
+                      <p className="text-[#B5865A] text-xs leading-relaxed">{f.desc}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* CTA + lista de benefícios extras */}
+          <div className="mt-14 max-w-3xl mx-auto">
+            <div className="bg-gradient-to-br from-[#D4900A] to-[#A36C05] rounded-3xl p-8 md:p-10 text-center shadow-2xl relative overflow-hidden">
+              {/* Padrão de fundo */}
+              <div className="absolute inset-0 opacity-10">
+                <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="1" fill="white"/>
+                  </pattern>
+                  <rect width="100%" height="100%" fill="url(#dots)"/>
+                </svg>
+              </div>
+              <div className="relative">
+                <p className="text-white/80 text-xs font-bold uppercase tracking-widest mb-3">E ainda tem mais</p>
+                <h3 className="font-display text-2xl md:text-3xl font-black text-white mb-5 leading-tight">
+                  Afinador online, playlists, histórico, busca inteligente e cursos em vídeo.
+                </h3>
+                <p className="text-white/90 text-sm md:text-base mb-7 max-w-xl mx-auto">
+                  Tudo o que você precisa pra sair do violão empoeirado e tocar suas músicas favoritas em poucas semanas.
+                </p>
+                <Link
+                  href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+                  className="inline-block bg-[#4A2810] hover:bg-[#2C1A0E] text-white font-black text-base md:text-lg px-8 md:px-12 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
+                >
+                  Quero acesso vitalício por R$ 17,90 →
+                </Link>
+                <p className="text-white/70 text-xs mt-4">
+                  ✓ Pagamento único · ✓ Garantia 7 dias · ✓ Sem mensalidade
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SOLUÇÃO / FEATURES */}
       <section className="py-20 px-4 bg-[#4A2810]">
         <div className="max-w-5xl mx-auto">
