@@ -61,19 +61,42 @@ function LoginInner() {
     setErro("");
     setCarregando(true);
 
+    const emailNorm = email.trim().toLowerCase();
+    const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+    const ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+
     try {
-      const { error } = await withTimeout(
-        supabase.auth.signInWithPassword({ email: email.trim().toLowerCase(), password: senha }),
+      // Login via fetch direto (bypass supabase-js que estava travando com Brave shield)
+      const res = await withTimeout(
+        fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
+          method: "POST",
+          headers: { apikey: ANON_KEY, "Content-Type": "application/json" },
+          body: JSON.stringify({ email: emailNorm, password: senha }),
+        }),
         TIMEOUT_MS,
         "login"
       );
 
-      if (error) {
-        console.error("[login] erro Supabase:", error);
-        setErro("E-mail ou senha incorretos.");
+      const data = await res.json();
+
+      if (!res.ok) {
+        console.error("[login] Supabase 400:", data);
+        if (data.error_code === "invalid_credentials" || res.status === 400) {
+          setErro("E-mail ou senha incorretos. Verifique se digitou certo.");
+        } else if (data.error_code === "email_not_confirmed") {
+          setErro("E-mail não confirmado. Entre em contato no WhatsApp.");
+        } else {
+          setErro(data.msg || data.error_description || "Não foi possível entrar.");
+        }
         setCarregando(false);
         return;
       }
+
+      // Salva sessão usando o supabase-js (sincroniza cookies pro middleware ler)
+      await supabase.auth.setSession({
+        access_token: data.access_token,
+        refresh_token: data.refresh_token,
+      });
 
       window.location.href = redirect;
     } catch (err: unknown) {
@@ -119,18 +142,32 @@ function LoginInner() {
         return;
       }
 
-      // Acesso criado — faz login
-      const { error: loginError } = await withTimeout(
-        supabase.auth.signInWithPassword({ email: emailNorm, password: senha }),
+      // Acesso criado — faz login via fetch direto
+      const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+      const ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+      const loginRes = await withTimeout(
+        fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
+          method: "POST",
+          headers: { apikey: ANON_KEY, "Content-Type": "application/json" },
+          body: JSON.stringify({ email: emailNorm, password: senha }),
+        }),
         TIMEOUT_MS,
         "entrar"
       );
 
-      if (loginError) {
-        setErro("Acesso criado, mas houve erro ao entrar. Vá para a aba 'Já tenho conta'.");
+      const loginData = await loginRes.json();
+
+      if (!loginRes.ok) {
+        console.error("[primeiro-acesso] login pos-criar falhou:", loginData);
+        setErro("Acesso criado, mas houve erro ao entrar. Atualize a página e use 'Já tenho conta'.");
         setCarregando(false);
         return;
       }
+
+      await supabase.auth.setSession({
+        access_token: loginData.access_token,
+        refresh_token: loginData.refresh_token,
+      });
 
       window.location.href = redirect;
     } catch (err: unknown) {
