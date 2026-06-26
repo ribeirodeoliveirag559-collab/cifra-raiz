@@ -1,17 +1,39 @@
 "use client";
-import { useState, useMemo, Suspense } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 
 type Modo = "entrar" | "primeiro";
 
+const TIMEOUT_MS = 30000; // 30s — Brave/conexão lenta às vezes demora
+
 function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
   return Promise.race([
     promise,
     new Promise<T>((_, reject) =>
-      setTimeout(() => reject(new Error(`Tempo esgotado (${label}). Verifique sua conexão.`)), ms)
+      setTimeout(() => reject(new Error(`Conexão lenta (${label}). Tente de novo ou limpe o cache.`)), ms)
     ),
   ]);
+}
+
+// Limpa sessões antigas travadas no localStorage que podem causar timeout
+function limparSessaoAntiga() {
+  if (typeof window === "undefined") return;
+  try {
+    Object.keys(localStorage).forEach((k) => {
+      if (k.startsWith("sb-") && k.endsWith("-auth-token")) {
+        const v = localStorage.getItem(k);
+        if (v) {
+          try {
+            const data = JSON.parse(v);
+            if (data?.expires_at && data.expires_at * 1000 < Date.now()) {
+              localStorage.removeItem(k);
+            }
+          } catch { localStorage.removeItem(k); }
+        }
+      }
+    });
+  } catch { /* ignore */ }
 }
 
 function LoginInner() {
@@ -24,6 +46,9 @@ function LoginInner() {
   const [senha, setSenha] = useState("");
   const [carregando, setCarregando] = useState(false);
   const [erro, setErro] = useState("");
+
+  // Limpa sessões expiradas ao montar (evita travamento do supabase-js)
+  useEffect(() => { limparSessaoAntiga(); }, []);
 
   function trocarModo(novo: Modo) {
     setModo(novo);
@@ -39,11 +64,12 @@ function LoginInner() {
     try {
       const { error } = await withTimeout(
         supabase.auth.signInWithPassword({ email: email.trim().toLowerCase(), password: senha }),
-        15000,
+        TIMEOUT_MS,
         "login"
       );
 
       if (error) {
+        console.error("[login] erro Supabase:", error);
         setErro("E-mail ou senha incorretos.");
         setCarregando(false);
         return;
@@ -51,7 +77,9 @@ function LoginInner() {
 
       window.location.href = redirect;
     } catch (err: unknown) {
-      setErro(err instanceof Error ? err.message : "Erro desconhecido.");
+      console.error("[login] exception:", err);
+      const msg = err instanceof Error ? err.message : "Erro desconhecido.";
+      setErro(msg);
       setCarregando(false);
     }
   }
@@ -71,7 +99,7 @@ function LoginInner() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: emailNorm, password: senha }),
         }),
-        15000,
+        TIMEOUT_MS,
         "criar acesso"
       );
 
@@ -94,7 +122,7 @@ function LoginInner() {
       // Acesso criado — faz login
       const { error: loginError } = await withTimeout(
         supabase.auth.signInWithPassword({ email: emailNorm, password: senha }),
-        15000,
+        TIMEOUT_MS,
         "entrar"
       );
 
