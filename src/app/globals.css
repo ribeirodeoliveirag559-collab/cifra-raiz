@@ -59,3 +59,20 @@ h1, h2, h3, h4, h5 {
 .animate-respirar {
   animation: respirar 2.8s ease-in-out infinite;
 }
+
+/* Orbs flutuantes para o hero (efeito glassmorphism) */
+@keyframes orbFloat {
+  0%   { transform: translate(0, 0) scale(1);       }
+  33%  { transform: translate(100px, -50px) scale(1.2); }
+  66%  { transform: translate(-50px, 100px) scale(0.8); }
+  100% { transform: translate(50px, 50px) scale(1.1);   }
+}
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: orbFloat 20s infinite ease-in-out alternate;
+  opacity: 0.55;
+  will-change: transform;
+  pointer-events: none;
+}
