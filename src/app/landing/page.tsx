@@ -152,8 +152,8 @@ export default function LandingPage() {
         </div>
       </nav>
 
-      {/* HERO — fundo bege com orbs dourados flutuantes (glassmorphism) */}
-      <section className="relative overflow-hidden bg-[#FAF7F2] pb-20 pt-16 px-4">
+      {/* HERO — fundo bege escuro com orbs dourados flutuantes (glassmorphism) */}
+      <section className="relative overflow-hidden bg-[#F0EAE0] pb-20 pt-16 px-4">
         {/* Orbs flutuantes coloridas com cores Cifra Raiz */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div
@@ -202,7 +202,7 @@ export default function LandingPage() {
           <div className="flex items-center justify-center gap-3 text-[#7A5C44] text-sm">
             <div className="flex -space-x-2">
               {[1,2,3,4,5].map((i) => (
-                <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#FAF7F2] shadow-md">
+                <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#F0EAE0] shadow-md">
                   <img
                     src={`/social-${i}.jpg`}
                     alt=""
