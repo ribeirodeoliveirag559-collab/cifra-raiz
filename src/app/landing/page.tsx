@@ -143,12 +143,14 @@ export default function LandingPage() {
       <nav className="bg-[#4A2810] sticky top-0 z-50 shadow-lg">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <img src="/logo.jpg" alt="Cifra Raiz" className="h-9 w-auto rounded-lg" />
-          <Link
+          <a
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#D4900A] hover:bg-[#A36C05] text-white text-sm font-bold px-5 py-2 rounded-full transition-colors shadow-md"
           >
             Garantir acesso →
-          </Link>
+          </a>
         </div>
       </nav>
 
@@ -191,12 +193,14 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Link
+            <a
               href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto text-center"
             >
               Garantir meu acesso vitalício →
-            </Link>
+            </a>
           </div>
 
           <div className="flex items-center justify-center gap-3 text-[#B5865A] text-sm">
@@ -465,12 +469,14 @@ export default function LandingPage() {
                 <p className="text-white/90 text-sm md:text-base mb-7 max-w-xl mx-auto">
                   Tudo o que você precisa pra sair do violão empoeirado e tocar suas músicas favoritas em poucas semanas.
                 </p>
-                <Link
+                <a
                   href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-[#4A2810] hover:bg-[#2C1A0E] text-white font-black text-base md:text-lg px-8 md:px-12 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
                 >
                   Quero acesso vitalício por R$ 17,90 →
-                </Link>
+                </a>
                 <p className="text-white/70 text-xs mt-4">
                   ✓ Pagamento único · ✓ Garantia 7 dias · ✓ Sem mensalidade
                 </p>
@@ -590,12 +596,14 @@ export default function LandingPage() {
                 ))}
               </ul>
 
-              <Link
+              <a
                 href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-4 rounded-xl transition-all shadow-lg hover:scale-105 relative text-lg"
               >
                 Garantir acesso vitalício →
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -645,12 +653,14 @@ export default function LandingPage() {
           <p className="text-[#D4900A] font-bold text-sm mb-10">
             Garantia de 7 dias ou seu dinheiro de volta.
           </p>
-          <Link
+          <a
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-xl px-14 py-5 rounded-2xl transition-all shadow-2xl hover:scale-105"
           >
             Garantir meu acesso agora →
-          </Link>
+          </a>
         </div>
       </section>
 
