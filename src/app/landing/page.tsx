@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import BotaoSuporteWhatsApp from "@/components/BotaoSuporteWhatsApp";
+import VSLReels from "@/components/VSLReels";
 
 // ─── Ícones SVG profissionais ─────────────────────────────────────────────
 const IcoCheck = () => (
@@ -186,11 +187,14 @@ export default function LandingPage() {
           <p className="text-[#D4900A] font-bold text-xl md:text-2xl max-w-2xl mx-auto mb-4 leading-snug">
             Aprenda a tocar as melhores modas,<br className="hidden md:block"/> com cifras simplificadas.
           </p>
-          <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-[#C4A882] text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
             Cifra Raiz é a plataforma mais completa que você vai conhecer!<br />
             São diversas músicas com cifras simplificadas, afinador de violão, altere o tom de qualquer música e aprenda acordes novos.<br />
             Faça parte da nossa comunidade, aqui você aprende do básico ao avançado!
           </p>
+
+          {/* VSL — vídeo formato Reels */}
+          <VSLReels />
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <a
