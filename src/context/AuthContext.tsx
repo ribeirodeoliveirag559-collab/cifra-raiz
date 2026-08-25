@@ -55,10 +55,11 @@ function limparSessoesOrfas() {
   } catch { /* ignore */ }
 }
 
-// Timeout para não travar indefinidamente esperando o Supabase
-function comTimeout<T>(p: Promise<T>, ms: number): Promise<T | null> {
+// Timeout para não travar indefinidamente esperando o Supabase.
+// Aceita PromiseLike (o supabase-js retorna "thenables", não Promise real)
+function comTimeout<T>(p: PromiseLike<T>, ms: number): Promise<T | null> {
   return Promise.race([
-    p,
+    Promise.resolve(p),
     new Promise<null>((resolve) => setTimeout(() => resolve(null), ms)),
   ]);
 }
