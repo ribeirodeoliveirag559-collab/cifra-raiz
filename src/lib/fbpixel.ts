@@ -9,8 +9,14 @@ declare global {
 }
 
 function fbTrack(event: string, params?: Record<string, unknown>) {
-  if (typeof window !== "undefined" && window.fbq) {
-    window.fbq("track", event, params);
+  // Nunca deixa um erro de tracking (pixel bloqueado, script de terceiro
+  // quebrado, etc.) impedir a navegação do usuário — só registra e segue.
+  try {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", event, params);
+    }
+  } catch (err) {
+    console.error("[fbpixel] tracking falhou (ignorado):", err);
   }
 }
 
