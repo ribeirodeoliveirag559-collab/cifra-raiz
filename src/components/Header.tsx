@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
 import BotaoComunidade from "./BotaoComunidade";
@@ -19,7 +20,7 @@ export default function Header() {
         {/* Logo + Botão comunidade (mobile) */}
         <div className="flex items-center gap-3 min-w-0">
           <Link href="/" className="flex items-center shrink-0">
-            <img src="/logo.jpg" alt="Cifra Raiz" className="h-10 w-auto rounded-lg" />
+            <Image src="/logo.jpg" alt="Cifra Raiz" width={40} height={40} priority className="h-10 w-auto rounded-lg" />
           </Link>
           <BotaoComunidade />
         </div>

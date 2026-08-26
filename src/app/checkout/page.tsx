@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState, Suspense } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
 
@@ -42,7 +43,7 @@ function CheckoutInner() {
   return (
     <div className="min-h-screen bg-[#FAF7F2] flex items-center justify-center px-4">
       <div className="text-center">
-        <img src="/logo.jpg" alt="Cifra Raiz" className="h-12 w-auto rounded-xl mx-auto mb-8" />
+        <Image src="/logo.jpg" alt="Cifra Raiz" width={48} height={48} priority className="h-12 w-auto rounded-xl mx-auto mb-8" />
 
         {erro ? (
           <div className="bg-red-50 border border-red-200 rounded-2xl p-8 max-w-sm">

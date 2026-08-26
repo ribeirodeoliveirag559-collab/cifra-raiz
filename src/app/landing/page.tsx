@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import BotaoSuporteWhatsApp from "@/components/BotaoSuporteWhatsApp";
 import VSLReels from "@/components/VSLReels";
 import { trackInitiateCheckout } from "@/lib/fbpixel";
@@ -144,7 +145,7 @@ export default function LandingPage() {
       {/* NAV */}
       <nav className="bg-[#4A2810] sticky top-0 z-50 shadow-lg">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-          <img src="/logo.jpg" alt="Cifra Raiz" className="h-9 w-auto rounded-lg" />
+          <Image src="/logo.jpg" alt="Cifra Raiz" width={36} height={36} priority className="h-9 w-auto rounded-lg" />
           <a
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
             target="_blank"
@@ -214,9 +215,11 @@ export default function LandingPage() {
             <div className="flex -space-x-2">
               {[1,2,3,4,5].map((i) => (
                 <div key={i} className="w-9 h-9 rounded-full overflow-hidden border-2 border-[#4A2810] shadow-md">
-                  <img
+                  <Image
                     src={`/social-${i}.jpg`}
                     alt=""
+                    width={36}
+                    height={36}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -317,7 +320,7 @@ export default function LandingPage() {
                   {/* Header do app */}
                   <div className="bg-[#4A2810] px-3 py-3 flex items-center justify-between">
                     <div className="w-7 h-7 bg-white rounded-md flex items-center justify-center">
-                      <img src="/logo.jpg" alt="" className="w-6 h-6 rounded" />
+                      <Image src="/logo.jpg" alt="" width={24} height={24} className="w-6 h-6 rounded" />
                     </div>
                     <span className="text-[#FAF7F2] text-[10px] font-bold">Olá!</span>
                   </div>
@@ -387,7 +390,7 @@ export default function LandingPage() {
                       <div key={i} className="flex flex-col items-center gap-0.5">
                         {n.c ? (
                           <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center">
-                            <img src="/logo.jpg" alt="" className="w-5 h-5 rounded" />
+                            <Image src="/logo.jpg" alt="" width={20} height={20} className="w-5 h-5 rounded" />
                           </div>
                         ) : (
                           <>
@@ -532,7 +535,7 @@ export default function LandingPage() {
                 <p className="text-[#4A2810] text-sm leading-relaxed mb-5 italic">&ldquo;{t.texto}&rdquo;</p>
                 <div className="flex items-center gap-3 border-t border-[#E0D8CE] pt-4">
                   <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#D4900A]/30 shrink-0">
-                    <img src={t.foto} alt={t.nome} className="w-full h-full object-cover" />
+                    <Image src={t.foto} alt={t.nome} width={40} height={40} loading="lazy" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <p className="font-bold text-[#4A2810] text-sm">{t.nome}</p>

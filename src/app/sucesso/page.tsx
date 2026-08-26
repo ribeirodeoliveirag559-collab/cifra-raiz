@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 function lancarConfetti() {
   try {
     import("canvas-confetti" as never).then((m: { default?: CallableFunction }) => {
@@ -42,7 +43,7 @@ export default function SucessoPage() {
     <div className="min-h-screen bg-[#4A2810] flex items-center justify-center px-4">
       <div className="max-w-lg w-full text-center">
         {/* Logo */}
-        <img src="/logo.jpg" alt="Cifra Raiz" className="h-14 w-auto rounded-xl mx-auto mb-8" />
+        <Image src="/logo.jpg" alt="Cifra Raiz" width={56} height={56} priority className="h-14 w-auto rounded-xl mx-auto mb-8" />
 
         {/* Ícone de sucesso */}
         <div className="w-24 h-24 bg-[#D4900A] rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl">

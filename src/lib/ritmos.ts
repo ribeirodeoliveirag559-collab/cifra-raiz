@@ -9,6 +9,37 @@ export type PadraoRitmo = {
 // Cada item do array interno = 1 palhetada naquele tempo
 // forte: true = palhetada acentuada (tempo forte)
 export const PADROES_RITMO: Record<string, PadraoRitmo> = {
+  // Cobre a grande maioria das cifras do catálogo (~98%)
+  "Sertanejo": {
+    compasso: "4/4",
+    descricao: "Padrão básico sertanejo/universitário",
+    beats: [
+      [{ seta: "↓", forte: true }],
+      [{ seta: "↓", forte: false }, { seta: "↑", forte: false }],
+      [{ seta: "↑", forte: false }, { seta: "↓", forte: false }],
+      [{ seta: "↑", forte: false }],
+    ],
+  },
+  "Modão": {
+    compasso: "4/4",
+    descricao: "Modão de raiz, com baixo marcado",
+    beats: [
+      [{ seta: "↓", forte: true }],
+      [{ seta: "↓", forte: false }, { seta: "↑", forte: false }],
+      [{ seta: "↓", forte: true }],
+      [{ seta: "↑", forte: false }, { seta: "↓", forte: false }],
+    ],
+  },
+  "Sertanejo Raiz": {
+    compasso: "4/4",
+    descricao: "Pagode de viola, mais marcado",
+    beats: [
+      [{ seta: "↓", forte: true }],
+      [{ seta: "↑", forte: false }],
+      [{ seta: "↓", forte: true }, { seta: "↑", forte: false }],
+      [{ seta: "↓", forte: false }, { seta: "↑", forte: false }],
+    ],
+  },
   "Guarânia": {
     compasso: "3/4",
     descricao: "Valsa sertaneja",

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const NAV = [
@@ -88,7 +89,7 @@ export default function BottomNav() {
 
         {/* Logo central — apenas estética, sem navegação */}
         <div className="flex flex-col items-center justify-center flex-1 h-full">
-          <img src="/logo.jpg" alt="Cifra Raiz" className="w-10 h-10 object-contain rounded-lg" />
+          <Image src="/logo.jpg" alt="Cifra Raiz" width={40} height={40} className="w-10 h-10 object-contain rounded-lg" />
         </div>
 
         {/* Cursos e Afinador */}
