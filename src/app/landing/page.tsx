@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import BotaoSuporteWhatsApp from "@/components/BotaoSuporteWhatsApp";
 import VSLReels from "@/components/VSLReels";
+import { trackInitiateCheckout } from "@/lib/fbpixel";
 
 // ─── Ícones SVG profissionais ─────────────────────────────────────────────
 const IcoCheck = () => (
@@ -148,6 +149,7 @@ export default function LandingPage() {
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackInitiateCheckout()}
             className="bg-[#D4900A] hover:bg-[#A36C05] text-white text-sm font-bold px-5 py-2 rounded-full transition-colors shadow-md"
           >
             Garantir acesso →
@@ -201,6 +203,7 @@ export default function LandingPage() {
               href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackInitiateCheckout()}
               className="bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto text-center"
             >
               Garantir meu acesso vitalício →
@@ -477,6 +480,7 @@ export default function LandingPage() {
                   href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackInitiateCheckout()}
                   className="inline-block bg-[#4A2810] hover:bg-[#2C1A0E] text-white font-black text-base md:text-lg px-8 md:px-12 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
                 >
                   Quero acesso vitalício por R$ 17,90 →
@@ -604,6 +608,7 @@ export default function LandingPage() {
                 href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackInitiateCheckout()}
                 className="block text-center bg-[#D4900A] hover:bg-[#A36C05] text-white font-black py-4 rounded-xl transition-all shadow-lg hover:scale-105 relative text-lg"
               >
                 Garantir acesso vitalício →
@@ -661,6 +666,7 @@ export default function LandingPage() {
             href="https://ggcheckout.app/checkout/v5/szixLCzarrqQbKswn7g4"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackInitiateCheckout()}
             className="inline-block bg-[#D4900A] hover:bg-[#A36C05] text-white font-black text-xl px-14 py-5 rounded-2xl transition-all shadow-2xl hover:scale-105"
           >
             Garantir meu acesso agora →
