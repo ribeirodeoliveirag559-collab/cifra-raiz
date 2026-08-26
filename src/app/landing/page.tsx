@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     q: "O pagamento é único ou mensal?",
-    a: "É um pagamento único de R$ 17,90 e o acesso é vitalício. Você paga uma vez e acessa para sempre, sem mensalidade, sem renovação automática.",
+    a: "É um pagamento único de R$ 29,50 e o acesso é vitalício. Você paga uma vez e acessa para sempre, sem mensalidade, sem renovação automática.",
   },
   {
     q: "Tenho garantia se não gostar?",
@@ -486,7 +486,7 @@ export default function LandingPage() {
                   onClick={() => trackInitiateCheckout()}
                   className="inline-block bg-[#4A2810] hover:bg-[#2C1A0E] text-white font-black text-base md:text-lg px-8 md:px-12 py-4 rounded-2xl transition-all shadow-xl hover:scale-105"
                 >
-                  Quero acesso vitalício por R$ 17,90 →
+                  Quero acesso vitalício por R$ 29,50 →
                 </a>
                 <p className="text-white/70 text-xs mt-4">
                   ✓ Pagamento único · ✓ Garantia 7 dias · ✓ Sem mensalidade
@@ -579,7 +579,7 @@ export default function LandingPage() {
               <div className="mb-6 relative">
                 <p className="text-[#D4900A] font-bold text-sm uppercase tracking-wider mb-1">Acesso Vitalício</p>
                 <div className="flex items-end gap-2">
-                  <p className="font-display text-5xl font-black text-white">R$ 17,90</p>
+                  <p className="font-display text-5xl font-black text-white">R$ 29,50</p>
                 </div>
                 <p className="text-[#D4900A] font-semibold text-sm mt-2 flex items-center gap-1.5">
                   <IcoCheck />
@@ -660,7 +660,7 @@ export default function LandingPage() {
           </p>
           <p className="text-[#B5865A] text-lg mb-4 max-w-xl mx-auto">
             Mais de 7.200 músicas sertanejas. Acordes certos. Tom ajustável.
-            Um pagamento único de R$ 17,90 — acesso para sempre.
+            Um pagamento único de R$ 29,50 — acesso para sempre.
           </p>
           <p className="text-[#D4900A] font-bold text-sm mb-10">
             Garantia de 7 dias ou seu dinheiro de volta.
