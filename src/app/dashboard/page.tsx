@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MODULOS, PROGRESSO_MOCK } from "@/lib/dados";
-import type { Cifra } from "@/lib/dados";
+import type { CifraIndex } from "@/lib/dados-index";
 import { getTopCifras } from "@/lib/cifras-service";
 import {
   IconFilm, IconBook, IconCheckCircle, IconGuitar,
@@ -14,7 +14,7 @@ import { useAuth } from "@/context/AuthContext";
 
 export default function DashboardPage() {
   const { user } = useAuth();
-  const [topCifras, setTopCifras] = useState<Cifra[]>([]);
+  const [topCifras, setTopCifras] = useState<CifraIndex[]>([]);
 
   useEffect(() => {
     getTopCifras(5).then(setTopCifras);

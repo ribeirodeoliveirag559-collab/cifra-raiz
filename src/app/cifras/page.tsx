@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo, useDeferredValue } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import type { Cifra } from "@/lib/dados";
+import type { CifraIndex } from "@/lib/dados-index";
 import { getAllCifras, filtrarCifrasLocal } from "@/lib/cifras-service";
 import { getRecentes, tempoRelativo, type CifraRecente } from "@/lib/historico";
 import { getPlaylists, type Playlist } from "@/lib/playlists";
@@ -17,7 +17,7 @@ export default function CifrasPage() {
   const [mostrarTodas, setMostrarTodas] = useState(false);
   const [recentes, setRecentes] = useState<CifraRecente[]>([]);
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
-  const [cifras, setCifras] = useState<Cifra[]>([]);
+  const [cifras, setCifras] = useState<CifraIndex[]>([]);
   const [carregando, setCarregando] = useState(true);
   const [filtroDif, setFiltroDif] = useState<string>("");
   const [limite, setLimite] = useState(PAGINA);
@@ -341,7 +341,7 @@ export default function CifrasPage() {
   );
 }
 
-function CardCifra({ cifra: c }: { cifra: Cifra }) {
+function CardCifra({ cifra: c }: { cifra: CifraIndex }) {
   return (
     <Link
       href={`/cifras/${c.id}`}

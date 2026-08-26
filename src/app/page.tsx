@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroCarousel from "@/components/HeroCarousel";
 import AnuncioModal from "@/components/AnuncioModal";
-import { CIFRAS } from "@/lib/dados";
+import { CIFRAS_INDEX as CIFRAS } from "@/lib/dados-index";
 
 const SERTANEJO_TAGS = ["modão", "raiz", "sertanejo", "clássico", "guarânia", "viola"];
 

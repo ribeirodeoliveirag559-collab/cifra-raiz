@@ -1,11 +1,15 @@
 /**
  * cifras-service.ts
- * Serviço de cifras usando os dados locais (CIFRAS de dados.ts).
+ * Serviço de cifras.
  *
- * Manteve a API assíncrona pra compatibilidade com os consumidores
- * (todos usam .then()). Internamente é puro JS em memória — instantâneo.
+ * Listagem/busca usam CIFRAS_INDEX (leve, ~1.4MB, sem o texto de cada
+ * música) — rápido e evita enviar 14MB de JS ao navegador em toda página.
+ *
+ * getCifraById busca o texto completo de UMA música via API route
+ * (server-side, lê o dados.ts completo só ali).
  */
-import { CIFRAS, type Cifra } from "@/lib/dados";
+import { CIFRAS_INDEX, type CifraIndex } from "@/lib/dados-index";
+import type { Cifra } from "@/lib/dados";
 
 /** Remove acentos e baixa caixa para busca tolerante */
 export function normalizar(txt: string): string {
@@ -17,30 +21,36 @@ export function normalizar(txt: string): string {
     .trim();
 }
 
-/** Retorna todas as cifras ordenadas por título */
-export async function getAllCifras(): Promise<Cifra[]> {
-  return [...CIFRAS].sort((a, b) =>
+/** Retorna todas as cifras (sem texto/acordes) ordenadas por título */
+export async function getAllCifras(): Promise<CifraIndex[]> {
+  return [...CIFRAS_INDEX].sort((a, b) =>
     a.titulo.localeCompare(b.titulo, "pt-BR")
   );
 }
 
-/** Retorna uma cifra completa pelo id */
+/** Retorna uma cifra completa (com texto/acordes) pelo id, via API */
 export async function getCifraById(id: string): Promise<Cifra | null> {
-  return CIFRAS.find((c) => c.id === id) ?? null;
+  try {
+    const res = await fetch(`/api/cifras/${id}`);
+    if (!res.ok) return null;
+    return (await res.json()) as Cifra;
+  } catch {
+    return null;
+  }
 }
 
 /**
  * Busca cifras com matching tolerante (acentos, caixa) por título,
  * artista, ritmo e tags. Resultado ordenado por relevância.
  */
-export async function searchCifras(query: string): Promise<Cifra[]> {
-  return filtrarCifrasLocal(CIFRAS, query);
+export async function searchCifras(query: string): Promise<CifraIndex[]> {
+  return filtrarCifrasLocal(CIFRAS_INDEX, query);
 }
 
 /**
  * Filtro local em uma lista já carregada — rápido, em memória.
  */
-export function filtrarCifrasLocal(cifras: Cifra[], query: string): Cifra[] {
+export function filtrarCifrasLocal<T extends CifraIndex>(cifras: T[], query: string): T[] {
   const q = normalizar(query);
   if (!q) return cifras;
 
@@ -72,8 +82,8 @@ export function filtrarCifrasLocal(cifras: Cifra[], query: string): Cifra[] {
 }
 
 /** Top cifras da semana (por tocadas) */
-export async function getTopCifras(limit = 5): Promise<Cifra[]> {
-  return [...CIFRAS]
+export async function getTopCifras(limit = 5): Promise<CifraIndex[]> {
+  return [...CIFRAS_INDEX]
     .sort((a, b) => (b.tocadasSemana ?? 0) - (a.tocadasSemana ?? 0))
     .slice(0, limit);
 }

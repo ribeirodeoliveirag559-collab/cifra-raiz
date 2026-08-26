@@ -5,7 +5,6 @@ import { useParams } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import type { Cifra } from "@/lib/dados";
-import { CIFRAS } from "@/lib/dados";
 import { getCifraById } from "@/lib/cifras-service";
 import { transporCifra, TONS } from "@/lib/transposicao";
 import { PADROES_RITMO } from "@/lib/ritmos";
@@ -107,44 +106,27 @@ export default function CifraPage() {
   const conteudoRef = useRef<HTMLDivElement>(null);
   const intervaloRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // Busca a cifra: tenta Supabase com timeout, cai pra dados locais se necessário
+  // Busca a cifra completa (texto/acordes) via API — server-side lê o dataset inteiro
   useEffect(() => {
     if (!id) return;
     setCarregando(true);
 
     let acabou = false;
-    const fallbackLocal = () => CIFRAS.find((c) => c.id === id) ?? null;
-
-    // Timeout de segurança: depois de 8s, usa fallback local
-    const timer = setTimeout(() => {
-      if (!acabou) {
-        acabou = true;
-        const local = fallbackLocal();
-        setCifra(local);
-        setCarregando(false);
-      }
-    }, 8000);
 
     getCifraById(id)
       .then((data) => {
         if (acabou) return;
-        acabou = true;
-        clearTimeout(timer);
-        // Se Supabase não tem ou veio sem o campo cifra preenchido, usa o local
-        setCifra(data && data.cifra ? data : fallbackLocal());
+        setCifra(data);
         setCarregando(false);
       })
       .catch(() => {
         if (acabou) return;
-        acabou = true;
-        clearTimeout(timer);
-        setCifra(fallbackLocal());
+        setCifra(null);
         setCarregando(false);
       });
 
     return () => {
       acabou = true;
-      clearTimeout(timer);
     };
   }, [id]);
 
