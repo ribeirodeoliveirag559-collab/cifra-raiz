@@ -23,7 +23,7 @@ function isRotaEstatica(pathname: string) {
     pathname.startsWith("/favicon") ||
     pathname.startsWith("/logo") ||
     pathname.startsWith("/icons") ||
-    /\.(?:svg|png|jpg|jpeg|gif|webp|ico|js|css|woff|woff2)$/.test(pathname)
+    /\.(?:svg|png|jpg|jpeg|gif|webp|ico|js|css|woff|woff2|mp4|webm|mov|pdf)$/.test(pathname)
   );
 }
 
@@ -107,6 +107,6 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp4|webm|mov|pdf)$).*)",
   ],
 };
